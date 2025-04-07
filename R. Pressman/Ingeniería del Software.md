@@ -48,3 +48,6 @@ Incluyen programas que ayudan, como Git para controlar versiones, Jira para gest
 #### Comparación con Otros Enfoques y Controversias
 Aunque Pressman describe estas cuatro capas específicas, otros autores y modelos de arquitectura de software también utilizan conceptos de "capas" o "niveles", pero con diferentes enfoques:
 - En la arquitectura de software, se habla de "arquitectura en capas" (n-tier architecture), que divide el sistema en capas como presentación, lógica de negocio y datos. Esto es diferente de las capas de Pressman, que se centran en el proceso de ingeniería de software en lugar de la arquitectura del producto final.
+*****
+**Principios Fundamentales**
+La práctica de la ingeniería de software está guiada por un conjunto de principios fundamentales que ayudan en la aplicación del proceso de software significativo. Estos principios definen un conjunto de principios generales que amplían el PROCESO, PRÁCTICA, y toda ACTIVIDAD ESTRUCTURAL de la ingeniería de software. Ampliado en [[Principios Fundamentales de la Ingeniería de Software]]

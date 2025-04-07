@@ -17,7 +17,7 @@ Son muchas las controversias que surgen de la utilización de un enfoque u otro,
 Karl Wiegers, un ingeniero de software con un enfoque tradicional pero pragmático, en su artículo _License to Hack_ (AgileConnection, 2001), describe cómo algunos desarrolladores, al adoptar metodologías ágiles como XP (que ganaron popularidad tras la publicación del _Manifesto for Agile Software Development_) fueron interpretadas erróneamente: se confunde la falta de documentación extensa como una invitación a abandonar buenas prácticas de ingeniería de software, sin planificación ni diseño.
 
 #### Enfoques adicionales
-Si bien estos no son modelos de proceso, son paradigmas de desarrollo que pueden integrarse en diferentes modelos de proceso:
+Si bien estos no son modelos de proceso, son **paradigmas de desarrollo** que pueden integrarse en diferentes modelos de proceso:
 
 - **Ingeniería de componentes**: Pressman describe este enfoque como un flujo de proceso centrado en integrar componentes loosely-coupled (débilmente acoplados, que tienen mínimas dependencias entre si) y reutilizables, reduciendo tiempo y mejorando calidad.
 

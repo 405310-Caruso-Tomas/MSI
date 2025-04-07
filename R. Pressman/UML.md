@@ -6,3 +6,5 @@ Al principio de la década de 1990, James Rumbaugh, Grady Booch, e Ivar Jacobson
 
 El UML brinda la tecnología necesaria para apoyar la práctica de la ingeniería de software orientada a objetos, pero no da la estructura del proceso que guíe a los equipos del proyecto cuando aplican la tecnología. En los siguientes años, Jacobson, Rumbaugh y Booch desarrolla ron el proceso unificado, estructura para la ingeniería de software orientado a objetos que utiliza UML.
 
+nombrar al objectory-----.....
+(*metodología orientada a objetos para el desarrollo de software, creada principalmente por Ivar Jacobson en la década de 1980, se considera una de las primeras metodologías comerciales que adoptaron un enfoque orientado a objetos*)

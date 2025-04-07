@@ -21,15 +21,15 @@ La tendencia actual es lo que se denomina Desarrollo de Software Dirigido por Mo
 Existen modelos esquemáticos que abarcan dibujos, mapas y diagramas. Existen modelos simbólicos, los cuales están basados en las matemáticas o en un código de computadora. Incluso modelos físicos tales como el modelo de un avión.
 Una forma de clasificarlos es según la forma que representan el **tiempo**:
 
-**ESTÁTICOS**: Un modelo estático omite ya sea un reconocimiento del tiempo o describe un instante del estado de un sistema en determinado momento.
+**ESTÁTICOS**: Un modelo estático omite ya sea un reconocimiento del tiempo o describe un instante del estado de un sistema en determinado momento. Debe proporcionar, y especificar propiedades no cambiantes, de manera que se soporte toda la funcionalidad requerida del Modelo.
 
-**DINÁMICOS**: Un modelo dinámico reconoce explícitamente el transcurso del tiempo. Proporciona una secuencia de estados del sistema en el tiempo.
+**DINÁMICOS**: Un modelo dinámico reconoce explícitamente el transcurso del tiempo. Proporciona una secuencia de estados del sistema en el tiempo. Ciclo de vida de los objetos e interrelaciones que se producen entre los mismos.
 
 ****
 ###### **Necesidad y costo del nivel de detalle**
-Un modelo es una abstracción. Cuanto más detallado el modelo, mejor se asemejará a la realidad. Se conoce más sobre el comportamiento del sistema de esta forma.
+Un modelo es una abstracción. **Cuanto más detallado el modelo, mejor se asemejará a la realidad.** Se conoce más sobre el comportamiento del sistema de esta forma.
 
-Por otra parte, mucho detalle dificulta la comprensión de las soluciones propuestas a los requerimientos a satisfacer.
+Por otra parte, **mucho detalle dificulta la comprensión** de las soluciones propuestas a los requerimientos a satisfacer.
 
 Sin embargo, el factor que sirve de límite en la utilización del detalle, es que a menudo no se tiene suficiente información sobre los propósitos del dominio. De todas formas, todo modelo debe limitar el detalle en algún aspecto.
 ****
@@ -41,3 +41,24 @@ En las disciplinas ingenieriles el uso del modelado tiene una larga y rica exper
 	• Todo Modelo puede ser obtenido con diferentes grados de precisión (nivel de **granularidad**). 
 	• Todo Modelo **debe reflejar las características esenciales de la realidad** (Requisitos Funcionales).
 	• **Un único Modelo no es suficiente**. Resulta más ventajoso disponer de un conjunto de diferentes perspectivas.
+****
+###### **Uso de Metodologías en el modelado**
+
+En el modelado, especialmente en el contexto de los sistemas de información, se emplean diversas metodologías que buscan estructurar, representar y analizar la información de manera sistemática. [[Metodologías de Modelado]].
+
+###### **Características deseables de las metodologías y herramientas**
+
+- **Modelado iterativo y evolutivo**: Las actividades de elicitación, especificación y validación deberían ser repetidas varias veces en un proceso iterativo, de forma que los requerimientos sean refinados y evolucionen, como es detallado en el apartado de [[Ingeniería de Requerimientos]]. 
+	- En cada iteración el Modelo debe permitir identificar el origen del requerimiento, y el versionado actual de los mismos. De forma que figure como un seguimiento durante todo el proceso de modelado, hasta su efectivo cumplimiento plasmado en la funcionalidad del Modelo.
+
+- **Diferentes vistas**: vistas que son importantes que estén presentes en cualquier conjunto de metodologías para facilitar la comprensión del sistema: vista *estática, dinámica y funcional* (especifica en forma declarativa, cómo en cada servicio, ante un estímulo, se producen los cambios de estados en sus atributos.)
+
+- **Documentación proporcionada por el Modelo**: La misma debe estar destinada al cliente de manera que certifique los requisitos a satisfacer, y que a su vez, sirva como insumo en las restantes etapas de construcción del sistema.
+
+- **Flexibilidad para cambio de Requisitos**: El Modelo debe ser flexible, permitiendo introducir cambios. Y a su vez, se debe realizar una evaluación de impacto que producirá en el resto del sistema la modificación introducida.
+
+- **Notación favorable**: El lenguaje natural es inherentemente ambiguo, por lo tanto, se deberá procurar llevar a una notación que permita reducir la ambigüedad y unificar el léxico empleado por el usuario, en lo posible.
+
+- **Traducir a lenguaje técnico los Requerimientos**: Sumado a una notación adecuada, el lenguaje empleado debe poder ser utilizado en próximas etapas.
+
+

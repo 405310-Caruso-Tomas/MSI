@@ -9,8 +9,6 @@ En general, es el proceso de descubrir, analizar, documentar y verificar servici
 
 [[Subclasificación de Requerimientos]]
 
-El ***documento de requerimientos del sistema*** (llamado en ocasiones especificación funcional) tiene que definir con exactitud lo que se implementará. Puede formar parte del contrato entre el comprador del sistema y los desarrolladores del software.
-
 Estudios realizados muestran que un gran porcentaje de los proyectos de software fracasan por no realizar un estudio previo de requisitos.
 
 Los requisitos de un sistema son definidos en las primeras etapas de desarrollo del mismo.  
@@ -26,4 +24,10 @@ De manera ideal, los requerimientos del usuario y del sistema deben ser claros, 
 
 La ingeniería de requerimientos está formada por una serie de procesos bien diferenciados. Aquellos son los [[Procesos de la Ingeniería de Requerimientos de Software]], y pueden ser vistos en la siguiente imagen:
 
-![[Pasted image 20250315162840.png]]
+![[Pasted image 20250315162840.png]]Este modelo en espiral acomoda enfoques al desarrollo, los requerimientos se elaboraran con diferentes niveles de detalle. 
+En la práctica, la ingeniería de requerimientos es un proceso iterativo donde las actividades están entrelazadas. La imagen muestra este entrelazado.
+La cantidad de tiempo y esfuerzo dedicados a cada actividad en cada iteración depende de la etapa del proceso global y el tipo de sistema que está siendo desarrollado.
+****
+Algunas personas consideran la ingeniería de requerimientos como el proceso de aplicar un método de análisis estructurado, tal como el análisis orientado a objetos. Esto implica analizar el sistema y desarrollar un conjunto de modelos gráficos del sistema, como los modelos de caso de uso, o referenciados en [[Metodologías de Modelado]], que luego sirven como especificación del sistema.
+
+Aunque los métodos estructurados desempeñan un papel en el proceso de ingeniería de requerimientos, hay mucho más ingeniería de requerimientos de la que se cubre con dichos métodos. La adquisición de requerimientos, en particular, es una actividad centrada en la gente, y a las personas no les gustan las restricciones impuestas por modelos de sistema rígidos.

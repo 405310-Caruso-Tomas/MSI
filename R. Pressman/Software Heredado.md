@@ -5,7 +5,7 @@ Cientos de miles de programas de cómputo caen en uno de los siete dominios de a
 Desafortunadamente, en ocasiones hay otra característica presente en el software heredado: **mala calidad**: debido con frecuencia a:
 	Diseños no susceptibles de extenderse, código confuso, documentación mala o inexistente, etc...
 
-¿Por qué por lo general VIEJO=MALO?
+**¿Por qué por lo general VIEJO=MALO?**
 	Conforme pase el tiempo será frecuente que los sistemas de software evolucionen por una o varias de las siguientes razones:
 	- El software debe adaptarse para que cumpla las necesidades de los nuevos ambientes del cómputo y de la tecnología.
 	- El software debe ser mejorado para implementar nuevos requerimientos del negocio.

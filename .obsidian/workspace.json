@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fa5af9be2629ea44",
+            "id": "3f0b4d1492eea2ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Ingeniería de Requerimientos.md",
+                "file": "R. Pressman/Calidad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ingeniería de Requerimientos"
-            }
-          },
-          {
-            "id": "3305ba05351833fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "R. Pressman/Modelos Ágiles.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Modelos Ágiles"
+              "title": "Calidad"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,49 +168,50 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "3305ba05351833fd",
+  "active": "3f0b4d1492eea2ef",
   "lastOpenFiles": [
-    "R. Pressman/Revisión Técnica.md",
-    "R. Pressman/Modelos Ágiles.md",
-    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Procesos de la Ingeniería de Requerimientos de Software.md",
-    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Ingeniería de Requerimientos.md",
-    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos.md",
     "R. Pressman/Ingeniería del Software.md",
-    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Subclasificación de Requerimientos.md",
-    "R. Pressman/Software Heredado.md",
-    "R. Pressman/Modelos Especializados.md",
-    "R. Pressman/Modelos de PROCESO.md",
-    "R. Pressman/PROCESO.md",
-    "Sommerville/Actividades Fundamentales para la Ingeniería de Software.md",
-    "R. Pressman/UML.md",
-    "R. Pressman/Tipos de Software.md",
-    "assets/Pasted image 20250325111528.png",
-    "assets/Pasted image 20250325111222.png",
-    "assets/Pasted image 20250325105644.png",
+    "R. Pressman/Calidad.md",
+    "R. Pressman/Revisión Técnica.md",
+    "PMBOK/Riesgos.md",
+    "Sommerville/Técnicas de Descubrimiento de Requerimientos.md",
+    "Sommerville/Subclasificación de Requerimientos.md",
+    "Sommerville/Ingeniería de Requerimientos.md",
+    "Sommerville/Documento de Requerimientos del Sistema.md",
+    "Sommerville/Administración de Requerimientos.md",
     "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Modelado.md",
+    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos.md",
     "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Desarrollo Dirigido por Modelos.md",
-    "assets/Pasted image 20250325101833.png",
-    "assets/Pasted image 20250325101830.png",
-    "R. Pressman/Flujos de Proceso.md",
-    "R. Pressman/Agilidad.md",
-    "assets/Pasted image 20250322180503.png",
-    "assets/Pasted image 20250322142423.png",
+    "PMBOK/Proyecto.md",
+    "Sommerville/Procesos de la Ingeniería de Requerimientos de Software.md",
+    "PMBOK",
+    "R. Pressman/Modelos Ágiles.md",
+    "R. Pressman/Modelos de PROCESO.md",
+    "R. Pressman/Modelos Especializados.md",
+    "R. Pressman/Principios Fundamentales de la Ingeniería de Software.md",
+    "R. Pressman/PROCESO.md",
     "Pantallazo General.md",
-    "Sin título.md",
-    "assets/Pasted image 20250319202808.png",
+    "Metodologías de Modelado.md",
+    "Metodología.md",
+    "Historias de Usuario.md",
+    "Sommerville/Actividades Fundamentales para la Ingeniería de Software.md",
+    "assets/Pasted image 20250403111007.png",
+    "assets/Pasted image 20250311121355.png",
+    "assets/Pasted image 20250311110055.png",
+    "assets/Captura de pantalla de 2025-04-01 09-26-44.png",
+    "assets/Captura de pantalla de 2025-03-31 12-12-16.png",
+    "assets/Pasted image 20250402141717.png",
+    "R. Pressman/Software Heredado.md",
+    "R. Pressman/Tipos de Software.md",
+    "assets/Pasted image 20250402111914.png",
+    "assets/Pasted image 20250401115756.png",
+    "assets/Pasted image 20250401094747.png",
+    "assets/Pasted image 20250401094047.png",
     "Sommerville",
-    "assets/Pasted image 20250315162840.png",
-    "2025-03-15.md",
     "Sin título 1.canvas",
     "Sin título.canvas",
-    "assets/Pasted image 20250315192711.png",
-    "requisitos.md",
     "assets",
     "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información",
-    "().md",
-    "R. Pressman",
-    "2025-03-11.md",
-    "1.md",
-    "cree un enlace.md"
+    "R. Pressman"
   ]
 }

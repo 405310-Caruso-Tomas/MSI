@@ -3,8 +3,9 @@
 > "Los requerimientos pueden tomar la forma de restricciones sobre los procesos de desarrollo del sistema"
 
 La primera clasificación para los requerimientos la podemos hacer en base a *qué* o *quién* pertenecen:  Podemos distinguir los “requerimientos del **usuario**” para representar los requerimientos abstractos de alto nivel; y “requerimientos del **sistema**” para caracterizar la descripción detallada de lo que el sistema debe hacer:
-	⦁	Los requerimientos del usuario son enunciados, en un lenguaje natural junto con diagramas, acerca de qué servicios esperan los usuarios del sistema
-	⦁	Los requerimientos del sistema son descripciones más detalladas de las funciones, los servicios y las restricciones operacionales del sistema de software.
+	- Los requerimientos del **usuario** son enunciados, en un lenguaje natural junto con diagramas, acerca de qué servicios esperan los usuarios del sistema. Deben describir los requerimientos funcionales y no funcionales de forma comprensible. 
+	...
+	- Los requerimientos del **sistema** son descripciones de las funciones, los servicios y las restricciones operacionales del sistema. Son versiones extendidas de los requerimientos del usuario que los desarrolladores usan como punto de partida. Idealmente, no deben ocuparse de cómo se diseña o implementa el sistema. Especificaciones completas y detalladas de todo el sistema, que pueden ser incluídas como parte del contrato para la implementación del sistema.
 	![[Pasted image 20250325101833.png]]
 
 La segunda clasificación refiere más específicamente al comportamiento y performance del sistema, entre Requerimientos Funcionales y No Funcionales:
@@ -25,6 +26,7 @@ Gracias al diagrama, podemos ver que los requerimientos no funcionales provienen
 
 Siempre que sea posible, **se deberán escribir de manera cuantitativa los requerimientos no funcionales**, de manera que puedan ponerse objetivamente a prueba. La siguiente figura muestra las métricas que se utilizan para especificar propiedades no funcionales del sistema.
 	![[Pasted image 20250325111528.png]]
+	Aunque en la práctica, los usuarios de un sistema suelen encontrar difícil traducir sus metas en requerimientos mensurables. Para algunas metas, como la mantenibilidad, no hay métricas para usarse.
 ****
 ###### Conflictos entre requerimientos
 Los requerimientos no funcionales entran a menudo en conflicto e interactúan con otros requerimientos funcionales o no funcionales. Por ejemplo, el requerimiento de autenticación para el sistema *MHC-PMS* requiere, indiscutiblemente, la instalación de un lector de tarjetas en cada computadora unida al sistema. Sin embargo, podría haber otro requerimiento que solicite acceso móvil al sistema desde las computadoras portátiles de médicos o enfermeras. Esto se conoce como un problema de entendimiento durante la tarea de Indagación en la ingeniería de requerimientos.
