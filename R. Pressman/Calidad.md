@@ -16,13 +16,13 @@ Una clasificación útil de los factores que afectan la calidad del software se 
 	![[Pasted image 20250402141717.png]]
 Se centran en tres aspectos importantes del producto de software: sus características operativas, su capacidad de ser modificado (Revisión del producto) y su adaptabilidad a nuevos ambientes (Transición del producto).
 
-Las dimensiones de la calidad presentadas se centran en el software como un todo y pueden utilizarse como indicación general de la calidad de una
-aplicación. Pero si hilamos más fino a la hora de evaluar dichos factores, necesitaremos atributos más específicos y medibles, los cuales no cubriré en el apartado, y que no son métricas reales de la calidad del software, sino más bien una manifestación de ella.
+Las dimensiones de la calidad presentadas se centran en el software como un todo y pueden utilizarse como indicación general de la calidad de una aplicación. Pero si hilamos más fino a la hora de evaluar dichos factores, necesitaremos atributos más específicos y medibles, los cuales no cubriré en el apartado, y que no son métricas reales de la calidad del software, sino más bien una manifestación de ella (sin relación de causalidad).
 ****
 ##### **Costo de la calidad**
 El costo de la calidad incluye todos los costos en los que se ha incurrido durante la vida del producto a través de inversiones para prevenir el incumplimiento de los requisitos, para la evaluación del producto con los requisitos, y para el retrabajo por incumplimiento de requisitos. 
 	![[Pasted image 20250403111007.png]]
 Los costos por calidad deficiente se clasifican a menudo en **internos** (constatados por el equipo del proyecto) y **externos** (constatados por el cliente).
+La imagen detalla los costos, para evitar fallas por un lado, y costos provocados por las fallas por el otro.
 
 Vemos que podemos enmarcar los costos enunciados como implicaciones, tanto de una buena calidad del producto, como de una mala calidad del mismo. Otra implicación segura de la mala calidad del software es el aumento de [[Riesgos]] durante el desarrollo, tanto para el desarrollador como para el usuario final.
 ****

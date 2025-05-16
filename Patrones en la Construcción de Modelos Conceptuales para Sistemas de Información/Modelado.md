@@ -8,7 +8,7 @@ El propósito de los modelos es ayudarnos a explicar, entender y mejorar dicha e
 
 Un Modelo deberá representar fiel y completamente los [[Requerimientos]] de los usuarios. Además de describir al sistema con suficiente detalle como para hacer predicciones válidas sobre el comportamiento de este.
 ****
-***Desde la óptica disciplinar de los Sistemas de Información y los Sistemas de Software*** asociados a ellos, un **Esquema Conceptual** será definido como un Modelo de representación de la realidad sobre un dominio de problema determinado.
+***Desde la óptica disciplinar de los Sistemas de Información y los Sistemas de Software*** asociados a ellos, un **Esquema Conceptual** será definido como un Modelo de representación de la realidad sobre un dominio de problema determinado, pero a diferencia del Modelo (donde se busca solamente comunicar el dominio del problema), el esquema incluye detalles de implementación, estructura, cardinalidad, atributos específicos.
 
 > Las debilidades de la mayoría de los métodos para la obtención de esquemas conceptuales se reflejan en las primeras etapas del desarrollo de software, lo que trae aparejado un costo **excesivamente** alto en tareas de reproceso. El principal problema derivado de estas debilidades radica en la imposibilidad de determinar si el modelo conceptual construido, refleja completamente la esencia del dominio que se intenta representar.
 

@@ -21,7 +21,6 @@ El término **[[Metodología]]**, sugiere la existencia y descripción de métod
 
 ### Enfoque según el contexto
 La elección de la metodología depende del propósito del modelado:
-
 - Si es para bases de datos, el modelo ER es predominante.
 - Si es para software orientado a objetos, UML es más adecuados.
 - Para sistemas centrados en procesos, el análisis estructurado con DFD es común.

@@ -36,11 +36,12 @@ Es frecuente que los requerimientos del negocio y del producto cambien conforme 
     - Basado en iteraciones haciendo énfasis en la reducción del riesgo con cada una.
     - Se acopla el hacer prototipos con aspectos controlados del modelo de cascada. Se repiten las actividades predefinidas.
     - Se realizan ciclos de planificación, análisis de riesgos, desarrollo y evaluación.
-    - En cada paso evolutivo se marcan **puntos de referencia**: una combinación de productos del trabajo con las condiciones en las que se encuentra dicho incremento.
+    - En cada paso evolutivo se marcan **puntos de referencia**: una combinación de productos del trabajo con las condiciones en las que se encuentra dicho incremento. Cada vuelta representa una fase del proyecto con análisis de riesgos integrado.
     - ![[Pasted image 20250315192711.png]]
     - El costo y programación de actividades se ajustan en base a la retroalimentación del cliente después de la entrega.
     - El gerente del proyecto puede ajustar el número planeado de iteraciones que se requieren para terminar el software. Incluso el modelo puede adaptarse para ser aplicado a lo largo de toda la vida del software.
     - Es difícil convencer a los clientes de que este enfoque es controlable. Demanda mucha experiencia en la evaluación del riesgo y se basa en ella para llegar al éxito.
+    - A diferencia del modelo incremental (que tiene como objetivo la entrega rápida de incrementos), el modelo en espiral se enfoca en la identificación y minimización previa de riesgos en cada ciclo. En el modelo incremental, por otro lado, la gestión del riesgo se hace de forma reactiva, y no suele ser tan costoso como el espiral, el cual requiere un prototipado constante.
 
 | Característica     | Modelo Incremental 🚀                                   | Modelo de Prototipos 🎭                               |
 | ------------------ | ------------------------------------------------------- | ----------------------------------------------------- |

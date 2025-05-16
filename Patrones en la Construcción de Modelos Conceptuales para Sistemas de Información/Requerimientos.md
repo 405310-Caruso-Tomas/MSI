@@ -5,13 +5,11 @@ se presenta a continuación la definición que aparece en el glosario de la IEEE
 	- Una condición o necesidad de un usuario para resolver un problema o alcanzar un objetivo.
 	- Una condición o capacidad que debe estar presente en un sistema para satisfacer un contrato, estándar, especificación u otro documento formal.
 
-Los requerimientos de un sistema son definidos en las primeras etapas de desarrollo
-del mismo. En ocasiones pueden tomar la forma de restricciones sobre los procesos de desarrollo del sistema.[Sommerville 1999]
+Los requerimientos de un sistema son definidos en las primeras etapas de desarrollo del mismo. En ocasiones pueden tomar la forma de restricciones sobre los procesos de desarrollo del sistema.[Sommerville 1999]
 [[Subclasificación de Requerimientos]]
 ****
 ##### **Características de los requerimientos**
-A continuación, se presentan las características relevadas de diferentes autores que
-resultan más importantes, tomando como referencia lo publicado por Leue y Wiegers.
+A continuación, se presentan las características relevadas de diferentes autores que resultan más importantes, tomando como referencia lo publicado por Leue y Wiegers.
 	- **NECESARIO**: Su omisión provoca una deficiencia en el sistema a construir
 	- **CORRECTO**: Correcto si, y solo si, cada uno de los requerimientos cumple su función dentro de las funcionalidades del Sistema.
 	- **CONCISO**: Fácil de leer y entender.
