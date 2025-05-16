@@ -32,6 +32,10 @@ Durante este proceso, se realizan diferentes tipos de validaciones al documento:
 	3. **De totalidad**: El documento debe definir todas las funciones y restricciones pretendidas por el usuario del sistema.
 	4. **De realismo**: ¿Las funciones pueden implementarse?
 	5. **Verificabilidad**: Se debe poder escribir pruebas que demuestren que el sistema entregado cumpla cada requerimiento especificado. Verificables.
+Hay algunas técnicas de validación de requerimientos comunes:
+	- **Revisiones de requerimientos**: los requerimientos se analizan con un equipo de revisores. (lo que se hace en una [[Revisión Técnica]] formal)
+	- **Creación de prototipos**: se da un modelo ejecutable del sistema al usuario final. Este último verifica si cubre sus necesidades reales.
+	**- Generación de Casos de prueba.** Estos son una descripción detallada del caso, datos de entrada, resultados esperados. *Son diferentes a las Historias de usuario, en el sentido que estas últimas describen una funcionalidad desde el punto de vista del usuario.*
 
 Es difícil demostrar que un conjunto de requerimientos no cubre las necesidades de los usuarios. Para ello, estos últimos necesitan una imagen del sistema en operación. Como resultado, *rara vez usted encontrará todos los problemas de requerimientos durante el proceso de validación de requerimientos.*
 ****
