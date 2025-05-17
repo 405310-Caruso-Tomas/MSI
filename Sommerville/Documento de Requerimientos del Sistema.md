@@ -1,17 +1,19 @@
-Tiene que definir con exactitud lo que se implementará, ya que es un comunicado oficial de lo que se debe implementar. Puede formar parte del contrato entre el comprador del sistema y los desarrolladores del software.
+Tiene que definir con exactitud lo que se implementará, ya que es un comunicado oficial de lo que se debe implementar. Puede formar parte del contrato entre el comprador del sistema y los desarrolladores del software. **Incluye tanto los requerimientos del usuario para un sistema, como una especificación detallada de los requerimientos del sistema.**
 
-> Son esenciales los documentos de requerimientos cuando un contratista externo
-> diseña el sistema de software. Sin embargo, los métodos de desarrollo ágiles argumentan que los requerimientos cambian tan rápidamente que un documento de requerimientos se vuelve obsoleto tan pronto como se escribe. En lugar de un documento formal, los enfoques como la programación extrema (Beck, 1999) recopilan de manera incremental requerimientos del usuario y los escriben en tarjetas como historias de usuario. 
+> Son esenciales los documentos de requerimientos cuando un contratista externo diseña el sistema de software. Sin embargo, los métodos de desarrollo ágiles argumentan que los requerimientos cambian tan rápidamente que un documento de requerimientos se vuelve obsoleto tan pronto como se escribe. En lugar de un documento formal, los enfoques como la programación extrema (Beck, 1999) recopilan de manera incremental requerimientos del usuario y los escriben en tarjetas como historias de usuario. 
 
-El documento de requerimientos no debe incluir detalles de la arquitectura o el diseño del sistema. Este documento suele tener un conjunto variado de usuarios:
+Si se utiliza un proceso de desarrollo iterativo interno, entonces el documento de requerimientos suele ser mucho menos detallado y cualquier ambigüedad puede resolverse durante el desarrollo del sistema.
+
+El documento de requerimientos ***no debe incluir detalles de la arquitectura o el diseño del sistema***. Este documento suele tener un conjunto variado de usuarios, por lo que es interpretado desde diferentes perspectivas:
 	![[Pasted image 20250401094747.png]]
 
 El nivel de detalle incluido depende del tipo de sistema a diseñar y el proceso de desarrollo utilizado.
 
 #### **Notaciones**
-En consecuencia, si usted escribe los requerimientos del usuario, debe escribir los requerimientos del usuario en lenguaje natural, con formas sencillas, diagramas intuitivos. A su vez, los requerimientos del sistema se escriben también en lenguaje natural, pero de igual modo se utilizan otras notaciones:
+En consecuencia, si usted escribe los requerimientos del **usuario**, debe escribir los requerimientos del usuario en lenguaje natural, con formas sencillas, diagramas intuitivos. A su vez, los requerimientos del sistema se escriben también en lenguaje natural, pero de igual modo se utilizan otras notaciones:
 ![[Captura de pantalla de 2025-04-01 09-26-44.png]]
 Los modelos gráficos, como [[UML]] son más útiles cuando es necesario mostrar cómo cambia un estado o al describir una secuencia de acciones.
+****
 ##### **Especificación en lenguaje natural**
 Desde los albores de la ingeniería de software, el lenguaje natural se usa para escribir los requerimientos de software. Para minimizar la ambigüedad, se recomienda: 
 	1. Elaborar un formato estándar y asegurarse de que todas las definiciones de requerimientos se adhieran a dicho formato.

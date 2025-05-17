@@ -24,7 +24,6 @@ Una forma de clasificarlos es según la forma que representan el **tiempo**:
 **ESTÁTICOS**: Un modelo estático omite ya sea un reconocimiento del tiempo o describe un instante del estado de un sistema en determinado momento. Debe proporcionar, y especificar propiedades no cambiantes, de manera que se soporte toda la funcionalidad requerida del Modelo.
 
 **DINÁMICOS**: Un modelo dinámico reconoce explícitamente el transcurso del tiempo. Proporciona una secuencia de estados del sistema en el tiempo. Ciclo de vida de los objetos e interrelaciones que se producen entre los mismos.
-
 ****
 ###### **Necesidad y costo del nivel de detalle**
 Un modelo es una abstracción. **Cuanto más detallado el modelo, mejor se asemejará a la realidad.** Se conoce más sobre el comportamiento del sistema de esta forma.
@@ -34,7 +33,6 @@ Por otra parte, **mucho detalle dificulta la comprensión** de las soluciones pr
 Sin embargo, el factor que sirve de límite en la utilización del detalle, es que a menudo no se tiene suficiente información sobre los propósitos del dominio. De todas formas, todo modelo debe limitar el detalle en algún aspecto.
 ****
 > Cuanta mayor envergadura tenga el sistema a construir, hay más probabilidades que se fracase si no se construye el modelo adecuado. Todos los sistemas útiles e interesantes tienen la tendencia natural de hacerse más complejos con el paso del tiempo.
-
 ###### **Principios del Modelado**
 En las disciplinas ingenieriles el uso del modelado tiene una larga y rica experiencia, la que sugiere cuatro principios básicos:
 	• La **elección del Modelo** que se utilizará tendrá una **incidencia directa** en la forma que tomará la solución.
@@ -43,9 +41,8 @@ En las disciplinas ingenieriles el uso del modelado tiene una larga y rica exper
 	• **Un único Modelo no es suficiente**. Resulta más ventajoso disponer de un conjunto de diferentes perspectivas.
 ****
 ###### **Uso de Metodologías en el modelado**
-
 En el modelado, especialmente en el contexto de los sistemas de información, se emplean diversas metodologías que buscan estructurar, representar y analizar la información de manera sistemática. [[Metodologías de Modelado]].
-
+****
 ###### **Características deseables de las metodologías y herramientas**
 
 - **Modelado iterativo y evolutivo**: Las actividades de elicitación, especificación y validación deberían ser repetidas varias veces en un proceso iterativo, de forma que los requerimientos sean refinados y evolucionen, como es detallado en el apartado de [[Ingeniería de Requerimientos]]. 

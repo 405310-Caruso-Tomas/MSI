@@ -22,7 +22,7 @@ La estructura del [[PROCESO]] identifica ***ACTIVIDADES ESTRUCTURALES*** que por
 Además, la estructura del proceso incluye un conjunto de ***ACTIVIDADES SOMBRILLA*** que **son APLICABLES A TRAVÉS DE TODO EL PROCESO del software.** Estas actividades aseguran la calidad del software. Es común que las actividades sombrilla sean las siguientes:
 	- ***Seguimiento y control del proyecto***: permite que el equipo de software evalúe el PROGRESO comparándolo con el plan del proyecto.
 	- ***Administración del riesgo***: evalúa los RIESGOS que puedan afectar al resultado del proyecto o calidad del software.
-	- ***Revisiones técnicas***/ **Evaluación**: evalúa los PRODUCTOS del proyecto, o iteraciones a fin de descubrir y eliminar errores antes de que se propaguen a lo largo del proceso.
+	- ***[[Revisión Técnica]]***/ **Evaluación**: evalúa los PRODUCTOS del proyecto, o iteraciones a fin de descubrir y eliminar errores antes de que se propaguen a lo largo del proceso.
 	- ***Medición***: define y reúne mediciones del proceso, proyecto y producto. Métricas
 	- ***Administración de la configuración del software***: administra los efectos del cambio a lo largo del proceso del software.
 	- ***Administración de la reutilización***: define criterios para volver a usar el producto del trabajo (incluso los componentes del software) y establece mecanismos para obtener componentes reutilizables.

@@ -22,7 +22,13 @@ La adquisición y el análisis de requerimientos es un proceso iterativo con ret
 
 Durante esta etapa existen diferentes [[Técnicas de Descubrimiento de Requerimientos]] utilizadas comúnmente por los ingenieros.
 #### **Especificación**. 
-Proceso de convertir dichos requerimientos en alguna forma estándar: El [[Documento de Requerimientos del Sistema]] (llamado en ocasiones especificación funcional). Estos requerimientos deben ser claros, completos, y con demás características detalladas en el apartado dedicado a [[Requerimientos]].
+**Proceso de convertir dichos requerimientos en alguna forma estándar: El [[Documento de Requerimientos del Sistema]] (llamado en ocasiones especificación funcional).** Esfuerzo colaborativo que involucra a analistas, clientes, usuarios, desarrolladores y gerentes. 
+
+> Estos requerimientos deben ser claros, completos, y con demás características detalladas en el apartado dedicado a [[Requerimientos]]. 
+> En principio se debe excluir la información de diseño durante este proceso, pero si se trata de especificar por completo un software complejo, es casi imposible no mencionar al diseño del sistema: se pueden dar casos donde se tenga que diseñar una arquitectura inicial del sistema para estructurar mejor la especificación de requerimientos, incluso podría ser necesario especificar un diseño arquitectónico ya avalado. 
+
+Puede pensarse como un compromiso entre la comunicación de cómo será el sistema para los clientes, la definición precisa del mismo para desarrolladores y examinadores, y la inclusión de información sobre la posible evolución del sistema, para evitar decisiones de diseño restrictivas.
+Cuando el software sea parte de un proyecto de sistema grande que incluya la interacción de hardware, esto afectará claramente el proceso de especificación y su resultado.
 
 #### **Validación**. 
 Comprobar que los requerimientos definan realmente el sistema que quiere el cliente. Esta actividad analiza la especificación a fin de garantizar que todos ellos han sido enunciados sin ambigüedades; que se corrigieron inconsistencias, y que los productos del trabajo se presentan conforme a los estándares establecidos. El mecanismo principal de validación de los requerimientos es la [[Revisión Técnica]]. 
