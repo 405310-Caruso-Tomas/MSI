@@ -5,7 +5,7 @@ Se enfoca en validar la lógica interna del código y su estructura. El tester n
 - Pueden ser hechas en cualquier etapa del ciclo de vida de un software, pero tienden a encontrarse durante pruebas unitarias.
 - Abarcan técnicas como 
 	-La **Cobertura de Sentencias** (cada línea de código es ejecutada al menos una vez).
-	-La **Cobertura de Desiciones** (todos los resultados if/switch son probados).
+	-La **Cobertura de Decisiones** (todos los resultados if/switch son probados).
 	-La **Cobertura de Caminos** (Recorre todos los caminos posibles en el código).
 ****
 #### **2. Pruebas de Caja Negra (Black Box Testing)**

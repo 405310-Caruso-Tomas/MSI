@@ -1,8 +1,8 @@
-Conjunto de actividades planificadas y sistemáticas diseñadas para garantizar que un producto de software cumpla con los requisitos establecidos, sea funcional, confiable y libre de defectos antes de su entrega al usuario final. 
-Su objetivo es prevenir errores, mejorar la calidad del software y asegurar una experiencia satisfactoria para el usuario.
+***PROCESO AMPLIO Y CONTINUO.*** Conjunto de actividades planificadas y sistemáticas diseñadas para garantizar la [[Calidad]] de un producto de software antes de su entrega al usuario final. 
+Su objetivo es prevenir errores, mejorar la calidad del software y asegurar una experiencia satisfactoria para el usuario, ***DURANTE TODAS LAS ETAPAS DEL DESARROLLO***.
 ****
 **Diferencias con Testing**. 
-QA es un proceso amplio y proactivo. Abarca la planificación, definición de procesos, revisiones y mejoras continuas en todas las etapas del ciclo de vida del software.
+QA es un proceso amplio y proactivo. Abarca la planificación, definición de procesos, revisiones y mejoras continuas **en todas las etapas del ciclo de vida del software.**
 Testing es una actividad específica dentro del QA, que se centra en detectar defectos en el software mediante la ejecución de pruebas. 
 - Pregunta clave que se plantea con **QA**. ***¿Estamos construyendo el producto correctamente?***.
 - Pregunta clave que se plantea con **Testing**. ***¿El producto funciona como se espera?***.
