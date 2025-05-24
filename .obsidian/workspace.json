@@ -34,9 +34,37 @@
               "icon": "lucide-file",
               "title": "Testing"
             }
+          },
+          {
+            "id": "17f99a62c5731418",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A Software Testing Primer - Nick Jenkins/Error, Defecto y Fallo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Error, Defecto y Fallo"
+            }
+          },
+          {
+            "id": "822b900df5aceed3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A Software Testing Primer - Nick Jenkins/Gestión de Defectos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gestión de Defectos"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -183,22 +211,28 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9397c2e0713cc3a2",
+  "active": "822b900df5aceed3",
   "lastOpenFiles": [
-    "A Software Testing Primer - Nick Jenkins/Pruebas de Aceptación.md",
+    "A Software Testing Primer - Nick Jenkins/Error, Defecto y Fallo.md",
+    "A Software Testing Primer - Nick Jenkins/Gestión de Defectos.md",
+    "A Software Testing Primer - Nick Jenkins/Principios del Testing.md",
+    "Casos de Prueba.md",
+    "Testing en Ambientes Ágiles.md",
+    "A Software Testing Primer - Nick Jenkins/Roles en el Testing.md",
+    "PMBOK/Riesgos.md",
     "A Software Testing Primer - Nick Jenkins/Testing.md",
     "A Software Testing Primer - Nick Jenkins/Enfoques de Testing.md",
-    "A Software Testing Primer - Nick Jenkins/Verificación vs. Validación.md",
+    "A Software Testing Primer - Nick Jenkins/Pruebas de Aceptación.md",
     "A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad).md",
+    "A Software Testing Primer - Nick Jenkins/Verificación vs. Validación.md",
+    "assets/Pasted image 20250524084202.png",
     "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Modelado.md",
     "Sommerville/Procesos de la Ingeniería de Requerimientos de Software.md",
     "Sommerville/Técnicas de Descubrimiento de Requerimientos.md",
     "Users Stories Applied - Mike Cohn/Historias de Usuario.md",
     "Users Stories Applied - Mike Cohn/Por qué usar Historias de Usuario.md",
-    "Error, Defecto y Fallo.md",
     "Sommerville/Ingeniería de Requerimientos.md",
     "Sommerville/Documento de Requerimientos del Sistema.md",
-    "A Software Testing Primer - Nick Jenkins/Sin título.md",
     "assets/Pasted image 20250519120330.png",
     "Metodología.md",
     "Metodologías de Modelado.md",
@@ -207,11 +241,6 @@
     "R. Pressman/Software Heredado.md",
     "R. Pressman/Ingeniería del Software.md",
     "R. Pressman/UML.md",
-    "R. Pressman/Tipos de Software.md",
-    "R. Pressman/PROCESO.md",
-    "R. Pressman/Principios Fundamentales de la Ingeniería de Software.md",
-    "R. Pressman/Modelos Especializados.md",
-    "R. Pressman/Modelos de PROCESO.md",
     "A Software Testing Primer - Nick Jenkins",
     "assets/Pasted image 20250518085242.png",
     "Users Stories Applied - Mike Cohn",
@@ -223,7 +252,6 @@
     "assets/Captura de pantalla de 2025-03-31 12-12-16.png",
     "assets/Pasted image 20250402141717.png",
     "assets/Pasted image 20250402111914.png",
-    "assets/Pasted image 20250401115756.png",
     "Sommerville",
     "Sin título 1.canvas",
     "Sin título.canvas",
