@@ -12,6 +12,7 @@ Es imposible probar todas las combinaciones posibles de entradas y escenarios en
 
 Si quieres encontrar errores, comienza tan pronto como sea posible.
 Eso significa pruebas unitarias para los desarrolladores, pruebas de integración durante el ensamblaje y pruebas de sistema, **en ese orden de prioridad**. 
+![[Pasted image 20250524144335.png]]
 Identificar y corregir defectos en etapas tempranas es mucho más económico que hacerlo al final del proyecto.
 ###### 4. ***Agrupación de defectos.***
 A menudo, la mayoría de los defectos se concentran en unos pocos módulos del software. Esto sigue el **principio de Pareto: el 80% de los defectos provienen del 20% de los módulos.** Dirigir más pruebas a estas áreas puede aumentar la efectividad del testing.
