@@ -44,7 +44,6 @@ En las disciplinas ingenieriles el uso del modelado tiene una larga y rica exper
 En el modelado, especialmente en el contexto de los sistemas de información, se emplean diversas metodologías que buscan estructurar, representar y analizar la información de manera sistemática. [[Metodologías de Modelado]].
 ****
 ###### **Características deseables de las metodologías y herramientas**
-
 - **Modelado iterativo y evolutivo**: Las actividades de elicitación, especificación y validación deberían ser repetidas varias veces en un proceso iterativo, de forma que los requerimientos sean refinados y evolucionen, como es detallado en el apartado de [[Ingeniería de Requerimientos]]. 
 	- En cada iteración el Modelo debe permitir identificar el origen del requerimiento, y el versionado actual de los mismos. De forma que figure como un seguimiento durante todo el proceso de modelado, hasta su efectivo cumplimiento plasmado en la funcionalidad del Modelo.
 

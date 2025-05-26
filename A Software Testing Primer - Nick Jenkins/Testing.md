@@ -14,9 +14,7 @@ Dado un proyecto complejo con miles de requisitos de posibles clientes, ***¿có
 
 *(Una posible solución es el uso de herramientas disponibles en el mercado que utilizan bases de datos para rastrear requisitos, y están vinculadas a otras herramientas de especificación de pruebas.)*.
 ****
-***Pruebas de Regresión.***  Es el acto de repetir otras pruebas en áreas 'paralelas', o que comparten una misma implementación, para asegurarse de que un cambio de código no haya introducido otros errores o comportamientos inesperados, en otros módulos del sistema.
-Se centra en validar que cambios recientes no hayan roto funcionalidades anteriores.
-**(Es muy común que el cambio en el código realizado para arreglar un error introduzca errores adicionales en otras partes o componentes del software.)**
+
 
 ***Retesteo. (Volver a testear)***. Es el acto de repetir una prueba para verificar que el defecto encontrado fue correctamente arreglado.
 ****

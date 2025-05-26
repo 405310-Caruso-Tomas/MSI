@@ -12,7 +12,7 @@ En 2001, Kent Beck y otros 16 notables desarrolladores de software, escritores y
 
 Los métodos ágiles se desarrollaron como un esfuerzo por superar las debilidades reales y percibidas de la ingeniería de software convencional, y como alternativa a las metodologías formales, a las que consideraban excesivamente "pesadas" y rígidas por su fuerte dependencia de planificaciones. Estos nuevos métodos no son aplicables a todos los proyectos, personas y situaciones. No es la contraparte de la práctica de la ingeniería de software sólida y **puede aplicarse como filosofía general para todo el trabajo de software.**
 ******************
-##### El cambio
+##### El Cambio
 Es frecuente que en la economía moderna sea difícil o imposible predecir la forma en la que evolucionará un sistema basado en computadora. Se debe ser suficientemente ágil para responder a lo fluido que se presenta el ambiente de negocios. La **fluidez** implica cambio, y el cambio es caro, en particular si es descontrolado o si se administra mal, o si se da en etapas tardías del proyecto. 
 Una de las características más atractivas del enfoque ágil es su capacidad de reducir los costos del cambio durante el proceso del software.
 
@@ -24,7 +24,6 @@ Este desarrollo de software es fundamentado por la filosofía de la agilidad, la
 - Recomienda las estructuras de equipo y las actitudes que hacen más fácil la comunicación; adopta al cliente como parte del equipo de desarrollo y reconoce que la planeación en un mundo incierto tiene sus límites y que un plan de proyecto debe ser flexible.
 - Promueve la maximización del Valor (Un producto es valioso no solo por su impacto inicial, sino también por su capacidad de adaptación y evolución mediante actualizaciones y mejoras continuas).
 - Hace que el proceso se adapte a las necesidades de las personas y del equipo, no al revés.
-
 ***************************************
 ###### Flexibilidad
 - **Suposiciones del desarrollo:**

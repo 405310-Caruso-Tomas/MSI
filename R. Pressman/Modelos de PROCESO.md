@@ -12,7 +12,9 @@ Propuestos originalmente para poner orden en el caos del desarrollo de software.
 - **Modelo V**:
     
     - Variante del modelo en cascada donde cada fase de desarrollo tiene su fase de prueba correspondiente.
-    - Refuerza la validación y verificación en cada etapa.
+    - Refuerza la validación y verificación en cada etapa. 
+    - ![[Pasted image 20250526093104.png]]
+    - (Imagen del libro de testing y mencionado en [[A note on the 'V-model']])
 ##### **Modelos de Proceso Evolutivo**
 Es frecuente que los requerimientos del negocio y del producto cambien conforme avanza el desarrollo, lo que hace que no sea realista trazar una trayectoria rectilínea hacia el producto final.
 **Los modelos evolutivos son iterativos**. Se caracterizan por la manera en la que permiten desarrollar versiones cada vez más completas del software:

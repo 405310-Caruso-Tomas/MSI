@@ -1,3 +1,11 @@
+Acá más general. Iría lo de la p41 del teorico. tipos de pruebas de software.
+
+**Pruebas de Funcionalidad.** 
+
+
+
+
+
 #### **1. Pruebas de Caja Blanca (White Box Testing)**
 Se enfoca en validar la lógica interna del código y su estructura. El tester necesita acceso completo al código fuente para analizar su comportamiento y asegurar que cada línea funcione como se espera.
 - Significan analizar el código en sí mismo
@@ -17,4 +25,5 @@ Probar la funcionalidad sin conocer la implementación interna del sistema. No r
 	-**Partición de equivalencia** (se agrupan datos similares, y se los toma como el mismo caso de prueba para reducir los mismos).
 	-**Pruebas de caso de uso** (valida que los flujos de usuario funcionen correctamente).
 
+****
 

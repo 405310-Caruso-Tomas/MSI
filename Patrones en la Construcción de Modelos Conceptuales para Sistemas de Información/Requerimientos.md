@@ -1,10 +1,7 @@
 Los requerimientos para un sistema son descripciones de lo que el sistema debe hacer: el servicio que ofrece y las restricciones en su operación.
-
-De las muchas definiciones que existen para requerimiento,
-se presenta a continuación la definición que aparece en el glosario de la IEEE STD-610:
-	- Una condición o necesidad de un usuario para resolver un problema o alcanzar un objetivo.
-	- Una condición o capacidad que debe estar presente en un sistema para satisfacer un contrato, estándar, especificación u otro documento formal.
-
+De las muchas definiciones que existen para requerimiento, se presenta a continuación la definición que aparece en el glosario de la IEEE STD-610:
+	- **Una condición o necesidad de un usuario para resolver un problema o alcanzar un objetivo.**
+	- **Una condición o capacidad que debe estar presente en un sistema para satisfacer un contrato, estándar, especificación u otro documento formal.**
 Los requerimientos de un sistema son definidos en las primeras etapas de desarrollo del mismo. En ocasiones pueden tomar la forma de restricciones sobre los procesos de desarrollo del sistema.[Sommerville 1999]
 [[Subclasificación de Requerimientos]]
 ****

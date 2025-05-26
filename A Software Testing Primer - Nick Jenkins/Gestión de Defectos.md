@@ -37,4 +37,14 @@ También podemos clasificarlos en función de:
 ****
 ##### **Estado de un Defecto***
 ![[Pasted image 20250524161042.png]]
-seguir
+***Estados comunes en el ciclo de vida de un defecto***.
+1. **Nuevo.** Un tester ha identificado y reportado un nuevo defecto, el cual está pendiente de ser asignado a un desarrollador para sus resolución.
+2. **Asignado.** Un desarrollador es responsable de investigarlo y solucionarlo.
+3. **Rechazado.** El desarrollador lo ha considerado inválido.
+4. **Solucionado.** El desarrollador ha corregido el defecto.
+5. **Listo para la prueba.** El código corregido fue incorporado, y es accesible para el tester para que este verifique que realmente fue corregido.
+6. **Reprueba fallida.** Luego de rehacer pruebas, el tester descubre que el defecto sigue presente, y es devuelto al equipo de desarrollo.
+7. **Cerrado.** El defecto fue corregido y ha pasado las pruebas de validación.
+También hay flujos diferentes que el defecto puede tomar, por ejemplo:
+- **Diferido.** La corrección del mismo fue postergada, para un próximo sprint o versión futura.
+- **Duplicado.** El mismo ya fue reportado previamente y se encuentra en proceso de resolución o ya ha sido resuelto.
