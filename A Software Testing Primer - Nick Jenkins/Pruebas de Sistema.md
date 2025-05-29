@@ -22,7 +22,7 @@ Suelen ser realizadas por el equipo de [[QA (Quality Assurance o Aseguramiento d
 	- **Ejemplo.** Se evalúa la exposición del sistema a ataques de inyección SQL. Ejemplo en código más adelante de cómo podría darse este tipo de ataques.
 - ***Pruebas de Backup.*** Se evalúa la capacidad del sistema para realizar copias de seguridad de datos de manera efectiva y restaurarlos de manera efectiva.
 	- **Ejemplo.** Probar que un sistema de gestión de datos pueda realizar copias de seguridad automáticas, y que los datos puedan restaurarse luego de una interrupción.
-- ***Pruebas de Humo.*** Pruebas rápidas para verificar si las funcionalidades principales del sistema funcionan correctamente después de una nueva construcción o actualización.
+- ***Pruebas de Humo.*** Pruebas rápidas para verificar si las funcionalidades principales del sistema funcionan correctamente después de una nueva construcción o actualización. O simplemente para verificar que un elemento particular del sistema está presente y en funcionamiento.
 	- **Ejemplo.** Ejemplo en código más adelante.
 - ***Pruebas de Usabilidad.*** Evalúan lo fácil y amigable que es el sistema para los usuarios finales. Navegabilidad, diseño y facilidad para realizar tareas.
 - ***Pruebas de Compatibilidad.*** ¿El sistema funciona correctamente en otras plataformas?. 

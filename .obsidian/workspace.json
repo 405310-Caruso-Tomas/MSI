@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A Software Testing Primer - Nick Jenkins/Pruebas de Aceptación.md",
+                "file": "A Software Testing Primer - Nick Jenkins/Proceso de Prueba.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pruebas de Aceptación"
+              "title": "Proceso de Prueba"
             }
           },
           {
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -253,17 +253,28 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "6dfed383ac73f6f6",
+  "active": "786b2add815e816a",
   "lastOpenFiles": [
-    "assets/Pasted image 20250529103010.png",
     "A Software Testing Primer - Nick Jenkins/Casos de Prueba.md",
+    "A Software Testing Primer - Nick Jenkins/Proceso de Prueba.md",
+    "A Software Testing Primer - Nick Jenkins/A note on the 'V-model'.md",
+    "A Software Testing Primer - Nick Jenkins/Pruebas de Aceptación.md",
+    "Pasted image 20250529114432.png",
+    "PMBOK/Riesgos.md",
+    "Pasted image 20250529112546.png",
+    "A Software Testing Primer - Nick Jenkins/Pruebas de Integración.md",
+    "A Software Testing Primer - Nick Jenkins/Principios del Testing.md",
+    "A Software Testing Primer - Nick Jenkins/Alpha vs. Beta Testing.md",
+    "A Software Testing Primer - Nick Jenkins/Gestión de Defectos.md",
+    "A Software Testing Primer - Nick Jenkins/Verificación vs. Validación.md",
+    "A Software Testing Primer - Nick Jenkins/Testing.md",
+    "A Software Testing Primer - Nick Jenkins/Pruebas de Sistema.md",
+    "assets/Pasted image 20250529103010.png",
     "assets/Pasted image 20250529103513.png",
     "assets/Pasted image 20250529102932.png",
-    "A Software Testing Primer - Nick Jenkins/Gestión de Defectos.md",
     "assets/Pasted image 20250529101712.png",
     "Testing en Ambientes Ágiles.md",
     "assets/Pasted image 20250529094838.png",
-    "A Software Testing Primer - Nick Jenkins/Testing.md",
     "Users Stories Applied - Mike Cohn/Por qué usar Historias de Usuario.md",
     "Users Stories Applied - Mike Cohn/Historias de Usuario.md",
     "Sommerville/Administración de Requerimientos.md",
@@ -271,25 +282,14 @@
     "Metodología.md",
     "Metodologías de Modelado.md",
     "Sommerville/Técnicas de Descubrimiento de Requerimientos.md",
-    "A Software Testing Primer - Nick Jenkins/Verificación vs. Validación.md",
-    "A Software Testing Primer - Nick Jenkins/Pruebas de Aceptación.md",
-    "A Software Testing Primer - Nick Jenkins/Alpha vs. Beta Testing.md",
     "A Software Testing Primer - Nick Jenkins/Enfoques de Testing.md",
-    "A Software Testing Primer - Nick Jenkins/Pruebas de Sistema.md",
     "A Software Testing Primer - Nick Jenkins/Pruebas Unitarias.md",
-    "A Software Testing Primer - Nick Jenkins/Pruebas de Integración.md",
-    "A Software Testing Primer - Nick Jenkins/Principios del Testing.md",
     "A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad).md",
     "A Software Testing Primer - Nick Jenkins/Roles en el Testing.md",
     "A Software Testing Primer - Nick Jenkins/QC (Control de Calidad).md",
-    "A Software Testing Primer - Nick Jenkins/Error, Defecto y Fallo.md",
-    "A Software Testing Primer - Nick Jenkins/A note on the 'V-model'.md",
-    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos.md",
     "assets/Pasted image 20250526093232.png",
     "assets/Pasted image 20250526093104.png",
     "assets/Pasted image 20250524161042.png",
-    "assets/Pasted image 20250524160613.png",
-    "assets/Pasted image 20250524154649.png",
     "A Software Testing Primer - Nick Jenkins",
     "Users Stories Applied - Mike Cohn",
     "PMBOK",
