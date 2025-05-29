@@ -13,7 +13,6 @@ Las entrevistas formales o informales con participantes del sistema son una part
 La efectividad de esta técnica está "librada a la suerte" por la calidad de la conversación, decisiones sobre mencionar o no una cuestión, jerga específica, dificultad para expresarse, malinterpretaciones, qué quiere revelar el entrevistado sobre la estructura y toma de decisiones de la organización, etc...
 ****
 (El siguiente es quizás otro ejemplo de autores que se contradicen, *Sommerville* trata a las [[Historias de Usuario]] como un tipo de escenario, mientras que en *Users Stories Applied*, el autor dedica un capítulo entero a diferenciar las **H.U** de otras técnicas de descubrimiento de requerimientos. Aunque ambos ejemplifican los escenarios de forma sutilmente diferente).
-****
 #### **Escenarios**
 Por lo general, las personas encuentran más sencillo vincularse con ejemplos reales que con descripciones abstractas.
 Útiles para detallar un bosquejo de descripción de requerimientos. 

@@ -17,9 +17,9 @@ Los desarrolladores realizan pruebas básicas de integración mientras construye
 Las pruebas de integración pueden ser utilizadas para verificar diferentes características del código, y suelen responder a las preguntas:
 - ***Enfoque Big-Bang.*** Todos los módulos se integran de una sola vez y se prueban como un sistema completo. Este enfoque puede dificultar la localización de errores si los fallos son numerosos. Los módulos deben estar implementados y conectados entre sí.
 - ***De Integración Incremental.*** Los módulos se integran y prueban de manera gradual, uno a uno. Se pueden realizar en dos subtipos: 
-	- Top-Down (de arriba hacia abajo) - Los módulos de alto nivel se prueban primero y se van integrando gradualmente los módulos de nivel inferior.
+	- **Top-Down** (de arriba hacia abajo) - Los módulos de alto nivel se prueban primero y se van integrando gradualmente los módulos de nivel inferior.
 	- Ejemplo: En una aplicación web, primero se integraría el frontend con el controlador, luego el controlador con el backend, y finalmente el backend con la base de datos.
-	- Bottom-Up (de abajo hacia arriba) - Se comienza integrando los módulos de bajo nivel y se va ascendiendo a los de alto nivel.
+	- **Bottom-Up** (de abajo hacia arriba) - Se comienza integrando los módulos de bajo nivel y se va ascendiendo a los de alto nivel.
 - ***Pruebas de Integración Continua.*** Común en [[Modelos Ágiles]] y DevOps, las pruebas de integración se realizan de forma continua a medida que se desarrollan nuevos componentes. Con cada cambio en el código se ejecuta una prueba de integración. Suelen ser automáticas.
 	- Ejemplo: Cada vez que un desarrollador sube cambios al repositorio de código, se ejecutan automáticamente las pruebas de integración para asegurar que esos cambios no rompan la funcionalidad de otros módulos.
 - ***Pruebas de Interfaz.*** Refieren a la **COMUNICACIÓN**. Verifican que las interfaces (por ejemplo, APIs REST, gRPC) manejen correctamente las solicitudes y respuestas, y que los módulos se comuniquen correctamente (que se envíen y reciban los datos correctamente). 

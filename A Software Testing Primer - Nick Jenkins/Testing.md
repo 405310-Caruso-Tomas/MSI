@@ -9,13 +9,11 @@ Se suelen utilizar diferentes enfoques y [[Enfoques de Testing]] para lograr red
 ****
 Idealmente las pruebas deberían llevarse a cabo a lo largo del ciclo de vida del desarrollo, ya que a medida que retrasamos la evaluación del producto durante el desarrollo, también aumenta la complejidad de resolver los problemas.
 ##### **Trazabilidad**
-Otra función del testing es (de manera extraña) confirmar lo que se ha entregado. 
+Otra función del testing es (de manera extraña) confirmar lo que se ha entregado. "Que sea rastreable".
 Dado un proyecto complejo con miles de requisitos de posibles clientes, ***¿cómo sabemos que se cumplen las expectativas?*** ¿Cómo demostramos que se ha cumplido un requerimiento en particular?. 
 
 *(Una posible solución es el uso de herramientas disponibles en el mercado que utilizan bases de datos para rastrear requisitos, y están vinculadas a otras herramientas de especificación de pruebas.)*.
 ****
-
-
 ***Retesteo. (Volver a testear)***. Es el acto de repetir una prueba para verificar que el defecto encontrado fue correctamente arreglado.
 ****
 **Otra definición.** IEEE (1990): *“El proceso de operar un sistema o componente bajo condiciones específicas, observando o registrando los resultados, y evaluando algún aspecto del sistema o componente.”*

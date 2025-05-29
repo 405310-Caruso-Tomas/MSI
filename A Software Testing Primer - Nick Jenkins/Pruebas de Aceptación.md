@@ -1,30 +1,28 @@
 Los proyectos de software a gran escala a menudo tienen una fase final de pruebas llamada 'Pruebas de Aceptación'.
+Otras pruebas, como las unitarias o de integración, pueden realizarse de manera iterativa y con mayor libertad para ajustar el código, ya que se ejecutan en etapas intermedias del desarrollo. Las pruebas de aceptación, por otro lado, suelen ser la última barrera antes de la entrega al cliente o usuario final.
 ****
-El **User Acceptance Testing (UAT)** es la **última fase del ciclo de pruebas de software antes de que se implemente en producción**. El objetivo es asegurarse de que el sistema cumple con los requisitos del usuario y es apto para su uso en el mundo real.
-Se realizan en un entorno lo más similar posible al de producción.
-Su propósito es **validar si el producto es aceptado**. Por lo que tiene un enfoque especial en el usuario.
+- El objetivo es asegurarse de que el sistema cumple con los requisitos acordados que el usuario necesita y es apto para su uso en el mundo real.
+- Se realizan en un entorno lo más similar posible al de producción.
+- Su propósito es **validar si el producto es aceptado**. Por lo que tiene un enfoque especial en el usuario.
+- Se llevan a cabo **después de que el sistema haya sido completamente desarrollado, probado en niveles previos** (unitarios, integración, sistema), y está listo para ser entregado en su versión final.
+- También se evalúa si el sistema es fácil de usar, intuitivo y de acuerdo con las expectativas del cliente.
+****
+###### **¿Qué se hace en las pruebas de aceptación?.** 
+Estas pruebas son cuidadosamente planificadas y documentadas: siguen un conjunto predefinido de [[Casos de Prueba]] basados en los requisitos del cliente o usuario final. Se evalúa al sistema bajo condiciones de uso típicas, y obviamente que las funcionalidades esenciales estén operativas.
+En muchos proyectos, especialmente en contratos con clientes externos, las pruebas de aceptación están vinculadas a acuerdos legales. Si se encuentran defectos durante estas pruebas, puede haber consecuencias contractuales, como la obligación de corregir los errores sin costo adicional, retrasos en la entrega o penalizaciones.
+****
+###### **¿Quién realiza las pruebas de aceptación?.** 
+Las pruebas de aceptación son **realizadas principalmente por los usuarios finales o representantes del cliente**. El equipo de pruebas de calidad (QA) o desarrollo no suele estar directamente involucrado en esta fase, ya que el objetivo es evaluar el software desde la perspectiva del usuario final.
+****
+###### **Tipos de Pruebas de Aceptación**
+- ***Pruebas de Aceptación del Usuario (UAT).*** El tipo más común de prueba de aceptación, donde los usuarios finales prueban el sistema para verificar que cumple con sus requisitos y expectativas.
+- ***Pruebas de Aceptación Operacional (OAT).*** Se evalúan aspectos operacionales del sistema, como su capacidad de operar correctamente en el entorno de producción, la seguridad, la gestión de fallos y la recuperación.
+	- **Ejemplo.** 
+- ***Pruebas de Aceptación Contractual.*** Aseguran que el producto cumpla con todas las leyes, reglas de seguridad o estándares establecidos en el contrato entre el cliente y el proveedor.
+	- **Ejemplo.** Un sistema de gestión de datos personales se somete a pruebas de aceptación para asegurarse de que cumple con la normativa GDPR sobre la protección de datos personales.
+- ***Pruebas de Aceptación de Negocio (BAT).*** ¿El sistema entrega valor desde el punto de vista empresarial?.
+	- **Ejemplo.** Una plataforma de comercio electrónico es probada para asegurarse de que las funcionalidades se alineen con las metas de negocio de la empresa.
+- ***Pruebas de Aceptación de Usabilidad.*** Evalúan la facilidad de uso, experiencia del usuario (UX), interfaz de usuario (UI), accesibilidad.
 ****
 ###### ***ALPHA Vs. BETA TESTING***. 
-Para entender mejor los tipos de pruebas de aceptación, definiremos antes los términos **Alpha** y **Beta** en el contexto de software: ambos son utilizados para describir fases específicas en el ciclo de vida de un producto antes del lanzamiento oficial.
-****
-***Alpha***. Es una etapa temprana del desarrollo, donde el producto está funcional pero incompleto, con posibles errores significativos. Es una versión **preliminar** que incluye las características principales, pero no todas las funcionalidades están completamente pulidas. Suele carecer de optimizaciones de rendimiento o usabilidad.
-**No está destinada al público general, sino a equipos internos.**
-
-***Beta***. Es una etapa más avanzada, donde el software está más completo y estable que en la fase alpha. Es una versión cercana a la final, con la mayoría de las funcionalidades implementadas. Se distribuye a usuarios externos para pruebas en entornos reales, con el objetivo de recopilar feedback para ajustes finales.
-****
-**Alpha Testing:** Realizado internamente por los desarrolladores y testers para validar las funciones básicas antes de liberar a los usuarios.
-**El objetivo es asegurar que el software esté listo para pruebas externas.**
-- Se realiza temprano, cerca del final del desarrollo, después de pruebas unitarias y antes de pasar a la fase beta.
-- En modelos ágiles puede implementarse en iteraciones continuas de integración y entrega (CI/CD).
-- En modelos de desarrollo tradicionales tiene una trascendencia crucial lógicamente.
-- Los desarrolladores revisan el código (pruebas de caja blanca), y luego el equipo QA realiza pruebas desde la perspectiva del usuario (pruebas de caja negra).
-- Se documentan errores, se corrigen y se revalida el software.
-
-**Beta Testing:** Es un proceso de demostración de la calidad de un programa cuando está terminado de forma completa o parcial, en un entorno real, **por usuarios externos/finales.** 
-Etapa esencial para localizar problemas que no fueron detectados por los desarrolladores ni por el equipo de pruebas. El objetivo es **recopilar feedback de usuarios finales**, e identificar fallos específicos del uso cotidiano.
-- Esta etapa también ayuda a construir una comunidad alrededor del producto, ya que los betatesters a menudo se sienten involucrados en su desarrollo, lo que puede aumentar la lealtad de los usuarios. 
-- Existen herramientas específicas para la realización de estas pruebas debido a la importancia que ha ganado esta práctica con el aumento de software de consumo masivo (aplicaciones móviles, videojuegos).
-- A los betatesters se les ofrece incentivos para participar, ya que reportar errores puede ser tedioso y frustrante. Estos incentivos pueden incluir descuentos, acceso anticipado, reconocimiento dentro de la comunidad, entre otros...
-- Entre los tipos de beta testing se encuentra el beta testing cerrado (a un grupo limitado de usuarios, seleccionados), abierto (al público general).
-****
-> *Antes de Internet y la World Wide Web, existía una tercera etapa de pruebas: el "master dorado". Aunque ha caído en desuso, esta era la versión de software que se consideraba lo suficientemente completa y precisa como para imprimir el "master dorado" o master de CD. Todos los CD que se enviaban eran copias de este master dorado y, por lo tanto, debían ser lo más perfectos posible. En la época de las redes sociales y los medios físicos, esta era la última oportunidad para hacer las cosas bien antes de incurrir en el considerable coste de enviar el software a todos los clientes. No todos lo hacían bien.*
+Otros tipos de pruebas comunes de nombrar a la hora de hablar de pruebas de aceptación son el [[Alpha vs. Beta Testing]]. Estas requieren dos preconceptos para ser mejor entendidas.
