@@ -2,6 +2,7 @@ El desarrollo de software implica ambigüedad, suposiciones y comunicación huma
 Se suelen utilizar diferentes enfoques y [[Enfoques de Testing]] para lograr reducir el riesgo.
 ****
 ***Concepto.*** Serie de actividades orientadas a recopilar información sobre el funcionamiento y comportamiento de una aplicación, con el fin de determinar si está lista para su uso público o generalizado.
+**Otra definición.** IEEE (1990): *“El proceso de operar un sistema o componente bajo condiciones específicas, observando o registrando los resultados, y evaluando algún aspecto del sistema o componente.”*
 ****
 - Podemos usar procesos de [[QA (Quality Assurance o Aseguramiento de la Calidad)]] para intentar prevenir defectos en el software, pero lo único que podemos hacer para reducir la cantidad de errores ya presente es testear.
 - El testing también nos ayuda a cuantificar los [[Riesgos]] en un software no probado. Sobre todo cuando usamos un ciclo de testing.
@@ -16,4 +17,7 @@ Dado un proyecto complejo con miles de requisitos de posibles clientes, ***¿có
 ****
 ***Retesteo. (Volver a testear)***. Es el acto de repetir una prueba para verificar que el defecto encontrado fue correctamente arreglado.
 ****
-**Otra definición.** IEEE (1990): *“El proceso de operar un sistema o componente bajo condiciones específicas, observando o registrando los resultados, y evaluando algún aspecto del sistema o componente.”*
+###### ****¿Cuánto testing es suficiente?****
+Los errores humanos son impredecibles, por lo tanto no es posible probar todas las combinaciones posibles de errores o defectos. Esto hace que el testing exhaustivo sea imposible, ya que no podemos cubrir cada posible situación en la que el software podría fallar. 
+Pero en un proyecto, determinar cuánto testing es necesario y suficiente para garantizar calidad, es por supuesto algo que nos interesa. Para resolver esta cuestión, se utilizan dos variables clave: [[Riesgos]] y [[Costos]].
+

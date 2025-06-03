@@ -1,0 +1,1 @@
+Enfoque correctivo, implica la evaluación del producto terminado para identificar defectos y problemas

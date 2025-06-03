@@ -4,6 +4,7 @@
 Además, para los testers, los informes de defectos representan el principal resultado de su trabajo. 
 Los informes de defectos van más allá de su uso inmediato. Pueden incluso transmitirse a diversos niveles de gestión dentro de diferentes organizaciones. 
 	![[Pasted image 20250524154649.png]]
+Existen ciertas características deseables para este reporte, entre ellas está que sea **OBJETIVO**, **ESPECÍFICO** (un informe por defecto), **CONCISO** (simple y directo), **REPRODUCIBLE** (suficiente información para que cualquier persona pueda repetir/ver claramente el problema), **EXPLÍCITO** (información clara), **PERSUASIVO** (redactado de forma que promueva a los desarrolladores a corregir el problema). 
 ****
 > *Un informe de defecto escrito sin aislarlo ni generalizarlo es un defecto informado a medias.*
 
@@ -48,3 +49,4 @@ También podemos clasificarlos en función de:
 También hay flujos diferentes que el defecto puede tomar, por ejemplo:
 - **Diferido.** La corrección del mismo fue postergada, para un próximo sprint o versión futura.
 - **Duplicado.** El mismo ya fue reportado previamente y se encuentra en proceso de resolución o ya ha sido resuelto.
+

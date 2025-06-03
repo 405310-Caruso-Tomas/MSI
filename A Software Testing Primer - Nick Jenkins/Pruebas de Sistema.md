@@ -24,7 +24,7 @@ Suelen ser realizadas por el equipo de [[QA (Quality Assurance o Aseguramiento d
 	- **Ejemplo.** Probar que un sistema de gestión de datos pueda realizar copias de seguridad automáticas, y que los datos puedan restaurarse luego de una interrupción.
 - ***Pruebas de Humo.*** Pruebas rápidas para verificar si las funcionalidades principales del sistema funcionan correctamente después de una nueva construcción o actualización. O simplemente para verificar que un elemento particular del sistema está presente y en funcionamiento.
 	- **Ejemplo.** Ejemplo en código más adelante.
-- ***Pruebas de Usabilidad.*** Evalúan lo fácil y amigable que es el sistema para los usuarios finales. Navegabilidad, diseño y facilidad para realizar tareas.
+- ***Pruebas de Usabilidad.*** Evalúan lo fácil y amigable que es el sistema para los usuarios finales. Navegabilidad, diseño y facilidad para realizar tareas. Más adelante más información sobre este tipo de pruebas.
 - ***Pruebas de Compatibilidad.*** ¿El sistema funciona correctamente en otras plataformas?. 
 - ***Pruebas de Recuperación.*** Evalúan la capacidad del sistema para recuperarse de fallos, como caídas del sistema o pérdida de conexión.
 - ***Pruebas de Extremo a Extremo (Endo-to-End).*** Validan el flujo completo de la aplicación, que todos los módulos del sistema trabajen en conjunto correctamente.
@@ -64,8 +64,7 @@ public class SmokeTest {
     public void contextLoads() {
         // Verifica que el contexto de Spring Boot se cargue correctamente
     }
-}
-```
+}```
 ****
 ###### **Ejemplo de Ataque de Inyección SQL***
 **¿Cómo podría ocurrir un ataque de inyección SQL?**. El siguiente es un escenario de una aplicación vulnerable (**PHP + MySQL**).
@@ -83,10 +82,19 @@ if (mysqli_num_rows($result) > 0) {
     echo "Acceso denegado";
 }
 ?>
-
 ```
 La inyección SQL posible puede darse de forma que un atacante coloque como usuario `' OR '1'='1 `. Así, la consulta SQL quedaría así:
 ```sql
 SELECT * FROM usuarios WHERE username = '' OR '1'='1' AND password = ''
 ```
- 
+ ****
+##### ****Algo más sobre las Pruebas de Usabilidad****
+En este tipo de pruebas, el probador debe observar las reacciones de los usuarios a un producto de software. Se elige en particular a un usuario final para que pruebe el producto, aunque este no tenga un conocimiento técnico para tomar decisiones (solo serán emisores de opinión).
+**Guía práctica para hacer una prueba de usabilidad.*
+- Se presenta un modelo básico o prototipo del producto a usuarios finales típicos.
+- Se establece una serie de tareas estándar que deben completar con el producto.
+- Se registra cualquier dificultad que se encuentre durante la prueba.
+- Se realizan los correspondientes cambios de diseño.
+- Se repite el proceso con el nuevo diseño.
+No se necesitan más de cuatro o cinco usuarios finales para evaluar en una sesión.
+

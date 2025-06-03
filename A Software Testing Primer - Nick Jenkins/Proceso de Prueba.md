@@ -38,26 +38,26 @@ Se ejecutan los casos de prueba en el entorno preparado, registrando los resulta
 La correcta instalación de la versión del software previo a la ejecución de las pruebas (pero perteneciente a la etapa) se le denomina *build*. 
 ****
 ##### **Análisis de las Pruebas.**
-El análisis es una fase en la que el probador de software aplica sus habilidades para interpretar los resultados obtenidos. Estas habilidades se desarrollan a lo largo del tiempo, ya que el tester adquiere experiencia y conocimiento mientras participa en el proceso de pruebas.
+El análisis, es **principalmente una fase en la que el probador de software aplica sus habilidades para interpretar los resultados obtenidos.** Estas habilidades se desarrollan a lo largo del tiempo, ya que el tester adquiere experiencia y conocimiento mientras participa en el proceso de pruebas.
 Es en esta etapa, donde el probador compara los resultados reales con los esperados, se hace la clasificación de defectos
-(resumir lo que isgue...)
-### **Características clave de la etapa de análisis**
-
+###### **Características clave de la etapa de análisis**
 1. **Interpretación de resultados**:
-    - El probador compara los **resultados reales** (lo que ocurrió durante la ejecución de los casos de prueba) con los **resultados esperados** definidos en los casos de prueba.
-    - Por ejemplo, si un caso de prueba indica que un usuario debe recibir un mensaje de confirmación tras realizar una compra, pero el mensaje no aparece, el probador identifica este fallo como un defecto.
+    - El probador compara los **resultados reales** de la etapa de ejecución con los **resultados esperados** definidos en los casos de prueba.
 2. **Clasificación de defectos**:
-    - Los defectos encontrados se clasifican según su **severidad** (crítico, mayor, menor) y **prioridad** (urgencia de corrección). Según el **ISTQB**, esta clasificación ayuda a priorizar las correcciones.
-    - Ejemplo: Un defecto que impide completar una transacción es crítico, mientras que un error tipográfico en la interfaz puede ser menor.
-3. **Verificación de criterios de salida**:
-    - Se evalúa si el software cumple con los criterios de salida definidos en el plan de pruebas, como:
-        - Porcentaje mínimo de casos de prueba aprobados (por ejemplo, 90%).
-        - Ausencia de defectos críticos o de alta severidad.
-        - Cobertura de requisitos alcanzada (por ejemplo, 100% de los requisitos críticos probados).
-    - **Jenkings** destaca que estos criterios son esenciales para decidir si el software está listo para la liberación o si se necesitan más pruebas.
-4. **Toma de decisiones**:
-    - Basado en el análisis, el probador recomienda acciones, como:
-        - Aprobar el software para su liberación.
-        - Requerir correcciones y repetir pruebas (pruebas de regresión).
-        - Escalar defectos críticos al equipo de desarrollo o al cliente.
-    - **UTN.BA** subraya la importancia de comunicar estas decisiones a los interesados (desarrolladores, gerentes, clientes) mediante reportes claros.
+    - Los defectos encontrados se clasifican según su **severidad** y **prioridad**, como vimos en el apartado de [[Gestión de Defectos]].
+3. **Toma de decisiones**:
+    - Basado en el análisis, el probador recomienda acciones, como aprobar el software para su liberación, requerir correcciones y repetir pruebas (pruebas de regresión).
+    - Se subraya la importancia de comunicar estas decisiones a los interesados (desarrolladores, gerentes, clientes) mediante reportes claros.
+****
+##### **Evaluación de las Pruebas.**
+Se comparan los resultados obtenidos con los planes y criterios de aceptación previamente establecidos.
+Se verifica que los entregables sean correctos, que los defectos hayan sido corregidos. 
+Al finalizar, se elabora un resumen/reporte de los resultados. 
+La imagen es un ejemplo de un reporte de una prueba de humo en forma manual.
+![[Pasted image 20250602221732.png]]
+La evaluación sobre si el software cumple con los criterios de salida definidos en el plan de pruebas, suele tener en cuenta aspectos como:
+- Porcentaje mínimo de casos de prueba aprobados.
+- Ausencia de defectos críticos o de alta severidad.
+- Cobertura de requisitos alcanzada.
+
+No está de más decir que el reporte de esta etapa puede ser completamente automatizado, en herramientas como Qase (plataforma de gestión de pruebas).
