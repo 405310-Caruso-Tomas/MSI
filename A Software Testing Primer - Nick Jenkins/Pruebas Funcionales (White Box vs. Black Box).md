@@ -8,9 +8,10 @@ El tester necesita acceso completo al código fuente para analizar el flujo del 
 - Pueden ser hechas en cualquier etapa del ciclo de vida de un software, pero tienden a encontrarse durante pruebas unitarias.
 - Abarcan técnicas como 
 	-La **Cobertura de Sentencias** (cada sentencia ejecutable en el código es ejecutada al menos una vez durante la prueba: mientras se ejecute, está cubierta, sin importar condicionales o ciclos).
-	-La **Cobertura de Decisiones** (todos los resultados if/switch son probados).
-	-La **Cobertura de Caminos** (Recorre todos los caminos posibles en el código).
+	-La **Cobertura de Decisiones** (todos los resultados if/switch son probados, **cada posible resultado de una decisión lógica**).
+	-La **Cobertura de Caminos** (Recorre todos los caminos posibles en el código, desde el inicio hasta el final del programa. Toda posible secuencia de ejecución es recorrida. Puede crecer exponencialmente con decisiones y bucles).
 	-[[Pruebas Unitarias]].
+- **Ejemplo.** El ejemplo que primero se imagina es el de una prueba unitaria: utilizar un framework como JUnit para comprobar que una función específica devuelve el resultado correcto para todos los posibles valores de entrada.
 ****
 #### **2. Pruebas de Caja Negra (Black Box Testing)**
 Probar la funcionalidad sin conocer la implementación interna del sistema. No requiere acceso al código fuente.
@@ -26,4 +27,3 @@ Probar la funcionalidad sin conocer la implementación interna del sistema. No r
 
 ****
 
-[Pruebas de usabilidad](https://chatgpt.com/c/683eea96-2ef8-8001-81eb-9918e84a67c6) resumir esto

@@ -8,7 +8,7 @@ Otras pruebas, como las unitarias o de integración, pueden realizarse de manera
 - También se evalúa si el sistema es fácil de usar, intuitivo y de acuerdo con las expectativas del cliente.
 ****
 ###### **¿Qué se hace en las pruebas de aceptación?.** 
-Estas pruebas son cuidadosamente planificadas y documentadas: siguen un conjunto predefinido de [[Casos de Prueba]] basados en los requisitos del cliente o usuario final. Se evalúa al sistema bajo condiciones de uso típicas, y obviamente que las funcionalidades esenciales estén operativas.
+Estas pruebas son cuidadosamente planificadas y documentadas: siguen un conjunto predefinido de [[Casos de Prueba]] basados en los requisitos del cliente o usuario final. Se evalúa al sistema bajo condiciones de uso típicas, y obviamente para que las funcionalidades esenciales estén operativas.
 En muchos proyectos, especialmente en contratos con clientes externos, las pruebas de aceptación están vinculadas a acuerdos legales. Si se encuentran defectos durante estas pruebas, puede haber consecuencias contractuales, como la obligación de corregir los errores sin costo adicional, retrasos en la entrega o penalizaciones.
 ****
 ###### **¿Quién realiza las pruebas de aceptación?.** 

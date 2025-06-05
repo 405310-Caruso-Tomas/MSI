@@ -1,13 +1,9 @@
 ##### Valores
 En 2001, Kent Beck y otros 16 notables desarrolladores de software, escritores y consultores (grupo conocido como la “Alianza Ágil”) se reunieron y firmaron el **“Manifiesto por el desarrollo ágil de software”**. En él se establecía lo siguiente:
 > "Estamos descubriendo formas mejores de desarrollar software, por medio de hacerlo y de dar ayuda a otros para que lo hagan. Ese trabajo nos ha hecho valorar: 
-> 
 > 	***Los individuos y sus interacciones***, sobre los procesos y las herramientas 
-> 	
 > 	***El software que funciona,*** más que la documentación exhaustiva 
-> 	
 > 	***La colaboración con el cliente,*** y no tanto la negociación del contrato 
-> 	
 > 	***Responder al cambio,*** mejor que apegarse a un plan"
 
 Los métodos ágiles se desarrollaron como un esfuerzo por superar las debilidades reales y percibidas de la ingeniería de software convencional, y como alternativa a las metodologías formales, a las que consideraban excesivamente "pesadas" y rígidas por su fuerte dependencia de planificaciones. Estos nuevos métodos no son aplicables a todos los proyectos, personas y situaciones. No es la contraparte de la práctica de la ingeniería de software sólida y **puede aplicarse como filosofía general para todo el trabajo de software.**
