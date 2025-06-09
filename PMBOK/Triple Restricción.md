@@ -1,0 +1,1 @@
+La Triple Restricción es un concepto fundamental en la gestión de proyectos que se representa típicamente como un triángulo, donde los tres lados corresponden a las restricciones de Alcance, Costo, y Tiempo.

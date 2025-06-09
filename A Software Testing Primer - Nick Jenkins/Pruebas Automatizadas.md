@@ -10,6 +10,15 @@ Las organizaciones a menudo buscan reducir el costo de las pruebas. La mayoría 
 - **Las Pruebas Automatizadas NO son necesariamente más rápidas**. El esfuerzo inicial es mucho mayor que para una prueba manual y solo compensará a lo largo del tiempo. A la par que también es costoso mantenerlas.
 - **NO todo necesita ser Automatizado.** Hay sistemas que cambian demasiado rápido para aplicar automatización. Tomemos el ejemplo de una interfaz de usuario, la cual es la parte del sistema que más ven los usuarios, y por ende, que más necesita ser actualizada.
 ****
-Luego de lo mencionado, podemos señalar algunos principios 
-
-%%... p50 apunte. haces lo de QC y pasas a PMBOK%%
+##### **Principios**
+Luego de lo mencionado, podemos señalar algunos principios que hacen a las pruebas automatizadas más eficaces. Entre ellos la ***Capacidad de mantenimiento*** (actualizarlas fácilmente), ***Flexibilidad*** (adaptación a cambios en requerimientos o en el sistema), ***Capacidad de control*** (monitoreo), ***Escalabilidad*** (poder ejecutarse en entornos con creciente carga de trabajo), ***Tiempo de ejecución rápido***.
+****
+##### ****Pruebas donde la Automatización es beneficiosa****
+- **Pruebas de carga y rendimiento.** Sería inviable que cientos de usuarios realicen estas pruebas manualmente.
+- **Pruebas de humo (Smoke Tests)**. 
+- **Pruebas de configuración de datos.** Configurar datos de prueba puede ser una tarea tediosa y propensa a errores
+- **Pruebas repetitivas.** 
+- **Pruebas de regresión.** Para detectar cambios inesperados, pero solo si la interfaz (ya sea GUI, API o Servicio) es estable; de lo contrario, es necesario refactorizar las pruebas.
+****
+##### **Herramientas Populares**
+![[Pasted image 20250609094432.png]]

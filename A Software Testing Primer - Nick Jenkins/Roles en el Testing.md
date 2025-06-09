@@ -9,11 +9,11 @@ Las actividades y tareas asignadas a estos dos roles dependen de factores como e
 Distintas personas pueden asumir estos roles en distintos momentos. Por ejemplo, el rol de gestión de pruebas puede ser desempeñado por un líder de equipo, un gerente de desarrollo. También es posible que una misma persona asuma los roles de pruebas y gestión de pruebas simultáneamente.
 ****
 ###### **Perfil del Tester y Aspectos a considerar**
-Su tarea es esencial para asegurar la calidad del producto antes de que llegue a los usuarios finales. El probador utiliza diversas técnicas y enfoques para identificar errores y asegurar que el producto cumple con los requisitos establecidos. Se enfoca en varios aspectos clave:
-	**Bugs (Errores)**. Identifica fallos o cualquier cosa que pueda afectar negativamente el valor del producto.
-	**Riesgos.** Identifican indicios de problemas que podrían derivar en futuros errores.
-	**Problemas.** Un problema no necesariamente afecta directamente al producto, pero puede amenazar el éxito del proyecto. Estos problemas pueden tener que ver más con aspectos externos, como la usabilidad o el entorno de uso. 
-	**Testeabilidad (Testability)**. Identifican características del software que dificultan o limitan el proceso de pruebas. (autenticación con tokens de sesión muy cortos por ejemplo)
-	**Artefactos.** Problemas que surgen como consecuencia de la herramienta utilizada para realizar las pruebas o de la forma en que se están llevando a cabo.
+Su tarea es esencial para asegurar la calidad del producto antes de que llegue a los usuarios finales. El probador utiliza diversas técnicas y enfoques para identificar errores y asegurar que el producto cumple con los requisitos establecidos. Se enfoca en varios aspectos clave:	
+- **Bugs (Errores)**. Identifica fallos o cualquier cosa que pueda afectar negativamente el valor del producto.
+- **Riesgos.** Identifican indicios de problemas que podrían derivar en futuros errores.
+- **Problemas.** Un problema no necesariamente afecta directamente al producto, pero puede amenazar el éxito del proyecto. Estos problemas pueden tener que ver más con aspectos externos, como la usabilidad o el entorno de uso. 
+- **Testeabilidad (Testability)**. Identifican características del software que dificultan o limitan el proceso de pruebas. (autenticación con tokens de sesión muy cortos por ejemplo).
+- **Artefactos.** Problemas que surgen como consecuencia de la herramienta utilizada para realizar las pruebas o de la forma en que se están llevando a cabo.
 	
 	

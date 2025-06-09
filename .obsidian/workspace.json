@@ -97,16 +97,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A Software Testing Primer - Nick Jenkins/Pruebas Automatizadas.md",
+                "file": "PMBOK/Proyecto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pruebas Automatizadas"
+              "title": "Proyecto"
+            }
+          },
+          {
+            "id": "aaf8426bfe74223f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PMBOK/Gestión del Alcance del Proyecto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gestión del Alcance del Proyecto"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -253,44 +267,44 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "6dfed383ac73f6f6",
+  "active": "aaf8426bfe74223f",
   "lastOpenFiles": [
-    "A Software Testing Primer - Nick Jenkins/Given-When-Then (Dado-Cuando-Entonces).md",
+    "PMBOK/Proyecto.md",
+    "Sommerville/Procesos de la Ingeniería de Requerimientos de Software.md",
+    "Sommerville/Ingeniería de Requerimientos.md",
+    "PMBOK/Gestión del Alcance del Proyecto.md",
+    "Sommerville/Subclasificación de Requerimientos.md",
+    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos.md",
+    "Pasted image 20250609125500.png",
+    "PMBOK/EDT o WBS.md",
+    "Pasted image 20250609125306.png",
+    "PMBOK/Alcance.md",
+    "PMBOK/Triple Restricción.md",
+    "PMBOK/El Surgir de la Gestión de Proyectos.md",
+    "PMBOK/Riesgos.md",
+    "PMBOK/Costos.md",
+    "Metodología.md",
+    "assets/Pasted image 20250609094432.png",
+    "A Software Testing Primer - Nick Jenkins/Testing.md",
+    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Modelado.md",
     "A Software Testing Primer - Nick Jenkins/Testing en Ambientes Ágiles.md",
-    "Users Stories Applied - Mike Cohn/Historias de Usuario.md",
-    "A Software Testing Primer - Nick Jenkins/Gestión de Defectos.md",
-    "A Software Testing Primer - Nick Jenkins/Pruebas Automatizadas.md",
-    "A Software Testing Primer - Nick Jenkins/Pruebas de Aceptación.md",
-    "A Software Testing Primer - Nick Jenkins/Casos de Prueba.md",
-    "A Software Testing Primer - Nick Jenkins/QC (Control de Calidad).md",
-    "A Software Testing Primer - Nick Jenkins/A note on the 'V-model'.md",
-    "A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad).md",
-    "A Software Testing Primer - Nick Jenkins/Pruebas Unitarias.md",
+    "A Software Testing Primer - Nick Jenkins/Verificación vs. Validación.md",
+    "A Software Testing Primer - Nick Jenkins/Roles en el Testing.md",
     "A Software Testing Primer - Nick Jenkins/Pruebas Funcionales (White Box vs. Black Box).md",
-    "A Software Testing Primer - Nick Jenkins/Pruebas de Sistema.md",
     "A Software Testing Primer - Nick Jenkins/Pruebas de Integración.md",
-    "A Software Testing Primer - Nick Jenkins/Proceso de Prueba.md",
+    "A Software Testing Primer - Nick Jenkins/Pruebas Automatizadas.md",
+    "A Software Testing Primer - Nick Jenkins/Enfoques de Testing.md",
+    "A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad).md",
+    "A Software Testing Primer - Nick Jenkins/QC (Control de Calidad).md",
+    "A Software Testing Primer - Nick Jenkins/Given-When-Then (Dado-Cuando-Entonces).md",
     "A Software Testing Primer - Nick Jenkins/Principios del Testing.md",
-    "A Software Testing Primer - Nick Jenkins/Error, Defecto y Fallo.md",
-    "A Software Testing Primer - Nick Jenkins/Alpha vs. Beta Testing.md",
-    "Implementación del BDD.md",
     "assets/Pasted image 20250605092843.png",
     "assets/Pasted image 20250605085036.png",
     "assets/Pasted image 20250605085026.png",
-    "A Software Testing Primer - Nick Jenkins/Enfoques de Testing.md",
-    "R. Pressman/Agilidad.md",
-    "R. Pressman/Modelos Ágiles.md",
     "assets/Pasted image 20250605080532.png",
     "assets/Pasted image 20250603115403.png",
     "assets/Pasted image 20250603115339.png",
-    "R. Pressman/UML.md",
     "assets/Pasted image 20250603102226.png",
-    "A Software Testing Primer - Nick Jenkins/Testing.md",
-    "PMBOK/Costos.md",
-    "PMBOK/Riesgos.md",
-    "assets/Pasted image 20250602221732.png",
-    "assets/Pasted image 20250529114432.png",
-    "assets/Pasted image 20250529112546.png",
     "A Software Testing Primer - Nick Jenkins",
     "Users Stories Applied - Mike Cohn",
     "PMBOK",
