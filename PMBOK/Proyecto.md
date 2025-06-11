@@ -1,3 +1,5 @@
+%%En los incisos de Gestión de {Característica importante para un proyecto} se van nombrando documentos de entrada y salida referido a los procesos de dicha gestión, debido a que el PMBOK así lo representa%%
+****
 Existen diversas definiciones de lo que es un proyecto. En su forma más clásica, un proyecto se define como: 
 - Un **conjunto único de actividades interrelacionadas** de forma lógica y a su vez, **necesarias** para alcanzar un resultado específico **dentro de un marco de tiempo determinado** y con una asignación concreta de recursos limitados. 
 - Es un **trabajo singular** con fechas de inicio y finalización, una especificación clara del objetivo o alcance de la tarea, un presupuesto preestablecido y, habitualmente, una organización temporal. 
