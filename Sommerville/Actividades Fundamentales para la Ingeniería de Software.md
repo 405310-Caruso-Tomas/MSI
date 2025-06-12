@@ -5,9 +5,8 @@ Existen muchos diferentes procesos de software, pero todos deben incluir cuatro 
 	- **Diseño e implementación del Software**: Debe desarrollarse el software para cumplir con las especificaciones.
 	- **Validación** **del** **software**: Hay que validar el software para asegurarse de que cumple lo que el cliente quiere. 
 	- **Evolución del software** El software tiene que evolucionar para satisfacer las necesidades cambiantes del cliente.
-
+****
 ##### ****ACTIVIDADES COMUNES EN LA ESTRUCTURA DEL PROCESO**** (R. Pressman)
-
 La estructura del [[PROCESO]] identifica ***ACTIVIDADES ESTRUCTURALES*** que por lo general son aplicables a todos los proyectos de software. Estas actividades obviamente pueden variar (y lo hacen) dependiendo la fuente, pero generalmente son las siguientes:
 	***Comunicación***. Antes de que comience cualquier trabajo técnico, se busca entender los objetivos de los participantes respecto del proyecto, y reunir los requerimientos que ayuden a definir las características y funciones del software.
 	***Planeación***. "Cualquier viaje complicado se simplifica si existe un mapa": define el trabajo de ingeniería de software al describir las tareas técnicas por realizar, los riesgos probables, los recursos que se requieren, los productos del trabajo que se obtendrán y una programación de las actividades. (Esta etapa puede llevar a renegociar con el cliente ciertos aspectos)
@@ -29,7 +28,6 @@ Además, la estructura del proceso incluye un conjunto de ***ACTIVIDADES SOMBRIL
 	- ***Preparación y producción del producto del trabajo***: agrupa las actividades requeridas para crear productos del trabajo, tales como modelos, documentos, registros, formatos y listas.
 
 ##### Pero, ***¿Cómo están organizadas todas estas actividades y tareas que ocurren dentro de cada una?***
-
 Para ello, todo proceso tiene un orden para su ejecución, más detallado en el apartado de [[Flujos de Proceso]], clasificable en:
 	***Flujo de Proceso Lineal.*** ejecuta cada una de las cinco actividades estructurales en secuencia, comenzando por la comunicación y terminando con el despliegue.
 	***Flujo de Proceso Iterativo***. Repite una o más de las actividades antes de pasar a la siguiente.
@@ -37,7 +35,6 @@ Para ello, todo proceso tiene un orden para su ejecución, más detallado en el 
 	***Flujo de Proceso Paralelo***. Ejecuta una o más actividades en paralelo con otras 
 ********
 ##### ***¿Qué acciones son apropiadas para una actividad estructural, dados la naturaleza del problema por resolver?***
-
 Para un proyecto de software pequeño solicitado por una persona con requerimientos sencillos y directos, la actividad de comunicación tal vez no incluya algo más que una llamada telefónica con el participante apropiado. Entonces, la única acción necesaria es una conversación telefónica, y el conjunto de tareas que engloba son las siguientes: 
 1. Hacer contacto con el participante por vía telefónica. 
 2. Analizar los requerimientos y tomar notas. 
@@ -46,5 +43,4 @@ Para un proyecto de software pequeño solicitado por una persona con requerimien
 
 Si el proyecto fuera considerablemente más complejo, con muchos participantes y cada uno con un distinto conjunto de requerimientos, la actividad de comunicación puede tener seis acciones distintas: concepción, indagación, elaboración, negociación, especificación y validación. Cada una de estas acciones de la ingeniería del software tendrá muchas tareas de trabajo y un número grande de diferentes productos finales.
 ************************
-
 Así como el **[[Modelado]]** es una actividad estructural en un proceso de desarrollo de software, los [[Modelos de PROCESO]] cumplen su función de describir cómo se planifica, ejecuta y gestiona el desarrollo de software.

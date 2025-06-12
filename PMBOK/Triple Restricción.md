@@ -1,1 +1,21 @@
 La Triple Restricción es un concepto fundamental en la gestión de proyectos que se representa típicamente como un triángulo, donde los tres lados corresponden a las restricciones de Alcance, Costo, y Tiempo.
+![[Pasted image 20250612094155.png]]
+Estos tres factores están interconectados, y cualquier cambio en uno de ellos afecta a los otros dos, además de potencialmente influir en la [[Calidad]] del proyecto. La triple restricción es una herramienta esencial para equilibrar las prioridades y tomar decisiones informadas durante la ejecución del proyecto.
+****
+#### **Alcance**
+En el contexto del proyecto el término alcance puede referirse a: 
+• **Alcance del producto.** Las características y funciones que describen un producto, servicio o resultado; y/o 
+• **Alcance del proyecto.** Es el trabajo realizado para entregar un producto, servicio o resultado con las funciones y características especificadas. En ocasiones se considera que el término alcance del proyecto incluye el alcance del producto.
+
+El alcance o scope de un proyecto define todo el trabajo necesario para completar un proyecto con éxito, asegurando que se incluya únicamente lo que es necesario y se evite realizar trabajo adicional que no haya sido planeado o aprobado. 
+El mismo responde a las siguientes preguntas:
+- **¿Qué se entregará?** (resultados finales del proyecto)
+- **¿Cuáles son los límites del proyecto?** (qué está dentro y fuera del alcance)
+- **¿Cuáles son los requisitos del cliente o del usuario final?**
+Estas preguntas son respondidas a través de la [[Gestión del Alcance del Proyecto]].
+****
+#### **Tiempo o Cronograma**
+Esto incluye la planificación de todas las actividades, la duración de las tareas, y la secuencia en que se deben realizar para cumplir con los plazos. La restricción del tiempo es crítica porque los proyectos tienen fechas límite que deben cumplirse.
+La [[Gestión del Tiempo del Proyecto]] incluye todos los procesos que hacen posible que el proyecto se complete dentro del tiempo estimado.
+****
+#### **Costo**

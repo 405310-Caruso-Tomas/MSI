@@ -7,7 +7,7 @@ Cada proyecto tiene una **LÍNEA BASE** para su alcance, esto es la versión apr
 Vamos a describir cada proceso:
 - ***Planificar la Gestión del Alcance.*** Crear un plan de gestión del alcance que documente cómo se va a definir, validar y controlar el alcance del proyecto. Algunas de las entradas son:
 	- **Acta de Constitución del Proyecto.** Documento emitido por el iniciador del proyecto o patrocinador, que autoriza formalmente la existencia de un proyecto y confiere al director del proyecto la autoridad para asignar los recursos de la organización a las actividades del proyecto.
-	- **Plan para la Dirección del Proyecto.** Documento integral que describe cómo se planificará, ejecutará, monitoreará, controlará y cerrará un proyecto.
+	- **[[Plan para la Dirección del Proyecto]].** Documento integral que describe cómo se planificará, ejecutará, monitoreará, controlará y cerrará un proyecto.
 	- **Factores Ambientales de la Empresa.** Pueden influir en la gestión de personal, condiciones del mercado.
 	- **Activos de los Procesos de la Organización.** Una plantilla para el plan de gestión de riesgos, una base de datos con estimaciones de costos de proyectos similares, son ejemplos de activos.
 
@@ -27,8 +27,5 @@ Vamos a describir cada proceso:
 	- Una de las *entradas* claramente son las solicitudes de cambio del proceso anterior.
 	- *salidas* podrían ser actualizaciones al **Plan de Dirección del Proyecto**, u otros documentos como la [[Matriz de Trazabilidad de Requisitos]].
 
-- Es importante esta última etapa del proceso, ya que en proyectos de software es común que el alcance crezca de manera no planificada. La adición incontrolada o no autorizada de nuevos requisitos se le denomina    
-****
+- Es importante esta última etapa del proceso, ya que en proyectos de software es común que el alcance crezca de manera no planificada. La adición incontrolada o no autorizada de nuevos requisitos se le denomina **Creep de Alcance.**
 
-
-%%p 113 del pmbok y apunte teorico. metele pata%
