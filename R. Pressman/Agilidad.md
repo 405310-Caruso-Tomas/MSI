@@ -30,7 +30,7 @@ Este desarrollo de software es fundamentado por la filosofía de la agilidad, la
 
 Dadas estas tres suposiciones, surge una pregunta importante: **¿Cómo crear un proceso que pueda manejar lo impredecible?**, la respuesta esta en la adaptabilidad del proceso: un proceso ágil debe ser adaptarse incrementalmente. Para esto, un equipo ágil requiere retroalimentación con el cliente.
 *********************************
-#### **PRINCIPIOS de agilidad**
+#### **PRINCIPIOS de la Agilidad**
 La Alianza Ágil define 12 principios de agilidad para aquellos que la quieran alcanzar:
 
 ![[Pasted image 20250322180503.png]]

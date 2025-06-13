@@ -17,5 +17,11 @@ Estas preguntas son respondidas a través de la [[Gestión del Alcance del Proye
 #### **Tiempo o Cronograma**
 Esto incluye la planificación de todas las actividades, la duración de las tareas, y la secuencia en que se deben realizar para cumplir con los plazos. La restricción del tiempo es crítica porque los proyectos tienen fechas límite que deben cumplirse.
 La [[Gestión del Tiempo del Proyecto]] incluye todos los procesos que hacen posible que el proyecto se complete dentro del tiempo estimado.
+
+Si un proyecto de software tiene una fecha de entrega definida, cualquier cambio en el alcance que aumente complejidad podría requerir más tiempo para completar las tareas adicionales. Si el tiempo no puede extenderse, entonces el alcance o recursos tendrán que ajustarse.
 ****
 #### **Costo**
+Implica el presupuesto total necesario para completar el proyecto. Esto incluye los salarios del equipo, la compra de materiales, el alquiler de equipos, y cualquier otro gasto asociado.
+La [[Gestión de Costos del Proyecto]] requiere estimar con precisión, presupuestar y controlar los gastos para evitar sobrecostos.
+
+Si el proyecto de software requiere contratar desarrolladores adicionales para cumplir con un plazo reducido, esto incrementará los costos. Alternativamente, si se reduce el presupuesto, puede que sea necesario recortar el alcance o extender el tiempo.

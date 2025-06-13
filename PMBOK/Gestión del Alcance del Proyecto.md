@@ -1,8 +1,10 @@
 - La Gestión del Alcance del Proyecto incluye los procesos necesarios para garantizar que el proyecto incluya todo el trabajo requerido y únicamente el trabajo para completar el proyecto con éxito.
 Estos procesos obviamente varían según el proyecto, pero en la imagen podemos ver una descripción general de los mismos. 
-![[Pasted image 20250609125500.png]]
+	![[Pasted image 20250609125500.png]]
 ****
-Cada proyecto tiene una **LÍNEA BASE** para su alcance, esto es la versión aprobada del enunciado/declaración del alcance del proyecto, la estructura de desglose del trabajo ([[EDT o WBS]]) y su diccionario de asociado.
+##### **Procesos CLAVE**
+Cada proyecto tiene una **LÍNEA BASE** para su alcance, esto incluye y es, la versión aprobada del enunciado/declaración del alcance del proyecto, la estructura de desglose del trabajo ([[EDT o WBS]]) y su diccionario de asociado.
+Podría considerarse la *salida* de esta etapa en su totalidad como este **Enunciado del Alcance del Proyecto**, poniéndolo en palabras.
 
 Vamos a describir cada proceso:
 - ***Planificar la Gestión del Alcance.*** Crear un plan de gestión del alcance que documente cómo se va a definir, validar y controlar el alcance del proyecto. Algunas de las entradas son:
