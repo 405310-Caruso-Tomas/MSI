@@ -12,7 +12,9 @@ El PMBOK organiza el plan en **líneas base** y **planes de gestión subsidiario
 	1. **Plan de [[Gestión del Alcance del Proyecto]]** **y Requisitos.**
 	2. **Plan de [[Gestión del Tiempo del Proyecto]]**
 	3. **Plan de [[Gestión de Costos del Proyecto]]**
-	4. **Plan de Gestión de Comunicaciones**
+	4. **Plan de Gestión de la Calidad**
+	5. **Plan de Gestión de Riesgos**
+	6. **Plan de Gestión de Recursos**
 
 Entendiendo a las líneas bases como la versión aprobada del enunciado o restricción, es decir, lo que se espera de cada una respecto al proyecto. Y los planes de gestión como el resultado de, justamente, la gestión adecuada de dicha característica o enunciado respecto al proyecto.
 Sabiendo esto, podemos notar que el Plan para la Dirección del Proyecto es continuamente modificado durante la etapa de planificación de un proyecto.

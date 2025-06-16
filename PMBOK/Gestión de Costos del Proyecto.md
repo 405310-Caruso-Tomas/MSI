@@ -20,14 +20,23 @@ Los procesos de gestión de costos, así como sus herramientas y técnicas asoci
 - El **Plan de Gestión de Costos** es la *entrada* más importante a este proceso, además de la **Línea Base del Alcance**, que como sabemos consta del Enunciado del alcance del proyecto y la [[EDT o WBS]].
 - La salida es la **Estimación de Costos de las Actividades.** Se trata de evaluaciones cuantitativas de los costos probables que se requieren.
 
-- ***Determinar el Presupuesto.*** El presupuesto total del proyecto se determina sumando todas las estimaciones de costos, añadiendo contingencias y reservas para riesgos conocidos o imprevistos.
+- ***Determinar el Presupuesto.*** El presupuesto total del proyecto se determina sumando todas las estimaciones de costos, añadiendo riesgos y reservas para riesgos conocidos o imprevistos.
 - El presupuesto final incluye no solo los costos directos, sino también reservas para riesgos, como retrasos o fallas técnicas.
+- Ejemplo de presupuesto
+	- Costos directos: $60000
+	- Reserva para riesgos: $5000
+	- Presupuesto total del proyecto: $65000
 - Entradas:
 	- **Plan de Gestión de Costos.**
 	- **Línea Base del Alcance.**
 	- **Estimación de Costos de las Actividades.**
 	- **Cronograma del Proyecto.*
 	- [[Registro de Riesgos]].
-- En *salidas*, 
+- En *salidas*, tenemos la **Línea Base de Costos** (versión aprobada del presupuesto por fases del proyecto, sin tener en cuenta reservas para gestión del mismo, y teniendo en cuenta reservas para riesgos y actividades del cronograma), y los **Requisitos de Financiamiento del Proyecto** (se derivan de la línea base de costos)
+	- ![[Pasted image 20250616102304.png]]
 
-%%p.240 edge pmbok y seguir con el teorico de la unidad. FIJATE LOS TEMAS A ESTUDIAR EN BLOC DE NOTAS%%
+- ***Controlar los Costos.*** Durante la ejecución del proyecto, se monitorean los costos reales en comparación con el presupuesto planificado.
+- Las *Entradas* típicas son el **[[Plan para la Dirección del Proyecto]] (junto con la línea base de costos y Plan para la Gestión de Costos), Requisitos de Financiamiento del Proyecto.**
+- Los Software de Gestión de Proyectos, también son una herramienta útil para monitorear las dimensiones del valor ganado (valor del trabajo que ha sido realmente completado hasta una fecha, en términos de presupuesto).
+- Si durante el desarrollo del backend se descubre que la integración con sistemas de pago requiere más tiempo y recursos de lo previsto, lo que aumenta el costo en $5,000 adicionales, esto se registra y se evalúa si es necesario ajustar el presupuesto global o si se puede cubrir con la reserva de contingencia. Esto último se conoce como un **Análisis de Variaciones** y la posible toma de **Acciones Correctivas**
+- Las *salidas* no suelen ser más relevantes que **Actualizaciones al [[Plan para la Dirección del Proyecto]], Solicitudes de Cambio, Pronósticos de Costos**.

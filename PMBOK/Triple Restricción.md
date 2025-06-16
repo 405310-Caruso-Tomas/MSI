@@ -1,6 +1,7 @@
 La Triple Restricción es un concepto fundamental en la gestión de proyectos que se representa típicamente como un triángulo, donde los tres lados corresponden a las restricciones de Alcance, Costo, y Tiempo.
 ![[Pasted image 20250612094155.png]]
-Estos tres factores están interconectados, y cualquier cambio en uno de ellos afecta a los otros dos, además de potencialmente influir en la [[Calidad]] del proyecto. La triple restricción es una herramienta esencial para equilibrar las prioridades y tomar decisiones informadas durante la ejecución del proyecto.
+Estos tres factores están interconectados, y cualquier cambio en uno de ellos afecta a los otros dos, además de potencialmente influir en la [[Calidad]] del proyecto. Por ello es que está al centro del triángulo. 
+La triple restricción es una herramienta esencial para equilibrar las prioridades y tomar decisiones informadas durante la ejecución del proyecto.
 ****
 #### **Alcance**
 En el contexto del proyecto el término alcance puede referirse a: 
@@ -25,3 +26,12 @@ Implica el presupuesto total necesario para completar el proyecto. Esto incluye 
 La [[Gestión de Costos del Proyecto]] requiere estimar con precisión, presupuestar y controlar los gastos para evitar sobrecostos.
 
 Si el proyecto de software requiere contratar desarrolladores adicionales para cumplir con un plazo reducido, esto incrementará los costos. Alternativamente, si se reduce el presupuesto, puede que sea necesario recortar el alcance o extender el tiempo.
+****
+###### **Ejemplo Integral: Interacción de las Restricciones**
+En el proyecto de desarrollo de una aplicación de e-commerce, consideremos la siguiente situación: 
+**• Alcance inicial**: Funcionalidades básicas como búsqueda de productos y carrito de compras. 
+**• Tiempo estimado**: 12 semanas. 
+**• Costo estimado**: $65,000. 
+A mitad del proyecto, el cliente solicita la inclusión de una función de "recomendaciones personalizadas", ampliando así el alcance. El equipo estima que esta nueva funcionalidad requerirá 3 semanas adicionales y un costo extra de $10,000. La ampliación del alcance conlleva extender el cronograma y ajustar el presupuesto del proyecto, por lo que el gestor de proyectos debe decidir si someter el proyecto a estas dos implicaciones o reducir otras funcionalidades (alcance) para mantener el equilibrio entre las tres restricciones. Para darle una continuación a esta historia, supongamos que en este caso se opta por renegociar el presupuesto y extender el plazo para mantener la calidad del producto final.
+****
+Aunque la Triple Restricción ha sido durante mucho tiempo una herramienta clásica para analizar y gestionar proyectos, en la práctica moderna de gestión de proyectos se ha reconocido que este enfoque es insuficiente para capturar la complejidad real de los proyectos actuales, es por esto que el enfoque tradicional descrito en este inciso ha evolucionado, y se trata en el apartado de [[La Evolución de la Triple Restricción]].

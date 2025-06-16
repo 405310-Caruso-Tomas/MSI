@@ -1,4 +1,4 @@
-> En la década de 1990, las principales corporaciones reconocieron que cada año se desperdiciaban miles de millones de dólares en software que no tenía las características ni la funcionalidad que se habían prometido.
+> *En la década de 1990, las principales corporaciones reconocieron que cada año se desperdiciaban miles de millones de dólares en software que no tenía las características ni la funcionalidad que se habían prometido.*
 ##### **¿Cómo se define la calidad del software?**
 En el sentido más general se define como: 
 **Proceso eficaz de software que se aplica de manera que crea un producto útil que proporciona valor medible a quienes lo producen y a quienes lo utilizan.**
@@ -6,9 +6,13 @@ En el sentido más general se define como:
 El proceso eficaz hace referencia a las prácticas de ingeniería de software permiten al desarrollador analizar el problema y diseñar una solución sólida.
 Un producto útil entrega contenido y funciones que el usuario final desea, de forma confiable y libre de errores.
 El software de calidad requiere un menor esfuerzo de mantenimiento, esto agrega valor para la organización que lo elabora.
-
-EL PMBOK, nos brinda otro concepto para la calidad desde una vista más orientada a la gestión de la calidad en proyectos: La **calidad** entregada como rendimiento o resultado es *“el **grado** en que un conjunto de características inherentes cumple con los requisitos”*. El grado, como meta de diseño, es una **categoría** que se asigna a entregables que tienen el mismo uso funcional pero características técnicas diferentes. A su vez señala que la calidad no es un concepto absoluto, sino que depende de la percepción y los requisitos de las partes interesadas.
-
+****
+###### **GRADO vs. CALIDAD (PMBOK)**
+EL PMBOK, nos brinda otro concepto para la calidad desde una vista más orientada a la gestión de la calidad en proyectos: La **calidad** entregada como resultado es *“el **grado** en que un conjunto de características inherentes cumple con los requisitos”*. 
+El grado es una **categoría** que se asigna a entregables que tienen el mismo uso funcional pero características técnicas diferentes.
+	• Si un producto de software de bajo grado (con un número limitado de funcionalidades) es de alta calidad (sin defectos apreciables, con manual legible) puede no constituir un problema. En este ejemplo, el producto sería adecuado para un uso general.
+	• Si un producto software de alto grado (con numerosas funcionalidades) es de baja calidad (numerosos defectos, documentación de usuario desorganizada) puede constituir un problema. En esencia, su conjunto de funcionalidades de alto grado probaría ser ineficaz y/o ineficiente debido a su bajo nivel de calidad.
+	
 *Vemos que el factor común que deriva de estas definiciones es la satisfacción del usuario en cuanto a sus necesidades y expectativas. En esencia, un software de alta calidad es aquel que opera sin errores significativos, es fácil de usar, se adapta a cambios futuros y entrega valor.*
 ****
 #### **Factores de la calidad**
