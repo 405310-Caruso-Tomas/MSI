@@ -1,6 +1,5 @@
  ***Modelo***. Arquetipo o punto de referencia. Representación simplificada de un objeto, sistema, proceso o idea que se utiliza para comprender cómo funciona.
 **REPRESENTACIÓN DE UN OBJETO, SISTEMA O IDEA**, de forma diferente al de la entidad misma. 
-
 > En la actualidad son muchos los esfuerzos que se realizan por solucionar los inconvenientes que se producen en el proceso de captura de requerimientos funcionales en la creación de un Modelo Conceptual, esto queda evidenciado por la gran cantidad de metodologías y herramientas existentes.
 *****
 ###### **Modelar**

@@ -1,3 +1,7 @@
+> El **Lenguaje Unificado de Modelado (UML)** es un lenguaje de modelado visual de propósito general que se utiliza para especificar, visualizar, construir y documentar los artefactos de un sistema software.
+
+Está pensado pasa ser utilizado con todos los métodos de desarrollo, etapas del ciclo de vida, dominios de aplicación y medios. Pretende unificar el modelado de software, incorporando las mejores prácticas.
+****
 ###### El Proceso Unificado
 En cierto modo, el proceso unificado es un intento por obtener los mejores rasgos y características de los modelos tradicionales del proceso del software, pero en forma que implemente muchos de los mejores principios del desarrollo ágil de software.
 ****
