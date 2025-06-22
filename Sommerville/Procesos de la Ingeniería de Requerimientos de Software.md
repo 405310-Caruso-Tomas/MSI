@@ -2,13 +2,13 @@
 
 (cap 2. pag 38) Los procesos de ingeniería de requerimientos incluyen cuatro actividades de alto nivel. Éstas se enfocan en:
 	![[Captura de pantalla de 2025-03-31 12-12-16.png]]
-
+****
 #### **Estudio de Factibilidad**. 
 Valorar si el sistema es útil para la empresa (o cliente final), y si las necesidades identificadas del usuario se cubren con las actuales tecnologías de software y hardware. Se considera el costo-beneficio del sistema desde un punto de vista empresarial. Debe responder tres preguntas clave: 
 	a) **¿El sistema contribuye con los objetivos globales de la organización?** 
 	b) **¿El sistema puede implementarse dentro de la fecha y el presupuesto usando la tecnología actual?** 
 	c) **¿El sistema puede integrarse con otros sistemas que se utilicen?**
-
+****
 #### **Adquisición y Análisis**. 
 Descubrir requerimientos. Actividad centrada en la gente, los ingenieros de software trabajan con clientes y usuarios finales del sistema para descubrir el dominio de aplicación, qué servicios debe proporcionar el sistema, el desempeño requerido de éste, las restricciones de hardware, etcétera. La interacción es a través de entrevistas y observaciones. Pueden usarse prototipos para ayudar a los participantes a entender cómo será el sistema. Los participantes varían desde administradores y usuarios finales hasta reguladores, quienes certifican la aceptabilidad del sistema.
 	![[Pasted image 20250401115756.png]]
@@ -21,6 +21,7 @@ Descubrir requerimientos. Actividad centrada en la gente, los ingenieros de soft
 La adquisición y el análisis de requerimientos es un proceso iterativo con retroalimentación continua de cada actividad a otras actividades. La comprensión de los requerimientos por parte del analista mejora con cada ronda del ciclo. El ciclo concluye cuando está completo el documento de requerimientos. 
 
 Durante esta etapa existen diferentes [[Técnicas de Descubrimiento de Requerimientos]] utilizadas comúnmente por los ingenieros.
+****
 #### **Especificación**. 
 **Proceso de convertir dichos requerimientos en alguna forma estándar: El [[Documento de Requerimientos del Sistema]] (llamado en ocasiones especificación funcional).** Esfuerzo colaborativo que involucra a analistas, clientes, usuarios, desarrolladores y gerentes. 
 
@@ -29,7 +30,7 @@ Durante esta etapa existen diferentes [[Técnicas de Descubrimiento de Requerimi
 
 Puede pensarse como un compromiso entre la comunicación de cómo será el sistema para los clientes, la definición precisa del mismo para desarrolladores y examinadores, y la inclusión de información sobre la posible evolución del sistema, para evitar decisiones de diseño restrictivas.
 Cuando el software sea parte de un proyecto de sistema grande que incluya la interacción de hardware, esto afectará claramente el proceso de especificación y su resultado.
-
+****
 #### **Validación**. 
 Comprobar que los requerimientos definan realmente el sistema que quiere el cliente. Esta actividad analiza la especificación a fin de garantizar que todos ellos han sido enunciados sin ambigüedades; que se corrigieron inconsistencias, y que los productos del trabajo se presentan conforme a los estándares establecidos. El mecanismo principal de validación de los requerimientos es la [[Revisión Técnica]]. 
 Durante este proceso, se realizan diferentes tipos de validaciones al documento:

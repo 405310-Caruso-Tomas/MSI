@@ -27,15 +27,8 @@ Un escenario puede incluir:
 Estos últimos pueden escribirse como texto, complementarse con diagramas, tomas de pantallas, etcétera.
 	![[Pasted image 20250518085242.png]]
 #### **Casos de Uso**
-Los casos de uso son una técnica de descubrimiento de requerimientos que se introdujo por primera vez en el método Objectory (mejor referenciado en el apartado de UML). Ahora se ha convertido en una característica fundamental del modelado de lenguaje unificado ([[UML]]). 
-Se documentan con un diagrama de caso de uso de alto nivel. Los casos de uso representan todas las interacciones posibles que se describirán en los requerimientos del sistema. Los actores en el proceso **pueden ser individuos u otros sistemas** y se representan como figuras sencillas.
-Cada interacción se constituye como una elipse con etiqueta. Líneas vinculan a los actores con la interacción.
-![[Pasted image 20250402111914.png]]
-Cada caso de uso debe documentarse con una descripción textual. Ejemplo:
-	*El establecimiento de consulta permite que dos o más médicos, que trabajan en*
-	*diferentes consultorios, vean el mismo registro simultáneamente. Un médico inicia* *la consulta al elegir al individuo involucrado de un menú desplegable de médicos* *que estén en línea. Entonces el registro del paciente se despliega en sus pantallas,...*
-Sin embargo, debido a que se enfocan en interacciones con el sistema, no son tan efectivas para adquirir restricciones o requerimientos empresariales y no funcionales de alto nivel, ni para descubrir requerimientos de dominio.
-El UML es un estándar para modelado orientado a objetos, así que los casos de uso ahora se utilizan ampliamente para adquisición de requerimientos.
+Los casos de uso son una técnica de descubrimiento de requerimientos que se introdujo por primera vez en el método *Objectory* (mejor referenciado en el apartado de [[Historia de UML]]). Ahora se ha convertido en una característica fundamental del modelado de lenguaje unificado ([[UML]]). 
+**[[Diagrama de Casos de Uso]]**
 ****
 #### **Etnografía**
 Los sistemas de software no existen aislados. Se usan en un contexto social y organizacional, y dicho escenario podría derivar o restringir los requerimientos del sistema de software.

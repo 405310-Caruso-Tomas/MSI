@@ -1,0 +1,2 @@
+En cierto modo, el proceso unificado es un intento por obtener los mejores rasgos y características de los modelos tradicionales del [[PROCESO]] del software, pero en forma que implemente muchos de los mejores principios de [[Agilidad]] en el software.
+- Es un proceso iterativo e incremental que utiliza el Lenguaje Unificado de Modelado (UML) como herramienta principal para modelar sistemas.
