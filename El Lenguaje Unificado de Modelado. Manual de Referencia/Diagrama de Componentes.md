@@ -1,6 +1,6 @@
-Un **diagrama de componentes** muestra los componentes de un sistema, es decir, las unidades software con las que se construye la aplicación, así como las dependencias entre componentes,
+Un **diagrama de componentes** muestra los **[[Componente]]s** de un sistema, es decir, las unidades software con las que se construye la aplicación, así como las dependencias entre **componentes**,
 
-Un componente es un tipo de clasificador estructurado, por lo que es recomendable definir su estructura interna en un [[Diagrama de Estructura Interna]], el cual adjuntaremos más abajo.
+Un componente es un tipo de [[Clasificador]] estructurado, por lo que es recomendable definir su estructura interna en un [[Diagrama de Estructura Interna]], el cual adjuntaremos más abajo.
 ![[Pasted image 20250622184840.png]]
 Un pequeño círculo vinculado a un componente o a una clase es una **interfaz proporcionada** (el componente **implementa** una funcionalidad para otros).
 Un pequeño semicírculo vinculado a un componente o a una clase es una **interfaz obligatoria** (el componente **espera** que otro le proporcione esa funcionalidad).

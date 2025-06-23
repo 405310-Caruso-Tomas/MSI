@@ -1,9 +1,9 @@
 > Una **máquina de estados** es un grafo de estados y transiciones.
 
-Modela las posibles historias de vida de un objeto de una clase. Una máquina de estados contiene estados conectados por transiciones.
+Modela las posibles historias de vida de un objeto de una **clase**. Una máquina de estados contiene estados conectados por transiciones. (**[[Clases]]**)
 
 Normalmente, una **máquina de estados** está vinculada a una clase, y describe la respuesta de una instancia de la clase a los eventos que recibe. 
-Las máquinas de estados también se pueden vincular a comportamientos, **casos de uso** y **colaboraciones** para describir su ejecución.
+Las máquinas de estados también se pueden vincular a comportamientos, **casos de uso** y **[[Colaboración]]es** para describir su ejecución.
 ![[Pasted image 20250622110301.png]]
 - Los **estados** se representan como rectángulos con esquinas redondeadas. Cada estado modela un periodo de tiempo durante la vida de un objeto en el que satisface ciertas condiciones.
 - Las **transiciones** son flechas etiquetadas con eventos y, opcionalmente, acciones o guardas. Llevan al objeto a un nuevo **estado**.

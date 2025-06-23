@@ -8,49 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8392a021382bd33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sommerville/Técnicas de Descubrimiento de Requerimientos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Técnicas de Descubrimiento de Requerimientos"
-            }
-          },
-          {
-            "id": "56f6e0cd409bd914",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "El Lenguaje Unificado de Modelado. Manual de Referencia/Vistas de UML.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vistas de UML"
-            }
-          },
-          {
-            "id": "9f023783102dc100",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "R. Pressman/Flujos de Proceso.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Flujos de Proceso"
-            }
-          },
-          {
-            "id": "eb6b70a08fe28522",
+            "id": "217a84fa5f3a71db",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +20,23 @@
               "icon": "lucide-file",
               "title": "Áreas Conceptuales de UML"
             }
+          },
+          {
+            "id": "54795bed897c0e97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "El Lenguaje Unificado de Modelado. Manual de Referencia/Estereotipo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Estereotipo"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R. Pressman/Flujos de Proceso.md",
+                "file": "El Lenguaje Unificado de Modelado. Manual de Referencia/Vistas de UML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Flujos de Proceso"
+              "title": "Enlaces entrantes de Vistas de UML"
             }
           },
           {
@@ -211,43 +183,44 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9f023783102dc100",
+  "active": "54795bed897c0e97",
   "lastOpenFiles": [
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Vistas de UML.md",
-    "R. Pressman/Flujos de Proceso.md",
-    "Pasted image 20250622200941.png",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso.md",
-    "Sommerville/Técnicas de Descubrimiento de Requerimientos.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Nodo.md",
     "El Lenguaje Unificado de Modelado. Manual de Referencia/Áreas Conceptuales de UML.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Componente.md",
+    "assets/Pasted image 20250623114511.png",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Estereotipo.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Puerto.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Clases.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Clasificador.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Colaboración.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Colaboración.md",
     "El Lenguaje Unificado de Modelado. Manual de Referencia/Máquina de Estados.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Caso de Uso.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Vistas de UML.md",
+    "assets/Pasted image 20250623104502.png",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases.md",
+    "assets/Pasted image 20250623093942.png",
+    "R. Pressman/Flujos de Proceso.md",
+    "Sommerville/Técnicas de Descubrimiento de Requerimientos.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Secuencia.md",
+    "assets/Pasted image 20250622200941.png",
     "Users Stories Applied - Mike Cohn/Historias de Usuario.md",
     "Users Stories Applied - Mike Cohn/Por qué usar Historias de Usuario.md",
     "Sommerville/Actividades Fundamentales para la Ingeniería de Software.md",
     "Sommerville/Administración de Requerimientos.md",
-    "Pantallazo General.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/UML.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Modelo.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Metodologías de Modelado.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Historia de UML.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Colaboración.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases.md",
-    "A Software Testing Primer - Nick Jenkins/Testing.md",
-    "PMBOK/Riesgos.md",
-    "Pasted image 20250622192850.png",
-    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Modelado.md",
-    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Desarrollo Dirigido por Modelos.md",
-    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos.md",
-    "Pasted image 20250622185427.png",
-    "Pasted image 20250622184840.png",
-    "Pasted image 20250622183444.png",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Despliegue.md",
-    "Pasted image 20250622174638.png",
+    "assets/Pasted image 20250622192850.png",
+    "assets/Pasted image 20250622185427.png",
+    "assets/Pasted image 20250622184840.png",
+    "assets/Pasted image 20250622183444.png",
+    "assets/Pasted image 20250622174638.png",
     "assets/Pasted image 20250622170930.png",
-    "assets/Pasted image 20250622121858.png",
-    "assets/Pasted image 20250622121816.png",
-    "assets/Pasted image 20250622113626.png",
     "El Lenguaje Unificado de Modelado. Manual de Referencia",
     "A Software Testing Primer - Nick Jenkins",
     "Users Stories Applied - Mike Cohn",

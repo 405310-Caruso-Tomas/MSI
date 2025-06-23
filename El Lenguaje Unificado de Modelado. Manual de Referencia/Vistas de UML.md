@@ -24,7 +24,14 @@ A continuación se adjunta una tabla con las vistas y sus correspondientes diagr
 ##### **Vista de [[Máquina de Estados]]**
 ****
 ##### **Vista de Actividad**
-Para el Manual de Referencia UML, un **diagrama de actividad** encapsula un modelo desde la perspectiva de actividad. Estos diagramas son, esencialmente, [[Flujos de Proceso]], y es en su apartado que se describen estos diagramas.
+- Un **[[Diagrama de Actividad]]** encapsula un modelo desde la perspectiva de actividad. 
+- Esta vista modela los flujos de trabajo, procesos o cálculos como una secuencia de actividades conectadas por flujos de control y, en algunos casos, flujos de datos. 
+- También puede mostrar la especificación de un caso de uso.
+****
+##### **Vista de Interacción**
+Describe el intercambio de secuencias de mensajes entre las partes de un sistema. 
+Una interacción está basada en un clasificador estructurado o en una colaboración.
+Un rol es una ranura que debe ser rellenada con objetos en un uso concreto de una interacción.
+Esta vista proporciona una visión integral del comportamiento de un sistema, es decir, muestra el flujo de control a través de varios objetos. La vista de interacción se muestra mediante dos diagramas que se centran en aspectos distintos: **[[Diagrama de Secuencia]]** y **[[Diagrama de Comunicación]]**. 
 
-
-
+Una máquina de estados, como vimos, es una vista reduccionista que mira a cada objeto individualmente. Sin embargo, puede ser difícil comprender el funcionamiento completo de un sistema porque una máquina de estados se centra en un solo objeto en cada momento. La vista de interacción proporciona una vista más integral del comportamiento de un conjunto de objetos. Esta vista se modela median te interacciones que actúan sobre clasificadores estructurados y colaboraciones.

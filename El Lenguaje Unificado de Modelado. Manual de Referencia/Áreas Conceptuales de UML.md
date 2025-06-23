@@ -5,27 +5,24 @@ Son una guía para los modeladores sobre qué diagramas usar según el aspecto d
 Los conceptos y modelos de [[UML]] pueden agruparse en las siguientes áreas conceptuales:
 ****
 ##### **Estructura estática** 
-**Clases, Atributos y Operaciones.** Esta área se centra en cómo están organizados los componentes, relaciones y propiedades de un modelo en un momento dado. 
-- Los conceptos son modelados como [[Clases]], cada una de las cuales describe objetos discretos que almacenan la información y se comunican para implementar un comportamiento. La información que almacenan es modelada como **atributos**; el comportamiento que realizan es modelado como **operaciones**.
+**[[Clases]], Atributos y Operaciones.** Esta área se centra en cómo están organizados los componentes, relaciones y propiedades de un modelo en un momento dado. 
+- Los conceptos son modelados como [[Clases]].
 - Varias clases pueden compartir su estructura común utilizando la generalización, herencias.
 - Los objetos también tienen conexiones en tiempo de ejecución con otros objetos individuales. Estas relaciones objeto a objeto se modelan mediante **asociaciones** entre clases.
 - Las clases pueden tener **interfaces**, los cuales **describen su comportamiento visible desde el exterior**. 
-- Los diagramas asociados más comunes a estas áreas son el **[[Diagrama de Clases]], diagrama de objetos** (muestra instancias específicas de clases), **diagrama de componentes**.
+- Los diagramas asociados más comunes a estas áreas son el **[[Diagrama de Clases]], diagrama de objetos** (muestra instancias específicas de clases), **[[Diagrama de Componentes]]**.
 ****
 ##### **Construcciones de Diseño**
 **Clasificadores, Puertos, Colaboraciones y Componentes.** Describe los elementos que se utilizan en la fase de diseño para modelar la arquitectura y los detalles técnicos de un sistema, orientados a la implementación.
 - En la fase de diseño, una clase puede descomponerse en partes (subelementos o instancias internas) que interactúan entre sí.
-- Un **clasificador estructurado** es una extensión de una clase en UML que permite modelar su estructura interna como una colección de partes conectadas mediante conectores.
+- Un **[[Clasificador]] estructurado** es una extensión de una clase en UML que permite modelar su estructura interna como una colección de partes conectadas mediante conectores.
 - Se suele representar en un **[[Diagrama de Estructura Interna]]**, donde la clase se muestra como un rectángulo que contiene partes internas (rectángulos más pequeños) unidas por líneas (conectores).
 
-- Una clase puede encapsular su estructura interna y exponer solo ciertas interfaces al exterior mediante **puertos**. Los puertos son puntos de interacción visibles que actúan como intermediarios entre la clase y su entorno. 
-- Definen un punto de entrada/salida en una clase. Ejemplo: En el sistema de biblioteca, la clase `SistemaBiblioteca` podría tener un puerto `InterfazUsuario` que expone operaciones como `prestarLibro()`
+- Una clase puede encapsular su estructura interna y exponer solo ciertas interfaces al exterior mediante un **[[Puerto]]** o más de uno.
 
-- Una **colaboración** representa un conjunto de objetos (o instancias) que trabajan juntos temporalmente para cumplir una función específica, como un caso de uso o un proceso.
-- Ejemplo: En el sistema de biblioteca, una colaboración podría modelar el proceso de "Préstamo de Libro", donde un objeto `Usuario`, un objeto `Libro` y un objeto `Bibliotecario` desempeñan roles específicos (solicitar, verificar disponibilidad, registrar préstamo). Se suele representar en un **[[Diagrama de Colaboración]]**.
+- **[[Colaboración]]**, **[[Diagrama de Colaboración]]**.
 
-- Un **componente** es una parte modular y reemplazable de un sistema que implementa un conjunto de interfaces. Encapsula funcionalidad, y está diseñado para ser reemplazable.
-- Ejemplo: En el sistema de biblioteca, un componente `GestorPréstamos` podría implementar una interfaz `IPrestamo` con operaciones como `prestar()` y `devolver()`. Suele ser representado en un **diagrama de componentes**.
+- Un **[[Componente]]** es una parte **modular** y reemplazable de un sistema que implementa un conjunto de interfaces. 
 ****
 ##### **Construcciones de Despliegue**
 **Nodo, Artefacto, Manifestación y Vista.** Son los elementos utilizados para modelar la distribución física de un sistema en ejecución, es decir, cómo los elementos de software se implementan en el hardware o infraestructura física.
@@ -54,7 +51,7 @@ Intentan capturar la vida de un objeto, las interacciones entre objetos y los fl
 
 - Una **actividad** representa [[Flujos de Proceso]], que puede ser secuencial o concurrente, e incluye construcciones como decisiones, bucles y bifurcaciones. 
 - Representa la ejecución de un cálculo. Se modela como un conjunto de nodos de actividad conectados mediante flujos de control y flujos de datos.
-- **Diagramas de actividad** pueden ser utilizados para mostrar estos cálculos.
+- **[[Diagrama de Actividad]]** pueden ser utilizados para mostrar estos cálculos.
 
 Un diagrama de **casos de uso** **muestra cómo fluye la interacción entre usuarios y el sistema a lo largo del tiempo**, lo cual es una forma de **comportamiento observable** y no una estructura estática, por lo que se dice que pertenece a esta área conceptual.
 ****
