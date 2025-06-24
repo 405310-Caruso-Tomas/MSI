@@ -15,7 +15,7 @@ El modelado proporciona una comprensión de un sistema. Nunca es suficiente con 
 - **Visualizar.** Detrás de cada símbolo en la notación UML hay una semántica bien definida. Así, un desarrollador puede construir un modelo en UML y otro desarrollador, puede interpretar ese modelo sin ambigüedad.
 - **Especificar.** UML cubre la especificación de todas las decisiones de análisis, diseño e implementación que deben realizarse al desarrollar un sistema con gran cantidad de software.
 - **Construir.** La correspondencia UML permite **ingeniería directa**: la generación de código a partir de un modelo UML en un lenguaje de programación. UML no es un lenguaje de programación visual, pero sus modelos pueden corresponderse a muchos lenguajes de programación.
-- **Documentar.** Producir **artefactos** (requisitos, arquitectura, diseño, código fuente, planificación de proyectos, pruebas, prototipos, versiones).
+- **Documentar.** Producir **[[Artefacto]]s** (requisitos, arquitectura, diseño, código fuente, planificación de proyectos, pruebas, prototipos, versiones).
 ****
 ###### **Objetivos**
 - UML es un lenguaje de modelado de propósito general que pueden utilizar todos los modeladores. Está basado en el común acuerdo de gran parte de la comunidad informática, por lo que está pensado para ser tan familiar como sea posible.

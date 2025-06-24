@@ -1,0 +1,1 @@
+Perspectiva del sistema que se enfoca en su implementación física, mostrando cómo los **[[Nodo]]s** (hardware o entornos) están organizados y cómo los **[[Artefacto]]s** (software) se distribuyen en ellos.

@@ -1,0 +1,1 @@
+ Conjunto de **[[Estereotipo]]s**, **[[Valores Etiquetados]]** y **restricciones** desarrollados con un propósito específico, que puede almacenarse en bibliotecas para su reutilización en diferentes modelos.

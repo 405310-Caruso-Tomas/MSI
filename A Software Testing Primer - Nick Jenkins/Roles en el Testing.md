@@ -14,6 +14,6 @@ Su tarea es esencial para asegurar la calidad del producto antes de que llegue a
 - **Riesgos.** Identifican indicios de problemas que podrían derivar en futuros errores.
 - **Problemas.** Un problema no necesariamente afecta directamente al producto, pero puede amenazar el éxito del proyecto. Estos problemas pueden tener que ver más con aspectos externos, como la usabilidad o el entorno de uso. 
 - **Testeabilidad (Testability)**. Identifican características del software que dificultan o limitan el proceso de pruebas. (autenticación con tokens de sesión muy cortos por ejemplo).
-- **Artefactos.** Problemas que surgen como consecuencia de la herramienta utilizada para realizar las pruebas o de la forma en que se están llevando a cabo.
+- **Artefactos.** Problemas que surgen como consecuencia de la herramienta utilizada para realizar las pruebas o de la forma en que se están llevando a cabo. (Notar diferencia con respecto a [[Artefacto]] en el contexto UML)
 	
 	

@@ -1,3 +1,4 @@
+%%Inciso incomprensible con el no entendimiento de conceptos agrupados en la carpeta "Diccionario"%%
 > Son categorías definidas en la especificación de UML para clasificar diagramas según el tipo de información que modelan (estructura, comportamiento, interacción). Son parte del estándar UML y **se centran en la semántica de los diagramas.**
 
 La **semántica**, la consideramos inherente a un **[[Modelo]]**, y es en ese inciso donde es mencionada.
@@ -25,19 +26,8 @@ Los conceptos y modelos de [[UML]] pueden agruparse en las siguientes áreas con
 - Un **[[Componente]]** es una parte **modular** y reemplazable de un sistema que implementa un conjunto de interfaces. 
 ****
 ##### **Construcciones de Despliegue**
-**Nodo, Artefacto, Manifestación y Vista.** Son los elementos utilizados para modelar la distribución física de un sistema en ejecución, es decir, cómo los elementos de software se implementan en el hardware o infraestructura física.
-- Un **nodo** es un recurso de cálculo de tiempo de ejecución que define una ubicación física o lógica en la que se ejecutan los elementos de software.
-- Modelan los elementos físicos o lógicos donde el software se despliega y ejecuta, como servidores, bases de datos o máquinas virtuales.
-- Los nodos pueden conectarse entre sí mediante enlaces (representando redes o canales de comunicación).
-
-- Un **artefacto** representa elementos tangibles del software, como archivos, bibliotecas, bases de datos o scripts, que se despliegan en nodos. Son elementos concretos que resultan del desarrollo.
-- Ejemplo: En el sistema de biblioteca, un artefacto podría ser `BibliotecaApp.jar` (un archivo Java ejecutable) o `BaseDatosBiblioteca.sql` (un archivo de base de datos).
-
-- Un **artefacto** puede ser una **manifestación** (es decir, una implementación) de un componente. La **manifestación** es una relación que conecta un artefacto físico con un elemento lógico del diseño.
-- La relación de manifestación indica que un artefacto "da vida" a un componente, implementando sus interfaces y comportamiento. 
-
-- La **vista de despliegue** es una perspectiva del sistema que se enfoca en su implementación física, mostrando cómo los nodos (hardware o entornos) están organizados y cómo los artefactos (software) se distribuyen en ellos.
-- El **[[Diagrama de Despliegue]]** es el principal vehículo para la vista de despliegue, mostrando nodos como cubos 3D, artefactos como rectángulos, y relaciones como flechas. Además de contener la representación de todos los elementos mencionados.
+**[[Nodo]], [[Artefacto]], [[Manifestación]] y [[Vista de Despliegue]].** Son los elementos utilizados para modelar la distribución física de un sistema en ejecución, es decir, cómo los elementos de software se implementan en el hardware o infraestructura física.
+- El **[[Diagrama de Despliegue]]** es el principal vehículo para la vista de despliegue, mostrando **nodos** como cubos 3D, **artefactos** como rectángulos, y **relaciones** como flechas. Además de contener la representación de todos los elementos mencionados.
 ****
 ##### **Comportamiento Dinámico**
 Elementos y diagramas utilizados para modelar el comportamiento de un sistema, es decir, cómo sus componentes interactúan o cambian de estado.
@@ -67,10 +57,7 @@ Refiere a cómo se estructura la información de modelado para que sea comprensi
 - Las dependencias pueden incluir estereotipos como `<<import>>` (importar elementos del paquete proveedor) o `<<access>>` (acceso directo a elementos).
 ****
 ##### **Perfiles**
-**Perfiles, Estereotipos, Valores Etiquetados y Restricciones**. Mecanismos de extensibilidad diseñados para personalizar y adaptar el lenguaje a necesidades específicas. Estas construcciones permiten a los usuarios definir nuevos tipos de elementos, agregar atributos personalizados y establecer restricciones adicionales, manteniendo la compatibilidad con el estándar UML.
-Un **perfil** es un conjunto de **estereotipos**, **valores etiquetados** y **restricciones** desarrollados con un propósito específico, que puede almacenarse en bibliotecas para su reutilización en diferentes modelos.
-- Un **estereotipo** es un nuevo tipo de elemento base. 
-- Ejemplo: En un sistema de biblioteca, una clase Libro podría estereotiparse como `<<Persistent>>` para indicar que sus instancias se almacenan en una base de datos. Se aplican a cualquier diagrama UML.
+**[[Perfil]]es, [[Estereotipo]]s, [[Valores Etiquetados]] y Restricciones**. Mecanismos de extensibilidad diseñados para personalizar y adaptar el lenguaje a necesidades específicas. Estas construcciones permiten a los usuarios **definir nuevos tipos de elementos**, **agregar atributos** personalizados y **establecer restricciones** adicionales, manteniendo la compatibilidad con el estándar UML.
 
 - Un **valor etiquetado** es un atributo definido por el usuario que se aplica a los elementos del modelo.
 - Son pares clave-valor asociados a un elemento del modelo, definidos como parte de un estereotipo.
