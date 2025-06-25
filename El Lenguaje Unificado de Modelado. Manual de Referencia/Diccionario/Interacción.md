@@ -5,6 +5,7 @@ Una **interacción** es un concepto que describe el **comportamiento** **dinámi
 - Utilizadas para modelar cómo los **elementos** colaboran para lograr un objetivo, enfocándose en la **secuencia**, el **flujo** y las **condiciones** de sus **comunicaciones**.
 - Una secuencia de **mensajes** (comunicación entre objetos) dentro de una **[[Colaboración]]** que implementan un comportamiento se denomina **interacción**.
 - **Encapsulación**: Puede definirse dentro de un **clasificador** (como un componente) o en una **colaboración**, que agrupa roles e interacciones para un propósito común.
+- Un **rol** es una ranura que debe ser rellenada con objetos en un uso concreto de una interacción.
 ****
 Las interacciones se modelan principalmente en los siguientes diagramas, conocidos como **diagramas de interacción**:
 1. **[[Diagrama de Secuencia]]**: Muestra el orden temporal de los **mensajes** entre líneas de vida, enfatizando la secuencia de eventos.

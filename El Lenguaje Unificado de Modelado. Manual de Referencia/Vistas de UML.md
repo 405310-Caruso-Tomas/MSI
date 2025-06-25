@@ -24,14 +24,22 @@ A continuación se adjunta una tabla con las vistas y sus correspondientes diagr
 ##### **Vista de [[Máquina de Estados]]**
 ****
 ##### **Vista de Actividad**
-- Un **[[Diagrama de Actividad]]** encapsula un modelo desde la perspectiva de actividad. 
+- Un **[[Diagrama de Actividad]]** encapsula un modelo desde la perspectiva de **[[Actividad]]**. 
 - Esta vista modela los flujos de trabajo, procesos o cálculos como una secuencia de actividades conectadas por flujos de control y, en algunos casos, flujos de datos. 
-- También puede mostrar la especificación de un caso de uso.
+- También puede mostrar la especificación de un **[[Caso de Uso]]**.
+
+**Trazando similitudes y diferencias.** Las [[Máquina de Estados]] y las **[[Actividad]]es** son similares, en tanto que ambas describen secuencias de **estados** que ocurren a lo largo del tiempo, y las condiciones que causan los cambios entre los estados. Pero se diferencian en que la primera es más reduccionista y hace enfoque en los estados de un objeto que se someten a un cómputo, mientras que la **actividad** se enfoca en los propios estados de cómputo.
 ****
 ##### **Vista de Interacción**
-Describe el intercambio de secuencias de mensajes entre las partes de un sistema. 
-Una interacción está basada en un clasificador estructurado o en una colaboración.
-Un rol es una ranura que debe ser rellenada con objetos en un uso concreto de una interacción.
-Esta vista proporciona una visión integral del comportamiento de un sistema, es decir, muestra el flujo de control a través de varios objetos. La vista de interacción se muestra mediante dos diagramas que se centran en aspectos distintos: **[[Diagrama de Secuencia]]** y **[[Diagrama de Comunicación]]**. 
+Describe el intercambio de secuencias de **[[Mensaje]]s** entre las partes de un sistema. 
+Bajo esta vista, el **[[Diagrama de Comunicación]] y [[Diagrama de Secuencia]]**. Los diagramas de **secuencia** muestran claramente secuencias temporales pero no muestran explícitamente relaciones entre objetos. 
+Los diagramas de **comunicación** muestran relaciones entre objetos con claridad, pero las secuencias temporales se obtienen de los números de secuencia.
+****
+##### **Vista de Despliegue**
+Vistas **arquitectónicas** que se utiliza para modelar la **estructura física** de un sistema, mostrando cómo se distribuyen los **[[Componente]]s** de software en el **hardware** y **cómo interactúan** a través de la red o infraestructura física. 
+Esta vista es representada principalmente mediante el **[[Diagrama de Despliegue]]**, que describe la topología física del sistema, incluyendo **[[Nodo]]s**, **conexiones** y **[[Artefacto]]s**.
+****
+##### **Vista de Gestión del Proyecto**
 
-Una máquina de estados, como vimos, es una vista reduccionista que mira a cada objeto individualmente. Sin embargo, puede ser difícil comprender el funcionamiento completo de un sistema porque una máquina de estados se centra en un solo objeto en cada momento. La vista de interacción proporciona una vista más integral del comportamiento de un conjunto de objetos. Esta vista se modela median te interacciones que actúan sobre clasificadores estructurados y colaboraciones.
+
+

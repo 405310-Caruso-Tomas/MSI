@@ -15,4 +15,4 @@ Se representa como un cubo 3D (un rectángulo con perspectiva tridimensional) co
 Los **artefactos** o **[[Componente]]s** desplegados en el nodo se dibujan dentro del cubo o conectados a él.
 Los **enlaces** entre nodos se representan como líneas sólidas, a menudo etiquetadas con el protocolo o medio de comunicación (por ejemplo, "TCP/IP").
 ![[Pasted image 20250623131808.png]]
-Los nodos pueden ser conectados por símbolos de asociación a otros nodos. Una **asociación** entre dos nodos indica un camino de comunicación entre ellos. La asociación puede tener un estereotipo para indicar la naturaleza del medio de comunicación.
+Los nodos pueden ser conectados por **símbolos de asociación** a otros nodos. Una **asociación** entre dos nodos indica un camino de comunicación entre ellos. La asociación puede tener un estereotipo para indicar la naturaleza del medio de comunicación.
