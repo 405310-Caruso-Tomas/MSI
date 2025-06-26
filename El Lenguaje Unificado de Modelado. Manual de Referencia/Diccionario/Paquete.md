@@ -6,6 +6,7 @@ Un **paquete** puede poseer cualquier clase de elemento del modelo (clases, caso
 - Su propósito principal es estructurar el modelo de manera **modular**.
 - Se usa en diversos **diagramas UML**, como **[[Diagrama de Clases]]**, **[[Diagrama de Casos de Uso]]**, **[[Diagrama de Componentes]]** o [[Diagrama de Despliegue]], **[[Diagrama de Paquetes]]** y también a nivel de modelo general.
 - Un paquete define la **visibilidad** de sus elementos contenidos como **privado** o **público**.
+- También son unidades para cualquier mecanismo de control de versiones.
 ****
 Una **dependencia entre paquetes** es una relación que indica que los elementos de un paquete (el cliente) dependen de los elementos de otro paquete (el proveedor).
 Una dependencia significa que un cambio en el paquete proveedor puede afectar al paquete cliente, pero no al revés.

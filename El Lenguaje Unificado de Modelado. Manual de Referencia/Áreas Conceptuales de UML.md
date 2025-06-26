@@ -3,7 +3,7 @@
 
 La **semántica**, la consideramos inherente a un **[[Modelo]]**, y es en ese inciso donde es mencionada.
 Son una guía para los modeladores sobre qué diagramas usar según el aspecto del sistema, y con qué elementos.
-Los conceptos y modelos de [[UML]] pueden agruparse en las siguientes áreas conceptuales:
+Los conceptos, modelos, y **elementos** de [[UML]] pueden agruparse en las siguientes áreas conceptuales:
 ****
 ##### **Estructura estática** 
 **[[Clases]], Atributos y Operaciones.** Esta área se centra en cómo están organizados los componentes, relaciones y propiedades de un modelo en un momento dado. 
@@ -38,12 +38,12 @@ Intentan capturar la vida de un objeto, las interacciones entre objetos y los fl
 
 - Una **actividad** representa [[Flujos de Proceso]], en un [[Diagrama de Actividad]], que puede ser secuencial o concurrente, e incluye construcciones como **decisiones**, **bucles** y **bifurcaciones**. 
 ****
-##### **Organización del Modelo**
+##### **Organización del Modelo/Elementos de Agrupación**
 Refiere a cómo se estructura la información de modelado para que sea **comprensible**, **manejable** y **escalable**, especialmente en sistemas grandes.
 - Los **[[Paquete]]s** dividen un modelo grande en unidades más pequeñas y comprensibles.
 - Se representan en un **[[Diagrama de Paquetes]]**. 
 ****
-##### **Perfiles**
+##### **Perfiles/Elementos de Anotación**
 **[[Perfil]]es, [[Estereotipo]]s, [[Valores Etiquetados]] y [[Restricción]]es**. Mecanismos de extensibilidad diseñados para personalizar y adaptar el lenguaje a necesidades específicas. Estas construcciones permiten a los usuarios **definir nuevos tipos de elementos**, **agregar atributos** personalizados y **establecer restricciones** adicionales, manteniendo la compatibilidad con el estándar UML.
 
 

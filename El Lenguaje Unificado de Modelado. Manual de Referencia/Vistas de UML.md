@@ -1,19 +1,21 @@
-> Son una forma de organizar y representar diferentes aspectos de un sistema de software mediante diagramas del Lenguaje Unificado de Modelado ([[UML]]).
+> Son una **forma de organizar y representar diferentes aspectos** de un sistema de software **mediante diagramas** del Lenguaje Unificado de Modelado ([[UML]]).
 
-Cada vista se enfoca en un conjunto específico de características o perspectivas del sistema, permitiendo a los interesados comprender y analizar el sistema desde diferentes ángulos.
+Cada vista se enfoca en un conjunto específico de características o perspectivas del sistema, permitiendo a los interesados comprender y analizar el sistema desde diferentes ángulos. 
 ****
 A continuación se adjunta una tabla con las vistas y sus correspondientes diagramas y conceptos. Para mayor entendimiento es recomendable leer el apartado de **[[Áreas Conceptuales de UML]]**.
 ![[Pasted image 20250622170930.png]]
 ****
 ##### **Vista estática**
-- Modela conceptos del dominio de la aplicación.
+- Modela conceptos del **dominio** de la aplicación.
 - Estática porque no describe el comportamiento dependiente del tiempo del sistema.
-- Clases y sus [[Relaciones]] como principales componentes.
+- Captura la estructura de los **objetos**. Todo lo que concierne a estructura de **datos** tradicional. Tanto los **datos**, como las **operaciones**, son cuantificadas en **clases**. Y como sabemos, los **objetos** son instancias de **clases**.
+- **[[Clases]]** y sus **[[Relaciones]]** como principales componentes.
+	- ![[Pasted image 20250625101753.png]]
 - Un [[Diagrama de Clases]] es donde mejor se aprecia esta vista.
 ****
 ##### **Vista de Diseño**
-- Modelan la estructura de diseño de la propia aplicación, como su expansión en clasificadores estructurados, las colaboraciones que proporcionan funcionalidad y su ensamblado a partir de componentes con interfaces bien definidas.
-- Proporcionan una oportunidad para establecer una correspondencia entre las clases y los componentes de implementación.
+- Modelan la estructura de diseño de la propia aplicación, como su expansión en **clasificadores** estructurados, las **[[Colaboración]]es** que proporcionan funcionalidad y su ensamblado a partir de **[[Componente]]s** con **interfaces** bien definidas.
+- Proporcionan una oportunidad para establecer una correspondencia entre las **clases** y los **componentes** de implementación.
 - Refiere al **[[Diagrama de Colaboración]]**, **[[Diagrama de Estructura Interna]]**, **[[Diagrama de Componentes]]**.
 ****
 ##### **Vista de Casos de Uso**
@@ -22,6 +24,7 @@ A continuación se adjunta una tabla con las vistas y sus correspondientes diagr
 - **[[Diagrama de Casos de Uso]]**.
 ****
 ##### **Vista de [[Máquina de Estados]]**
+- Describe el comportamiento dinámico de los objetos, durante un periodo de tiempo, mediante el modelado de los ciclos de vida de cada clase.
 ****
 ##### **Vista de Actividad**
 - Un **[[Diagrama de Actividad]]** encapsula un modelo desde la perspectiva de **[[Actividad]]**. 
@@ -37,9 +40,13 @@ Los diagramas de **comunicación** muestran relaciones entre objetos con clarida
 ****
 ##### **Vista de Despliegue**
 Vistas **arquitectónicas** que se utiliza para modelar la **estructura física** de un sistema, mostrando cómo se distribuyen los **[[Componente]]s** de software en el **hardware** y **cómo interactúan** a través de la red o infraestructura física. 
-Esta vista es representada principalmente mediante el **[[Diagrama de Despliegue]]**, que describe la topología física del sistema, incluyendo **[[Nodo]]s**, **conexiones** y **[[Artefacto]]s**.
+Esta vista es representada principalmente mediante el **[[Diagrama de Despliegue]]**, que describe la topología física del sistema, incluyendo **[[Nodo]]s**, **conexiones** y **[[Artefacto]]s**. 
+Muestra la disposición física de los **nodos**. También puede resaltar los **cuellos de botella en el rendimiento** debidos a la ubicación de los **artefactos** que manifiestan **componentes** independientes en diferentes **nodos**
 ****
-##### **Vista de Gestión del Proyecto**
-
-
-
+##### **Vista de Gestión del Proyecto/de Agrupación**
+La vista de gestión del modelo **modela** **la organización del modelo** en sí mismo.
+Un modelo abarca un conjunto de **[[Paquete]]s** que contienen los elementos del modelo.
+La información de la gestión del modelo se suele mostrar en un **[[Diagrama de Paquetes]]**, que son una variedad de los **diagramas de clases**.
+****
+##### **Perfiles**
+UML está definido utilizando un **metamodelo**, es decir, un modelo del propio lenguaje de modelado. La modificación del metamodelo es complicada, pero el mecanismo de los **[[Perfil]]es** permite cambios limitados sobre **UML** sin modificar el metamodelo subyacente. Los **perfiles** y las **[[Restricción]]es** permiten que **UML sea adaptado** a dominios o plataformas específicas.
