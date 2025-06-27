@@ -1,7 +1,10 @@
+Si bien parece ser que una **máquina de estados** (modelo conceptual/lógica subyacente) difiere de lo que sería un **diagrama de estados** (representación del modelo conceptual), para este repositorio lo tomaremos como idénticos y se hará referencia a uno para indicar el otro y viceversa.
+****
 > Una **máquina de estados** es un grafo de estados y transiciones.
 
-Modela las posibles historias de vida de un objeto de una **clase**. Una máquina de estados contiene estados conectados por transiciones. (**[[Clases]]**)
-
+Modela las posibles historias de vida de un objeto de una **clase**, todos el conjunto de **estados** por los cuales pasa el objeto en respuesta a **eventos**. 
+Una máquina de estados contiene estados conectados por transiciones. (**[[Clases]]**)
+	![[Pasted image 20250626120519.png]]
 Normalmente, una **máquina de estados** está vinculada a una clase, y describe la respuesta de una instancia de la clase a los eventos que recibe. 
 Las máquinas de estados también se pueden vincular a comportamientos, **casos de uso** y **[[Colaboración]]es** para describir su ejecución.
 ![[Pasted image 20250622110301.png]]
@@ -11,3 +14,7 @@ Las máquinas de estados también se pueden vincular a comportamientos, **casos 
 ****
 ###### **Problema**
 El estado inicial de una entrada (representado por un punto negro) es el estado **Disponible**. Antes de que comience la temporada, se asignan los asientos para los abonados de la temporada. Las entradas individuales adquiridas interactivamente se bloquean primero mientras los clientes realizan una selección. Después de esto, se venden o se liberan si son rechazadas. Si el cliente tarda demasiado tiempo en realizar la selección, finaliza el tiempo para la transacción y el asiento se libera. Los asientos vendidos a los abonados de la temporada se pueden cambiar para otras representaciones, en cuyo caso, vuelven a estar disponibles de nuevo.
+****
+###### **Más**
+Este diagrama puede ser implementado mediante **estados anidados** y **estados compuestos.**
+![[Pasted image 20250626120617.png]]

@@ -4,67 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "8962774f6327d894",
+        "id": "cae5a16b9bb9386e",
         "type": "tabs",
         "children": [
           {
-            "id": "217a84fa5f3a71db",
+            "id": "157bc51aec9fda61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "El Lenguaje Unificado de Modelado. Manual de Referencia/Áreas Conceptuales de UML.md",
+                "file": "Scrum Master - Scrum Manager/Medición y Estimación Ágil.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Áreas Conceptuales de UML"
+              "title": "Medición y Estimación Ágil"
             }
           },
           {
-            "id": "260d0adcc1e2ea0e",
+            "id": "aa164744857d9c8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "El Lenguaje Unificado de Modelado. Manual de Referencia/Modelo de Dominio.md",
+                "file": "Scrum Master - Scrum Manager/Scrum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modelo de Dominio"
-            }
-          },
-          {
-            "id": "ce9dad4d0f7994bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Diagrama de Actividad"
-            }
-          },
-          {
-            "id": "82e3e15de5b2df67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Diagrama de Componentes"
+              "title": "Scrum"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,44 +182,45 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "260d0adcc1e2ea0e",
+  "active": "157bc51aec9fda61",
   "lastOpenFiles": [
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Modelo de Dominio.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Colaboración.md",
-    "A Software Testing Primer - Nick Jenkins/A note on the 'V-model'.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Elementos UML (Apunte teórico).md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Proceso de Desarrollo Unificado (PUD).md",
-    "PMBOK/Triple Restricción.md",
-    "assets/Pasted image 20250625202522.png",
-    "PMBOK/Proyecto.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Historia de UML.md",
-    "R. Pressman/Modelos Ágiles.md",
-    "R. Pressman/Agilidad.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Modelo de Vistas 4+1.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Máquina de Estados.md",
+    "Pasted image 20250627193035.png",
+    "Pasted image 20250627192804.png",
+    "Pasted image 20250627192546.png",
+    "Pasted image 20250627181813.png",
+    "Pasted image 20250627181138.png",
+    "Scrum Master - Scrum Manager/Puntos de Historia.md",
+    "Scrum Master - Scrum Manager/Medición y Estimación Ágil.md",
+    "Scrum Master - Scrum Manager/Trabajo.md",
+    "Scrum Master - Scrum Manager/Estimación de Póquer.md",
+    "Scrum Master - Scrum Manager/Tiempo.md",
+    "Scrum Master - Scrum Manager/Roles.md",
+    "Scrum Master - Scrum Manager/Scrum.md",
+    "Scrum Master - Scrum Manager/Tableros Kanban.md",
+    "PMBOK/Método de la Ruta Crítica.md",
     "El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente.md",
-    "assets/Pasted image 20250625174843.png",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Vistas de UML.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones.md",
-    "assets/Pasted image 20250625150939.png",
-    "assets/Pasted image 20250625150253.png",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna.md",
-    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Despliegue.md",
-    "assets/Pasted image 20250625131242.png",
-    "assets/Pasted image 20250625104232.png",
-    "assets/Pasted image 20250625104053.png",
     "El Lenguaje Unificado de Modelado. Manual de Referencia/Áreas Conceptuales de UML.md",
-    "assets/Pasted image 20250625103426.png",
-    "assets/Pasted image 20250625101753.png",
-    "assets/Pasted image 20250624231215.png",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Colaboración.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Despliegue.md",
+    "Sommerville/Subclasificación de Requerimientos.md",
+    "Users Stories Applied - Mike Cohn/Historias de Usuario.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Proceso de Desarrollo Unificado (PUD).md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación.md",
+    "El Lenguaje Unificado de Modelado. Manual de Referencia/Modelo de Vistas 4+1.md",
+    "Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Desarrollo Dirigido por Modelos.md",
+    "PMBOK/Proyecto.md",
+    "assets/Pasted image 20250627165329.png",
+    "Scrum Master - Scrum Manager/Ciclo de Scrum.md",
+    "Scrum Master - Scrum Manager/Comprometidos e Implicados en Scrum.md",
+    "Scrum Master - Scrum Manager/Valores y Principios de Scrum.md",
+    "assets/Pasted image 20250627120801.png",
+    "assets/Pasted image 20250627105622.png",
+    "assets/Pasted image 20250626213829.png",
+    "assets/Pasted image 20250626213308.png",
+    "assets/Pasted image 20250626205101.png",
+    "Scrum Master - Scrum Manager",
     "El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario",
     "El Lenguaje Unificado de Modelado. Manual de Referencia",
     "A Software Testing Primer - Nick Jenkins",

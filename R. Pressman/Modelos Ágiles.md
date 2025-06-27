@@ -3,3 +3,5 @@ El enfoque más utilizado del desarrollo de software ágil. Aunque las primeras 
 ****
 ###### Técnicas comunes
 ***Programación por pares***. La programación por pares es una **técnica de proceso colaborativo** que se integra en modelos de desarrollo más amplios, especialmente ágiles. Se caracteriza por una verificación de escritorio continua, a medida que se crea el producto (diseño o código), como es visto en el apartado de [[Revisión Técnica]]
+****
+**Kanban**
