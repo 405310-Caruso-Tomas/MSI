@@ -6,7 +6,7 @@ Aunque el término proviene del marco de *Lean Startup*, se utiliza frecuentemen
 - **Reducción de desperdicio**: Se enfoca en evitar el desarrollo de características innecesarias, optimizando recursos y tiempo.
 - **Entrega incremental**: En Scrum, el **MVP** suele entregarse como parte de los incrementos al final de un **Sprint**, alineándose con la **[[Definiciones de Hecho (DoD)]]** y los objetivos del producto.
 ****
-El MVP se alinea con los **pilares** de Scrum (**transparencia**, **inspección**, **adaptación**), ya que:
+El **MVP** se alinea con los **pilares** de Scrum (**transparencia**, **inspección**, **adaptación**), ya que:
 - Promueve la **transparencia** al priorizar claridad en las necesidades del cliente.
 - Facilita la **inspección** al entregar un incremento funcional que los usuarios pueden evaluar.
 - Permite la **adaptación** al iterar sobre el producto basándose en retroalimentación.

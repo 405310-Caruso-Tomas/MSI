@@ -8,7 +8,7 @@ Un producto útil entrega contenido y funciones que el usuario final desea, de f
 El software de calidad requiere un menor esfuerzo de mantenimiento, esto agrega valor para la organización que lo elabora.
 ****
 ###### **GRADO vs. CALIDAD (PMBOK)**
-EL PMBOK, nos brinda otro concepto para la calidad desde una vista más orientada a la gestión de la calidad en proyectos: La **calidad** entregada como resultado es *“el **grado** en que un conjunto de características inherentes cumple con los requisitos”*. 
+EL **PMBOK**, nos brinda otro concepto para la calidad desde una vista más orientada a la gestión de la calidad en proyectos: La **calidad** entregada como resultado es *“el **grado** en que un conjunto de características inherentes cumple con los requisitos”*. 
 El grado es una **categoría** que se asigna a entregables que tienen el mismo uso funcional pero características técnicas diferentes.
 	• Si un producto de software de bajo grado (con un número limitado de funcionalidades) es de alta calidad (sin defectos apreciables, con manual legible) puede no constituir un problema. En este ejemplo, el producto sería adecuado para un uso general.
 	• Si un producto software de alto grado (con numerosas funcionalidades) es de baja calidad (numerosos defectos, documentación de usuario desorganizada) puede constituir un problema. En esencia, su conjunto de funcionalidades de alto grado probaría ser ineficaz y/o ineficiente debido a su bajo nivel de calidad.

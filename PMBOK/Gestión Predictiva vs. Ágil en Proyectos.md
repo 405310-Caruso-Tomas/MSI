@@ -26,8 +26,12 @@ La ***exploración iterativa*** y ***ajustes frecuentes*** subrayan la naturalez
 **Entrega de Valor.** El agilismo se centra en aportar valor de manera constante durante todo el ciclo de vida del proyecto.
 ###### **Objetivos Clave**
 **1. Maximización del Valor**
-**2. Reducción del Tiempo de Salida al Mercado** (el tiempo es un factor competitivo crítico)
+**2. Reducción del Tiempo de Salida al Mercado** (el tiempo es un factor competitivo crítico, el objetivo es entregar lo antes posible un [[Mínimo Producto Viable (MVP)]])
 **3. [[Agilidad]]**
 **4. Flexibilidad** (capacidad de adaptar el desarrollo a las características del proyecto y a la evolución de los requisitos)
 **5. Resultados Fiables** (mientras que la gestión predictiva busca cumplir con plazos y costos predefinidos, la gestión ágil se centra en entregar resultados valiosos)
+****
+###### **Gestión Ágil** $\neq$ **Gestión Evolutiva**
+Métodos ágiles como **[[Scrum]]** o Kanban son ejemplos de **gestión evolutiva**, ya que promueven **iteraciones** **cortas** (**sprints**) y **adaptaciones** continuas. Sin embargo, existen [[Metodología]]s para las que no sería correcto clasificarlas como **ágiles**, pero si como **evolutivas** (ver ).
 
+La gestión **evolutiva**, es un modelo de gestión cuyo objetivo es entregar lo antes posible un producto mínimo viable, e incrementar su valor de forma continua. Emplea una estrategia de solapamiento de las fases de trabajo, y desarrollo incremental, que se puede obtener manteniendo un ritmo de iteraciones breves y cícilicas o un flujo de desarrollo constante. Puede llevarse a cabo con **producción basada en procesos** o con **producción basada en personas (agilidad).** La primera refiere a que el conocimiento o *know-how* se encuentra en mayor medida en los **procesos** y **tecnología empleada**.

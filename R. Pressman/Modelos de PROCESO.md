@@ -55,7 +55,6 @@ Priorizan la flexibilidad, la colaboración y entregas frecuentes, adaptándose 
 [[Modelos Ágiles]]
 
 ********************************************
-
 La historia indica que estos modelos tradicionales han dado cierta estructura útil al trabajo de ingeniería de software. Sin embargo, el trabajo de ingeniería de software y el producto que genera siguen *“al borde del caos”*.
 
 > [!Nogueira y sus colegas!]

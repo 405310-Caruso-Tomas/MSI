@@ -1,4 +1,4 @@
-Las técnicas de descubrimiento de requerimientos son esenciales para identificar las necesidades de los usuarios en proyectos de software.
+Las técnicas de descubrimiento de **[[Requerimientos]]** son esenciales para identificar las necesidades de los usuarios en proyectos de software.
 
 Todas las diferentes fuentes de requerimientos (participantes, dominio, sistemas) durante el proceso de Adquisición y Análisis de requerimientos se representan como **puntos de vista** del sistema, y cada visión muestra un subconjunto de requerimientos. Es recomendable usar estos puntos de vista para estructurar tanto el descubrimiento como la documentación de los requerimientos del sistema.
 
@@ -26,12 +26,12 @@ Un escenario puede incluir:
 	5. Una descripción del estado del sistema cuando termina el escenario.
 Estos últimos pueden escribirse como texto, complementarse con diagramas, tomas de pantallas, etcétera.
 	![[Pasted image 20250518085242.png]]
-#### **Casos de Uso**
+#### **[[Caso de Uso]]**
 Los casos de uso son una técnica de descubrimiento de requerimientos que se introdujo por primera vez en el método *Objectory* (mejor referenciado en el apartado de [[Historia de UML]]). Ahora se ha convertido en una característica fundamental del modelado de lenguaje unificado ([[UML]]). 
 **[[Diagrama de Casos de Uso]]**
 ****
 #### **Etnografía**
-Los sistemas de software no existen aislados. Se usan en un contexto social y organizacional, y dicho escenario podría derivar o restringir los requerimientos del sistema de software.
+Los **sistemas** de software no existen aislados. Se usan en un contexto social y organizacional, y dicho escenario podría derivar o restringir los requerimientos del sistema de software.
 La etnografía es una **técnica de observación** que se usa para entender los procesos
 operacionales y ayudar a derivar requerimientos de apoyo para dichos procesos. 
 Un analista se adentra en el ambiente laboral donde se usará el sistema y toma notas acerca de las tareas existentes en que intervienen los participantes del sistema. 

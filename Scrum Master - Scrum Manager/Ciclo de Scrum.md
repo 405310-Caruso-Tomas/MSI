@@ -7,12 +7,12 @@ Los componentes del ciclo estándar de scrum son
 	- Propietario del producto.
 	- Scrum master.
 - Interesados.
-- **Artefactos**:
+- **[[Artefactos]]**:
 	- Pila del producto.
 	- Pila del sprint. 
 	- Incremento.
 		- ![[Pasted image 20250626205101.png]]
-- **Eventos**:
+- **[[Eventos]]**:
 	- Sprint.  
 	- Reunión de planificación del sprint.  
 	- Scrum diario. 

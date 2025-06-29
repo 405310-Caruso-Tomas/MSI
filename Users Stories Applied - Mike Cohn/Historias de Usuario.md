@@ -1,7 +1,7 @@
 > *Extensive upfront requirements gathering and documentation can kill a project in many ways. One of the most common is when the requirements document itself becomes a goal. A requirements document should be written only when it helps achieve the real goal of delivering some software.*
 ****
 
-Los requerimientos del software son un problema de comunicación: aquellos que quieren el software deben comunicarse con aquellos que lo desarrollan. 
+Los **requerimientos** del software son un problema de comunicación: aquellos que quieren el software deben comunicarse con aquellos que lo desarrollan. 
 Una ***Historia de Usuario*** describe funcionalidad valiosa para un usuario o comprador del sistema. Representa específicamente [[Requerimientos]] del usuario, más que la documentación de los mismos. Son **descripciones** breves y simples de una funcionalidad que un usuario desea. Son utilizadas principalmente en [[Modelos Ágiles]].
 Deben ser escritas ***sin*** el uso de lenguaje técnico.
 ****

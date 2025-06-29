@@ -1,4 +1,4 @@
-En Scrum, el trabajo se refiere a **las actividades realizadas por el equipo** para entregar un producto, siguiendo los principios de la metodología ágil.
+En Scrum, el trabajo se refiere a **las actividades realizadas por el equipo** para entregar un producto, siguiendo los principios de la **metodología** ágil.
 
 > Scrum organiza el trabajo en torno a la creación de un incremento de producto funcional al final de cada **Sprint** (un período fijo de **[[Tiempo]]**)
 ****

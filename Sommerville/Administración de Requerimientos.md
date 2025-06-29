@@ -1,4 +1,4 @@
-Proceso formado por el conjunto de actividades que ayudan al equipo del proyecto a identificar, controlar y dar seguimiento a los requerimientos y a sus cambios en cualquier momento del desarrollo del proyecto. Muchas de estas actividades son idénticas a las técnicas de administración de la configuración del software (TAS).
+Proceso formado por el conjunto de actividades que ayudan al equipo del proyecto a identificar, controlar y dar seguimiento a los requerimientos y a sus cambios en cualquier momento del desarrollo del proyecto. 
 
 Este proceso requiere una etapa de planeación, en la cual se identifican los requerimientos, se decide sobre un proceso de administración del cambio, políticas de seguimiento, herramientas de apoyo (sistemas especializados, bases de datos simples, hojas de cálculo). 
 
