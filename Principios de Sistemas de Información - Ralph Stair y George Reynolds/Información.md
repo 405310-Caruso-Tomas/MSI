@@ -2,6 +2,8 @@
 
 - Es el **resultado** de **procesar**, **organizar** o **interpretar** **datos** para darles un significado o utilidad dentro de un contexto específico.
 - Una imagen etiquetada como "_foto de un atardecer_" es información.
+- El **conjunto** de **datos** adecuadamente **procesados**, contribuyen a la toma de decisiones a la hora de resolver un problema, **además** **de** **incrementar** el **[[Conocimiento]]**, en los usuarios que tienen acceso a dicha **información**.
+- También, reducen la incertidumbre de lo que no se conoce.
 ****
 ##### **Constituye uno de los recursos más valiosos de una organización**
 Un gerente de ventas podría querer el resumen de las ventas individuales para conocer las ventas totales del mes.
@@ -20,3 +22,6 @@ Un gerente de ventas podría querer el resumen de las ventas individuales para c
 | Simple          | La información debe establecerse en términos simples, esto es, sin complicidades que enturbien su significado.                                                             |
 | Oportuna        | La información debe proporcionarse en el momento en que se necesita.                                                                                                       |
 | Verificable     | Esto significa que usted podría comprobarla con el fin de asegurarse de que es correcta, quizás mediante la consulta de la misma información en un gran número de fuentes. |
+****
+##### **Clasificación**
+Es importante destacar que, tanto la información que se genera, como también la que se necesita en los distintos niveles de la organización, posee ciertas características, como se sabe, la información se clasifica como técnica, táctica o estratégica según los mismos niveles definidos para las organizaciones, como podemos notar en el apartado de **[[Clasificación de la Información]]**.

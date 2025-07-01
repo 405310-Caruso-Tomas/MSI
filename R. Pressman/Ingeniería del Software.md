@@ -9,7 +9,7 @@ Es:
 ![[Pasted image 20250311121355.png]]
 
 La **ingeniería** de **software** es una tecnología con varias capas. 
-La ingeniería de software incluye un **proceso**, **métodos** y **herramientas** para administrar y hacer ingeniería con el software.
+La ingeniería de software incluye un **[[PROCESO]]**, **métodos** y **herramientas** para administrar y hacer ingeniería con el software.
 ****
 ###### **Compromiso con la [[Calidad]]**
 El fundamento en el que se apoya la ingeniería de software es el ***compromiso con la [[Calidad]].*** Aunque las herramientas parecen lo más visible, Pressman enfatiza que la **calidad** es la raíz de todo, guiando las otras capas.
