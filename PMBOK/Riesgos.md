@@ -1,4 +1,4 @@
-El **riesgo** de un proyecto es un evento o condición incierta que, de producirse, tiene un efecto positivo o negativo en uno o más de los objetivos del [[Proyecto]], tales como el alcance, el cronograma, el costo y la [[Calidad]].
+El **riesgo** de un proyecto es un evento o condición incierta que, de producirse, tiene un efecto positivo o negativo en uno o más de los objetivos del [[Proyecto]], tales como el **alcance**, el **cronograma**, el **costo** y la [[Calidad]]. (**[[Triple Restricción]]**)
 ****
 Los riesgos del proyecto tienen su origen en la incertidumbre que está presente en todos los proyectos.
 ##### **Tipos de riesgos según el PMBOK**
@@ -29,5 +29,5 @@ El **riesgo** mide la probabilidad de que algo salga mal y el impacto que tendr�
 El riesgo se basa en dos factores: la probabilidad de que el problema ocurra y su impacto cuando ocurre:
 - Un módulo de código **complejo** tiene una mayor probabilidad de contener errores debido a su dificultad intrínseca.
 - Un módulo de código **crítico** para el funcionamiento del producto tiene un alto impacto, ya que su fallo podría impedir que el producto cumpla con su propósito.
-Ambas áreas (alta probabilidad o alto impacto) deben recibir más atención y pruebas que las áreas de menor riesgo. Esto se alinea con el enfoque de pruebas basadas en riesgos del PMBOK, donde los recursos de testing se priorizan según la probabilidad e impacto de los riesgos.
+Ambas áreas (alta probabilidad o alto impacto) deben recibir más atención y pruebas que las áreas de menor riesgo. Esto se alinea con el enfoque de pruebas basadas en riesgos del **PMBOK**, donde los recursos de **testing** se priorizan según la probabilidad e impacto de los riesgos.
 

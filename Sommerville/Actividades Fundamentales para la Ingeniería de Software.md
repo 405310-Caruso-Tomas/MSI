@@ -43,6 +43,6 @@ Para un **[[Proyecto]]** de **software** pequeño solicitado por una persona con
 3. Organizar las notas por escrito en una formulación breve de los requerimientos. 
 4. Enviar correo electrónico al participante para que revise y apruebe
 
-Si el proyecto fuera considerablemente más complejo, con muchos participantes y cada uno con un distinto conjunto de **requerimientos**, la actividad de comunicación puede tener seis acciones distintas: concepción, indagación, elaboración, negociación, especificación y validación. Cada una de estas acciones de la ingeniería del software tendrá muchas tareas de trabajo y un número grande de diferentes productos finales.
+Si el proyecto fuera considerablemente más complejo, con muchos participantes y cada uno con un distinto conjunto de **[[Requerimientos]]**, la actividad de comunicación puede tener seis acciones distintas: concepción, indagación, elaboración, negociación, especificación y validación. Cada una de estas acciones de la ingeniería del software tendrá muchas tareas de trabajo y un número grande de diferentes productos finales.
 ************************
 Así como el **[[Modelado]]** es una actividad estructural en un proceso de desarrollo de software, los [[Modelos de PROCESO]] cumplen su función de describir cómo se planifica, ejecuta y gestiona el desarrollo de software.

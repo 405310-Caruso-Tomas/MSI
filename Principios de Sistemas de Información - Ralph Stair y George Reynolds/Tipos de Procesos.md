@@ -14,6 +14,7 @@ Se incluyen los procesos de planificación presupuestaria o el proceso de diseñ
 Aquellos que entregan el soporte necesario para que los **procesos claves** se lleven a cabo. 
 Buscan proporcionar **recursos** (monetarios, humanos, entre otros).
 Podrían ser:
-- 
+- **Proceso de formación**, **informático**, o **de logística**.
+	- El ciclo de pedido incluye las fases de recepción, preparación, almacenamiento, picking (recolectar productos del almacén), embalaje, envíos.
 
 

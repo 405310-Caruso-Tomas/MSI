@@ -14,7 +14,7 @@ Vamos a describir cada proceso:
 	- **Activos de los Procesos de la Organización.** Una plantilla para el plan de gestión de riesgos, una base de datos con estimaciones de costos de proyectos similares, son ejemplos de activos.
 
 - ***Recopilar Requisitos.*** [[Ingeniería de Requerimientos]]. Determinar, documentar y gestionar las necesidades y los [[Requerimientos]] de los interesados para cumplir con los objetivos del proyecto. Estos requisitos son incluidos en la línea base del alcance. 
-- En esta etapa podemos señalar algunos documentos importantes como *salida* de la misma: el [[Documento de Requerimientos del Sistema]], la [[Matriz de Trazabilidad de Requisitos]]
+- En esta etapa podemos señalar algunos documentos importantes como *salida* de la misma: el [[Documento de Requerimientos del Sistema (ERS)]], la [[Matriz de Trazabilidad de Requisitos]]
 
 - ***Definición del Alcance***. El equipo crea una **declaración del alcance** que describe claramente las funcionalidades incluidas y los resultados que tendrá el proyecto. Esta declaración no es exactamente una [[EDT o WBS]], pero durante este proceso se suele crear esta última. Al fin y al cabo se trata justamente de definir/describir las funcionalidades del proyecto. 
 - Dado que **es posible que no todos los requisitos identificados en el proceso Recopilar Requisitos se puedan incluir en el proyecto**, el proceso Definir el Alcance selecciona los requisitos definitivos del proyecto a partir de la documentación de requisitos entregada durante el proceso Recopilar Requisitos.

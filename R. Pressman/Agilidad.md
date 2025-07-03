@@ -1,14 +1,16 @@
-La **agilidad** se refiere a la capacidad de producir partes completas de un producto en cortos periodos de tiempo, lo que permite respuestas rápidas a cambios en los requisitos del cliente o del mercado.
+La **agilidad** se refiere a la **capacidad de producir partes completas de un producto en cortos periodos de tiempo.** 
+Lo que permite respuestas rápidas a cambios en los **[[Requerimientos]]** del cliente o del mercado.
 ****
 ##### **Manifiesto Ágil. Valores**
 En 2001, Kent Beck y otros 16 notables desarrolladores de software, escritores y consultores (grupo conocido como la **“Alianza Ágil”**) se reunieron y firmaron el **“Manifiesto por el desarrollo ágil de software”**. En él se establecía lo siguiente:
-> *"Estamos descubriendo formas mejores de desarrollar software, por medio de hacerlo y de dar ayuda a otros para que lo hagan. Ese trabajo nos ha hecho valorar:* 
-> - ***Los individuos y sus interacciones***, sobre los procesos y las herramientas 
-> - ***El software que funciona,*** más que la documentación exhaustiva 
-> - ***La colaboración con el cliente,*** y no tanto la negociación del contrato 
-> - ***Responder al cambio,*** mejor que apegarse a un plan"
 
-Los [[Modelos Ágiles]] se desarrollaron como un esfuerzo por superar las debilidades reales y percibidas de la ingeniería de software convencional, es decir, de la gestión predictiva (fruto de la *Revolución Industrial*) y como alternativa a las metodologías formales, a las que consideraban excesivamente "pesadas" y rígidas por su **fuerte dependencia de planificaciones**. Estos nuevos métodos no son aplicables a todos los [[Proyecto]]s, personas y situaciones. No es la contraparte de la práctica de la ingeniería de software sólida y **puede aplicarse como filosofía general para todo el trabajo de software.**
+> *"Estamos descubriendo formas mejores de desarrollar software, por medio de hacerlo y de dar ayuda a otros para que lo hagan. Ese trabajo nos ha hecho valorar:* 
+> 1. ***Los individuos y sus interacciones***, sobre los procesos y las herramientas 
+> 2. ***El software que funciona,*** más que la documentación exhaustiva 
+> 3. ***La colaboración con el cliente,*** y no tanto la negociación del contrato 
+> 4. ***Responder al cambio,*** mejor que apegarse a un plan"
+
+Los [[Modelos Ágiles]] se desarrollaron como un esfuerzo por superar las debilidades reales y percibidas de la **[[Ingeniería del Software]]** convencional, es decir, de la gestión predictiva (fruto de la *Revolución Industrial*) y como alternativa a las metodologías formales, a las que consideraban excesivamente "pesadas" y rígidas por su **fuerte dependencia de planificaciones**. Estos nuevos métodos no son aplicables a todos los [[Proyecto]]s, personas y situaciones. No es la contraparte de la práctica de la ingeniería de software sólida y **puede aplicarse como filosofía general para todo el trabajo de software.**
 ******************
 ##### **El Cambio**
 Es frecuente que en la economía moderna sea difícil o imposible predecir la forma en la que evolucionará un sistema basado en computadora. 

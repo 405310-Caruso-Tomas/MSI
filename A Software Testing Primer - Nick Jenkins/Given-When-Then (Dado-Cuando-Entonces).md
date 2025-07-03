@@ -1,4 +1,4 @@
-Gherkin es un lenguaje de patrones en inglés simple que se usa para especificar ejemplos de escenarios que ilustran las reglas o criterios de aceptación detrás de un requisito.
+Gherkin es un lenguaje de patrones en inglés simple que se usa para especificar ejemplos de escenarios que ilustran las reglas o **criterios de aceptación** detrás de un **requisito**.
 La estructura es un escenario con la forma: 
 - **Dado** (un conjunto de condiciones previas o contexto)
 - **Cuando** (se inicia una acción o un disparador) 

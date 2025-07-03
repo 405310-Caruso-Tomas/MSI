@@ -1,4 +1,4 @@
-En el desarrollo ágil, los [[Casos de Prueba]] son dados como criterios de aceptación
+En el desarrollo ágil, los [[Casos de Prueba]] son dados como criterios de aceptación.
 ****
 Para las metodologías tradicionales, el [[Testing]] es una etapa que se realiza al final del proceso de desarrollo, mientras que para las metodologías ágiles, el [[Testing]] es una actividad continua que se realiza de forma iterativa y forma parte del ciclo de vida del producto.
 ![[Pasted image 20250605080532.png]]

@@ -2,7 +2,9 @@ Dentro de las organizaciones, existen numerosos **[[PROCESO]]S** que funcionan d
 
 > **Gestionar** **integralmente** cada uno de los procesos que tienen lugar en una organización constituye lo que se denomina **gestión por procesos.**
 ****
-###### **¿Cómo hacer la gestión Eficiente? ([[Eficiencia]])**
+
+%%ver "Desempeño de un Sistema" ([[Sistema]])%%
+###### **¿Cómo hacer la gestión Eficiente?**
 Para lograr una gestión de procesos eficiente es fundamental que todos los procesos de la organización sean identificados sabiendo que los procesos deben cumplir con determinadas características:
 - **Ser Horizontal.** Que atraviese **varias áreas, departamentos o funciones** dentro de una organización, en lugar de estar limitado a una sola unidad funcional.
 - **Que pueda ser definido.**

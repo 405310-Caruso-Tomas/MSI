@@ -13,11 +13,12 @@ La **conversión** de datos en **información** es un **[[PROCESO]]**. En este c
 Es el **resultado** del **procesamiento**, presentado en un **formato** **comprensible**, como reportes, gráficos o alertas. Por ejemplo, un informe de ganancias generado para el gerente.
 ###### **Retroalimentación**
 Es la **devolución** de **información** al **sistema** o a los **usuarios** para ajustar o mejorar el **proceso**. Por ejemplo, si un reporte muestra errores, se retroalimenta al sistema para corregir los datos de entrada.
+![[Pasted image 20250701101444.png]]
 ****
-##### **Tipos de Sistemas de Información**
+##### **Sistemas de Información Manuales y Computarizados**
 Un sistema de información puede ser **manual** o **computarizado**.
-**Manual.** Ciertos analistas de inversiones dibujan manualmente gráficas y líneas de tendencias con el fin de ayudarse en la toma de decisiones de inversiones. Este ejemplo, cumple con lo descrito anteriormente respecto a sistemas de información, y sin embargo no hay ningún tipo de intervención de **[[Infraestructura Tecnológica (IT)]]**, como es el caso de los sistemas de información **computarizados**.
+- **Manual.** Ciertos analistas de inversiones dibujan manualmente gráficas y líneas de tendencias con el fin de ayudarse en la toma de decisiones de inversiones. Este ejemplo, cumple con lo descrito anteriormente respecto a sistemas de información, y sin embargo no hay ningún tipo de intervención de **[[Infraestructura Tecnológica (IT)]]**, como es el caso de los sistemas de información **computarizados**.
 
-**Computarizados.** El Sistema de Información basado en Computadora (*CBIS*), es un conjunto único de **hardware**, **[[Software]]**, **bases de datos**, **telecomunicaciones,** **personas y [[PROCESO]]S** que se configura con el fin de recabar, manipular, almacenar y procesar datos para convertirlos en información. 
+- **Computarizados.** El Sistema de Información basado en Computadora (*CBIS*), es un conjunto único de **hardware**, **[[Software]]**, **bases de datos**, **telecomunicaciones,** **personas y [[PROCESO]]S** que se configura con el fin de recabar, manipular, almacenar y procesar datos para convertirlos en información. 
 Se adjunta imagen de los componentes de un *CBIS*.
-![[Pasted image 20250630121155.png]]
+![[Pasted image 20250630121155.png]]Los *CBIS* son muy importantes históricamente, ya que representan los **[[Tipos de Sistemas de Información]]** más comunes y utilizados con el paso del tiempo. 
