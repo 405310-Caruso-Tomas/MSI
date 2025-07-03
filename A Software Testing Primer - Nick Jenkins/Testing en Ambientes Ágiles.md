@@ -36,7 +36,7 @@ Los conceptos básicos del TDD se han ampliado para incluir pruebas de nivel sup
 BDD puede considerarse una evolución de TDD, ya que combina las técnicas de TDD con un enfoque más orientado al negocio, haciendo que las pruebas sean más accesibles y comprensibles para las partes interesadas no técnicas.
 ![[Pasted image 20250605092843.png]]
 En BDD, el ciclo de desarrollo no necesariamente implica hacer TDD primero, sino que comienza con la definición de criterios de aceptación en forma de escenarios de comportamiento. El flujo típico que se repite sigue de la forma:
-1. **Definir criterios de aceptación**: Se escriben escenarios en [[Given-When-Then (Dado-Cuando-Entonces)]] colaborativamente.
+1. **Definir [[Criterios de Aceptación]]**: Se escriben escenarios en [[Given-When-Then (Dado-Cuando-Entonces)]] colaborativamente.
 2. **Automatizar pruebas de comportamiento**: Convertir escenarios en pruebas ejecutables. Se suelen utilizar herramientas como Cucumber, Behave o SpecFlow.
 3. **Usar TDD (si aplica)**: Escribir pruebas unitarias (TDD) para desarrollar el código que cumpla con las pruebas de comportamiento.
 4. **Implementar y refactorizar**: Escribir el código funcional, ejecutando pruebas de comportamiento y unitarias para validar.

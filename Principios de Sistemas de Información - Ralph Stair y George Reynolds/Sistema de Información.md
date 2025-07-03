@@ -1,5 +1,7 @@
 > Conjunto de **componentes** interrelacionados que **reúnen**, **procesan**, **almacenan** y **distribuyen** **[[Dato]]s** e **[[Información]]** y proporcionan un mecanismo de **retroalimentación** para cumplir un **objetivo**.
 
+- Este **objetivo** del *SI*, es una descripción breve y resumida de las gestiones o suma de todas las **funciones** o **requisitos** que se convertirán en las características del producto final.
+
 Los **Sistemas de Información** generalmente distribuyen **información** que apoya la toma de decisiones y operaciones en una organización. Ejemplos son los sistemas ERP, CRM, entre otros.
 ![[Pasted image 20250630150646.png]]
 ****

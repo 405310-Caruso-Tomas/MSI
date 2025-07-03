@@ -1,5 +1,6 @@
-Un caso de prueba es un elemento fundamental en el proceso de pruebas de software, que nos asegura la cobertura adecuada de los requisitos del sistema.
-- Su propósito principal es verificar que una funcionalidad específica de un producto de software opere según lo esperado.
+> Un caso de prueba es un elemento fundamental en el proceso de pruebas de software, que nos asegura la cobertura adecuada de los **[[Requerimientos]]** del sistema.
+****
+- Su propósito principal es verificar que una funcionalidad específica de un producto de **[[Software]]** opere según lo esperado.
 *Definición Norma ISO 29119 (2007)*. Conjunto de precondiciones, entradas y resultados esperados, diseñados para guiar la ejecución de una prueba con el fin de alcanzar los objetivos del proceso de prueba.
 Puede describirse también como un conjunto de condiciones que el analista de [[QA (Quality Assurance o Aseguramiento de la Calidad)]] debe validar.
 En lineas generales, son una herramienta que traza el comportamiento del sistema, y de la misma forma, pueden documentarse estos mismos con herramientas como hojas de cálculo (Excel) o automatizadas de gestión de pruebas (Qase, por ejemplo).

@@ -24,4 +24,11 @@ Explica el beneficio o valor que el usuario espera obtener al tener esta funcion
 ****
 ### **Elementos de una Historia de Usuario**
 ![[Pasted image 20250702224633.png]]
-- 
+- **Número de HU.** Identifica una **historia de usuario.**
+- **Prioridad.** Define la prioridad la historia según una técnica. La define el [[Propietario del Producto]]. 
+- **Título/Descripción breve.** Sigue el formato < como > < quiero > < para >
+- **Estimación.** Es un valor que indica el esfuerzo requerido para completar la historia.
+- **Conversación.** Surge de aclarar dudas con el _product owner_ en una reunión personal. Se puede agregar un prototipo de interfaz.
+- **Validación.** Es una lista de **[[Criterios de Aceptación]]** que debe cumplir la HU para pasar al estado de “*Done*” (**[[Definiciones de Hecho (DoD)]]**) o terminada.
+- **Programador.** Persona a cargo de la **historia**, y de su implementación en el sistema.
+- **Riesgo.** Se usa una escala según lo indica la gestión de riesgo. Ejemplo podría ser Alto/Medio/Bajo.

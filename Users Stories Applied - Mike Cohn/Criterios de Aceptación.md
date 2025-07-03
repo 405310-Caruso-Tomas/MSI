@@ -3,7 +3,8 @@
 En el desarrollo de software, cumplir con las expectativas quiere decir que el sistema cumpla con lo que se espera de este por parte del cliente. **De esta forma, los criterios de aceptación funcionan como el aviso para el desarrollador sobre cuándo han completado de producir la funcionalidad esperada.** 
 ****
 #### **Características principales:**
- - ***Formato flexible***: No hay un formato estricto, pero suelen escribirse en forma de lista de condiciones o escenarios. Más formatos son detallados en [[Testing en Ambientes Ágiles]].	***Definen el "qué" y no el "cómo":*** Centrados en el resultado esperado y no en la implementación técnica.
+ - ***Formato flexible***: No hay un formato estricto, pero suelen escribirse en forma de lista de condiciones o escenarios. Más formatos son detallados en [[Testing en Ambientes Ágiles]] (**[[Casos de Prueba]] y [[Given-When-Then (Dado-Cuando-Entonces)]]**).	
+ - ***Definen el "qué" y no el "cómo":*** Centrados en el resultado esperado y no en la implementación técnica.
 - ***Verificables:*** Deben ser claros, objetivos y medibles.
 	- ***Escritos desde la perspectiva del usuario:*** Reflejan el comportamiento esperado del sistema desde lo que ve el usuario.
 
