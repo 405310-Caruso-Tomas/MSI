@@ -1,0 +1,4449 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../%C3%81reas%20Conceptuales%20de%20UML/">
+      
+      
+        <link rel="next" href="../Actor/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Actividad - Metodología De Sistemas</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#notacion" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Metodología De Sistemas" class="md-header__button md-logo" aria-label="Metodología De Sistemas" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Metodología De Sistemas
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Actividad
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Metodología De Sistemas" class="md-nav__button md-logo" aria-label="Metodología De Sistemas" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Metodología De Sistemas
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bienvenido
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../An%C3%A1lisis%20de%20Sistemas%20y%20Metodolog%C3%ADa%20de%20Sistemas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análisis de Sistemas y Metodología de Sistemas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Metodolog%C3%ADa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metodología
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    A Software Testing Primer   Nick Jenkins
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            A Software Testing Primer   Nick Jenkins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/A%20note%20on%20the%20%27V-model%27/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    A note on the 'V model'
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Alpha%20vs.%20Beta%20Testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Alpha vs. Beta Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Casos%20de%20Prueba/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Prueba
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Enfoques%20de%20Testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Enfoques de Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Error%2C%20Defecto%20y%20Fallo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Error, Defecto y Fallo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Gesti%C3%B3n%20de%20Defectos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de Defectos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Given-When-Then%20%28Dado-Cuando-Entonces%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Given When Then (Dado Cuando Entonces)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Principios%20del%20Testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Principios del Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Proceso%20de%20Prueba/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proceso de Prueba
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Pruebas%20Automatizadas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pruebas Automatizadas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Pruebas%20Funcionales%20%28White%20Box%20vs.%20Black%20Box%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pruebas Funcionales (White Box vs. Black Box)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Pruebas%20Unitarias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pruebas Unitarias
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Pruebas%20de%20Aceptaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pruebas de Aceptación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Pruebas%20de%20Integraci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pruebas de Integración
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Pruebas%20de%20Sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pruebas de Sistema
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/QA%20%28Quality%20Assurance%20o%20Aseguramiento%20de%20la%20Calidad%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QA (Quality Assurance o Aseguramiento de la Calidad)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/QC%20%28Control%20de%20Calidad%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QC (Control de Calidad)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Roles%20en%20el%20Testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roles en el Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Testing%20en%20Ambientes%20%C3%81giles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testing en Ambientes Ágiles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../A%20Software%20Testing%20Primer%20-%20Nick%20Jenkins/Verificaci%C3%B3n%20vs.%20Validaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Verificación vs. Validación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    El Lenguaje Unificado de Modelado. Manual de Referencia
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            El Lenguaje Unificado de Modelado. Manual de Referencia
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diagrama%20de%20Actividad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Actividad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diagrama%20de%20Casos%20de%20Uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diagrama%20de%20Clases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Clases
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diagrama%20de%20Colaboraci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Colaboración
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diagrama%20de%20Componentes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Componentes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diagrama%20de%20Comunicaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Comunicación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diagrama%20de%20Despliegue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Despliegue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diagrama%20de%20Estructura%20Interna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Estructura Interna
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diagrama%20de%20Paquetes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Paquetes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diagrama%20de%20Secuencia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de Secuencia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elementos%20UML%20%28Apunte%20te%C3%B3rico%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Elementos UML (Apunte teórico)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Historia%20de%20UML/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Historia de UML
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Metodolog%C3%ADas%20de%20Modelado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metodologías de Modelado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelo%20de%20Dominio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modelo de Dominio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelo%20de%20Vistas%204%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modelo de Vistas 4+1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../M%C3%A1quina%20de%20Estados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Máquina de Estados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Proceso%20de%20Desarrollo%20Unificado%20%28PUD%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proceso de Desarrollo Unificado (PUD)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Relaciones%20entre%20Casos%20de%20Uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Relaciones entre Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Relaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Relaciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../UML/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UML
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Vistas%20de%20UML/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vistas de UML
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%C3%81reas%20Conceptuales%20de%20UML/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Áreas Conceptuales de UML
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_23" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_23" id="__nav_5_23_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Diccionario
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_23_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_23">
+            <span class="md-nav__icon md-icon"></span>
+            Diccionario
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Actividad
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actividad
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notación
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Actor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Artefacto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Artefacto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Caso%20de%20Uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Caso de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Clases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Clases
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Clasificador/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Clasificador
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Colaboraci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Colaboración
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Componente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Componente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Estereotipo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Estereotipo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Interacci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Interacción
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Manifestaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manifestación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mensaje/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mensaje
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modelo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Nodo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nodo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Paquete/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Paquete
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Perfil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Puerto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Puerto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Restricci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Restricción
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Valores%20Etiquetados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Valores Etiquetados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Vista%20de%20Despliegue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vista de Despliegue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    PMBOK
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            PMBOK
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Acta%20de%20Constituci%C3%B3n%20del%20Proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Acta de Constitución del Proyecto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/An%C3%A1lisis%20FODA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análisis FODA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Costos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Costos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/EDT%20o%20WBS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EDT o WBS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Ejemplo%20Integral.%20Interacci%C3%B3n%20de%20las%20Seis%20Restricciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ejemplo Integral. Interacción de las Seis Restricciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/El%20Surgir%20de%20la%20Gesti%C3%B3n%20de%20Proyectos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    El Surgir de la Gestión de Proyectos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Exactitud%20y%20Precisi%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Exactitud y Precisión
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Factibilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Factibilidad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Gesti%C3%B3n%20Predictiva%20vs.%20%C3%81gil%20en%20Proyectos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión Predictiva vs. Ágil en Proyectos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Gesti%C3%B3n%20de%20Costos%20del%20Proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de Costos del Proyecto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Gesti%C3%B3n%20del%20Alcance%20del%20Proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión del Alcance del Proyecto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Gesti%C3%B3n%20del%20Tiempo%20del%20Proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión del Tiempo del Proyecto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Juicio%20de%20Expertos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Juicio de Expertos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/La%20Evoluci%C3%B3n%20de%20la%20Triple%20Restricci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    La Evolución de la Triple Restricción
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Matriz%20de%20Trazabilidad%20de%20Requisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matriz de Trazabilidad de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/M%C3%A9todo%20de%20la%20Ruta%20Cr%C3%ADtica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Método de la Ruta Crítica
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Plan%20para%20la%20Direcci%C3%B3n%20del%20Proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Plan para la Dirección del Proyecto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proyecto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Registro%20de%20Riesgos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Registro de Riesgos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Riesgos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Riesgos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Tipos%20de%20Factibilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tipos de Factibilidad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PMBOK/Triple%20Restricci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Triple Restricción
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Patrones%20en%20la%20Construcci%C3%B3n%20de%20Modelos%20Conceptuales%20para%20Sistemas%20de%20Informaci%C3%B3n/Desarrollo%20Dirigido%20por%20Modelos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Desarrollo Dirigido por Modelos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Patrones%20en%20la%20Construcci%C3%B3n%20de%20Modelos%20Conceptuales%20para%20Sistemas%20de%20Informaci%C3%B3n/Modelado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modelado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Patrones%20en%20la%20Construcci%C3%B3n%20de%20Modelos%20Conceptuales%20para%20Sistemas%20de%20Informaci%C3%B3n/Requerimientos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requerimientos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Principios de Sistemas de Información   Ralph Stair y George Reynolds
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Principios de Sistemas de Información   Ralph Stair y George Reynolds
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Clasificaci%C3%B3n%20de%20la%20Informaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Clasificación de la Información
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Conocimiento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conocimiento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Dato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dato
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Gesti%C3%B3n%20por%20Procesos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión por Procesos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Informaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Información
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Infraestructura%20Tecnol%C3%B3gica%20%28IT%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Infraestructura Tecnológica (IT)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Sistema%20de%20Informaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sistema de Información
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Sistema%20de%20Planificaci%C3%B3n%20de%20Recursos%20%28ERP%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sistema de Planificación de Recursos (ERP)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Sistema%20de%20Soporte%20a%20la%20Toma%20de%20Decisiones%20%28DSS%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sistema de Soporte a la Toma de Decisiones (DSS)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sistema
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Sistemas%20de%20Informaci%C3%B3n%20Empresariales/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sistemas de Información Empresariales
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Tipos%20de%20Procesos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tipos de Procesos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Principios%20de%20Sistemas%20de%20Informaci%C3%B3n%20-%20Ralph%20Stair%20y%20George%20Reynolds/Tipos%20de%20Sistemas%20de%20Informaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tipos de Sistemas de Información
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    R. Pressman
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            R. Pressman
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Agilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agilidad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Calidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Calidad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Enfoque%20Orientado%20a%20Objetos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Enfoque Orientado a Objetos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Estrategias%20para%20Manejar%20el%20Cambio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Estrategias para Manejar el Cambio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Flujos%20de%20Proceso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Flujos de Proceso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Ingenier%C3%ADa%20del%20Software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ingeniería del Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Modelo%20Concurrente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modelo Concurrente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Modelos%20de%20PROCESO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modelos de PROCESO
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Modelos%20%C3%81giles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modelos Ágiles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/PROCESO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PROCESO
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Programacion%20Extrema%20%28XP%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Programacion Extrema (XP)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Revisi%C3%B3n%20T%C3%A9cnica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Revisión Técnica
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Software%20Heredado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Software Heredado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../R.%20Pressman/Tipos%20de%20Software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tipos de Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Scrum Master   Scrum Manager
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Scrum Master   Scrum Manager
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Artefactos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Artefactos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Ciclo%20de%20Scrum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ciclo de Scrum
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Comprometidos%20e%20Implicados%20en%20Scrum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Comprometidos e Implicados en Scrum
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Definiciones%20de%20Hecho%20%28DoD%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Definiciones de Hecho (DoD)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Equipo%20de%20Desarrollo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Equipo de Desarrollo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Estimaci%C3%B3n%20de%20P%C3%B3quer%20%28P%C3%B3ker%20Planning%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Estimación de Póquer (Póker Planning)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Eventos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Eventos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Gr%C3%A1fico%20de%20Producto%20%28Burn%20Up%20Chart%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gráfico de Producto (Burn Up Chart)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Gr%C3%A1fico%20de%20Quemado%20%28Burn%20Down%20Chart%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gráfico de Quemado (Burn Down Chart)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Medici%C3%B3n%20y%20Estimaci%C3%B3n%20%C3%81gil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Medición y Estimación Ágil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/M%C3%ADnimo%20Producto%20Viable%20%28MVP%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mínimo Producto Viable (MVP)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Origen%20de%20Scrum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Origen de Scrum
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Planificaci%C3%B3n%20del%20Sprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Planificación del Sprint
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Propietario%20del%20Producto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Propietario del Producto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Puntos%20de%20Historia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Puntos de Historia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Retrospectiva/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Retrospectiva
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Revisi%C3%B3n%20del%20Sprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Revisión del Sprint
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Roles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Scrum%20Diario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Scrum Diario
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Scrum%20Master/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Scrum Master
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Scrum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Scrum
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Tableros%20Kanban/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tableros Kanban
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Tiempo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tiempo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Trabajo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trabajo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Scrum%20Master%20-%20Scrum%20Manager/Valores%20y%20Principios%20de%20Scrum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Valores y Principios de Scrum
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Sommerville
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Sommerville
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sommerville/Actividades%20Fundamentales%20para%20la%20Ingenier%C3%ADa%20de%20Software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actividades Fundamentales para la Ingeniería de Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sommerville/Administraci%C3%B3n%20de%20Requerimientos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Administración de Requerimientos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sommerville/Documento%20de%20Requerimientos%20del%20Sistema%20%28ERS%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documento de Requerimientos del Sistema (ERS)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sommerville/Ingenier%C3%ADa%20de%20Requerimientos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ingeniería de Requerimientos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sommerville/Procesos%20de%20la%20Ingenier%C3%ADa%20de%20Requerimientos%20de%20Software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Procesos de la Ingeniería de Requerimientos de Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sommerville/Subclasificaci%C3%B3n%20de%20Requerimientos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Subclasificación de Requerimientos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Sommerville/T%C3%A9cnicas%20de%20Descubrimiento%20de%20Requerimientos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Descubrimiento de Requerimientos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Users Stories Applied   Mike Cohn
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Users Stories Applied   Mike Cohn
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Users%20Stories%20Applied%20-%20Mike%20Cohn/Criterios%20de%20Aceptaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Criterios de Aceptación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Users%20Stories%20Applied%20-%20Mike%20Cohn/Equipo%20Cliente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Equipo Cliente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Users%20Stories%20Applied%20-%20Mike%20Cohn/Estructura%20de%20una%20Historia%20de%20Usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Estructura de una Historia de Usuario
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Users%20Stories%20Applied%20-%20Mike%20Cohn/Historias%20de%20Usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Historias de Usuario
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Users%20Stories%20Applied%20-%20Mike%20Cohn/Por%20qu%C3%A9%20usar%20Historias%20de%20Usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Por qué usar Historias de Usuario
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Users%20Stories%20Applied%20-%20Mike%20Cohn/T%C3%A9cnica%20INVEST/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Técnica INVEST
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Users%20Stories%20Applied%20-%20Mike%20Cohn/%C3%89picas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Épicas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notación
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Actividad</h1>
+
+<blockquote>
+<p><strong>Elemento</strong> que representa un <strong>comportamiento</strong> o <strong><a href="../../assets/PROCESO.md">PROCESO</a></strong> <strong>dinámico</strong> dentro de un <strong>sistema</strong>, modelado típicamente en un <strong><a href="../../assets/Diagrama de Actividad.md">Diagrama de Actividad</a>.</strong></p>
+</blockquote>
+<p>Es una <strong>unidad de trabajo</strong> que describe una secuencia de <strong>acciones</strong> ejecutadas para alcanzar un objetivo específico, como parte de un <strong><a href="../../assets/Caso de Uso.md">Caso de Uso</a></strong>, un proceso de negocio o una <strong><a href="../../assets/Interacción.md">Interacción</a></strong> en el sistema.
+- Representa un <strong>proceso</strong> que puede incluir decisiones, bucles, entradas, salidas, transiciones.
+- Representa la ejecución de un cálculo. Se modela como un conjunto de nodos de actividad conectados mediante <strong>flujos de control</strong> (secuencia lógica de acciones con flechas) y <strong>flujos de datos</strong> (transferencia de datos u objetos entre acciones con flechas).
+- <strong>Actividad vs. Acción:</strong> Una <strong>actividad</strong> es un proceso completo que contiene múltiples acciones. Una <strong>acción</strong> es un paso atómico dentro de la actividad.
+- Pueden incluir <strong>condiciones</strong> previas y posteriores para definir <strong>requisitos</strong> antes o después de la actividad.</p>
+<hr />
+<h4 id="notacion"><strong>Notación</strong></h4>
+<p>Un componente de una actividad son los <strong>nodos</strong>, que difieren de lo que definimos como <strong>nodo</strong> de un diagrama de despliegue. Los nodos de este inciso son elementos que representan puntos específicos en el flujo de una actividad. Incluyen:
+    - <strong>Nodo de inicio</strong>: Punto de partida del flujo (círculo negro).
+    - <strong>Nodo de fin</strong>: Punto de finalización (círculo con borde grueso o "X").
+    - <strong>Nodo de acción</strong>: Tarea específica (rectángulo con bordes redondeados).
+    - <strong>Nodo de decisión</strong>: Punto de bifurcación condicional (rombo).</p>
+<p>Supongamos una actividad para "Procesar un inicio de sesión":
+- <strong>Nodo de inicio</strong> → Acción: "Ingresar credenciales" → Nodo de decisión: "¿Credenciales válidas?"
+    - Si sí → Acción: "Conceder acceso" → <strong>Nodo de fin</strong>.
+    - Si no → Acción: "Mostrar error" → <strong>Nodo de fin</strong>.
+En un <strong><a href="../../assets/Diagrama de Actividad.md">Diagrama de Actividad</a></strong>, esto se representa con nodos conectados por flechas, mostrando el flujo lógico.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
