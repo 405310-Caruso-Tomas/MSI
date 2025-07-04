@@ -1,7 +1,7 @@
 %%Inciso incomprensible con el no entendimiento de conceptos agrupados en la carpeta "Diccionario"%%
 > Son categorías definidas en la especificación de UML para clasificar diagramas según el tipo de información que modelan (estructura, comportamiento, interacción). Son parte del estándar UML y **se centran en la semántica de los diagramas.**
 
-La **semántica**, la consideramos inherente a un **[Modelo](../assets/Modelo.md)**, y es en ese inciso donde es mencionada.
+La **semántica**, la consideramos inherente a un [Modelo](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Modelo), y es en ese inciso donde es mencionada.
 Son una guía para los modeladores sobre qué diagramas usar según el aspecto del sistema, y con qué elementos.
 Los conceptos, modelos, y **elementos** de [UML](../assets/UML.md) pueden agruparse en las siguientes áreas conceptuales:
 ****
