@@ -1,0 +1,1 @@
+ Conjunto de **[Estereotipo](../../assets/Estereotipo.md)s**, **[Valores Etiquetados](../../assets/Valores Etiquetados.md)** y **restricciones** desarrollados con un propósito específico, que puede almacenarse en bibliotecas para su reutilización en diferentes modelos.

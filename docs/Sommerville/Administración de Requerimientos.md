@@ -1,0 +1,5 @@
+**Proceso** formado por el conjunto de actividades que ayudan al equipo del proyecto a identificar, controlar y dar seguimiento a los requerimientos y a sus cambios en cualquier momento del desarrollo del proyecto. 
+
+Este **proceso** requiere una etapa de **planeación**, en la cual se **identifican** los **requerimientos**, se decide sobre un proceso de administración del cambio, políticas de seguimiento, herramientas de apoyo (sistemas especializados, bases de datos simples, hojas de cálculo). 
+
+El dicho **proceso de administración del cambio** es el conjunto de actividades que valoran el efecto y costo de los cambios. La **gestión del cambio en la administración de requerimientos** de un proyecto de software se relaciona directamente con la **Guía del PMBOK** (Project Management Body of Knowledge), publicada por el Project Management Institute (PMI), ya que esta guía proporciona un marco estandarizado para gestionar un [Proyecto](../assets/Proyecto.md), incluyendo el control de cambios como un componente crítico.
