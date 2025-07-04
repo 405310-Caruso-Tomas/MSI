@@ -1,0 +1,7 @@
+site_name: Metodología De Sistemas
+theme:
+  name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

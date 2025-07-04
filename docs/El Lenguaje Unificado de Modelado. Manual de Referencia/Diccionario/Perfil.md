@@ -1,0 +1,1 @@
+ Conjunto de **[Estereotipo](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Estereotipo)s**, **[Valores Etiquetados](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Valores Etiquetados)** y **restricciones** desarrollados con un propósito específico, que puede almacenarse en bibliotecas para su reutilización en diferentes modelos.
