@@ -10,6 +10,6 @@ El QC se lleva a cabo a través de diferentes tipos de pruebas y revisiones. Alg
 ****
 #####  **Enfoques para implementar QC**
 - **Pruebas manuales**: Un equipo de testers ejecuta casos de prueba sin herramientas automatizadas. Útil para pruebas exploratorias o de usabilidad.
-- **[Pruebas Automatizadas](/A Software Testing Primer - Nick Jenkins/Pruebas Automatizadas)**: Se utilizan scripts para ejecutar pruebas repetitivas de manera eficiente, especialmente en proyectos grandes o ágiles.
+- **[Pruebas Automatizadas](/MSI/A Software Testing Primer - Nick Jenkins/Pruebas Automatizadas)**: Se utilizan scripts para ejecutar pruebas repetitivas de manera eficiente, especialmente en proyectos grandes o ágiles.
 - **Enfoque ágil**: En metodologías como Scrum, el QC se integra en cada sprint, con pruebas continuas y feedback rápido.
 - **DevOps y CI/CD**: El QC se incorpora en pipelines de integración y entrega continua, automatizando pruebas en cada cambio de código.

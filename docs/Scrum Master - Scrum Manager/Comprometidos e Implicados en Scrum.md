@@ -1,4 +1,4 @@
-Durante el desarrollo del **[Proyecto](/PMBOK/Proyecto)** en **[Scrum](/Scrum Master - Scrum Manager/Scrum)** son muchas las personas que intervienen y aportan valor, si bien con diferentes niveles de compromiso y responsabilidad, en función de lo cual se suele diferenciar entre **«comprometidos»** e **«implicados»**.
+Durante el desarrollo del **[Proyecto](/MSI/PMBOK/Proyecto)** en **[Scrum](/Scrum Master - Scrum Manager/Scrum)** son muchas las personas que intervienen y aportan valor, si bien con diferentes niveles de compromiso y responsabilidad, en función de lo cual se suele diferenciar entre **«comprometidos»** e **«implicados»**.
 
 - **Comprometidos.** Intervienen directamente en la construcción del producto o el desarrollo del servicio.
 - **Implicados.** Otras partes interesadas, tales como dirección, gerencia, comerciales, marketing, operadores del sistema que se desarrolla, soporte a usuarios, etc.

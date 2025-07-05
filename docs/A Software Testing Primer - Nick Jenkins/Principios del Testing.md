@@ -1,6 +1,6 @@
 La información de este apartado es sacada del libro “Fundation Level Sillabus”, por parte del International Software Testing Qualifications Board **(ISTQB)**. Organización sin ánimo de lucro creada por empresas, instituciones y profesionales especializados en testing y la industria del software.
 
-![Pasted image 20250524084202.png](/assets/Pasted image 20250524084202.png)
+![Pasted image 20250524084202.png](/MSI/assets/Pasted image 20250524084202.png)
 ****
 ###### 1. ***El testing muestra la presencia de defectos, no su ausencia.*** 
 Las pruebas pueden revelar la existencia de errores en el software, pero nunca pueden demostrar que el producto está completamente libre de defectos. Incluso si no se encuentran fallos, no se puede garantizar que no existan.
@@ -14,7 +14,7 @@ Es imposible probar todas las combinaciones posibles de entradas y escenarios en
 Si quieres encontrar errores, comienza tan pronto como sea posible.
 Eso significa pruebas unitarias para los desarrolladores, pruebas de integración durante el ensamblaje y pruebas de sistema, **en ese orden de prioridad**. 
 
-![Pasted image 20250524144335.png](/assets/Pasted image 20250524144335.png)
+![Pasted image 20250524144335.png](/MSI/assets/Pasted image 20250524144335.png)
 
 Identificar y corregir defectos en etapas tempranas es mucho más económico que hacerlo al final del proyecto.
 ###### 4. ***Agrupación de defectos.***

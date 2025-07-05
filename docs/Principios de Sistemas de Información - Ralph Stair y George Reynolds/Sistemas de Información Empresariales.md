@@ -2,7 +2,7 @@ El tipo más común de **[Sistema de Información](/Principios de Sistemas de In
 
 > Aquellos que se utilizan en las organizaciones de negocios, diseñados para realizar **Comercio Electrónico (e-commerce)** y **Comercio Móvil (m-commerce)**, procesar transacciones, administrar la **[Información](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Información)** y dar soporte a las decisiones de la empresa.
 
-- Ayudan al **personal** a llevar a cabo **tareas** **rutinarias** y **especiales**, desde registrar las ventas, procesar la nómina y dar soporte a las decisiones de diferentes departamentos, hasta establecer alternativas para **[Proyecto](/PMBOK/Proyecto)s** a gran escala y **oportunidades**.
+- Ayudan al **personal** a llevar a cabo **tareas** **rutinarias** y **especiales**, desde registrar las ventas, procesar la nómina y dar soporte a las decisiones de diferentes departamentos, hasta establecer alternativas para **[Proyecto](/MSI/PMBOK/Proyecto)s** a gran escala y **oportunidades**.
 - Conjunto integrado de herramientas, tecnologías, procesos y datos diseñados para recopilar, procesar, almacenar y distribuir información relevante dentro de una organización.
 
 A menudo, los sistemas de información de las empresas están integrados en un solo producto y pueden formar parte del mismo paquete de **[Software](/R. Pressman/Software)**, por ello es que en la siguiente imagen se los considera la base de la pirámide, permitiendo el desarrollo de las secciones más altas:

@@ -1,4 +1,4 @@
-> Permite que varias **actividades** (**diseño**, **codificación**, **pruebas**) ocurran simultáneamente, ajustándose según el estado del **[Proyecto](/PMBOK/Proyecto)**. 
+> Permite que varias **actividades** (**diseño**, **codificación**, **pruebas**) ocurran simultáneamente, ajustándose según el estado del **[Proyecto](/MSI/PMBOK/Proyecto)**. 
 ****
 
 Supongamos que tenemos la actividad de **[Modelado](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Modelado)**, la cual se logra por medio de las siguientes acciones: **hacer** **prototipos**, **análisis** y **diseño**. 

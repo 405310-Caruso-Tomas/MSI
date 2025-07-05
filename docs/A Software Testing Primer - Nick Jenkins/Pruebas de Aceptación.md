@@ -9,7 +9,7 @@ Otras pruebas, como las **unitarias** o de **integración**, pueden realizarse d
 - También se evalúa si el sistema es fácil de usar, intuitivo y de acuerdo con las expectativas del cliente.
 ****
 ###### **¿Qué se hace en las pruebas de aceptación?.** 
-Estas pruebas son cuidadosamente planificadas y documentadas: siguen un conjunto predefinido de [Casos de Prueba](/A Software Testing Primer - Nick Jenkins/Casos de Prueba) basados en los requisitos del cliente o usuario final. Se evalúa al sistema bajo condiciones de uso típicas, y obviamente para que las funcionalidades esenciales estén operativas.
+Estas pruebas son cuidadosamente planificadas y documentadas: siguen un conjunto predefinido de [Casos de Prueba](/MSI/A Software Testing Primer - Nick Jenkins/Casos de Prueba) basados en los requisitos del cliente o usuario final. Se evalúa al sistema bajo condiciones de uso típicas, y obviamente para que las funcionalidades esenciales estén operativas.
 
 En muchos proyectos, especialmente en contratos con clientes externos, las pruebas de aceptación están vinculadas a acuerdos legales. Si se encuentran defectos durante estas pruebas, puede haber consecuencias contractuales, como la obligación de corregir los errores sin costo adicional, retrasos en la entrega o penalizaciones.
 ****
@@ -31,4 +31,4 @@ El equipo de pruebas de calidad (QA) o desarrollo no suele estar directamente in
 - ***Pruebas de Aceptación de Usabilidad.*** Evalúan la facilidad de uso, experiencia del usuario (UX), interfaz de usuario (UI), accesibilidad.
 ****
 ###### ***ALPHA Vs. BETA TESTING***. 
-Otros tipos de pruebas comunes de nombrar a la hora de hablar de pruebas de aceptación son el [Alpha vs. Beta Testing](/A Software Testing Primer - Nick Jenkins/Alpha vs. Beta Testing). Estas requieren dos preconceptos para ser mejor entendidas.
+Otros tipos de pruebas comunes de nombrar a la hora de hablar de pruebas de aceptación son el [Alpha vs. Beta Testing](/MSI/A Software Testing Primer - Nick Jenkins/Alpha vs. Beta Testing). Estas requieren dos preconceptos para ser mejor entendidas.

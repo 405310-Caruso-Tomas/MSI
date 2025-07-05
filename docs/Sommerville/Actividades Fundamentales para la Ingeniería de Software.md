@@ -10,7 +10,7 @@ Existen muchos diferentes **[PROCESO](/R. Pressman/PROCESO)S** de software, pero
 - **Evolución del software** El software tiene que evolucionar para satisfacer las necesidades cambiantes del cliente.
 ****
 ##### **Actividades Comunes en la Estructura del [PROCESO](/R. Pressman/PROCESO)*** 
-La **estructura** del [PROCESO](/R. Pressman/PROCESO) identifica ***ACTIVIDADES ESTRUCTURALES*** que por lo general son aplicables a todos los **[Proyecto](/PMBOK/Proyecto)s** de **[Software](/R. Pressman/Software)**. Estas actividades obviamente pueden variar (y lo hacen) dependiendo la fuente, pero generalmente son las siguientes:
+La **estructura** del [PROCESO](/R. Pressman/PROCESO) identifica ***ACTIVIDADES ESTRUCTURALES*** que por lo general son aplicables a todos los **[Proyecto](/MSI//PROCESO](/R. Pressman/PROCESO) identifica ***ACTIVIDADES ESTRUCTURALES*** que por lo general son aplicables a todos los **[Proyecto)s** de **[Software](/R. Pressman/Software)**. Estas actividades obviamente pueden variar (y lo hacen) dependiendo la fuente, pero generalmente son las siguientes:
 	
 ***Comunicación***. Antes de que comience cualquier trabajo técnico, se busca entender los objetivos de los participantes respecto del proyecto, y reunir los requerimientos que ayuden a definir las características y funciones del software.
 
@@ -51,7 +51,7 @@ Para ello, todo proceso tiene un orden para su ejecución, más detallado en el 
 ***Flujo de Proceso Paralelo***. Ejecuta una o más actividades en paralelo con otras 
 ********
 ###### *¿Qué acciones son apropiadas para una actividad estructural, dados la naturaleza del problema por resolver?*
-Para un **[Proyecto](/PMBOK/Proyecto)** de **software** pequeño solicitado por una persona con requerimientos sencillos y directos, la actividad de comunicación tal vez no incluya algo más que una llamada telefónica con el participante apropiado. Entonces, la única acción necesaria es una conversación telefónica, y el conjunto de tareas que engloba son las siguientes: 
+Para un **[Proyecto](/MSI/PMBOK/Proyecto)** de **software** pequeño solicitado por una persona con requerimientos sencillos y directos, la actividad de comunicación tal vez no incluya algo más que una llamada telefónica con el participante apropiado. Entonces, la única acción necesaria es una conversación telefónica, y el conjunto de tareas que engloba son las siguientes: 
 
 1. Hacer contacto con el participante por vía telefónica. 
 2. Analizar los requerimientos y tomar notas. 

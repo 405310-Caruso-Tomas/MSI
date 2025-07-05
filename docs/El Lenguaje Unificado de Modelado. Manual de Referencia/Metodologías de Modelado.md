@@ -1,4 +1,4 @@
-El término **[Metodología](/assets/Metodología)**, sugiere la existencia y descripción de métodos estructurados, los cuales tienen por objetivo ayudar a desarrollar modelos de sistemas en forma sistemática.
+El término **[Metodología](/MSI/Metodología)**, sugiere la existencia y descripción de métodos estructurados, los cuales tienen por objetivo ayudar a desarrollar modelos de sistemas en forma sistemática.
 
 Las vistas en este inciso tienen como objetivo ayudar a desarrollar modelos de sistemas en forma sistemática. Reduciendo la ambigüedad de los requerimientos por parte del cliente.
 ****

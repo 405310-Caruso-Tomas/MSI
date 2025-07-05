@@ -16,20 +16,20 @@ La dirección de proyectos es la aplicación de conocimientos, habilidades, herr
 - Se identifican las partes interesadas, sus necesidades. 
 - Se desarrolla el acta de constitución del proyecto. 
 	- **RESULTADOS PRINCIPALES.**
-		1. **[Acta de Constitución del Proyecto](/PMBOK/Acta de Constitución del Proyecto)** (Proyect Charter).
+		1. **[Acta de Constitución del Proyecto](/MSI/PMBOK/Acta de Constitución del Proyecto)** (Proyect Charter).
 		2. **Registro de Partes Interesadas.** 
 
 - **Planificación**. Etapa más extensa y crítica.
-- Se desarrolla el [Plan para la Dirección del Proyecto](/PMBOK/Plan para la Dirección del Proyecto).
+- Se desarrolla el [Plan para la Dirección del Proyecto](/MSI/PMBOK/Plan para la Dirección del Proyecto).
 - Por lo tanto se define el alcance de forma detallada, se desarrolla el cronograma, se estiman costos y establecen las correspondientes líneas base para cada restricción.
 - Se crean los planes subsidiarios para gestionar calidad, recursos, riesgos, comunicaciones, adquisiciones y partes interesadas.
-- Se identifican y analizan [Riesgos](/PMBOK/Riesgos).
+- Se identifican y analizan [Riesgos](/MSI/PMBOK/Riesgos).
 	- **RESULTADOS PRINCIPALES.**
-		1. [Plan para la Dirección del Proyecto](/PMBOK/Plan para la Dirección del Proyecto)
+		1. [Plan para la Dirección del Proyecto](/MSI/PMBOK/Plan para la Dirección del Proyecto)
 		2. **[EDT o WBS](/PMBOK/EDT o WBS)**.
-		3. **[Matriz de Trazabilidad de Requisitos](/PMBOK/Matriz de Trazabilidad de Requisitos)**.
+		3. **[Matriz de Trazabilidad de Requisitos](/MSI/PMBOK/Matriz de Trazabilidad de Requisitos)**.
 		4. Cronogramas, presupuestos.
-		5. **[Registro de Riesgos](/PMBOK/Registro de Riesgos)**.
+		5. **[Registro de Riesgos](/MSI/PMBOK/Registro de Riesgos)**.
 
 - **Ejecución**. Se lleva a cabo el trabajo planificado para producir los entregables del proyecto.
 - El enfoque está en coordinar recursos, gestionar al equipo y cumplir con el plan.

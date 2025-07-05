@@ -4,7 +4,7 @@
 Además, para los testers, los informes de defectos representan el principal resultado de su trabajo. 
 
 Los informes de defectos van más allá de su uso inmediato. Pueden incluso transmitirse a diversos niveles de gestión dentro de diferentes organizaciones. 
-	![Pasted image 20250524154649.png](/assets/Pasted image 20250524154649.png)
+	![Pasted image 20250524154649.png](/MSI/assets/Pasted image 20250524154649.png)
 
 Existen ciertas características deseables para este reporte, entre ellas está que sea **OBJETIVO**, **ESPECÍFICO** (un informe por defecto), **CONCISO** (simple y directo), **REPRODUCIBLE** (suficiente información para que cualquier persona pueda repetir/ver claramente el problema), **EXPLÍCITO** (información clara), **PERSUASIVO** (redactado de forma que promueva a los desarrolladores a corregir el problema). 
 ****
@@ -31,7 +31,7 @@ También podemos clasificarlos en función de:
 - ***Impacto (Alto/Bajo).*** Gravedad del defecto cuando ocurre.
 
 - ***Probabilidad (Alta/Baja).*** Frecuencia con la que es probable que ocurra el defecto.
- ![Pasted image 20250524160613.png](/assets/Pasted image 20250524160613.png)
+ ![Pasted image 20250524160613.png](/MSI/assets/Pasted image 20250524160613.png)
 ****
 ##### **Prioridad**
  La prioridad indica qué tan urgente es corregir el defecto. Un defecto menor en una pantalla poco usada es diferente en prioridad a un defecto crítico en un sistema de pagos.
@@ -44,7 +44,7 @@ También podemos clasificarlos en función de:
  - ***Baja.*** No afecta la funcionalidad, y tiene soluciones alternativas. Se debe corregir luego de otros problemas más importantes. *Un icono que no se alinea correctamente en una interfaz de usuario*, por ejemplo. 
 ****
 ##### **Estado de un Defecto***
-![Pasted image 20250524161042.png](/assets/Pasted image 20250524161042.png)
+![Pasted image 20250524161042.png](/MSI/assets/Pasted image 20250524161042.png)
 ***Estados comunes en el ciclo de vida de un defecto***.
 
 1. **Nuevo.** Un tester ha identificado y reportado un nuevo defecto, el cual está pendiente de ser asignado a un desarrollador para sus resolución.

@@ -1,4 +1,4 @@
-Documento clave en la Gestión de los [Riesgos](/PMBOK/Riesgos) del Proyecto que sirve como repositorio central para identificar, documentar, analizar, planificar respuestas y monitorear todos los riesgos asociados con un proyecto.
+Documento clave en la Gestión de los [Riesgos](/MSI/PMBOK/Riesgos) del Proyecto que sirve como repositorio central para identificar, documentar, analizar, planificar respuestas y monitorear todos los riesgos asociados con un proyecto.
 
 Se utiliza a lo largo de todo el ciclo de vida del proyecto y se crea durante el proceso **Identificar los riesgos**, siendo actualizado y refinado en los procesos posteriores de la gestión de riesgos.
 ****

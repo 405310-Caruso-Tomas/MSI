@@ -1,11 +1,11 @@
-> Un caso de prueba es un elemento fundamental en el proceso de pruebas de software, que nos asegura la cobertura adecuada de los **[Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** del sistema.
+> Un caso de prueba es un elemento fundamental en el proceso de pruebas de software, que nos asegura la cobertura adecuada de los **[Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** del sistema.
 ****
-- Su propósito principal es verificar que una funcionalidad específica de un producto de **[Software](/R. Pressman/Software)** opere según lo esperado.
+- Su propósito principal es verificar que una funcionalidad específica de un producto de **[Software](/MSI/R. Pressman/Software)** opere según lo esperado.
 
 *Definición Norma ISO 29119 (2007)*. 
 
 Conjunto de precondiciones, entradas y resultados esperados, diseñados para guiar la ejecución de una prueba con el fin de alcanzar los objetivos del proceso de prueba.
-Puede describirse también como un conjunto de condiciones que el analista de [QA (Quality Assurance o Aseguramiento de la Calidad)](/A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad)) debe validar.
+Puede describirse también como un conjunto de condiciones que el analista de [QA (Quality Assurance o Aseguramiento de la Calidad)](/MSI/A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad)) debe validar.
 
 En lineas generales, son una herramienta que traza el comportamiento del sistema, y de la misma forma, pueden documentarse estos mismos con herramientas como hojas de cálculo (Excel) o automatizadas de gestión de pruebas (Qase, por ejemplo).
 ****
@@ -20,7 +20,7 @@ Por lo general se compone de los siguientes elementos:
 3. **Comportamiento esperado y actual**: Cuál es el resultado que se espera obtener y el comportamiento real observado durante la ejecución.
 
 Los más recomendados, y utilizados en el curso son los de la imagen.
-![Pasted image 20250529101712.png](/assets/Pasted image 20250529101712.png)
+![Pasted image 20250529101712.png](/MSI/assets/Pasted image 20250529101712.png)
 
 La estructura cuenta con las siguientes columnas:
 
@@ -40,9 +40,9 @@ Un caso de prueba positivo está destinado a demostrar que la función se compor
 ###### ****Ejemplos****
 Supongamos los siguientes casos de prueba para un sistema GPS. 
 El primero es un ejemplo de un caso de prueba positivo, a diferencia del tercero, que se trata de uno negativo.
-![Pasted image 20250529102932.png](/assets/Pasted image 20250529102932.png)
-![Pasted image 20250529103010.png](/assets/Pasted image 20250529103010.png)
+![Pasted image 20250529102932.png](/MSI/assets/Pasted image 20250529102932.png)
+![Pasted image 20250529103010.png](/MSI/assets/Pasted image 20250529103010.png)
 
 Ahora recordemos, como vimos más arriba, que en caso de un error en un caso de prueba, es decir, que el sistema no se comporte como lo esperado, se debe documentar el mismo de cierta forma, especificando el estado del mismo. El siguiente es un ejemplo de esto.
 
-![Pasted image 20250529103513.png](/assets/Pasted image 20250529103513.png)
+![Pasted image 20250529103513.png](/MSI/assets/Pasted image 20250529103513.png)

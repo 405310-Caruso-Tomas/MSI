@@ -1,6 +1,6 @@
 La unidad *“Story Point”* de *eXtreme Programming* (metodología ágil) se define como la cantidad de **[Trabajo](/Scrum Master - Scrum Manager/Trabajo)** que se realiza en un “día ideal”.
 
-> **Unidad** de **medida** relativa (no absoluta) utilizada para **estimar** la **complejidad,** **esfuerzo** y **[Riesgos](/PMBOK/Riesgos)** asociados con la implementación de un **elemento** del Product Backlog, como [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario).
+> **Unidad** de **medida** relativa (no absoluta) utilizada para **estimar** la **complejidad,** **esfuerzo** y **[Riesgos](/MSI/PMBOK/Riesgos)** asociados con la implementación de un **elemento** del Product Backlog, como [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario).
 
 - **NO representan tiempo exacto (horas o días)**.
 - Se asignan usando una escala numérica, comúnmente la **secuencia de Fibonacci** (1, 2, 3, 5, 8, 13, 21, etc.) o una escala similar (por ejemplo, 1, 2, 4, 8).

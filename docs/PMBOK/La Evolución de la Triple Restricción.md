@@ -12,7 +12,7 @@ La **Gestión de la Calidad** implica asegurar que el producto final cumpla con 
 - Aborda la calidad tanto de la gestión del proyecto como la de sus entregables.
 - El equipo de dirección del proyecto debería establecer los niveles adecuados de [Exactitud y Precisión](/PMBOK/Exactitud y Precisión) para su utilización en el plan de gestión de la calidad.
 ****
-##### **[Riesgos](/PMBOK/Riesgos)**
+##### **[Riesgos](/MSI/PMBOK/Riesgos)**
 Los riesgos hacen referencia a cualquier incidente inesperado que puede interferir en el proyecto. Pueden ser negativos o positivos.
 
 La **Gestión de Riesgos** implica identificar, analizar y mitigar los riesgos potenciales que podrían desviar el proyecto de sus objetivos. 

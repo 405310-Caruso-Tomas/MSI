@@ -2,7 +2,7 @@ Las pruebas de sistema consisten en evaluar el software como un todo, una vez qu
 
 Este tipo de prueba se realiza en un entorno que simula lo más fielmente posible el entorno de producción, y garantizar su funcionamiento en dicho ambiente según lo esperado es el propósito de dichas pruebas.
 
-En este tipo de pruebas se busca validar la funcionalidad completa y garantizar la [Calidad](/R. Pressman/Calidad) del producto, además de identificar errores que no fueron detectados en los otros tipos de pruebas.
+En este tipo de pruebas se busca validar la funcionalidad completa y garantizar la [Calidad](/MSI/R. Pressman/Calidad) del producto, además de identificar errores que no fueron detectados en los otros tipos de pruebas.
 
 Estas pruebas tienen en cuenta el sistema en conjunto, incluyendo **funcionalidades** como aspectos **no funcionales.** Se incluye el rendimiento del sistema bajo cargas de trabajo intensas y capacidad de recuperación ante fallos (hasta de hardware). Es a menudo la etapa más formal de las pruebas y más estructurada.
 ****
@@ -12,10 +12,10 @@ Las pruebas de sistema son **típicamente pruebas de caja negra**, lo que signif
 Uno de los aspectos más importantes es que suelen detectar problemas en entornos reales, errores que lógicamente no pueden saltar en etapas anteriores.
 ****
 ###### **¿Quién las realiza?**
-Suelen ser realizadas por el equipo de [QA (Quality Assurance o Aseguramiento de la Calidad)](/A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad)) o un equipo especializado en pruebas de software. Este equipo también evalúa la experiencia del usuario final. En algunos casos, también pueden participar probadores externos o usuarios reales en entornos de prueba beta.
+Suelen ser realizadas por el equipo de [QA (Quality Assurance o Aseguramiento de la Calidad)](/MSI/A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad)) o un equipo especializado en pruebas de software. Este equipo también evalúa la experiencia del usuario final. En algunos casos, también pueden participar probadores externos o usuarios reales en entornos de prueba beta.
 ****
 ###### **Tipos de Pruebas de Sistema**
-- ***Pruebas Funcionales***. Se prueban las entradas y salidas, asegurándose de que los resultados sean los esperados, según las especificaciones del cliente. Poco más detalladas en [Enfoques de Testing](/A Software Testing Primer - Nick Jenkins/Enfoques de Testing).
+- ***Pruebas Funcionales***. Se prueban las entradas y salidas, asegurándose de que los resultados sean los esperados, según las especificaciones del cliente. Poco más detalladas en [Enfoques de Testing](/MSI/A Software Testing Primer - Nick Jenkins/Enfoques de Testing).
 	- **Ejemplo.** Probar una aplicación de comercio electrónico para verificar que los usuarios puedan agregar productos al carrito, procesar pagos y recibir confirmaciones de compra correctamente.
 - ***Pruebas No Funcionales.*** Se fijan en aspectos no relacionados a funcionalidad del sistema, sino más bien a rendimiento esperado, seguridad, usabilidad y fiabilidad.
 	- **Ejemplo.** Medir el tiempo de respuesta del sistema bajo cierta demanda de usuarios (asegurarse que cumple con los tiempos de respuesta esperados).

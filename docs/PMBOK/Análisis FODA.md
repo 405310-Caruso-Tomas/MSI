@@ -1,4 +1,4 @@
-Esta técnica examina el proyecto desde cada uno de los aspectos **FODA** (fortalezas, oportunidades, debilidades y amenazas) para aumentar la cantidad de [Riesgos](/PMBOK/Riesgos) identificados.
+Esta técnica examina el proyecto desde cada uno de los aspectos **FODA** (fortalezas, oportunidades, debilidades y amenazas) para aumentar la cantidad de [Riesgos](/MSI/PMBOK/Riesgos) identificados.
 
 Técnica de planificación estratégica utilizada en la gestión de proyectos para identificar y evaluar factores internos y externos que pueden impactar el éxito del proyecto.
 ****

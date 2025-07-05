@@ -1,6 +1,6 @@
-El [PROCESO](/R. Pressman/PROCESO) de pruebas de software incluye una serie de actividades esenciales que aseguran la [Calidad](/R. Pressman/Calidad) del producto.
+El [PROCESO](/MSI/R. Pressman/PROCESO) de pruebas de software incluye una serie de actividades esenciales que aseguran la [Calidad](/MSI/R. Pressman/Calidad) del producto.
 
-![Pasted image 20250529112546.png](/assets/Pasted image 20250529112546.png)
+![Pasted image 20250529112546.png](/MSI/assets/Pasted image 20250529112546.png)
 
 ****
 ##### **Planificación de las Pruebas.**
@@ -15,17 +15,17 @@ Por lo general, un plan de prueba cuenta con los siguientes elementos:
 - **Supuestos.** Suposiciones que se tienen respecto a cierta funcionalidad o módulo del sistema en particular.
 - **Aproximación.** Estrategia general (manuales, automatizadas).
 - **Criterios de Aceptación.** 
-- **Entregables de las pruebas.** Cómo serán documentados los resultados de las pruebas. (Los [Casos de Prueba](/A Software Testing Primer - Nick Jenkins/Casos de Prueba), por ejemplo, sirven como base para esta documentación.)
-- **Tareas de prueba.** Actividades específicas que se realizarán en las pruebas. (Crear los [Casos de Prueba](/A Software Testing Primer - Nick Jenkins/Casos de Prueba), por ejemplo)
+- **Entregables de las pruebas.** Cómo serán documentados los resultados de las pruebas. (Los [Casos de Prueba](/MSI/A Software Testing Primer - Nick Jenkins/Casos de Prueba), por ejemplo, sirven como base para esta documentación.)
+- **Tareas de prueba.** Actividades específicas que se realizarán en las pruebas. (Crear los [Casos de Prueba](/MSI/A Software Testing Primer - Nick Jenkins/Casos de Prueba), por ejemplo)
 - **Ambiente.** Descripción del entorno de pruebas (hardware, software, configuraciones) necesario para la ejecución de los casos de prueba.
 
 El punto de partida más común para la planificación de pruebas es una descomposición funcional del producto basada en una especificación técnica, esto nos permite abordar distintas características deseables a testear. Este es un excelente punto de partida, pero no debe ser el único aspecto que se aborde; de lo contrario, las pruebas se limitarán a la 'verificación' pero no a la 'validación'. A continuación una lista de aspectos comunes a verificar: 
-![Pasted image 20250529114432.png](/assets/Pasted image 20250529114432.png)
+![Pasted image 20250529114432.png](/MSI/assets/Pasted image 20250529114432.png)
 
 Diversas fuentes sugieren en esta etapa identificar objetivos a testear (funcionalidad o rendimiento), y definir métricas de éxito, en cierto período de tiempo. Otra sugerencia suele ser que los criterios de aceptación de las historias de usuario sirvan como base para las pruebas.
 ****
 ##### **Especificación de las Pruebas.**
-Esta fase consiste en la definición detallada de los [Casos de Prueba](/A Software Testing Primer - Nick Jenkins/Casos de Prueba), considerando principalmente el ambiente de prueba.
+Esta fase consiste en la definición detallada de los [Casos de Prueba](/MSI/A Software Testing Primer - Nick Jenkins/Casos de Prueba), considerando principalmente el ambiente de prueba.
 
 **Actividades clave**:
 
@@ -55,7 +55,7 @@ Es en esta etapa, donde el probador compara los resultados reales con los espera
 1. **Interpretación de resultados**:
     - El probador compara los **resultados reales** de la etapa de ejecución con los **resultados esperados** definidos en los casos de prueba.
 2. **Clasificación de defectos**:
-    - Los defectos encontrados se clasifican según su **severidad** y **prioridad**, como vimos en el apartado de [Gestión de Defectos](/A Software Testing Primer - Nick Jenkins/Gestión de Defectos).
+    - Los defectos encontrados se clasifican según su **severidad** y **prioridad**, como vimos en el apartado de [Gestión de Defectos](/MSI/A Software Testing Primer - Nick Jenkins/Gestión de Defectos).
 3. **Toma de decisiones**:
     - Basado en el análisis, el probador recomienda acciones, como aprobar el software para su liberación, requerir correcciones y repetir pruebas (pruebas de regresión).
     - Se subraya la importancia de comunicar estas decisiones a los interesados (desarrolladores, gerentes, clientes) mediante reportes claros.
@@ -65,7 +65,7 @@ Se comparan los resultados obtenidos con los planes y criterios de aceptación p
 Se verifica que los entregables sean correctos, que los defectos hayan sido corregidos. 
 Al finalizar, se elabora un resumen/reporte de los resultados. 
 La imagen es un ejemplo de un reporte de una prueba de humo en forma manual.
-![Pasted image 20250602221732.png](/assets/Pasted image 20250602221732.png)
+![Pasted image 20250602221732.png](/MSI/assets/Pasted image 20250602221732.png)
 
 La evaluación sobre si el software cumple con los criterios de salida definidos en el plan de pruebas, suele tener en cuenta aspectos como:
 

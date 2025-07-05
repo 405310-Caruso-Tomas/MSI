@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistemas de Información Empresariales.md",
+                "file": "docs/A Software Testing Primer - Nick Jenkins/Testing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemas de Información Empresariales"
+              "title": "Testing"
             }
           }
         ]
@@ -54,7 +54,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -170,6 +170,17 @@
   },
   "active": "45c695ba8f8bc14b",
   "lastOpenFiles": [
+    "docs/A Software Testing Primer - Nick Jenkins/QC (Control de Calidad).md",
+    "docs/A Software Testing Primer - Nick Jenkins/Proceso de Prueba.md",
+    "docs/A Software Testing Primer - Nick Jenkins/Gestión de Defectos.md",
+    "docs/A Software Testing Primer - Nick Jenkins/Error, Defecto y Fallo.md",
+    "docs/A Software Testing Primer - Nick Jenkins/Enfoques de Testing.md",
+    "docs/A Software Testing Primer - Nick Jenkins/Casos de Prueba.md",
+    "docs/A Software Testing Primer - Nick Jenkins/Alpha vs. Beta Testing.md",
+    "docs/A Software Testing Primer - Nick Jenkins/A note on the 'V-model'.md",
+    "docs/PMBOK/Proyecto.md",
+    "docs/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema de Información.md",
+    "docs/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistemas de Información Empresariales.md",
     "docs/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Dato.md",
     "docs/Sommerville/Subclasificación de Requerimientos.md",
     "docs/Sommerville/Administración de Requerimientos.md",
@@ -205,17 +216,6 @@
     "docs/Users Stories Applied - Mike Cohn/Épicas.md",
     "docs/Users Stories Applied - Mike Cohn/Criterios de Aceptación.md",
     "docs/Sommerville/Técnicas de Descubrimiento de Requerimientos.md",
-    "docs/Sommerville/Procesos de la Ingeniería de Requerimientos de Software.md",
-    "docs/Sommerville/Ingeniería de Requerimientos.md",
-    "docs/Sommerville/Actividades Fundamentales para la Ingeniería de Software.md",
-    "docs/Scrum Master - Scrum Manager/Valores y Principios de Scrum.md",
-    "docs/Scrum Master - Scrum Manager/Trabajo.md",
-    "docs/Scrum Master - Scrum Manager/Tiempo.md",
-    "docs/Scrum Master - Scrum Manager/Tableros Kanban.md",
-    "docs/Scrum Master - Scrum Manager/Scrum Master.md",
-    "docs/Scrum Master - Scrum Manager/Scrum Diario.md",
-    "docs/Scrum Master - Scrum Manager/Scrum.md",
-    "docs/Scrum Master - Scrum Manager/Roles.md",
     "Sin título 1.canvas",
     "Sin título.canvas"
   ]

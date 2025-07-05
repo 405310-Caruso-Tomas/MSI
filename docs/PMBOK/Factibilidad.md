@@ -1,4 +1,4 @@
-La **factibilidad** se refiere a la capacidad de llevar a cabo un [Proyecto](/PMBOK/Proyecto), evaluando si este puede realizarse con los recursos, tecnología, personal y tiempo disponibles.
+La **factibilidad** se refiere a la capacidad de llevar a cabo un [Proyecto](/MSI/PMBOK/Proyecto), evaluando si este puede realizarse con los recursos, tecnología, personal y tiempo disponibles.
 ****
 ###### **Estudio de la Factibilidad en un Proyecto**
 

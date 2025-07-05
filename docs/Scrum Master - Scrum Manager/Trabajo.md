@@ -16,7 +16,7 @@ Es posible que otros procesos de la organización necesiten registrar el esfuerz
 **Trabajo pendiente a realizar.** Scrum mide el trabajo pendiente para:
 
 - Estimar **esfuerzo** y **tiempo** **previsto** para realizar un **trabajo** (tareas, [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario) o epics).  
-- **Determinar el grado de avance** del **[Proyecto](/PMBOK/Proyecto)**, y en especial en cada **sprint**.
+- **Determinar el grado de avance** del **[Proyecto](/MSI/PMBOK/Proyecto)**, y en especial en cada **sprint**.
 
 **¿Por qué decimos estimar tiempo y esfuerzo previsto?**. Porque el trabajo necesario para realizar un requisito o una historia de usuario no se puede prever de forma absoluta, ya que las funcionalidades no son realidades de solución única. Y por consecuencia de no poder medir con precisión el trabajo, no podremos saber cuánto tiempo necesitará. Además de que una misma tarea, realizada por una misma persona requerirá diferentes tiempos en situaciones distintas. En resumen, **no es posible estimar con precisión**.
 ****

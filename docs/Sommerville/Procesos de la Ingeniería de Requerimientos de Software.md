@@ -3,7 +3,7 @@
 Los **[PROCESO](/R. Pressman/PROCESO)S** de **ingeniería** de **requerimientos** incluyen cuatro actividades de alto nivel. Éstas se enfocan en:
 	![Captura de pantalla de 2025-03-31 12-12-16.png](/assets/Captura de pantalla de 2025-03-31 12-12-16.png)
 ****
-#### **Estudio de [Factibilidad](/PMBOK/Factibilidad)** 
+#### **Estudio de [Factibilidad](/MSI/PMBOK/Factibilidad)** 
 **Valorar** si el sistema es útil para la empresa (o cliente final), y si las necesidades identificadas del usuario se cubren con las actuales **tecnologías** de software y **hardware**. 
 ****
 #### **Adquisición y Análisis** 

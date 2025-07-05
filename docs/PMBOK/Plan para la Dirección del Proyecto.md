@@ -1,6 +1,6 @@
 Documento integral que describe cómo se ejecutará, monitoreará, controlará y cerrará el proyecto. 
 
-- Es el resultado principal del proceso Desarrollar el Plan para la Dirección del Proyecto dentro del grupo de procesos de **Planificación** (mencionados en el apartado [Proyecto](/PMBOK/Proyecto)) y sirve como una guía central para la gestión de todas las áreas del proyecto. 
+- Es el resultado principal del proceso Desarrollar el Plan para la Dirección del Proyecto dentro del grupo de procesos de **Planificación** (mencionados en el apartado [Proyecto](/MSI/PMBOK/Proyecto)) y sirve como una guía central para la gestión de todas las áreas del proyecto. 
 
 Este plan consolida la información de los planes subsidiarios y las líneas base, proporcionando una hoja de ruta clara para el equipo del proyecto y las partes interesadas.
 ****

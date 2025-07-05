@@ -1,4 +1,4 @@
-***PROCESO AMPLIO Y CONTINUO.*** Conjunto de actividades planificadas y sistemáticas diseñadas para garantizar la [Calidad](/R. Pressman/Calidad) de un producto de software antes de su entrega al usuario final. 
+***PROCESO AMPLIO Y CONTINUO.*** Conjunto de actividades planificadas y sistemáticas diseñadas para garantizar la [Calidad](/MSI/R. Pressman/Calidad) de un producto de software antes de su entrega al usuario final. 
 
 Su objetivo es prevenir errores, mejorar la calidad del software y asegurar una experiencia satisfactoria para el usuario, ***DURANTE TODAS LAS ETAPAS DEL DESARROLLO***, incluyendo la planificación, diseño, codificación, documentación y entrega. Por lo que el proceso tiene un fuerte enfoque preventivo.
 ****
@@ -21,7 +21,7 @@ No se limita a probar el software, sino a asegurar que los procesos sean efectiv
 - Se puede crear un plan de calidad con métricas, objetivos, estrategias, cronogramas, herramientas, responsabilidades del equipo.
 - **Revisión Continua.** Se evalúan los procesos de desarrollo, la documentación, el código y otros artefactos para asegurar que se sigan las mejores prácticas. Revisiones de código regulares.
 - **Mejora Continua.** Se recopilan datos y retroalimentación para optimizar los procesos y evitar errores recurrentes en futuros proyectos.
-- **Pruebas sistemáticas.** Aunque el [Testing](/A Software Testing Primer - Nick Jenkins/Testing) es solo una parte del QA, se realizan diferentes tipos de pruebas (unitarias, de integración, funcionales, de rendimiento, de seguridad, etc.)
+- **Pruebas sistemáticas.** Aunque el [Testing](/MSI/A Software Testing Primer - Nick Jenkins/Testing) es solo una parte del QA, se realizan diferentes tipos de pruebas (unitarias, de integración, funcionales, de rendimiento, de seguridad, etc.)
 ****
 ##### ***Etapas Típicas*** 
 

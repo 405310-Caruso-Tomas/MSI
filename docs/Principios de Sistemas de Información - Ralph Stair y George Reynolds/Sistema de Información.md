@@ -29,6 +29,6 @@ Un sistema de información puede ser **manual** o **computarizado**.
 
 Se adjunta imagen de los componentes de un *CBIS*.
 
-![Pasted image 20250630121155.png](/assets/Pasted image 20250630121155.png)
+![Pasted image 20250630121155.png](/MSI/assets/Pasted image 20250630121155.png)
 
 Los *CBIS* son muy importantes históricamente, ya que representan los **[Tipos de Sistemas de Información](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Tipos de Sistemas de Información)** más comunes y utilizados con el paso del tiempo. 

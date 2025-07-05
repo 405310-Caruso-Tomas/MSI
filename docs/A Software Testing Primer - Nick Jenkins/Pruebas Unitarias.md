@@ -5,7 +5,7 @@ Se verifica el funcionamiento de partes pequeñas y aisladas de una aplicación 
 ##### **Arneses de Prueba***
 Las unidades se prueban generalmente mediante el uso de "arneses de prueba" que simulan el contexto en el que se integrará la unidad. 
 El arnés de prueba proporciona una serie de entradas conocidas y mide las salidas de la unidad bajo prueba, que luego se comparan con los valores esperados para determinar si existen problemas. 
-Es decir, se crea un conjunto de [Casos de Prueba](/A Software Testing Primer - Nick Jenkins/Casos de Prueba) específicos que cubren escenarios para la unidad de código bajo prueba.
+Es decir, se crea un conjunto de [Casos de Prueba](/MSI/A Software Testing Primer - Nick Jenkins/Casos de Prueba) específicos que cubren escenarios para la unidad de código bajo prueba.
 ****
 ###### **¿Qué mejor que un ejemplo real en código de lo que es una prueba unitaria?**
 Supongamos tenemos la siguiente función que calcula el cuadrado de un número.

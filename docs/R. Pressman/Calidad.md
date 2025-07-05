@@ -35,5 +35,5 @@ El costo de la calidad incluye todos los costos en los que se ha incurrido duran
 Los costos por calidad deficiente se clasifican a menudo en **internos** (constatados por el equipo del proyecto) y **externos** (constatados por el cliente).
 La imagen detalla los costos, para evitar fallas por un lado, y costos provocados por las fallas por el otro.
 
-Vemos que podemos enmarcar los costos enunciados como implicaciones, tanto de una buena calidad del producto, como de una mala calidad del mismo. Otra implicación segura de la mala calidad del software es el aumento de [Riesgos](/PMBOK/Riesgos) durante el desarrollo, tanto para el desarrollador como para el usuario final.
+Vemos que podemos enmarcar los costos enunciados como implicaciones, tanto de una buena calidad del producto, como de una mala calidad del mismo. Otra implicación segura de la mala calidad del software es el aumento de [Riesgos](/MSI/PMBOK/Riesgos) durante el desarrollo, tanto para el desarrollador como para el usuario final.
 ****

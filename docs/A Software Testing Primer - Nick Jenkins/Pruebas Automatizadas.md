@@ -25,4 +25,4 @@ Luego de lo mencionado, podemos señalar algunos principios que hacen a las prue
 - **Pruebas de regresión.** Para detectar cambios inesperados, pero solo si la interfaz (ya sea GUI, API o Servicio) es estable; de lo contrario, es necesario refactorizar las pruebas.
 ****
 ##### **Herramientas Populares**
-![Pasted image 20250609094432.png](/assets/Pasted image 20250609094432.png)
+![Pasted image 20250609094432.png](/MSI/assets/Pasted image 20250609094432.png)

@@ -1,4 +1,4 @@
-> En un **[Proyecto](/PMBOK/Proyecto)** ideal, se tendría a un cliente único que prioriza el **trabajo** para los desarrolladores, responde sus preguntas, usa y comprueba el **[Software](/R. Pressman/Software)** finalizado, y escribe todas las [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario). 
+> En un **[Proyecto](/MSI/PMBOK/Proyecto)** ideal, se tendría a un cliente único que prioriza el **trabajo** para los desarrolladores, responde sus preguntas, usa y comprueba el **[Software](/R. Pressman/Software)** finalizado, y escribe todas las [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario). 
 
 Este escenario es demasiado exigente, y por ello es que se suele establecer un **equipo cliente**.
 - Un equipo que se asegurará que el **[Sistema](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema)** cumpla con las necesidades del usuario final, y que escribirá las **historias de usuario**.

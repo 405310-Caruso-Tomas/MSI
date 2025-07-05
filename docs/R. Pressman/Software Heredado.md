@@ -15,4 +15,4 @@ Conforme pase el tiempo será frecuente que los sistemas de **[Software](/R. Pre
 Es decir, por cuestiones de ***actualización***.
 	Cuando ocurren estos modos de evolución, debe hacerse la **==reingeniería del sistema==** heredado para que sea viable en el futuro. 
 
-La meta de la [Ingeniería del Software](/R. Pressman/Ingeniería del Software) moderna es “desarrollar **[Metodología](/assets/Metodología)s** que se basen en el concepto de **evolución**; es decir, el concepto de que los sistemas de **software** cambian continuamente.
+La meta de la [Ingeniería del Software](/R. Pressman/Ingeniería del Software) moderna es “desarrollar **[Metodología](/MSI//Ingeniería del Software](/R. Pressman/Ingeniería del Software) moderna es “desarrollar **[Metodología)s** que se basen en el concepto de **evolución**; es decir, el concepto de que los sistemas de **software** cambian continuamente.

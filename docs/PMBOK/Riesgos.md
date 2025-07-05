@@ -1,4 +1,4 @@
-El **riesgo** de un proyecto es un evento o condición incierta que, de producirse, tiene un efecto positivo o negativo en uno o más de los objetivos del [Proyecto](/PMBOK/Proyecto), tales como el **alcance**, el **cronograma**, el **costo** y la [Calidad](/R. Pressman/Calidad). (**[Triple Restricción](/PMBOK/Triple Restricción)**)
+El **riesgo** de un proyecto es un evento o condición incierta que, de producirse, tiene un efecto positivo o negativo en uno o más de los objetivos del [Proyecto](/MSI/PMBOK/Proyecto), tales como el **alcance**, el **cronograma**, el **costo** y la [Calidad](/R. Pressman/Calidad). (**[Triple Restricción](/PMBOK/Triple Restricción)**)
 ****
 Los riesgos del proyecto tienen su origen en la incertidumbre que está presente en todos los proyectos.
 ##### **Tipos de riesgos según el PMBOK**

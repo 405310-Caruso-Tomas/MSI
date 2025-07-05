@@ -1,4 +1,4 @@
-El origen de la palabra **[Scrum](/Scrum Master - Scrum Manager/Scrum)** se encuentra en un ámbito muy alejado del de la gestión de **[Proyecto](/PMBOK/Proyecto)s**. 
+El origen de la palabra **[Scrum](/Scrum Master - Scrum Manager/Scrum)** se encuentra en un ámbito muy alejado del de la gestión de **[Proyecto](/MSI//Scrum](/Scrum Master - Scrum Manager/Scrum)** se encuentra en un ámbito muy alejado del de la gestión de **[Proyecto)s**. 
 
 En rugby, **«*scrum*»** es el término que define a la formación en la que ambos equipos, agazapados y atenazados entre sí, empujan para obtener el balón sin tocarlo con la mano.
 ****
@@ -9,7 +9,7 @@ Donde indica el subtítulo, los investigadores *Ikujiro* *Nonaka* y *Hirotaka* *
 
 Emplearon el término para bautizar los **principios** de **desarrollo** que descubrieron en estas empresas tecnológicas innovadoras.
 
-Aunque esta forma de trabajo surgió en empresas de productos tecnológicos, en la manufactura industrial, a partir de **1995** se empezaron a **aplicar** también a **la industria del software**, año en el que *Ken Schwaber* presentó en *OOPSLA* (conferencia anual *Object-Oriented Programming, Systems, Languages & Applications*) una **[Metodología](/assets/Metodología)** de desarrollo de software basada en un ambiente **scrum**, usando ese mismo término.
+Aunque esta forma de trabajo surgió en empresas de productos tecnológicos, en la manufactura industrial, a partir de **1995** se empezaron a **aplicar** también a **la industria del software**, año en el que *Ken Schwaber* presentó en *OOPSLA* (conferencia anual *Object-Oriented Programming, Systems, Languages & Applications*) una **[Metodología](/MSI//Metodología)** de desarrollo de software basada en un ambiente **scrum**, usando ese mismo término.
 
 ![Pasted image 20250626175227.png](/assets/Pasted image 20250626175227.png)
 

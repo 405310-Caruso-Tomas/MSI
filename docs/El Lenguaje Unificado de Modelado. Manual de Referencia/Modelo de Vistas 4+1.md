@@ -8,7 +8,7 @@ Kruchten enfatiza que el modelo 4+1 no es un proceso de diseño, sino un marco p
 
 El nombre "*4+1*" se refiere a cuatro vistas principales más una vista adicional que las unifica, que es la **vista de escenario**.
 
-![Pasted image 20250625174843.png](/assets/Pasted image 20250625174843.png)
+![Pasted image 20250625174843.png](/MSI/assets/Pasted image 20250625174843.png)
 ****
 #### **Las Cuatro Vistas Principales**
 **Vista Lógica/Diseño (Logical View)**

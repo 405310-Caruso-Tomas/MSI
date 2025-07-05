@@ -1,7 +1,7 @@
 %%Este apartado es una especie de agregado (básicamente porque es mencionado en el apunte teórico de la materia y puesto como una nota en el libro)%%
 
-Por lo general el enfoque de pruebas sigue el modelo en **V**, modelo el cual Nick Jenkins denomina "horrible". Este tipo de [Modelos de PROCESO](/R. Pressman/Modelos de PROCESO) (brevemente mencionado en su respectivo inciso) estructura el desarrollo en niveles.
-![Pasted image 20250526093232.png](/assets/Pasted image 20250526093232.png)
+Por lo general el enfoque de pruebas sigue el modelo en **V**, modelo el cual Nick Jenkins denomina "horrible". Este tipo de [Modelos de PROCESO](/MSI/R. Pressman/Modelos de PROCESO) (brevemente mencionado en su respectivo inciso) estructura el desarrollo en niveles.
+![Pasted image 20250526093232.png](/MSI/assets/Pasted image 20250526093232.png)
 
 - Para cada fase de desarrollo en la parte izquierda, se define un nivel de prueba correspondiente en la parte derecha. Por ejemplo:
     

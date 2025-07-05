@@ -16,7 +16,7 @@ Este modelo usa un **[Enfoque Orientado a Objetos](/R. Pressman/Enfoque Orientad
 
 - Los clientes escriben [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario) y les asignan un valor de prioridad. Luego, los miembros del equipo evalúan cada historia y le asignan un costo, medido en semanas de desarrollo. Se puede pedir al cliente que descomponga la historia en más chicas. En cualquier momento es posible escribir o modificar nuevas historias.
 - Los **clientes** y **desarrolladores** trabajan juntos para decidir cómo agrupar las **historias** en el siguiente incremento a desarrollar.
-- Se llega a un **compromiso** sobre la entrega, y cuando esta ocurre se calcula la **velocidad** del [Proyecto](/PMBOK/Proyecto) y se planifican próximas entregas en base a la velocidad.
+- Se llega a un **compromiso** sobre la entrega, y cuando esta ocurre se calcula la **velocidad** del [Proyecto](/MSI/PMBOK/Proyecto) y se planifican próximas entregas en base a la velocidad.
 #### **Diseño**
 
 - XP estimula el uso de tarjetas CRC (tarjetas que representan **[Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)** cada una, sus responsabilidades y colaboradores {[Colaboración](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración)}, donde los colaboradores son otras clases con las que interactúa la clase de la tarjeta) para pensar en el software orientado a objetos.

@@ -15,7 +15,7 @@ Consecuencia de un error que ha sido introducido en el código o en un documento
 - Debido al error en la condición lógica, el software no procesa correctamente los casos para dicha condición, y esto constituye un defecto.
 
 El defecto puede categorizarse según la ***SEVERIDAD*** y ***PRIORIDAD*** del mismo. 
-Estas características son mejor detalladas en el apartado [Gestión de Defectos](/A Software Testing Primer - Nick Jenkins/Gestión de Defectos).
+Estas características son mejor detalladas en el apartado [Gestión de Defectos](/MSI/A Software Testing Primer - Nick Jenkins/Gestión de Defectos).
 ****
 ***(Fallo)*** **El sistema no se comporta como debería.** 
 
