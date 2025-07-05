@@ -24,7 +24,7 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
                 folder = file_to_dir.get(target, '')
                 if folder == '.':
                     folder = '' 
-                return f"[{target}](/{folder}/{target})"
+                return f"[{target}](/MSI/{folder}/{target})"
 
             new_content = re.sub(r'\[\[([^\]]+)\]\]', replace_link, content)
 
@@ -33,7 +33,7 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
 
 
 def agregar_assets_a_enlaces(contenido):
-    return re.sub(r'\[([^\]]+)\]\(//([^\)]+)\)', r'[\1](/assets/\2)', contenido)
+    return re.sub(r'\[([^\]]+)\]\(//([^\)]+)\)', r'[\1](/MSI/assets/\2)', contenido)
 
 root_dir = 'docs' 
 
