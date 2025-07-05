@@ -26,7 +26,7 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
                     folder = '' 
                 return f"[{target}](/MSI/{folder}/{target})"
 
-            new_content = re.sub(r'\[\[([^\]]+)\]\]', replace_link, content)
+            new_content = re.sub(r'\[(.*?)\]\(/\s*([^)\s]+)\)', replace_link, content)
 
             with open(file_path, 'w', encoding='utf-8') as file:
                 file.write(new_content)
