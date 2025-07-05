@@ -5,3 +5,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+site_url: https://405310-caruso-tomas.github.io/MSI/

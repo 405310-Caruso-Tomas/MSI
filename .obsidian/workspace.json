@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Metodología.md",
+                "file": "docs/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Gestión por Procesos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metodología"
+              "title": "Gestión por Procesos"
             }
           }
         ]
@@ -168,8 +168,32 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "45c695ba8f8bc14b",
+  "active": "ddc7afa6942faf43",
   "lastOpenFiles": [
+    "site/search/search_index.json",
+    "site/search",
+    "site/Users Stories Applied - Mike Cohn/Épicas/index.html",
+    "site/Users Stories Applied - Mike Cohn/Técnica INVEST/index.html",
+    "site/Users Stories Applied - Mike Cohn/Por qué usar Historias de Usuario/index.html",
+    "site/Users Stories Applied - Mike Cohn/Historias de Usuario/index.html",
+    "site/Users Stories Applied - Mike Cohn/Equipo Cliente/index.html",
+    "site/Users Stories Applied - Mike Cohn/Estructura de una Historia de Usuario/index.html",
+    "site/Users Stories Applied - Mike Cohn/Criterios de Aceptación/index.html",
+    "site/Users Stories Applied - Mike Cohn/Épicas",
+    "site/Users Stories Applied - Mike Cohn/Técnica INVEST",
+    "site/assets/images/favicon.png",
+    "site/assets/Pasted image 20250703094424.png",
+    "site/assets/Pasted image 20250702224633.png",
+    "site/assets/Pasted image 20250702213430.png",
+    "site/assets/Pasted image 20250702205842.png",
+    "site/assets/Pasted image 20250702194739.png",
+    "site/assets/Pasted image 20250702163254.png",
+    "site/assets/Pasted image 20250702113211.png",
+    "site/assets/Pasted image 20250701214618.png",
+    "site/assets/Pasted image 20250701202933.png",
+    "docs/R. Pressman/PROCESO.md",
+    "docs/Sommerville/Documento de Requerimientos del Sistema (ERS).md",
+    "docs/Metodología.md",
     "docs/Análisis de Sistemas y Metodología de Sistemas.md",
     "docs/Users Stories Applied - Mike Cohn/Técnica INVEST.md",
     "docs/Users Stories Applied - Mike Cohn/Por qué usar Historias de Usuario.md",
@@ -181,8 +205,6 @@
     "docs/Sommerville/Subclasificación de Requerimientos.md",
     "docs/Sommerville/Procesos de la Ingeniería de Requerimientos de Software.md",
     "docs/Sommerville/Ingeniería de Requerimientos.md",
-    "docs/Metodología.md",
-    "docs/Sommerville/Documento de Requerimientos del Sistema (ERS).md",
     "docs/Sommerville/Administración de Requerimientos.md",
     "docs/Sommerville/Actividades Fundamentales para la Ingeniería de Software.md",
     "docs/Scrum Master - Scrum Manager/Valores y Principios de Scrum.md",
@@ -194,28 +216,6 @@
     "docs/Scrum Master - Scrum Manager/Scrum.md",
     "docs/Scrum Master - Scrum Manager/Roles.md",
     "docs/Scrum Master - Scrum Manager/Revisión del Sprint.md",
-    "docs/Scrum Master - Scrum Manager/Retrospectiva.md",
-    "docs/Scrum Master - Scrum Manager/Puntos de Historia.md",
-    "assets",
-    "scripts/replace.py",
-    "scripts",
-    "mkdocs.yml",
-    "docs/assets/Pasted image 20250703094424.png",
-    "docs/assets/Pasted image 20250702224633.png",
-    "docs/assets/Pasted image 20250702213430.png",
-    "docs/assets/Pasted image 20250702205842.png",
-    "docs/assets/Pasted image 20250702194739.png",
-    "docs/assets/Pasted image 20250702163254.png",
-    "docs/assets/Pasted image 20250702113211.png",
-    "docs/assets/Pasted image 20250701214618.png",
-    "docs/assets/Pasted image 20250701202933.png",
-    "docs/assets/Pasted image 20250701195513.png",
-    "docs/assets",
-    "docs/Users Stories Applied - Mike Cohn",
-    "docs/Sommerville",
-    "docs/Scrum Master - Scrum Manager",
-    "docs/R. Pressman",
-    "docs/Principios de Sistemas de Información - Ralph Stair y George Reynolds",
     "Sin título 1.canvas",
     "Sin título.canvas"
   ]
