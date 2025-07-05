@@ -4369,9 +4369,13 @@
 
   <h1>Diagrama de Estructura Interna</h1>
 
-<p><img alt="Pasted image 20250622174638.png" src="../assets/Pasted image 20250622174638.png.md" />Muestra la <strong>descomposición de una clase</strong>.
-- Representa <strong>la estructura interna de un <a href="../assets/Clasificador.md">Clasificador</a></strong> (clase o componente).
-Un clasificador estructurado modela las partes de una clase y sus conectores contextuales. Una clase estructurada puede ser encapsulada forzando a que las comunicaciones desde el exterior pasen a través de los <strong>puertos</strong> cumpliendo con las interfaces declaradas.</p>
+<p><img alt="Pasted image 20250622174638.png" src="/assets/Pasted image 20250622174638.png" /></p>
+<p>Muestra la <strong>descomposición de una clase</strong>.</p>
+<ul>
+<li>Representa <strong>la estructura interna de un <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador">Clasificador</a></strong> (clase o componente).</li>
+</ul>
+<p>Un clasificador estructurado modela las partes de una clase y sus conectores contextuales. 
+Una clase estructurada puede ser encapsulada forzando a que las comunicaciones desde el exterior pasen a través de los <strong>puertos</strong> cumpliendo con las interfaces declaradas.</p>
 <hr />
 <h6 id="problema"><strong>Problema</strong></h6>
 <p>La Figura 3.2 muestra el diagrama de estructura interna de la aplicación de la taquilla de teatro para el sistema de venta de entradas. Esta clase se descompone en tres partes: la <strong>interfaz</strong> del expendedor de entradas, una guía de representación, que recupera representaciones según la fecha u otro criterio, y un conjunto de bases de datos que contienen los datos de las representaciones y de las entradas. Cada parte interactúa con el exterior a través de un puerto. Lo mensajes sobre este puerto son enviados a la clase expendedor de entradas, pero la estructura interna de la clase taquilla está oculta de los clientes externos.</p>

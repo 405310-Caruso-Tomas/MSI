@@ -4436,54 +4436,75 @@
   <h1>Documento de Requerimientos del Sistema (ERS)</h1>
 
 <blockquote>
-<p>Tiene que definir con exactitud lo que se implementará, ya que <strong>es un comunicado oficial de lo que se debe implementar.</strong> 
-- Puede formar parte del contrato entre el comprador del sistema y los desarrolladores del software. 
-- <strong>Incluye tanto los requerimientos del usuario para un sistema, como una especificación detallada de los requerimientos del sistema.</strong></p>
+<p>Tiene que definir con exactitud lo que se implementará, ya que <strong>es un comunicado oficial de lo que se debe implementar.</strong> </p>
+</blockquote>
+<ul>
+<li>Puede formar parte del contrato entre el comprador del sistema y los desarrolladores del software. </li>
+<li><strong>Incluye tanto los requerimientos del usuario para un sistema, como una especificación detallada de los requerimientos del sistema.</strong></li>
+</ul>
+<blockquote>
 <p>Son esenciales los documentos de requerimientos cuando un contratista externo diseña el sistema de software. Sin embargo, los métodos de desarrollo ágiles argumentan que los requerimientos cambian tan rápidamente que un documento de requerimientos se vuelve obsoleto tan pronto como se escribe. En lugar de un documento formal, los enfoques como la programación extrema (Beck, 1999) recopilan de manera incremental requerimientos del usuario y los escriben en tarjetas como historias de usuario. </p>
 </blockquote>
 <p>Si se utiliza un proceso de desarrollo iterativo interno, entonces el documento de requerimientos suele ser mucho menos detallado y cualquier ambigüedad puede resolverse durante el desarrollo del sistema.</p>
-<p>El documento de requerimientos <strong><em>no debe incluir detalles de la arquitectura o el diseño del sistema</em></strong>. Este documento suele tener un conjunto variado de usuarios, por lo que es interpretado desde diferentes perspectivas:
-    <img alt="Pasted image 20250401094747.png" src="../assets/Pasted image 20250401094747.png.md" /></p>
+<p>El documento de requerimientos <strong><em>no debe incluir detalles de la arquitectura o el diseño del sistema</em></strong>. Este documento suele tener un conjunto variado de usuarios, por lo que es interpretado desde diferentes perspectivas:</p>
+<p><img alt="Pasted image 20250401094747.png" src="/assets/Pasted image 20250401094747.png" /></p>
 <p>El nivel de detalle incluido depende del tipo de sistema a diseñar y el proceso de desarrollo utilizado.</p>
 <hr />
 <h4 id="notaciones"><strong>Notaciones</strong></h4>
-<p>Debe escribir los requerimientos del usuario en lenguaje natural, con formas sencillas, diagramas intuitivos. A su vez, los requerimientos del sistema se escriben también en lenguaje natural, pero de igual modo se utilizan otras notaciones:
-<img alt="Captura de pantalla de 2025-04-01 09-26-44.png" src="../assets/Captura de pantalla de 2025-04-01 09-26-44.png.md" />
-Los modelos gráficos, como <a href="../assets/UML.md">UML</a> son más útiles cuando es necesario mostrar cómo cambia un estado o al describir una secuencia de acciones.</p>
+<p>Debe escribir los requerimientos del usuario en lenguaje natural, con formas sencillas, diagramas intuitivos. A su vez, los requerimientos del sistema se escriben también en lenguaje natural, pero de igual modo se utilizan otras notaciones:</p>
+<p><img alt="Captura de pantalla de 2025-04-01 09-26-44.png" src="/assets/Captura de pantalla de 2025-04-01 09-26-44.png" /></p>
+<p>Los modelos gráficos, como <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/UML">UML</a> son más útiles cuando es necesario mostrar cómo cambia un estado o al describir una secuencia de acciones.</p>
 <hr />
 <h5 id="especificacion-en-lenguaje-natural"><strong>Especificación en Lenguaje Natural</strong></h5>
-<p>Desde los albores de la ingeniería de software, el lenguaje natural se usa para escribir los requerimientos de software. Para minimizar la ambigüedad, se recomienda: 
-    1. Elaborar un formato estándar y asegurarse de que todas las definiciones de requerimientos se adhieran a dicho formato.
-    2. Utilizar el lenguaje de manera clara para distinguir entre requerimientos obligatorios y deseables. Los primeros con "debe ser", y los segundos con "debería ser".
-    3. Usar texto resaltado para partes clave del requerimiento.
-    4. Evitar el uso de lenguaje técnico. No deduzca que los lectores entienden de ingeniería de software.
-    5. Siempre que sea posible, asocie una razón con cada requerimiento de usuario. El por qué se incluyó dicho requerimiento.</p>
+<p>Desde los albores de la ingeniería de software, el lenguaje natural se usa para escribir los requerimientos de software. Para minimizar la ambigüedad, se recomienda: </p>
+<ol>
+<li>
+<p>Elaborar un formato estándar y asegurarse de que todas las definiciones de requerimientos se adhieran a dicho formato.</p>
+</li>
+<li>
+<p>Utilizar el lenguaje de manera clara para distinguir entre requerimientos obligatorios y deseables. Los primeros con "debe ser", y los segundos con "debería ser".</p>
+</li>
+<li>
+<p>Usar texto resaltado para partes clave del requerimiento.</p>
+</li>
+<li>
+<p>Evitar el uso de lenguaje técnico. No deduzca que los lectores entienden de ingeniería de software.</p>
+</li>
+<li>
+<p>Siempre que sea posible, asocie una razón con cada requerimiento de usuario. El por qué se incluyó dicho requerimiento.</p>
+</li>
+</ol>
 <h5 id="especificaciones-estructuradas"><strong>Especificaciones Estructuradas</strong></h5>
-<p>El lenguaje natural estructurado es una manera de escribir requerimientos del sistema, donde está <strong>limitada la libertad del escritor</strong>
-<img alt="Pasted image 20250401094047.png" src="../assets/Pasted image 20250401094047.png.md" />Cuando use una forma estándar para especificar requerimientos funcionales, debe
-incluir la siguiente información:
-    1. Una descripción de la función o entidad a especificar.
-    2. Una descripción de sus entradas y sus procedencias.
-    3. Una descripción de sus salidas y a dónde se dirigen.
-    4. Datos requeridos para el cálculo/acción.
-    5. Descripción de la acción que se va a tomar.
-    6. Una precondición que establece lo que debe ser verdadero antes de llamar a la función, y una postcondición que especifica lo que es verdadero después de llamar a la función.
-    7. Efectos colaterales.</p>
+<p>El lenguaje natural estructurado es una manera de escribir requerimientos del sistema, donde está <strong>limitada la libertad del escritor</strong></p>
+<p><img alt="Pasted image 20250401094047.png" src="/assets/Pasted image 20250401094047.png" /></p>
+<p>Cuando use una forma estándar para especificar requerimientos funcionales, debe
+incluir la siguiente información:</p>
+<ol>
+<li>Una descripción de la función o entidad a especificar.</li>
+<li>Una descripción de sus entradas y sus procedencias.</li>
+<li>Una descripción de sus salidas y a dónde se dirigen.</li>
+<li>Datos requeridos para el cálculo/acción.</li>
+<li>Descripción de la acción que se va a tomar.</li>
+<li>Una precondición que establece lo que debe ser verdadero antes de llamar a la función, y una postcondición que especifica lo que es verdadero después de llamar a la función.</li>
+<li>Efectos colaterales.</li>
+</ol>
 <hr />
 <h4 id="estructura-para-el-documento-basado-en-estandar-ieee-1998"><strong>Estructura para el documento basado en Estándar IEEE, 1998</strong></h4>
-<p>Capítulos:
-- <strong>Prefacio</strong>: Debe definir el número esperado de lectores del documento, así como describir su historia de versiones, junto con sus causas y cambios realizados.
-- <strong>Introducción</strong>: Describe las funciones del sistema y cómo funcionará con otros sistemas, además de cómo se ajusta con objetivos empresariales o estratégicos de la organización que comisiona el software.
-- <strong>Glosario</strong>: Define los términos técnicos usados en el documento.
-- <strong>Definición</strong> <strong>de</strong> <strong>requerimientos</strong> <strong>del</strong> <strong>usuario</strong>: Aquí se representan los servicios que ofrecen al usuario. Requerimientos no funcionales del sistema. Esta descripción puede usar lenguaje natural, diagramas u otras observaciones que sean comprensibles para los clientes.
-- <strong>Arquitectura</strong> <strong>del</strong> <strong>sistema</strong>: Panorama de alto nivel de la arquitectura anticipada del sistema, destacando los componentes arquitectónicos que sean de reutilización.
-- <strong>Especificación</strong> <strong>de</strong> <strong>requerimientos</strong> del sistema: Debe representar los requerimientos funcionales y no funcionales con más detalle.
-- <strong>Modelos</strong> <strong>del</strong> <strong>sistema</strong>: modelos gráficos del sistema que muestren las relaciones entre componentes del sistema, el sistema y su entorno. Algunos especificados en <a href="../assets/Metodologías de Modelado.md">Metodologías de Modelado</a>
-- <strong>Evolución del sistema</strong>: Describe los supuestos fundamentales sobre los que se basa el sistema, y cualquier cambio anticipado debido a hardware, necesidades del usuario, etc. Esta sección es útil para los diseñadores del sistema, pues los ayuda a evitar decisiones de diseño que restringirían probablemente futuros cambios al sistema.
-- <strong>Apéndices</strong>: Brindan información específica y detallada que se relaciona con la aplicación a desarrollar. Requisitos de hardware (configuración mínima y óptima) y bases de datos (organización lógica y relaciones entre datos).
-- <strong>Índice</strong>: Puede ser un índice alfabético normal, uno de diagramas, un índice de funciones, etcétera.</p>
-<p>Hay distintas versiones respecto a lo que debe incluir la ERS según el estándar IEEE, es por ello que se adjunta otro modelo propuesto (<em>apunte teórico</em>):
-<img alt="Pasted image 20250702205842.png" src="../assets/Pasted image 20250702205842.png.md" /></p>
+<p>Capítulos:</p>
+<ul>
+<li><strong>Prefacio</strong>: Debe definir el número esperado de lectores del documento, así como describir su historia de versiones, junto con sus causas y cambios realizados.</li>
+<li><strong>Introducción</strong>: Describe las funciones del sistema y cómo funcionará con otros sistemas, además de cómo se ajusta con objetivos empresariales o estratégicos de la organización que comisiona el software.</li>
+<li><strong>Glosario</strong>: Define los términos técnicos usados en el documento.</li>
+<li><strong>Definición</strong> <strong>de</strong> <strong>requerimientos</strong> <strong>del</strong> <strong>usuario</strong>: Aquí se representan los servicios que ofrecen al usuario. Requerimientos no funcionales del sistema. Esta descripción puede usar lenguaje natural, diagramas u otras observaciones que sean comprensibles para los clientes.</li>
+<li><strong>Arquitectura</strong> <strong>del</strong> <strong>sistema</strong>: Panorama de alto nivel de la arquitectura anticipada del sistema, destacando los componentes arquitectónicos que sean de reutilización.</li>
+<li><strong>Especificación</strong> <strong>de</strong> <strong>requerimientos</strong> del sistema: Debe representar los requerimientos funcionales y no funcionales con más detalle.</li>
+<li><strong>Modelos</strong> <strong>del</strong> <strong>sistema</strong>: modelos gráficos del sistema que muestren las relaciones entre componentes del sistema, el sistema y su entorno. Algunos especificados en <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Metodologías de Modelado">Metodologías de Modelado</a></li>
+<li><strong>Evolución del sistema</strong>: Describe los supuestos fundamentales sobre los que se basa el sistema, y cualquier cambio anticipado debido a hardware, necesidades del usuario, etc. Esta sección es útil para los diseñadores del sistema, pues los ayuda a evitar decisiones de diseño que restringirían probablemente futuros cambios al sistema.</li>
+<li><strong>Apéndices</strong>: Brindan información específica y detallada que se relaciona con la aplicación a desarrollar. Requisitos de hardware (configuración mínima y óptima) y bases de datos (organización lógica y relaciones entre datos).</li>
+<li><strong>Índice</strong>: Puede ser un índice alfabético normal, uno de diagramas, un índice de funciones, etcétera.</li>
+</ul>
+<p>Hay distintas versiones respecto a lo que debe incluir la ERS según el estándar IEEE, es por ello que se adjunta otro modelo propuesto (<em>apunte teórico</em>):</p>
+<p><img alt="Pasted image 20250702205842.png" src="/assets/Pasted image 20250702205842.png" /></p>
 
 
 

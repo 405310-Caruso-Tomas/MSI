@@ -4371,20 +4371,22 @@
 
   <h1>Puerto</h1>
 
-<p><strong>Punto de interacción.</strong> Especifica un lugar donde el <strong><a href="../../assets/Clasificador.md">Clasificador</a></strong> intercambia mensajes, datos o servicios con el exterior.</p>
+<p><strong>Punto de interacción.</strong> Especifica un lugar donde el <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador">Clasificador</a></strong> intercambia mensajes, datos o servicios con el exterior.</p>
 <blockquote>
 <p>Punto de conexión entre un clasificador y su entorno. Las conexiones del mundo externo se hacen a los puertos según sean requeridos por las <strong>interfaces</strong> declaradas en un puerto.</p>
 </blockquote>
-<p><strong>Interfaz Asociada.</strong> El comportamiento de un puerto se especifica por sus interfaces <strong>proporcionadas</strong> e interfaces <strong>requeridas</strong>. Pueden verse estas dos en un <strong><a href="../../assets/Diagrama de Componentes.md">Diagrama de Componentes</a></strong>, donde son comunes los puertos.
-- Definen un punto de entrada/salida en una clase. Ejemplo: En el sistema de biblioteca, la clase <code>SistemaBiblioteca</code> podría tener un puerto <code>InterfazUsuario</code> que expone operaciones como <code>prestarLibro()</code></p>
+<p><strong>Interfaz Asociada.</strong> El comportamiento de un puerto se especifica por sus interfaces <strong>proporcionadas</strong> e interfaces <strong>requeridas</strong>. Pueden verse estas dos en un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes">Diagrama de Componentes</a></strong>, donde son comunes los puertos.</p>
+<ul>
+<li>Definen un punto de entrada/salida en una clase. Ejemplo: En el sistema de biblioteca, la clase <code>SistemaBiblioteca</code> podría tener un puerto <code>InterfazUsuario</code> que expone operaciones como <code>prestarLibro()</code></li>
+</ul>
 <hr />
 <h4 id="notacion"><strong>Notación</strong></h4>
-<p>Puertos declarados en <a href="../../assets/Diagrama de Estructura Interna.md">Diagrama de Estructura Interna</a>:
+<p>Puertos declarados en <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna">Diagrama de Estructura Interna</a>:
 Un puerto se muestra como un cuadrado pequeño que monta el límite de un rectángulo del clasificador.
 El nombre del puerto se pone cerca del cuadrado. El cuadrado puede ponerse en el interior del rectángulo del clasificador para indicar un puerto con visibilidad restringida, como un puerto de servicio; éstos deben ser raros, porque el propósito principal de los puertos es encapsular comunicación con el ambiente. 
 El tipo de un puerto puede mostrarse siguiendo una coma, usando la sintaxis: <code>nombre: Tipo[multiplicidad]</code>.
-En lugar de declarar el puerto por tipos, pueden mostrarse las interfaces para el puerto usando símbolos de la interfaz.
-<img alt="Pasted image 20250623104502.png" src="../../assets/Pasted image 20250623104502.png.md" /></p>
+En lugar de declarar el puerto por tipos, pueden mostrarse las interfaces para el puerto usando símbolos de la interfaz.</p>
+<p><img alt="Pasted image 20250623104502.png" src="/assets/Pasted image 20250623104502.png" /></p>
 
 
 

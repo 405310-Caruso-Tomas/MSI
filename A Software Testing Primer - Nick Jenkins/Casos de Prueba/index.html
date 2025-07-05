@@ -4418,30 +4418,41 @@
   <h1>Casos de Prueba</h1>
 
 <blockquote>
-<p>Un caso de prueba es un elemento fundamental en el proceso de pruebas de software, que nos asegura la cobertura adecuada de los <a href="/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos">Requerimientos</a> del sistema.</p>
+<p>Un caso de prueba es un elemento fundamental en el proceso de pruebas de software, que nos asegura la cobertura adecuada de los <strong><a href="/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos">Requerimientos</a></strong> del sistema.</p>
 </blockquote>
 <hr />
 <ul>
-<li>Su propósito principal es verificar que una funcionalidad específica de un producto de <strong><a href="/carpeta/Software">Software</a></strong> opere según lo esperado.</li>
+<li>Su propósito principal es verificar que una funcionalidad específica de un producto de <strong><a href="/R. Pressman/Software">Software</a></strong> opere según lo esperado.</li>
 </ul>
-<p><em>Definición Norma ISO 29119 (2007)</em>. Conjunto de precondiciones, entradas y resultados esperados, diseñados para guiar la ejecución de una prueba con el fin de alcanzar los objetivos del proceso de prueba.
-Puede describirse también como un conjunto de condiciones que el analista de <a href="/carpeta/QA (Quality Assurance o Aseguramiento de la Calidad)">QA (Quality Assurance o Aseguramiento de la Calidad)</a> debe validar.
-En lineas generales, son una herramienta que traza el comportamiento del sistema, y de la misma forma, pueden documentarse estos mismos con herramientas como hojas de cálculo (Excel) o automatizadas de gestión de pruebas (Qase, por ejemplo).</p>
+<p><em>Definición Norma ISO 29119 (2007)</em>. </p>
+<p>Conjunto de precondiciones, entradas y resultados esperados, diseñados para guiar la ejecución de una prueba con el fin de alcanzar los objetivos del proceso de prueba.
+Puede describirse también como un conjunto de condiciones que el analista de <a href="/A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad)">QA (Quality Assurance o Aseguramiento de la Calidad)</a> debe validar.</p>
+<p>En lineas generales, son una herramienta que traza el comportamiento del sistema, y de la misma forma, pueden documentarse estos mismos con herramientas como hojas de cálculo (Excel) o automatizadas de gestión de pruebas (Qase, por ejemplo).</p>
 <hr />
 <h5 id="elementos-de-un-caso-de-prueba"><strong><em>*Elementos de un Caso de prueba</em></strong>*</h5>
-<p>Por lo general se compone de los siguientes elementos:
-1. <strong>Objetivo</strong>: Qué funcionalidad o comportamiento del sistema se va a validar. 
-2. <strong>Datos de entrada y ambiente</strong>: Valores de entrada necesarios y las condiciones del entorno (hardware, software, configuración) bajo las cuales se ejecutará la prueba. 
-3. <strong>Comportamiento esperado y actual</strong>: Cuál es el resultado que se espera obtener y el comportamiento real observado durante la ejecución.
-Los más recomendados, y utilizados en el curso son los de la imagen.
-<img alt="Pasted image 20250529101712.png" src="/carpeta/Pasted image 20250529101712.png" />
-La estructura cuenta con las siguientes columnas:
-- <strong>Nro. Caso de Prueba.</strong> ID para facilitar trazabilidad.
-- <strong>Prioridad (Alta, Media, Baja).</strong> Importancia del caso de prueba.
-- <strong>Precondiciones.</strong> Estado inicial o condiciones previas que deben cumplirse antes de la ejecución.
-- <strong>Pasos.</strong> Acciones que el usuario o el sistema deben seguir durante la prueba. Secuencia lógica.
-- <strong>Resultado Esperado.</strong> Lo que el sistema debe mostrar o hacer si todo se ejecuta correctamente.
-- <strong>Estado (Pasa/Falla)</strong>. ¿El caso de prueba ha fallado o pasado?. En caso de fallo, se debe especificar el punto exacto del error y su descripción.</p>
+<p>Por lo general se compone de los siguientes elementos:</p>
+<ol>
+<li>
+<p><strong>Objetivo</strong>: Qué funcionalidad o comportamiento del sistema se va a validar. </p>
+</li>
+<li>
+<p><strong>Datos de entrada y ambiente</strong>: Valores de entrada necesarios y las condiciones del entorno (hardware, software, configuración) bajo las cuales se ejecutará la prueba. </p>
+</li>
+<li>
+<p><strong>Comportamiento esperado y actual</strong>: Cuál es el resultado que se espera obtener y el comportamiento real observado durante la ejecución.</p>
+</li>
+</ol>
+<p>Los más recomendados, y utilizados en el curso son los de la imagen.
+<img alt="Pasted image 20250529101712.png" src="/assets/Pasted image 20250529101712.png" /></p>
+<p>La estructura cuenta con las siguientes columnas:</p>
+<ul>
+<li><strong>Nro. Caso de Prueba.</strong> ID para facilitar trazabilidad.</li>
+<li><strong>Prioridad (Alta, Media, Baja).</strong> Importancia del caso de prueba.</li>
+<li><strong>Precondiciones.</strong> Estado inicial o condiciones previas que deben cumplirse antes de la ejecución.</li>
+<li><strong>Pasos.</strong> Acciones que el usuario o el sistema deben seguir durante la prueba. Secuencia lógica.</li>
+<li><strong>Resultado Esperado.</strong> Lo que el sistema debe mostrar o hacer si todo se ejecuta correctamente.</li>
+<li><strong>Estado (Pasa/Falla)</strong>. ¿El caso de prueba ha fallado o pasado?. En caso de fallo, se debe especificar el punto exacto del error y su descripción.</li>
+</ul>
 <hr />
 <p><strong>Características.</strong> Un caso de prueba debe ser <strong>PRECISO</strong> (Sin ambigüedades, evitando información innecesaria), <strong>RASTREABLE</strong> (Vinculado a algún requisito), <strong>REPETIBLE</strong> (Puede ejecutarse varias veces en diferentes entornos), <strong>REUTILIZABLE</strong> (Genérico.) </p>
 <hr />
@@ -4450,11 +4461,12 @@ La estructura cuenta con las siguientes columnas:
 <p>Un caso de prueba positivo está destinado a demostrar que la función se comporta como se requiere con una entrada correcta y un caso de prueba negativo está destinado a demostrar que la función no provoca un error con una entrada incorrecta (o responde de manera adecuada a ese error).</p>
 <hr />
 <h6 id="ejemplos"><strong><em>*Ejemplos</em></strong>*</h6>
-<p>Supongamos los siguientes casos de prueba para un sistema GPS. El primero es un ejemplo de un caso de prueba positivo, a diferencia del tercero, que se trata de uno negativo.
-<img alt="Pasted image 20250529102932.png" src="/carpeta/Pasted image 20250529102932.png" />
-<img alt="Pasted image 20250529103010.png" src="/carpeta/Pasted image 20250529103010.png" />
-Ahora recordemos, como vimos más arriba, que en caso de un error en un caso de prueba, es decir, que el sistema no se comporte como lo esperado, se debe documentar el mismo de cierta forma, especificando el estado del mismo. El siguiente es un ejemplo de esto.
-<img alt="Pasted image 20250529103513.png" src="/carpeta/Pasted image 20250529103513.png" /></p>
+<p>Supongamos los siguientes casos de prueba para un sistema GPS. 
+El primero es un ejemplo de un caso de prueba positivo, a diferencia del tercero, que se trata de uno negativo.
+<img alt="Pasted image 20250529102932.png" src="/assets/Pasted image 20250529102932.png" />
+<img alt="Pasted image 20250529103010.png" src="/assets/Pasted image 20250529103010.png" /></p>
+<p>Ahora recordemos, como vimos más arriba, que en caso de un error en un caso de prueba, es decir, que el sistema no se comporte como lo esperado, se debe documentar el mismo de cierta forma, especificando el estado del mismo. El siguiente es un ejemplo de esto.</p>
+<p><img alt="Pasted image 20250529103513.png" src="/assets/Pasted image 20250529103513.png" /></p>
 
 
 

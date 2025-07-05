@@ -4409,10 +4409,10 @@
 <blockquote>
 <p><em>Un informe de defectos mal redactado supone una pérdida de tiempo y esfuerzo para muchas personas. Un informe conciso y descriptivo permite eliminar un error de la forma más sencilla posible.</em></p>
 </blockquote>
-<p>Además, para los testers, los informes de defectos representan el principal resultado de su trabajo. 
-Los informes de defectos van más allá de su uso inmediato. Pueden incluso transmitirse a diversos niveles de gestión dentro de diferentes organizaciones. 
-    <img alt="Pasted image 20250524154649.png" src="/carpeta/Pasted image 20250524154649.png" />
-Existen ciertas características deseables para este reporte, entre ellas está que sea <strong>OBJETIVO</strong>, <strong>ESPECÍFICO</strong> (un informe por defecto), <strong>CONCISO</strong> (simple y directo), <strong>REPRODUCIBLE</strong> (suficiente información para que cualquier persona pueda repetir/ver claramente el problema), <strong>EXPLÍCITO</strong> (información clara), <strong>PERSUASIVO</strong> (redactado de forma que promueva a los desarrolladores a corregir el problema). </p>
+<p>Además, para los testers, los informes de defectos representan el principal resultado de su trabajo. </p>
+<p>Los informes de defectos van más allá de su uso inmediato. Pueden incluso transmitirse a diversos niveles de gestión dentro de diferentes organizaciones. 
+    <img alt="Pasted image 20250524154649.png" src="/assets/Pasted image 20250524154649.png" /></p>
+<p>Existen ciertas características deseables para este reporte, entre ellas está que sea <strong>OBJETIVO</strong>, <strong>ESPECÍFICO</strong> (un informe por defecto), <strong>CONCISO</strong> (simple y directo), <strong>REPRODUCIBLE</strong> (suficiente información para que cualquier persona pueda repetir/ver claramente el problema), <strong>EXPLÍCITO</strong> (información clara), <strong>PERSUASIVO</strong> (redactado de forma que promueva a los desarrolladores a corregir el problema). </p>
 <hr />
 <blockquote>
 <p><em>Un informe de defecto escrito sin aislarlo ni generalizarlo es un defecto informado a medias.</em></p>
@@ -4433,31 +4433,45 @@ Como sabemos, los desarrolladores reutilizan código y esto provoca que un error
 <p>La severidad mide el impacto del defecto en la funcionalidad del sistema o experiencia del usuario. </p>
 </blockquote>
 <p>Podemos clasificar la severidad de los defectos en <strong>Severidad-1</strong> (impide la finalización del proyecto) y <strong>Severidad-2</strong> (defectos que en cantidades limitadas permiten que el proyecto se complete).
-También podemos clasificarlos en función de:
-- <strong><em>Impacto (Alto/Bajo).</em></strong> Gravedad del defecto cuando ocurre.
-- <strong><em>Probabilidad (Alta/Baja).</em></strong> Frecuencia con la que es probable que ocurra el defecto.
- <img alt="Pasted image 20250524160613.png" src="/carpeta/Pasted image 20250524160613.png" /></p>
+También podemos clasificarlos en función de:</p>
+<ul>
+<li>
+<p><strong><em>Impacto (Alto/Bajo).</em></strong> Gravedad del defecto cuando ocurre.</p>
+</li>
+<li>
+<p><strong><em>Probabilidad (Alta/Baja).</em></strong> Frecuencia con la que es probable que ocurra el defecto.
+ <img alt="Pasted image 20250524160613.png" src="/assets/Pasted image 20250524160613.png" /></p>
+</li>
+</ul>
 <hr />
 <h5 id="prioridad"><strong>Prioridad</strong></h5>
-<p>La prioridad indica qué tan urgente es corregir el defecto. Un defecto menor en una pantalla poco usada es diferente en prioridad a un defecto crítico en un sistema de pagos.
- Cuando se tiene un defecto, es importante determinar si debe corregirse inmediatamente, esto determina la prioridad del mismo. Se suelen clasificar en:
- - <strong><em>Alta.</em></strong> Debe resolverse dentro de un día hábil. Afecta la funcionalidad principal o bloquea múltiples casos de prueba.
- - <strong><em>Media.</em></strong> Pueden ser solucionados dentro del ciclo normal de desarrollo ya que no bloquean la aplicación. <em>Un defecto en una funcionalidad no crítica y que puede corregirse en una versión futura</em>, por ejemplo.
- - <strong><em>Baja.</em></strong> No afecta la funcionalidad, y tiene soluciones alternativas. Se debe corregir luego de otros problemas más importantes. <em>Un icono que no se alinea correctamente en una interfaz de usuario</em>, por ejemplo. </p>
+<p>La prioridad indica qué tan urgente es corregir el defecto. Un defecto menor en una pantalla poco usada es diferente en prioridad a un defecto crítico en un sistema de pagos.</p>
+<p>Cuando se tiene un defecto, es importante determinar si debe corregirse inmediatamente, esto determina la prioridad del mismo. Se suelen clasificar en:</p>
+<ul>
+<li>
+<p><strong><em>Alta.</em></strong> Debe resolverse dentro de un día hábil. Afecta la funcionalidad principal o bloquea múltiples casos de prueba.</p>
+</li>
+<li>
+<p><strong><em>Media.</em></strong> Pueden ser solucionados dentro del ciclo normal de desarrollo ya que no bloquean la aplicación. <em>Un defecto en una funcionalidad no crítica y que puede corregirse en una versión futura</em>, por ejemplo.</p>
+</li>
+<li><strong><em>Baja.</em></strong> No afecta la funcionalidad, y tiene soluciones alternativas. Se debe corregir luego de otros problemas más importantes. <em>Un icono que no se alinea correctamente en una interfaz de usuario</em>, por ejemplo. </li>
+</ul>
 <hr />
 <h5 id="estado-de-un-defecto"><strong>Estado de un Defecto</strong>*</h5>
-<p><img alt="Pasted image 20250524161042.png" src="/carpeta/Pasted image 20250524161042.png" />
-<strong><em>Estados comunes en el ciclo de vida de un defecto</em></strong>.
-1. <strong>Nuevo.</strong> Un tester ha identificado y reportado un nuevo defecto, el cual está pendiente de ser asignado a un desarrollador para sus resolución.
-2. <strong>Asignado.</strong> Un desarrollador es responsable de investigarlo y solucionarlo.
-3. <strong>Rechazado.</strong> El desarrollador lo ha considerado inválido.
-4. <strong>Solucionado.</strong> El desarrollador ha corregido el defecto.
-5. <strong>Listo para la prueba.</strong> El código corregido fue incorporado, y es accesible para el tester para que este verifique que realmente fue corregido.
-6. <strong>Reprueba fallida.</strong> Luego de rehacer pruebas, el tester descubre que el defecto sigue presente, y es devuelto al equipo de desarrollo.
-7. <strong>Cerrado.</strong> El defecto fue corregido y ha pasado las pruebas de validación.
-También hay flujos diferentes que el defecto puede tomar, por ejemplo:
-- <strong>Diferido.</strong> La corrección del mismo fue postergada, para un próximo sprint o versión futura.
-- <strong>Duplicado.</strong> El mismo ya fue reportado previamente y se encuentra en proceso de resolución o ya ha sido resuelto.</p>
+<p><img alt="Pasted image 20250524161042.png" src="/assets/Pasted image 20250524161042.png" />
+<strong><em>Estados comunes en el ciclo de vida de un defecto</em></strong>.</p>
+<ol>
+<li><strong>Nuevo.</strong> Un tester ha identificado y reportado un nuevo defecto, el cual está pendiente de ser asignado a un desarrollador para sus resolución.</li>
+<li><strong>Asignado.</strong> Un desarrollador es responsable de investigarlo y solucionarlo.</li>
+<li><strong>Rechazado.</strong> El desarrollador lo ha considerado inválido.</li>
+<li><strong>Solucionado.</strong> El desarrollador ha corregido el defecto.</li>
+<li><strong>Listo para la prueba.</strong> El código corregido fue incorporado, y es accesible para el tester para que este verifique que realmente fue corregido.</li>
+<li><strong>Reprueba fallida.</strong> Luego de rehacer pruebas, el tester descubre que el defecto sigue presente, y es devuelto al equipo de desarrollo.</li>
+<li><strong>Cerrado.</strong> El defecto fue corregido y ha pasado las pruebas de validación.
+También hay flujos diferentes que el defecto puede tomar, por ejemplo:</li>
+<li><strong>Diferido.</strong> La corrección del mismo fue postergada, para un próximo sprint o versión futura.</li>
+<li><strong>Duplicado.</strong> El mismo ya fue reportado previamente y se encuentra en proceso de resolución o ya ha sido resuelto.</li>
+</ol>
 
 
 

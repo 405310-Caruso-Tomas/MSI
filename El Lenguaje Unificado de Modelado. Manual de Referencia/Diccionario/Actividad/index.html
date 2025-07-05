@@ -4372,25 +4372,35 @@
   <h1>Actividad</h1>
 
 <blockquote>
-<p><strong>Elemento</strong> que representa un <strong>comportamiento</strong> o <strong><a href="../../assets/PROCESO.md">PROCESO</a></strong> <strong>dinámico</strong> dentro de un <strong>sistema</strong>, modelado típicamente en un <strong><a href="../../assets/Diagrama de Actividad.md">Diagrama de Actividad</a>.</strong></p>
+<p><strong>Elemento</strong> que representa un <strong>comportamiento</strong> o <strong><a href="/R. Pressman/PROCESO">PROCESO</a></strong> <strong>dinámico</strong> dentro de un <strong>sistema</strong>, modelado típicamente en un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad">Diagrama de Actividad</a>.</strong></p>
 </blockquote>
-<p>Es una <strong>unidad de trabajo</strong> que describe una secuencia de <strong>acciones</strong> ejecutadas para alcanzar un objetivo específico, como parte de un <strong><a href="../../assets/Caso de Uso.md">Caso de Uso</a></strong>, un proceso de negocio o una <strong><a href="../../assets/Interacción.md">Interacción</a></strong> en el sistema.
-- Representa un <strong>proceso</strong> que puede incluir decisiones, bucles, entradas, salidas, transiciones.
-- Representa la ejecución de un cálculo. Se modela como un conjunto de nodos de actividad conectados mediante <strong>flujos de control</strong> (secuencia lógica de acciones con flechas) y <strong>flujos de datos</strong> (transferencia de datos u objetos entre acciones con flechas).
-- <strong>Actividad vs. Acción:</strong> Una <strong>actividad</strong> es un proceso completo que contiene múltiples acciones. Una <strong>acción</strong> es un paso atómico dentro de la actividad.
-- Pueden incluir <strong>condiciones</strong> previas y posteriores para definir <strong>requisitos</strong> antes o después de la actividad.</p>
+<p>Es una <strong>unidad de trabajo</strong> que describe una secuencia de <strong>acciones</strong> ejecutadas para alcanzar un objetivo específico, como parte de un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso">Caso de Uso</a></strong>, un proceso de negocio o una <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción">Interacción</a></strong> en el sistema.</p>
+<ul>
+<li>Representa un <strong>proceso</strong> que puede incluir decisiones, bucles, entradas, salidas, transiciones.</li>
+<li>Representa la ejecución de un cálculo. Se modela como un conjunto de nodos de actividad conectados mediante <strong>flujos de control</strong> (secuencia lógica de acciones con flechas) y <strong>flujos de datos</strong> (transferencia de datos u objetos entre acciones con flechas).</li>
+<li><strong>Actividad vs. Acción:</strong> Una <strong>actividad</strong> es un proceso completo que contiene múltiples acciones. Una <strong>acción</strong> es un paso atómico dentro de la actividad.</li>
+<li>Pueden incluir <strong>condiciones</strong> previas y posteriores para definir <strong>requisitos</strong> antes o después de la actividad.</li>
+</ul>
 <hr />
 <h4 id="notacion"><strong>Notación</strong></h4>
-<p>Un componente de una actividad son los <strong>nodos</strong>, que difieren de lo que definimos como <strong>nodo</strong> de un diagrama de despliegue. Los nodos de este inciso son elementos que representan puntos específicos en el flujo de una actividad. Incluyen:
-    - <strong>Nodo de inicio</strong>: Punto de partida del flujo (círculo negro).
-    - <strong>Nodo de fin</strong>: Punto de finalización (círculo con borde grueso o "X").
-    - <strong>Nodo de acción</strong>: Tarea específica (rectángulo con bordes redondeados).
-    - <strong>Nodo de decisión</strong>: Punto de bifurcación condicional (rombo).</p>
-<p>Supongamos una actividad para "Procesar un inicio de sesión":
-- <strong>Nodo de inicio</strong> → Acción: "Ingresar credenciales" → Nodo de decisión: "¿Credenciales válidas?"
-    - Si sí → Acción: "Conceder acceso" → <strong>Nodo de fin</strong>.
-    - Si no → Acción: "Mostrar error" → <strong>Nodo de fin</strong>.
-En un <strong><a href="../../assets/Diagrama de Actividad.md">Diagrama de Actividad</a></strong>, esto se representa con nodos conectados por flechas, mostrando el flujo lógico.</p>
+<p>Un componente de una actividad son los <strong>nodos</strong>, que difieren de lo que definimos como <strong>nodo</strong> de un diagrama de despliegue. Los nodos de este inciso son elementos que representan puntos específicos en el flujo de una actividad. Incluyen:</p>
+<ul>
+<li><strong>Nodo de inicio</strong>: Punto de partida del flujo (círculo negro).</li>
+<li><strong>Nodo de fin</strong>: Punto de finalización (círculo con borde grueso o "X").</li>
+<li><strong>Nodo de acción</strong>: Tarea específica (rectángulo con bordes redondeados).</li>
+<li><strong>Nodo de decisión</strong>: Punto de bifurcación condicional (rombo).</li>
+</ul>
+<p>Supongamos una actividad para "Procesar un inicio de sesión":</p>
+<ul>
+<li>
+<p><strong>Nodo de inicio</strong> → Acción: "Ingresar credenciales" → Nodo de decisión: "¿Credenciales válidas?"</p>
+<ul>
+<li>Si sí → Acción: "Conceder acceso" → <strong>Nodo de fin</strong>.</li>
+<li>Si no → Acción: "Mostrar error" → <strong>Nodo de fin</strong>.</li>
+</ul>
+</li>
+</ul>
+<p>En un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad">Diagrama de Actividad</a></strong>, esto se representa con nodos conectados por flechas, mostrando el flujo lógico.</p>
 
 
 

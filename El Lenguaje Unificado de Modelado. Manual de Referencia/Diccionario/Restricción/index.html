@@ -4405,42 +4405,56 @@
 <p><strong>Condición</strong> <strong>semántica</strong> representada como texto en lenguaje natural o en un lenguaje formal especificado.</p>
 </blockquote>
 <p>Se puede adjuntar a <strong>cualquier</strong> <strong>elemento</strong> del modelo o <strong>lista de elementos</strong> del modelo, por lo que pueden aplicarse en casi <strong>cualquier</strong> diagrama UML.
-Una restricción es una <strong>aserción</strong>, <strong>no</strong> un mecanismo ejecutable. 
-- Se utilizan para especificar requisitos adicionales, e indica una restricción que debe ser impuesta por el correcto diseño del sistema.</p>
+Una restricción es una <strong>aserción</strong>, <strong>no</strong> un mecanismo ejecutable. </p>
+<ul>
+<li>Se utilizan para especificar requisitos adicionales, e indica una restricción que debe ser impuesta por el correcto diseño del sistema.</li>
+</ul>
 <hr />
 <h4 id="notacion"><strong>Notación</strong></h4>
-<p><strong>Símbolo</strong>: Las restricciones se representan encerradas entre llaves {} y suelen colocarse cerca del elemento al que afectan. La descripción dentro de las llaves puede ser:
-- <strong>Texto informal</strong>: Una frase en lenguaje natural (por ejemplo, <code>{edad debe ser mayor a 18}</code>).
-- <strong>Expresión formal</strong>: Usando un lenguaje como <em>OCL</em> (<em>Object Constraint Language</em>, es un lenguaje formal de <strong>UML</strong>) o pseudocódigo (por ejemplo, <code>{self.edad &gt; 18}</code>).</p>
+<p><strong>Símbolo</strong>: Las restricciones se representan encerradas entre llaves {} y suelen colocarse cerca del elemento al que afectan. La descripción dentro de las llaves puede ser:</p>
+<ul>
+<li><strong>Texto informal</strong>: Una frase en lenguaje natural (por ejemplo, <code>{edad debe ser mayor a 18}</code>).</li>
+<li><strong>Expresión formal</strong>: Usando un lenguaje como <em>OCL</em> (<em>Object Constraint Language</em>, es un lenguaje formal de <strong>UML</strong>) o pseudocódigo (por ejemplo, <code>{self.edad &gt; 18}</code>).</li>
+</ul>
 <h6 id="tipos-de-restricciones"><strong>Tipos de restricciones</strong></h6>
 <ol>
-<li><strong>Restricciones de atributos</strong>:<ul>
+<li>
+<p><strong>Restricciones de atributos</strong>:</p>
+<ul>
 <li>Limitan los valores de un atributo.</li>
 <li>Ejemplo: <code>{edad &gt;= 18}</code> en un atributo edad de una <strong>clase</strong> <strong><code>Usuario</code></strong>.</li>
-</ul>
+<li>
+<p><strong>Restricciones de asociaciones</strong>:</p>
 </li>
-<li><strong>Restricciones de asociaciones</strong>:<ul>
-<li>Definen reglas sobre las relaciones entre clases.</li>
+<li>
+<p>Definen reglas sobre las relaciones entre clases.</p>
+</li>
 <li>Ejemplo: En una asociación entre <code>Estudiante</code> y <code>Curso</code>, <code>{un estudiante puede inscribirse en un máximo de 5 cursos}</code>.</li>
-</ul>
+<li>
+<p><strong>Restricciones de operaciones</strong>:</p>
 </li>
-<li><strong>Restricciones de operaciones</strong>:<ul>
-<li>Especifican condiciones para ejecutar una operación.</li>
+<li>
+<p>Especifican condiciones para ejecutar una operación.</p>
+</li>
 <li>Ejemplo: <code>{pre: usuario autenticado}</code> para una operación <code>realizarPago()</code>.</li>
-</ul>
+<li>
+<p><strong>Restricciones de estados o transiciones</strong> (en diagramas de estados):</p>
 </li>
-<li><strong>Restricciones de estados o transiciones</strong> (en diagramas de estados):<ul>
-<li>Definen condiciones para cambiar de un estado a otro.</li>
-<li>Ejemplo: <code>{transición solo si pago confirmado}</code> en una <strong><a href="../../assets/Máquina de Estados.md">Máquina de Estados</a></strong>.</li>
-</ul>
+<li>
+<p>Definen condiciones para cambiar de un estado a otro.</p>
 </li>
-<li><strong>Restricciones globales</strong>:<ul>
-<li>Aplican a todo un modelo o diagrama.</li>
-<li>Ejemplo: <code>{todas las transacciones deben completarse en menos de 5 segundos}</code>.
-<img alt="Pasted image 20250624231215.png" src="../../assets/Pasted image 20250624231215.png.md" /></li>
+<li>Ejemplo: <code>{transición solo si pago confirmado}</code> en una <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Máquina de Estados">Máquina de Estados</a></strong>.</li>
+<li>
+<p><strong>Restricciones globales</strong>:</p>
+</li>
+<li>
+<p>Aplican a todo un modelo o diagrama.</p>
+</li>
+<li>Ejemplo: <code>{todas las transacciones deben completarse en menos de 5 segundos}</code>.</li>
 </ul>
 </li>
 </ol>
+<p><img alt="Pasted image 20250624231215.png" src="/assets/Pasted image 20250624231215.png" /></p>
 
 
 

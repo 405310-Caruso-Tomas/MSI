@@ -4471,38 +4471,45 @@
 
   <h1>Metodologías de Modelado</h1>
 
-<p>El término <strong><a href="../assets/Metodología.md">Metodología</a></strong>, sugiere la existencia y descripción de métodos estructurados, los cuales tienen por objetivo ayudar a desarrollar modelos de sistemas en forma sistemática. Las vistas en este inciso tienen como objetivo ayudar a desarrollar modelos de sistemas en forma sistemática. Reduciendo la ambigüedad de los requerimientos por parte del cliente.</p>
+<p>El término <strong><a href="/assets/Metodología">Metodología</a></strong>, sugiere la existencia y descripción de métodos estructurados, los cuales tienen por objetivo ayudar a desarrollar modelos de sistemas en forma sistemática.</p>
+<p>Las vistas en este inciso tienen como objetivo ayudar a desarrollar modelos de sistemas en forma sistemática. Reduciendo la ambigüedad de los requerimientos por parte del cliente.</p>
 <hr />
 <h4 id="1-modelado-entidad-relacion-er">1. <strong>Modelado Entidad-Relación (ER)</strong></h4>
-<p><strong>Descripción</strong>: Es una de las metodologías más utilizadas para diseñar bases de datos y sistemas de información. Se centra en identificar entidades (objetos del mundo real) y las relaciones entre ellas.
-    - <strong>Elementos clave</strong>: Entidades, atributos, relaciones y cardinalidades.
-    - <strong>Ejemplo de patrón</strong>: "Cliente" o "Pedido" y sus relaciones como "realiza".</p>
+<p><strong>Descripción</strong>: Es una de las metodologías más utilizadas para diseñar bases de datos y sistemas de información. Se centra en identificar entidades (objetos del mundo real) y las relaciones entre ellas.</p>
+<ul>
+<li><strong>Elementos clave</strong>: Entidades, atributos, relaciones y cardinalidades.</li>
+<li><strong>Ejemplo de patrón</strong>: "Cliente" o "Pedido" y sus relaciones como "realiza".</li>
+</ul>
 <hr />
-<h4 id="2-proceso-de-desarrollo-unificado-pud">2. <strong><a href="../assets/Proceso de Desarrollo Unificado (PUD).md">Proceso de Desarrollo Unificado (PUD)</a></strong></h4>
+<h4 id="2-proceso-de-desarrollo-unificado-pud">2. <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Proceso de Desarrollo Unificado (PUD)">Proceso de Desarrollo Unificado (PUD)</a></strong></h4>
 <hr />
 <h4 id="3-metodologia-de-analisis-estructurado">3. <strong>Metodología de Análisis Estructurado</strong></h4>
-<p><strong>Descripción</strong>: Se basa en descomponer el sistema en procesos y flujos de datos, utilizando herramientas como el Diagrama de Flujo de Datos (DFD).
-    - <strong>Elementos clave</strong>: Procesos, almacenes de datos, flujos de datos y entidades externas.
-    - <img alt="Pasted image 20250331105252.png" src="../assets/Pasted image 20250331105252.png.md" />
-    - <strong>Patrón</strong>: Representación jerárquica de niveles (contexto, nivel 0, nivel 1, etc.).</p>
+<p><strong>Descripción</strong>: Se basa en descomponer el sistema en procesos y flujos de datos, utilizando herramientas como el Diagrama de Flujo de Datos (DFD).</p>
+<ul>
+<li><strong>Elementos clave</strong>: Procesos, almacenes de datos, flujos de datos y entidades externas.</li>
+<li><img alt="Pasted image 20250331105252.png" src="/assets/Pasted image 20250331105252.png" /></li>
+<li><strong>Patrón</strong>: Representación jerárquica de niveles (contexto, nivel 0, nivel 1, etc.).</li>
+</ul>
 <hr />
 <h4 id="4-patrones-de-modelado-conceptual-especificos">4. <strong>Patrones de Modelado Conceptual Específicos</strong></h4>
 <p><strong>Patrón CRUD</strong>: Representa las operaciones básicas (Crear, Leer, Actualizar, Eliminar) en sistemas de información.
     - <strong>Patrón MVC (Modelo-Vista-Controlador)</strong>: Separa la lógica del sistema en tres componentes para facilitar el diseño y mantenimiento.</p>
 <hr />
 <h6 id="enfoque-segun-el-contexto"><strong>Enfoque según el contexto</strong></h6>
-<p>La elección de la metodología depende del propósito del modelado:
-- Si es para bases de datos, el modelo ER es predominante.
-- Si es para software orientado a objetos, UML es más adecuados.
-- Para sistemas centrados en procesos, el análisis estructurado con DFD es común.</p>
+<p>La elección de la metodología depende del propósito del modelado:</p>
+<ul>
+<li>Si es para bases de datos, el modelo ER es predominante.</li>
+<li>Si es para software orientado a objetos, UML es más adecuados.</li>
+<li>Para sistemas centrados en procesos, el análisis estructurado con DFD es común.</li>
+</ul>
 <hr />
 <h6 id="caracteristicas-deseables-de-las-metodologias-y-herramientas"><strong>Características deseables de las metodologías y herramientas</strong></h6>
 <ul>
 <li>
-<p><strong>Modelado iterativo y evolutivo</strong>: Las actividades de elicitación, especificación y validación deberían ser repetidas varias veces en un proceso iterativo, de forma que los requerimientos sean refinados y evolucionen, como es detallado en el apartado de <a href="../assets/Ingeniería de Requerimientos.md">Ingeniería de Requerimientos</a>. </p>
-<ul>
-<li>En cada iteración el Modelo debe permitir identificar el origen del requerimiento, y el versionado actual de los mismos. De forma que figure como un seguimiento durante todo el proceso de modelado, hasta su efectivo cumplimiento plasmado en la funcionalidad del Modelo.</li>
-</ul>
+<p><strong>Modelado iterativo y evolutivo</strong>: Las actividades de elicitación, especificación y validación deberían ser repetidas varias veces en un proceso iterativo, de forma que los requerimientos sean refinados y evolucionen, como es detallado en el apartado de <a href="/Sommerville/Ingeniería de Requerimientos">Ingeniería de Requerimientos</a>. </p>
+</li>
+<li>
+<p>En cada iteración el Modelo debe permitir identificar el origen del requerimiento, y el versionado actual de los mismos. De forma que figure como un seguimiento durante todo el proceso de modelado, hasta su efectivo cumplimiento plasmado en la funcionalidad del Modelo.</p>
 </li>
 <li>
 <p><strong>Diferentes vistas</strong>: vistas que son importantes que estén presentes en cualquier conjunto de metodologías para facilitar la comprensión del sistema: vista <em>estática, dinámica y funcional</em> (especifica en forma declarativa, cómo en cada servicio, ante un estímulo, se producen los cambios de estados en sus atributos.)</p>

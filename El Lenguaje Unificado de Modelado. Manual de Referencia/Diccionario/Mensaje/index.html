@@ -4371,24 +4371,28 @@
 
   <h1>Mensaje</h1>
 
-<p>Transporte de información desde un rol a otro como parte de una <strong><a href="../../assets/Interacción.md">Interacción</a></strong> dentro de un contexto; 
+<p>Transporte de información desde un rol a otro como parte de una <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción">Interacción</a></strong> dentro de un contexto; 
 A nivel de instancia, <strong>comunicación</strong> desde un <strong>objeto</strong> a otro.</p>
 <blockquote>
-<p>Un <strong>mensaje</strong> es una representación de la comunicación entre objetos, roles o <strong><a href="../../assets/Clasificador.md">Clasificador</a>es</strong> en un sistema, modelando cómo interactúan para realizar una funcionalidad específica.</p>
+<p>Un <strong>mensaje</strong> es una representación de la comunicación entre objetos, roles o <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador">Clasificador</a>es</strong> en un sistema, modelando cómo interactúan para realizar una funcionalidad específica.</p>
 </blockquote>
 <p>Un mensaje puede ser una señal o la llamada a una operación.
-Se utiliza principalmente en <strong><a href="../../assets/Diagrama de Secuencia.md">Diagrama de Secuencia</a></strong> y <strong><a href="../../assets/Diagrama de Comunicación.md">Diagrama de Comunicación</a></strong> (o colaboración) para mostrar el intercambio de información, solicitudes de acciones o invocaciones de comportamientos.
-También, la recepción de un <strong>mensaje</strong> puede desencadenar una transición de <strong><a href="../../assets/Máquina de Estados.md">Máquina de Estados</a></strong>.</p>
+Se utiliza principalmente en <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Secuencia">Diagrama de Secuencia</a></strong> y <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación">Diagrama de Comunicación</a></strong> (o colaboración) para mostrar el intercambio de información, solicitudes de acciones o invocaciones de comportamientos.
+También, la recepción de un <strong>mensaje</strong> puede desencadenar una transición de <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Máquina de Estados">Máquina de Estados</a></strong>.</p>
 <hr />
 <h4 id="notacion"><strong>Notación</strong></h4>
-<p><strong>Tipos de mensajes</strong>:
-- <strong>Síncrono</strong>: El emisor espera una respuesta (flecha llena: →).
-- <strong>Asíncrono</strong>: El emisor no espera respuesta (flecha abierta: ➜).
-- <strong>Respuesta</strong>: Retorno de un mensaje síncrono (flecha discontinua: --&gt;).
-- <strong>Creación/Destrucción</strong>: Indica la creación o eliminación de un objeto.
-La notación para los diagramas de secuencia y de comunicación es diferente.
-- En <strong><a href="../../assets/Diagrama de Secuencia.md">Diagrama de Secuencia</a></strong>: Flechas entre líneas de vida de objetos, etiquetadas con el nombre del mensaje.
-- En <strong><a href="../../assets/Diagrama de Comunicación.md">Diagrama de Comunicación</a></strong>: Líneas etiquetadas con un número de orden (ejemplo: <code>1: realizarPedido()</code>).</p>
+<p><strong>Tipos de mensajes</strong>:</p>
+<ul>
+<li><strong>Síncrono</strong>: El emisor espera una respuesta (flecha llena: →).</li>
+<li><strong>Asíncrono</strong>: El emisor no espera respuesta (flecha abierta: ➜).</li>
+<li><strong>Respuesta</strong>: Retorno de un mensaje síncrono (flecha discontinua: --&gt;).</li>
+<li><strong>Creación/Destrucción</strong>: Indica la creación o eliminación de un objeto.</li>
+</ul>
+<p>La notación para los diagramas de secuencia y de comunicación es diferente.</p>
+<ul>
+<li>En <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Secuencia">Diagrama de Secuencia</a></strong>: Flechas entre líneas de vida de objetos, etiquetadas con el nombre del mensaje.</li>
+<li>En <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación">Diagrama de Comunicación</a></strong>: Líneas etiquetadas con un número de orden (ejemplo: <code>1: realizarPedido()</code>).</li>
+</ul>
 
 
 

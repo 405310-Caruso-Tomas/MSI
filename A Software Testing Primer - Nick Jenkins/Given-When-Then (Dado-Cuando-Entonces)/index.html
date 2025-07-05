@@ -4435,14 +4435,18 @@
 
   <h1>Given When Then (Dado Cuando Entonces)</h1>
 
-<p><strong>Gherkin</strong> es un lenguaje de patrones en inglés simple que se usa para especificar <strong>ejemplos</strong> de <strong>escenarios</strong> que ilustran las reglas o <strong><a href="/carpeta/Criterios de Aceptación">Criterios de Aceptación</a></strong> detrás de un <strong>requisito</strong>.
-La estructura es un escenario con la forma: 
-- <strong>Dado</strong> (un conjunto de condiciones previas o contexto)
-- <strong>Cuando</strong> (se inicia una acción o un disparador) 
-- <strong>Entonces</strong> (el programa produce un resultado o un resultado)</p>
+<p><strong>Gherkin</strong> es un lenguaje de patrones en inglés simple que se usa para especificar <strong>ejemplos</strong> de <strong>escenarios</strong> que ilustran las reglas o <strong><a href="/Users Stories Applied - Mike Cohn/Criterios de Aceptación">Criterios de Aceptación</a></strong> detrás de un <strong>requisito</strong>.
+La estructura es un escenario con la forma: </p>
+<ul>
+<li><strong>Dado</strong> (un conjunto de condiciones previas o contexto)</li>
+<li><strong>Cuando</strong> (se inicia una acción o un disparador) </li>
+<li><strong>Entonces</strong> (el programa produce un resultado o un resultado)</li>
+</ul>
 <blockquote>
-<p>[!Jenkins] 
-<em>"Cuando Gherkin está vinculado al desarrollo metodologías como BDD, esto proporciona un virtuoso bucle de retroalimentación donde la especificación valida directamente el comportamiento de la aplicación a través de <a href="/carpeta/Pruebas Automatizadas">Pruebas Automatizadas</a>. Esto minimiza los problemas de mantenimiento con pruebas, proporciona un conjunto de pruebas que son directamente rastreables a los requisitos y ofrece a los desarrolladores una forma de refactorizar constructivamente su código.”</em></p>
+<div class="admonition note">
+<p class="admonition-title">Jenkins</p>
+</div>
+<p><em>"Cuando Gherkin está vinculado al desarrollo metodologías como BDD, esto proporciona un virtuoso bucle de retroalimentación donde la especificación valida directamente el comportamiento de la aplicación a través de <a href="/A Software Testing Primer - Nick Jenkins/Pruebas Automatizadas">Pruebas Automatizadas</a>. Esto minimiza los problemas de mantenimiento con pruebas, proporciona un conjunto de pruebas que son directamente rastreables a los requisitos y ofrece a los desarrolladores una forma de refactorizar constructivamente su código.”</em></p>
 </blockquote>
 <hr />
 <h5 id="given-dado"><strong>Given (Dado)</strong></h5>
@@ -4466,11 +4470,11 @@ Se usa para verificar los resultados de la acción, comprobando si el sistema cu
 <span class="nf">    </span><span class="k">Then </span><span class="nf">el usuario es redirigido al panel principal</span>
 <span class="nf">    </span><span class="k">And </span><span class="nf">se muestra un mensaje de bienvenida</span>
 </code></pre></div>
-Un escenario típico en Gherkin combina estos tres elementos para describir un comportamiento específico. Además, puede incluir otros elementos como And (Y) o But (Pero) para añadir más condiciones o resultados.
-En otros ejemplos, la parte de "Escenario (Scenario)" suele ser más larga, pero al fin y al cabo se busca simplemente dar una descripción de la funcionalidad y el resultado esperado. 
-Por otra parte, el agregado de "Funcionalidad (Feature)" hace referencia a esto mismo, solamente la funcionalidad que se está trabajando en el criterio de aceptación. Puede funcionar como identificador para el escenario.</p>
+Un escenario típico en Gherkin combina estos tres elementos para describir un comportamiento específico. Además, puede incluir otros elementos como And (Y) o But (Pero) para añadir más condiciones o resultados.</p>
+<p>En otros ejemplos, la parte de "Escenario (Scenario)" suele ser más larga, pero al fin y al cabo se busca simplemente dar una descripción de la funcionalidad y el resultado esperado. </p>
+<p>Por otra parte, el agregado de "Funcionalidad (Feature)" hace referencia a esto mismo, solamente la funcionalidad que se está trabajando en el criterio de aceptación. Puede funcionar como identificador para el escenario.</p>
 <hr />
-<p>Los escenarios en Gherkin sirven como un puente entre la descripción de alto nivel de las <a href="/carpeta/Historias de Usuario">Historias de Usuario</a> ("Criterios de Aceptación") y las <a href="/carpeta/Pruebas Automatizadas">Pruebas Automatizadas</a>, ya que cada paso (Given, When, Then) puede ser mapeado a código ejecutable.</p>
+<p>Los escenarios en Gherkin sirven como un puente entre la descripción de alto nivel de las <a href="/Users Stories Applied - Mike Cohn/Historias de Usuario">Historias de Usuario</a> ("Criterios de Aceptación") y las <a href="/A Software Testing Primer - Nick Jenkins/Pruebas Automatizadas">Pruebas Automatizadas</a>, ya que cada paso (Given, When, Then) puede ser mapeado a código ejecutable.</p>
 
 
 

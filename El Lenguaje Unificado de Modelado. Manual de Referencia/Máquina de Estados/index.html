@@ -4393,21 +4393,23 @@
 <p>Una <strong>máquina de estados</strong> es un grafo de estados y transiciones.</p>
 </blockquote>
 <p>Modela las posibles historias de vida de un objeto de una <strong>clase</strong>, todos el conjunto de <strong>estados</strong> por los cuales pasa el objeto en respuesta a <strong>eventos</strong>. 
-Una máquina de estados contiene estados conectados por transiciones. (<strong><a href="../assets/Clases.md">Clases</a></strong>)
-    <img alt="Pasted image 20250626120519.png" src="../assets/Pasted image 20250626120519.png.md" />
-Normalmente, una <strong>máquina de estados</strong> está vinculada a una clase, y describe la respuesta de una instancia de la clase a los eventos que recibe. 
-Las máquinas de estados también se pueden vincular a comportamientos, <strong>casos de uso</strong> y <strong><a href="../assets/Colaboración.md">Colaboración</a>es</strong> para describir su ejecución.
-<img alt="Pasted image 20250622110301.png" src="../assets/Pasted image 20250622110301.png.md" />
-- Los <strong>estados</strong> se representan como rectángulos con esquinas redondeadas. Cada estado modela un periodo de tiempo durante la vida de un objeto en el que satisface ciertas condiciones.
-- Las <strong>transiciones</strong> son flechas etiquetadas con eventos y, opcionalmente, acciones o guardas. Llevan al objeto a un nuevo <strong>estado</strong>.
-- Cuando se dispara una <strong>transición</strong>, se ejecuta un <strong>efecto</strong> (acción o actividad) asociada a la transición.</p>
+Una máquina de estados contiene estados conectados por transiciones. (<strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases">Clases</a></strong>)</p>
+<p><img alt="Pasted image 20250626120519.png" src="/assets/Pasted image 20250626120519.png" /></p>
+<p>Normalmente, una <strong>máquina de estados</strong> está vinculada a una clase, y describe la respuesta de una instancia de la clase a los eventos que recibe. 
+Las máquinas de estados también se pueden vincular a comportamientos, <strong>casos de uso</strong> y <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración">Colaboración</a>es</strong> para describir su ejecución.</p>
+<p><img alt="Pasted image 20250622110301.png" src="/assets/Pasted image 20250622110301.png" /></p>
+<ul>
+<li>Los <strong>estados</strong> se representan como rectángulos con esquinas redondeadas. Cada estado modela un periodo de tiempo durante la vida de un objeto en el que satisface ciertas condiciones.</li>
+<li>Las <strong>transiciones</strong> son flechas etiquetadas con eventos y, opcionalmente, acciones o guardas. Llevan al objeto a un nuevo <strong>estado</strong>.</li>
+<li>Cuando se dispara una <strong>transición</strong>, se ejecuta un <strong>efecto</strong> (acción o actividad) asociada a la transición.</li>
+</ul>
 <hr />
 <h6 id="problema"><strong>Problema</strong></h6>
 <p>El estado inicial de una entrada (representado por un punto negro) es el estado <strong>Disponible</strong>. Antes de que comience la temporada, se asignan los asientos para los abonados de la temporada. Las entradas individuales adquiridas interactivamente se bloquean primero mientras los clientes realizan una selección. Después de esto, se venden o se liberan si son rechazadas. Si el cliente tarda demasiado tiempo en realizar la selección, finaliza el tiempo para la transacción y el asiento se libera. Los asientos vendidos a los abonados de la temporada se pueden cambiar para otras representaciones, en cuyo caso, vuelven a estar disponibles de nuevo.</p>
 <hr />
 <h6 id="mas"><strong>Más</strong></h6>
-<p>Este diagrama puede ser implementado mediante <strong>estados anidados</strong> y <strong>estados compuestos.</strong>
-<img alt="Pasted image 20250626120617.png" src="../assets/Pasted image 20250626120617.png.md" /></p>
+<p>Este diagrama puede ser implementado mediante <strong>estados anidados</strong> y <strong>estados compuestos.</strong></p>
+<p><img alt="Pasted image 20250626120617.png" src="/assets/Pasted image 20250626120617.png" /></p>
 
 
 

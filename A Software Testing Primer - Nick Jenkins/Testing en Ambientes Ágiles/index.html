@@ -4405,22 +4405,22 @@
 
   <h1>Testing en Ambientes Ágiles</h1>
 
-<p>En el desarrollo ágil, los <a href="../assets/Casos de Prueba.md">Casos de Prueba</a> son dados como criterios de aceptación.</p>
+<p>En el desarrollo ágil, los <a href="/A Software Testing Primer - Nick Jenkins/Casos de Prueba">Casos de Prueba</a> son dados como criterios de aceptación.</p>
 <hr />
-<p>Para las metodologías tradicionales, el <a href="../assets/Testing.md">Testing</a> es una etapa que se realiza al final del proceso de desarrollo, mientras que para las metodologías ágiles, el <a href="../assets/Testing.md">Testing</a> es una actividad continua que se realiza de forma iterativa y forma parte del ciclo de vida del producto.
-<img alt="Pasted image 20250605080532.png" src="../assets/Pasted image 20250605080532.png.md" />
-Todo el equipo es responsable de la calidad del producto en las metodologías de este último tipo (testers y especialistas QA deben participar en eventos clave de Scrum como reuniones diarias, refinamiento, y demás). 
-Esta adaptación del testing ágil trae como ventajas la detección temprana de errores, reducción de costos y mayor valor entregado al cliente. Existen prácticas que podríamos referir al "Testing Ágil" que se adecuan a estos ciclos de retroalimentación cortos fundamentales para <a href="../assets/Modelos Ágiles.md">Modelos Ágiles</a>, entre ellas se encuentran las enunciadas abajo.</p>
+<p>Para las metodologías tradicionales, el <a href="/A Software Testing Primer - Nick Jenkins/Testing">Testing</a> es una etapa que se realiza al final del proceso de desarrollo, mientras que para las metodologías ágiles, el <a href="/A Software Testing Primer - Nick Jenkins/Testing">Testing</a> es una actividad continua que se realiza de forma iterativa y forma parte del ciclo de vida del producto.</p>
+<p><img alt="Pasted image 20250605080532.png" src="/assets/Pasted image 20250605080532.png" /></p>
+<p>Todo el equipo es responsable de la calidad del producto en las metodologías de este último tipo (testers y especialistas QA deben participar en eventos clave de Scrum como reuniones diarias, refinamiento, y demás). </p>
+<p>Esta adaptación del testing ágil trae como ventajas la detección temprana de errores, reducción de costos y mayor valor entregado al cliente. Existen prácticas que podríamos referir al "Testing Ágil" que se adecuan a estos ciclos de retroalimentación cortos fundamentales para <a href="/R. Pressman/Modelos Ágiles">Modelos Ágiles</a>, entre ellas se encuentran las enunciadas abajo.</p>
 <hr />
 <h4 id="test-driven-development-tdd"><strong>Test Driven Development (TDD)</strong></h4>
 <blockquote>
-<p>Técnica de diseño e implementación de software que forma parte de la metodología XP (Extreme Programming), desarrollada por Kent Beck (más información en el apartado de <a href="../assets/Agilidad.md">Agilidad</a>) alrededor del 2003. </p>
+<p>Técnica de diseño e implementación de software que forma parte de la metodología XP (Extreme Programming), desarrollada por Kent Beck (más información en el apartado de <a href="/R. Pressman/Agilidad">Agilidad</a>) alrededor del 2003. </p>
 </blockquote>
 <p>Para esta práctica los desarrolladores escriben pruebas unitarias antes de escribir el código fuente (pruebas que por supuesto van a fallar por obvias razones), luego se escribe el código mínimo para que cada prueba pase, y finalmente se optimiza el código en conjunto sin alterar su funcionalidad. Este proceso se conoce como <strong><em>"Red-Green-Refactor"</em></strong>.
 Esto garantiza que solo se agregue el código suficiente para que la prueba pase, proporcionando la solución más simple a un problema de software.
-El <strong>TDD</strong> crea ciclos de retroalimentación cortos mediante la regresión a nivel de unidad y significa que el código se autodocumenta eficazmente a través de sus pruebas integradas, por lo que se integra de manera natural con <a href="../assets/Modelos Ágiles.md">Modelos Ágiles</a>.
-<img alt="Pasted image 20250605085036.png" src="../assets/Pasted image 20250605085036.png.md" />
-El desarrollador no solo puede ver qué hace el código, sino que también comprende por qué.
+El <strong>TDD</strong> crea ciclos de retroalimentación cortos mediante la regresión a nivel de unidad y significa que el código se autodocumenta eficazmente a través de sus pruebas integradas, por lo que se integra de manera natural con <a href="/R. Pressman/Modelos Ágiles">Modelos Ágiles</a>.</p>
+<p><img alt="Pasted image 20250605085036.png" src="/assets/Pasted image 20250605085036.png" /></p>
+<p>El desarrollador no solo puede ver qué hace el código, sino que también comprende por qué.
 <strong>Ejemplo.</strong> (La primera función es la escrita con anterioridad)
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_calcular_cuadrado</span><span class="p">():</span>
     <span class="k">assert</span> <span class="n">calcular_cuadrado</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="o">==</span> <span class="mi">9</span><span class="p">,</span> <span class="s2">&quot;El cuadrado de 3 debe ser 9&quot;</span>
@@ -4435,17 +4435,19 @@ El desarrollador no solo puede ver qué hace el código, sino que también compr
 <h4 id="behavior-driven-development-bdd"><strong>Behavior Driven Development (BDD)</strong></h4>
 <p>Los conceptos básicos del TDD se han ampliado para incluir pruebas de nivel superior y definir el comportamiento esperado del software desde la perspectiva del usuario, y del negocio. Esto se conoce como "<strong><em>Especificación por ejemplo</em></strong>".</p>
 <blockquote>
-<p>Es un enfoque de desarrollo de software que utiliza un lenguaje natural para describir el comportamiento esperado del sistema, asegurando que cumpla con las expectativas del usuario. Se basa en escribir escenarios en formato <strong>"<a href="../assets/Given-When-Then (Dado-Cuando-Entonces).md">Given-When-Then (Dado-Cuando-Entonces)</a></strong>" que sirven como pruebas ejecutables y documentación.</p>
+<p>Es un enfoque de desarrollo de software que utiliza un lenguaje natural para describir el comportamiento esperado del sistema, asegurando que cumpla con las expectativas del usuario. Se basa en escribir escenarios en formato <strong>"<a href="/A Software Testing Primer - Nick Jenkins/Given-When-Then (Dado-Cuando-Entonces)">Given-When-Then (Dado-Cuando-Entonces)</a></strong>" que sirven como pruebas ejecutables y documentación.</p>
 </blockquote>
 <p><strong><em>Este enfoque asegura que las pruebas sean comprensibles, ejecutables</em></strong>, proporcionando un marco para definir y validar el comportamiento del sistema de manera colaborativa.
-BDD puede considerarse una evolución de TDD, ya que combina las técnicas de TDD con un enfoque más orientado al negocio, haciendo que las pruebas sean más accesibles y comprensibles para las partes interesadas no técnicas.
-<img alt="Pasted image 20250605092843.png" src="../assets/Pasted image 20250605092843.png.md" />
-En BDD, el ciclo de desarrollo no necesariamente implica hacer TDD primero, sino que comienza con la definición de criterios de aceptación en forma de escenarios de comportamiento. El flujo típico que se repite sigue de la forma:
-1. <strong>Definir <a href="../assets/Criterios de Aceptación.md">Criterios de Aceptación</a></strong>: Se escriben escenarios en <a href="../assets/Given-When-Then (Dado-Cuando-Entonces).md">Given-When-Then (Dado-Cuando-Entonces)</a> colaborativamente.
-2. <strong>Automatizar pruebas de comportamiento</strong>: Convertir escenarios en pruebas ejecutables. Se suelen utilizar herramientas como Cucumber, Behave o SpecFlow.
-3. <strong>Usar TDD (si aplica)</strong>: Escribir pruebas unitarias (TDD) para desarrollar el código que cumpla con las pruebas de comportamiento.
-4. <strong>Implementar y refactorizar</strong>: Escribir el código funcional, ejecutando pruebas de comportamiento y unitarias para validar.</p>
-<p>De momento, la información de este inciso la considero suficiente para entender a grandes rasgos ambas metodologías. Sin embargo, en el apartado de <a href="../assets/Implementación del BDD.md">Implementación del BDD</a> se hace un ejemplo más práctico del uso del BDD con herramientas reales.</p>
+BDD puede considerarse una evolución de TDD, ya que combina las técnicas de TDD con un enfoque más orientado al negocio, haciendo que las pruebas sean más accesibles y comprensibles para las partes interesadas no técnicas.</p>
+<p><img alt="Pasted image 20250605092843.png" src="/assets/Pasted image 20250605092843.png" /></p>
+<p>En BDD, el ciclo de desarrollo no necesariamente implica hacer TDD primero, sino que comienza con la definición de criterios de aceptación en forma de escenarios de comportamiento. El flujo típico que se repite sigue de la forma:</p>
+<ol>
+<li><strong>Definir <a href="/Users Stories Applied - Mike Cohn/Criterios de Aceptación">Criterios de Aceptación</a></strong>: Se escriben escenarios en <a href="/A Software Testing Primer - Nick Jenkins/Given-When-Then (Dado-Cuando-Entonces)">Given-When-Then (Dado-Cuando-Entonces)</a> colaborativamente.</li>
+<li><strong>Automatizar pruebas de comportamiento</strong>: Convertir escenarios en pruebas ejecutables. Se suelen utilizar herramientas como Cucumber, Behave o SpecFlow.</li>
+<li><strong>Usar TDD (si aplica)</strong>: Escribir pruebas unitarias (TDD) para desarrollar el código que cumpla con las pruebas de comportamiento.</li>
+<li><strong>Implementar y refactorizar</strong>: Escribir el código funcional, ejecutando pruebas de comportamiento y unitarias para validar.</li>
+</ol>
+<p>De momento, la información de este inciso la considero suficiente para entender a grandes rasgos ambas metodologías. Sin embargo, en el apartado de <a href="/assets/Implementación del BDD">Implementación del BDD</a> se hace un ejemplo más práctico del uso del BDD con herramientas reales.</p>
 <hr />
 <h4 id="acceptance-test-driven-development-atdd"><strong>Acceptance Test Driven Development (ATDD)</strong></h4>
 <p>Como pasa con las prácticas mencionadas arriba, la siguiente también agrega un nivel más a lo que sería la definición de la funcionalidad del sistema. <strong>ATDD</strong> opera a un nivel más alto, enfocándose en funcionalidad completa desde la perspectiva del usuario, por lo que una de las diferencias con BDD es que <strong>las pruebas escritas durante ATDD son pensadas para que sean leídas por clientes.</strong></p>
@@ -4453,15 +4455,17 @@ En BDD, el ciclo de desarrollo no necesariamente implica hacer TDD primero, sino
 <p>Metodología de desarrollo de software ágil que fomenta la colaboración entre <strong>clientes</strong>, <strong>desarrolladores</strong> y <strong>testers</strong> para definir criterios de aceptación antes de iniciar la codificación.</p>
 </blockquote>
 <p>ATDD comparte principios con otras metodologías como <strong>Test-Driven Development (TDD)</strong>, <strong>Behavior-Driven Development (BDD)</strong>, pero se distingue por la colaboración de las tres partes (a menudo referida como los "three amigos": <strong>cliente, desarrollador y tester</strong>). El enfoque está 
-El ciclo de desarrollo se ve de la siguiente forma:
-1. <strong>Discutir</strong>: Los "tres amigos" (cliente, desarrollador, tester) colaboran en un taller de especificación para definir los requisitos a través de historias de usuario y criterios de aceptación. Este paso busca alinear expectativas. <strong>Ejemplo</strong>: Para una funcionalidad de "pago con tarjeta de crédito", los tres amigos discuten <strong>cómo</strong> el sistema debe manejar transacciones válidas e inválidas.
-2. <strong>Destilar</strong>: Los requisitos se convierten en pruebas de aceptación claras y concisas, a menudo utilizando el formato <a href="../assets/Given-When-Then (Dado-Cuando-Entonces).md">Given-When-Then (Dado-Cuando-Entonces)</a>.
-3. <strong>Desarrollar</strong>: Los desarrolladores escriben el código necesario para que las pruebas de aceptación pasen.
-4. <strong>Demostrar</strong>: Se presenta un prototipo funcional a los interesados para obtener retroalimentación. Esto permite iterar sobre el producto y ajustar los requisitos si es necesario.
-En general, ATDD no incluye TDD, pero ambas metodologías pueden complementarse en un proyecto de desarrollo ágil.</p>
+El ciclo de desarrollo se ve de la siguiente forma:</p>
+<ol>
+<li><strong>Discutir</strong>: Los "tres amigos" (cliente, desarrollador, tester) colaboran en un taller de especificación para definir los requisitos a través de historias de usuario y criterios de aceptación. Este paso busca alinear expectativas. <strong>Ejemplo</strong>: Para una funcionalidad de "pago con tarjeta de crédito", los tres amigos discuten <strong>cómo</strong> el sistema debe manejar transacciones válidas e inválidas.</li>
+<li><strong>Destilar</strong>: Los requisitos se convierten en pruebas de aceptación claras y concisas, a menudo utilizando el formato <a href="/A Software Testing Primer - Nick Jenkins/Given-When-Then (Dado-Cuando-Entonces)">Given-When-Then (Dado-Cuando-Entonces)</a>.</li>
+<li><strong>Desarrollar</strong>: Los desarrolladores escriben el código necesario para que las pruebas de aceptación pasen.</li>
+<li><strong>Demostrar</strong>: Se presenta un prototipo funcional a los interesados para obtener retroalimentación. Esto permite iterar sobre el producto y ajustar los requisitos si es necesario.
+En general, ATDD no incluye TDD, pero ambas metodologías pueden complementarse en un proyecto de desarrollo ágil.</li>
+</ol>
 <hr />
-<p>Para evitar mareos, se enuncia de forma más breve cada metodología nuevamente:
-• <strong>TDD (Test Driven Development):</strong> El ciclo comienza con la escritura de una prueba que falla, luego se escribe el código mínimo necesario para pasar la prueba, y finalmente se refactoriza el código para mejorarlo.</p>
+<p>Para evitar mareos, se enuncia de forma más breve cada metodología nuevamente:</p>
+<p>• <strong>TDD (Test Driven Development):</strong> El ciclo comienza con la escritura de una prueba que falla, luego se escribe el código mínimo necesario para pasar la prueba, y finalmente se refactoriza el código para mejorarlo.</p>
 <p>• <strong>BDD (Behavior Driven Development):</strong> Se enfoca en el comportamiento del sistema a través de escenarios, permitiendo definir los requisitos de manera que todos los miembros del equipo los comprendan. </p>
 <p><strong>• ATDD (Acceptance Test Driven Development):</strong> Implica discusiones entre el equipo para definir los criterios de aceptación antes de escribir el código, seguido de la demostración y el desarrollo.</p>
 

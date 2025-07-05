@@ -4401,47 +4401,59 @@
 
 <p>El <strong>modelo de vistas 4+1</strong> es un <strong>marco conceptual</strong> utilizado en ingeniería de software, propuesto por <em>Philippe Kruchten</em> en 1995, para describir la arquitectura de un sistema de software <strong>desde múltiples perspectivas</strong> o <strong>"vistas".</strong></p>
 <hr />
-<p><em>Kruchten</em> argumenta que una sola vista arquitectónica no puede capturar la complejidad de un sistema de software, ya que las partes interesadas (desarrolladores, gerentes, clientes, administradores de sistemas) tienen preocupaciones distintas.
-El modelo propone que un sistema software se ha de documentar y mostrar (tal y como se propone en el estándar <em>IEEE 1471-2000</em>) con <strong>4 vistas</strong> bien <strong>diferenciadas</strong>. 
-Kruchten enfatiza que el modelo 4+1 no es un proceso de diseño, sino un marco para describir la arquitectura. No dicta cómo diseñar el sistema, sino cómo comunicarlo.
-El nombre "<em>4+1</em>" se refiere a cuatro vistas principales más una vista adicional que las unifica, que es la <strong>vista de escenario</strong>.
-<img alt="Pasted image 20250625174843.png" src="../assets/Pasted image 20250625174843.png.md" /></p>
+<p><em>Kruchten</em> argumenta que una sola vista arquitectónica no puede capturar la complejidad de un sistema de software, ya que las partes interesadas (desarrolladores, gerentes, clientes, administradores de sistemas) tienen preocupaciones distintas.</p>
+<p>El modelo propone que un sistema software se ha de documentar y mostrar (tal y como se propone en el estándar <em>IEEE 1471-2000</em>) con <strong>4 vistas</strong> bien <strong>diferenciadas</strong>. </p>
+<p>Kruchten enfatiza que el modelo 4+1 no es un proceso de diseño, sino un marco para describir la arquitectura. No dicta cómo diseñar el sistema, sino cómo comunicarlo.</p>
+<p>El nombre "<em>4+1</em>" se refiere a cuatro vistas principales más una vista adicional que las unifica, que es la <strong>vista de escenario</strong>.</p>
+<p><img alt="Pasted image 20250625174843.png" src="/assets/Pasted image 20250625174843.png" /></p>
 <hr />
 <h4 id="las-cuatro-vistas-principales"><strong>Las Cuatro Vistas Principales</strong></h4>
-<p><strong>Vista Lógica/Diseño (Logical View)</strong>
-- Representa la descomposición funcional del sistema, enfocándose en los elementos que proveen la funcionalidad requerida por los usuarios finales.
-- Representa la estructura del sistema en términos de sus <strong>componentes</strong> funcionales, como <strong><a href="../assets/Clases.md">Clases</a></strong>, objetos, <strong>interfaces</strong> o <strong>módulos</strong>. <strong><a href="../assets/Colaboración.md">Colaboración</a></strong> entre clases.
-- <strong>Audiencia</strong>: Diseñadores, usuarios finales y analistas de sistemas.
-- <strong>Diagramas UML asociados:</strong> <strong><a href="../assets/Diagrama de Clases.md">Diagrama de Clases</a></strong>, diagramas de objetos, <strong><a href="../assets/Diagrama de Secuencia.md">Diagrama de Secuencia</a></strong>,</p>
-<p><strong>Vista de Implementación (Implementation View)</strong>
-- Describe cómo se organiza el sistema en términos de <strong><a href="../assets/Artefacto.md">Artefacto</a>s</strong> físicos, como archivos de código, bibliotecas, ejecutables o componentes desplegables. 
-- Se centra en la estructura del software implementado, la organización del software desde la perspectiva del desarrollo. 
-- <strong>Audiencia:</strong> Desarrolladores, gestores de configuración, arquitectos.
-- <strong>Diagramas UML asociados</strong>: <strong><a href="../assets/Diagrama de Componentes.md">Diagrama de Componentes</a></strong>, <strong><a href="../assets/Diagrama de Paquetes.md">Diagrama de Paquetes</a></strong>.</p>
-<p><strong>Vista de Proceso (Process View)</strong>
-- Representa el comportamiento dinámico del sistema, incluyendo <strong><a href="../assets/PROCESO.md">PROCESO</a>S</strong>, hilos, <strong><a href="../assets/Interacción.md">Interacción</a>es</strong> entre <strong><a href="../assets/Componente.md">Componente</a>s</strong> y concurrencia. 
-- Refiere a la <strong>sincronización de procesos.</strong>
-- <strong>Audiencia:</strong> Integradores, desarrolladores 
-- Se centra en aspectos como rendimiento, escalabilidad y tolerancia a fallos.
--  <strong><a href="../assets/Diagrama de Actividad.md">Diagrama de Actividad</a></strong>, <strong><a href="../assets/Diagrama de Comunicación.md">Diagrama de Comunicación</a></strong>.</p>
-<p><strong>Vista Física (Physical View)</strong>
-- Describe cómo los <strong>componentes</strong> del software se mapean/distribuyen a la <strong>infraestructura</strong> física, como servidores, nodos, redes y dispositivos. Se centra en la topología del sistema y su despliegue.
-- <strong>Audiencia</strong>: Administradores de sistemas, ingenieros de infraestructura, integradores.
-- <strong><a href="../assets/Diagrama de Despliegue.md">Diagrama de Despliegue</a></strong>.</p>
+<p><strong>Vista Lógica/Diseño (Logical View)</strong></p>
+<ul>
+<li>Representa la descomposición funcional del sistema, enfocándose en los elementos que proveen la funcionalidad requerida por los usuarios finales.</li>
+<li>Representa la estructura del sistema en términos de sus <strong>componentes</strong> funcionales, como <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases">Clases</a></strong>, objetos, <strong>interfaces</strong> o <strong>módulos</strong>. <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración">Colaboración</a></strong> entre clases.</li>
+<li><strong>Audiencia</strong>: Diseñadores, usuarios finales y analistas de sistemas.</li>
+<li><strong>Diagramas UML asociados:</strong> <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases">Diagrama de Clases</a></strong>, diagramas de objetos, <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Secuencia">Diagrama de Secuencia</a></strong>,</li>
+</ul>
+<p><strong>Vista de Implementación (Implementation View)</strong></p>
+<ul>
+<li>Describe cómo se organiza el sistema en términos de <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Artefacto">Artefacto</a>s</strong> físicos, como archivos de código, bibliotecas, ejecutables o componentes desplegables. </li>
+<li>Se centra en la estructura del software implementado, la organización del software desde la perspectiva del desarrollo. </li>
+<li><strong>Audiencia:</strong> Desarrolladores, gestores de configuración, arquitectos.</li>
+<li><strong>Diagramas UML asociados</strong>: <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes">Diagrama de Componentes</a></strong>, <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Paquetes">Diagrama de Paquetes</a></strong>.</li>
+</ul>
+<p><strong>Vista de Proceso (Process View)</strong></p>
+<ul>
+<li>Representa el comportamiento dinámico del sistema, incluyendo <strong><a href="/R. Pressman/PROCESO">PROCESO</a>S</strong>, hilos, <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción">Interacción</a>es</strong> entre <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente">Componente</a>s</strong> y concurrencia. </li>
+<li>Refiere a la <strong>sincronización de procesos.</strong></li>
+<li><strong>Audiencia:</strong> Integradores, desarrolladores </li>
+<li>Se centra en aspectos como rendimiento, escalabilidad y tolerancia a fallos.</li>
+<li><strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad">Diagrama de Actividad</a></strong>, <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación">Diagrama de Comunicación</a></strong>.</li>
+</ul>
+<p><strong>Vista Física (Physical View)</strong></p>
+<ul>
+<li>Describe cómo los <strong>componentes</strong> del software se mapean/distribuyen a la <strong>infraestructura</strong> física, como servidores, nodos, redes y dispositivos. Se centra en la topología del sistema y su despliegue.</li>
+<li><strong>Audiencia</strong>: Administradores de sistemas, ingenieros de infraestructura, integradores.</li>
+<li><strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Despliegue">Diagrama de Despliegue</a></strong>.</li>
+</ul>
 <hr />
 <h5 id="la-vista-adicional-vista-de-escenarios-scenarios-view-o-1"><strong>La Vista Adicional: Vista de Escenarios (Scenarios View o +1)</strong></h5>
-<p>Esta vista <strong>unifica</strong> las otras cuatro vistas al describir <strong><a href="../assets/Caso de Uso.md">Caso de Uso</a></strong> o escenarios clave que ilustran cómo los elementos de las vistas lógica, de implementación, de proceso y de despliegue <strong>interactúan</strong> para cumplir con los requisitos del sistema. <strong>Es la "vista integradora".</strong>
-Por lo tanto, la audiencia de esta vista serían todas las partes interesadas.
-- <strong>Diagramas UML asociados</strong>: <strong><a href="../assets/Diagrama de Casos de Uso.md">Diagrama de Casos de Uso</a></strong>.
-- <strong>Ejemplo</strong>: Un escenario como "<em>Usuario realiza un préstamo de libro</em>" mostraría cómo el usuario interactúa con la interfaz (vista lógica), cómo se ejecuta el proceso (vista de proceso), qué componentes se usan (vista de implementación) y en qué nodos se ejecuta (vista de despliegue).</p>
+<p>Esta vista <strong>unifica</strong> las otras cuatro vistas al describir <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso">Caso de Uso</a></strong> o escenarios clave que ilustran cómo los elementos de las vistas lógica, de implementación, de proceso y de despliegue <strong>interactúan</strong> para cumplir con los requisitos del sistema. <strong>Es la "vista integradora".</strong>
+Por lo tanto, la audiencia de esta vista serían todas las partes interesadas.</p>
+<ul>
+<li><strong>Diagramas UML asociados</strong>: <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso">Diagrama de Casos de Uso</a></strong>.</li>
+<li><strong>Ejemplo</strong>: Un escenario como "<em>Usuario realiza un préstamo de libro</em>" mostraría cómo el usuario interactúa con la interfaz (vista lógica), cómo se ejecuta el proceso (vista de proceso), qué componentes se usan (vista de implementación) y en qué nodos se ejecuta (vista de despliegue).</li>
+</ul>
 <hr />
 <p><strong>Resumen adicional.</strong>
-El modelo 4+1 utiliza diagramas UML para representar cada vista, asegurando que cada perspectiva sea clara para las partes interesadas relevantes:
-- <strong>Vista Lógica</strong>: Enfocada en la funcionalidad (UML: clases, objetos).
-- <strong>Vista de Implementación</strong>: Enfocada en la construcción del software (UML: componentes).
-- <strong>Vista de Proceso</strong>: Enfocada en el comportamiento dinámico (UML:  actividad).
-- <strong>Vista de Despliegue</strong>: Enfocada en la infraestructura (UML: despliegue).
-- <strong>Vista de Escenarios</strong>: Une todo con casos de uso (UML: casos de uso).</p>
+El modelo 4+1 utiliza diagramas UML para representar cada vista, asegurando que cada perspectiva sea clara para las partes interesadas relevantes:</p>
+<ul>
+<li><strong>Vista Lógica</strong>: Enfocada en la funcionalidad (UML: clases, objetos).</li>
+<li><strong>Vista de Implementación</strong>: Enfocada en la construcción del software (UML: componentes).</li>
+<li><strong>Vista de Proceso</strong>: Enfocada en el comportamiento dinámico (UML:  actividad).</li>
+<li><strong>Vista de Despliegue</strong>: Enfocada en la infraestructura (UML: despliegue).</li>
+<li><strong>Vista de Escenarios</strong>: Une todo con casos de uso (UML: casos de uso).</li>
+</ul>
 
 
 

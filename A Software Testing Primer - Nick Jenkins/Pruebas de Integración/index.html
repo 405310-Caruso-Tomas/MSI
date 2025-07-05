@@ -4405,31 +4405,39 @@
 
   <h1>Pruebas de Integración</h1>
 
-<p><em>Las unidades más pequeñas se integran en unidades más grandes, y estas, a su vez, en el sistema general.</em> 
-Estas pruebas difieren de las pruebas unitarias en que las unidades <strong>ya no se prueban de forma independiente, sino en grupos</strong>, y el enfoque se desplaza de las unidades individuales a <strong>la interacción entre ellas</strong>.</p>
+<p><em>Las unidades más pequeñas se integran en unidades más grandes, y estas, a su vez, en el sistema general.</em> </p>
+<p>Estas pruebas difieren de las pruebas unitarias en que las unidades <strong>ya no se prueban de forma independiente, sino en grupos</strong>, y el enfoque se desplaza de las unidades individuales a <strong>la interacción entre ellas</strong>.</p>
 <hr />
 <p>El objetivo principal de las pruebas de integración es <strong>GARANTIZAR funcionalidad conjunta</strong>, identificar fallos que puedan surgir en las interfaces entre los módulos, como errores en la transmisión de datos, problemas de sincronización o dependencias mal gestionadas.</p>
 <hr />
 <h6 id="que-se-hace-en-las-pruebas-de-integracion"><strong>¿Qué se hace en las pruebas de integración?.</strong></h6>
-<p>Se crean casos de prueba específicos para examinar las interacciones entre módulos. Algunos ejemplos de lo que se podría probar incluyen:
-- La comunicación entre dos servicios web.
-- La integración de un frontend con un backend.
-Se pueden utilizar distintos enfoques para llevar a cabo estas pruebas, como la <strong>integración progresiva</strong> (agregar módulos uno por uno) o la <strong>integración a gran escala</strong>, donde se prueba todo el sistema de una vez.</p>
+<p>Se crean casos de prueba específicos para examinar las interacciones entre módulos. Algunos ejemplos de lo que se podría probar incluyen:</p>
+<ul>
+<li>La comunicación entre dos servicios web.</li>
+<li>La integración de un frontend con un backend.</li>
+</ul>
+<p>Se pueden utilizar distintos enfoques para llevar a cabo estas pruebas, como la <strong>integración progresiva</strong> (agregar módulos uno por uno) o la <strong>integración a gran escala</strong>, donde se prueba todo el sistema de una vez.</p>
 <hr />
 <h6 id="quien-realiza-las-pruebas-de-integracion"><strong>¿Quién realiza las pruebas de integración?</strong></h6>
-<p>Las pruebas de integración suelen ser realizadas tanto por los desarrolladores como por los equipos de <a href="../assets/QA (Quality Assurance o Aseguramiento de la Calidad).md">QA (Quality Assurance o Aseguramiento de la Calidad)</a>.
-Los desarrolladores realizan pruebas básicas de integración mientras construyen el software, pero el equipo de QA normalmente lleva a cabo pruebas más exhaustivas en un entorno que simula mejor la interacción real entre los módulos.</p>
+<p>Las pruebas de integración suelen ser realizadas tanto por los desarrolladores como por los equipos de <a href="/A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad)">QA (Quality Assurance o Aseguramiento de la Calidad)</a>.</p>
+<p>Los desarrolladores realizan pruebas básicas de integración mientras construyen el software, pero el equipo de QA normalmente lleva a cabo pruebas más exhaustivas en un entorno que simula mejor la interacción real entre los módulos.</p>
 <hr />
 <h6 id="tipos-de-pruebas-de-integracion"><strong>Tipos de Pruebas de Integración</strong></h6>
-<p>Las pruebas de integración pueden ser utilizadas para verificar diferentes características del código, y suelen responder a las preguntas:
-- <strong><em>Enfoque Big-Bang.</em></strong> Todos los módulos se integran de una sola vez y se prueban como un sistema completo. Este enfoque puede dificultar la localización de errores si los fallos son numerosos. Los módulos deben estar implementados y conectados entre sí.
-- <strong><em>De Integración Incremental.</em></strong> Los módulos se integran y prueban de manera gradual, uno a uno. Se pueden realizar en dos subtipos: 
-    - <strong>Top-Down</strong> (de arriba hacia abajo) - Los módulos de alto nivel se prueban primero y se van integrando gradualmente los módulos de nivel inferior.
-    - Ejemplo: En una aplicación web, primero se integraría el frontend con el controlador, luego el controlador con el backend, y finalmente el backend con la base de datos.
-    - <strong>Bottom-Up</strong> (de abajo hacia arriba) - Se comienza integrando los módulos de bajo nivel y se va ascendiendo a los de alto nivel.
-- <strong><em>Pruebas de Integración Continua.</em></strong> Común en <a href="../assets/Modelos Ágiles.md">Modelos Ágiles</a> y DevOps, las pruebas de integración se realizan de forma continua a medida que se desarrollan nuevos componentes. Con cada cambio en el código se ejecuta una prueba de integración. Suelen ser automáticas.
-    - Ejemplo: Cada vez que un desarrollador sube cambios al repositorio de código, se ejecutan automáticamente las pruebas de integración para asegurar que esos cambios no rompan la funcionalidad de otros módulos.
-- <strong><em>Pruebas de Interfaz.</em></strong> Refieren a la <strong>COMUNICACIÓN</strong>. Verifican que las interfaces (por ejemplo, APIs REST, gRPC) manejen correctamente las solicitudes y respuestas, y que los módulos se comuniquen correctamente (que se envíen y reciban los datos correctamente). </p>
+<p>Las pruebas de integración pueden ser utilizadas para verificar diferentes características del código, y suelen responder a las preguntas:</p>
+<ul>
+<li><strong><em>Enfoque Big-Bang.</em></strong> Todos los módulos se integran de una sola vez y se prueban como un sistema completo. Este enfoque puede dificultar la localización de errores si los fallos son numerosos. Los módulos deben estar implementados y conectados entre sí.</li>
+<li><strong><em>De Integración Incremental.</em></strong> Los módulos se integran y prueban de manera gradual, uno a uno. Se pueden realizar en dos subtipos: <ul>
+<li><strong>Top-Down</strong> (de arriba hacia abajo) - Los módulos de alto nivel se prueban primero y se van integrando gradualmente los módulos de nivel inferior.</li>
+<li>Ejemplo: En una aplicación web, primero se integraría el frontend con el controlador, luego el controlador con el backend, y finalmente el backend con la base de datos.</li>
+<li><strong>Bottom-Up</strong> (de abajo hacia arriba) - Se comienza integrando los módulos de bajo nivel y se va ascendiendo a los de alto nivel.</li>
+</ul>
+</li>
+<li><strong><em>Pruebas de Integración Continua.</em></strong> Común en <a href="/R. Pressman/Modelos Ágiles">Modelos Ágiles</a> y DevOps, las pruebas de integración se realizan de forma continua a medida que se desarrollan nuevos componentes. Con cada cambio en el código se ejecuta una prueba de integración. Suelen ser automáticas.<ul>
+<li>Ejemplo: Cada vez que un desarrollador sube cambios al repositorio de código, se ejecutan automáticamente las pruebas de integración para asegurar que esos cambios no rompan la funcionalidad de otros módulos.</li>
+</ul>
+</li>
+<li><strong><em>Pruebas de Interfaz.</em></strong> Refieren a la <strong>COMUNICACIÓN</strong>. Verifican que las interfaces (por ejemplo, APIs REST, gRPC) manejen correctamente las solicitudes y respuestas, y que los módulos se comuniquen correctamente (que se envíen y reciban los datos correctamente). </li>
+</ul>
 <hr />
 <p>A su vez, podemos sumar otros tipos de pruebas a la lista, las <strong>Pruebas de Integración de Extremo a Extremo</strong>, se tratan de probar un proceso completo que ofrece el sistema, pasando por todos los módulos que harían posible el proceso. Un ejemplo de este último podría ser probar un proceso completo de compra en un sitio web, desde el frontend hasta el backend y la base de datos.</p>
 <p>Por otro lado, <strong>es muy común que el cambio en el código realizado para arreglar un error introduzca errores adicionales en otras partes o componentes del software</strong>, y por ello existen las llamadas:

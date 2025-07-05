@@ -4459,66 +4459,102 @@
 
   <h1>Relaciones</h1>
 
-<p>Las <strong>relaciones</strong> entre <strong><a href="../assets/Clasificador.md">Clasificador</a>es</strong> son <strong>asociación</strong>, <strong>generalización</strong> y varios tipos de <strong>dependencia</strong>, entre los que se incluyen la <strong>realización</strong> y el <strong>uso</strong>.
-Describen cómo se conectan y colaboran los diferentes <strong><a href="../assets/Componente.md">Componente</a>s</strong> de un sistema, como <strong><a href="../assets/Clases.md">Clases</a></strong>, <strong>objetos</strong>, <strong><a href="../assets/Caso de Uso.md">Caso de Uso</a></strong>, entre otros.
-También suelen mostrar información adicional como <strong>multiplicidad</strong> (número de instancias de una clase que pueden estar relacionadas con la clase asociada) y <strong>nombres de roles</strong> (identificación del extremo de una asociación).
-<img alt="Pasted image 20250625150939.png" src="../assets/Pasted image 20250625150939.png.md" /></p>
+<p>Las <strong>relaciones</strong> entre <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador">Clasificador</a>es</strong> son <strong>asociación</strong>, <strong>generalización</strong> y varios tipos de <strong>dependencia</strong>, entre los que se incluyen la <strong>realización</strong> y el <strong>uso</strong>.
+Describen cómo se conectan y colaboran los diferentes <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente">Componente</a>s</strong> de un sistema, como <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases">Clases</a></strong>, <strong>objetos</strong>, <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso">Caso de Uso</a></strong>, entre otros.
+También suelen mostrar información adicional como <strong>multiplicidad</strong> (número de instancias de una clase que pueden estar relacionadas con la clase asociada) y <strong>nombres de roles</strong> (identificación del extremo de una asociación).</p>
+<p><img alt="Pasted image 20250625150939.png" src="/assets/Pasted image 20250625150939.png" /></p>
 <hr />
 <h4 id="asociacion"><strong>Asociación</strong></h4>
 <p>La relación de asociación describe conexiones semánticas entre objetos individuales (instancias) de clases dadas. Indicando que los <strong>objetos</strong> de <strong>una clase</strong> pueden estar relacionados con <strong>los objetos de otra.</strong>
-Las relaciones restantes relacionan las descripciones de los propios <strong>clasificadores</strong>, no de sus instancias.
-No implica una dependencia fuerte, sino que <strong>simplemente existe una conexión entre las clases.</strong> Ambas pueden existir por separado.
-- <strong>Notación</strong>: Una línea sólida entre dos clases, a menudo con un nombre que describe la relación. 
-- Puede incluir <strong>multiplicidad</strong> (e.g., 1, <code>0..</code>, <code>1..</code>), es decir, cuántas instancias pueden estar relacionadas con una instancia de otra clase en una relación. Se especifica en los extremos de una línea de relación, donde corresponde la <strong>navegación</strong>.
-- La <strong>navegación</strong> indica la dirección en la que se puede acceder a los objetos en una relación. Se indica con una flecha en un extremo de la línea de relación, para decir que la navegación es unidireccional. La navegación es bidireccional, en cambio, si lleva una flecha en ambos extremos de la línea o si no lleva ninguna, pero se aclara con una nota que es bidireccional. En general, las <strong>asociaciones</strong> son bidireccionales. 
-- <code>Estudiante ---- Curso</code>
-- <strong>Ejemplo</strong>: Una clase <code>Estudiante</code> está asociada con una clase <code>Curso</code>. Un estudiante puede estar inscrito en varios cursos (multiplicidad <code>0..*</code>).</p>
+Las relaciones restantes relacionan las descripciones de los propios <strong>clasificadores</strong>, no de sus instancias.</p>
+<p>No implica una dependencia fuerte, sino que <strong>simplemente existe una conexión entre las clases.</strong> Ambas pueden existir por separado.</p>
+<ul>
+<li><strong>Notación</strong>: Una línea sólida entre dos clases, a menudo con un nombre que describe la relación. </li>
+<li>Puede incluir <strong>multiplicidad</strong> (e.g., 1, <code>0..</code>, <code>1..</code>), es decir, cuántas instancias pueden estar relacionadas con una instancia de otra clase en una relación. Se especifica en los extremos de una línea de relación, donde corresponde la <strong>navegación</strong>.</li>
+<li>La <strong>navegación</strong> indica la dirección en la que se puede acceder a los objetos en una relación. Se indica con una flecha en un extremo de la línea de relación, para decir que la navegación es unidireccional. La navegación es bidireccional, en cambio, si lleva una flecha en ambos extremos de la línea o si no lleva ninguna, pero se aclara con una nota que es bidireccional. En general, las <strong>asociaciones</strong> son bidireccionales. </li>
+<li><code>Estudiante ---- Curso</code></li>
+<li><strong>Ejemplo</strong>: Una clase <code>Estudiante</code> está asociada con una clase <code>Curso</code>. Un estudiante puede estar inscrito en varios cursos (multiplicidad <code>0..*</code>).</li>
+</ul>
 <hr />
 <h4 id="agregacion"><strong>Agregación</strong></h4>
-<p>Es un <strong>tipo especial</strong> de <strong>asociación</strong> que representa una relación "todo-parte" donde <strong>las partes pueden existir independientemente del todo</strong>. Es una relación más débil que la composición. 
-Quiere decir que si el objeto "<em>todo</em>" se destruye, el objeto "<em>parte</em>" sigue existiendo.
-- <strong>Notación</strong>: Una línea con un diamante hueco en el lado del "<em>todo</em>". <code>Universidad ◇---- Departamento</code>
-- <strong>Ejemplo</strong>: Una clase <code>Universidad</code> tiene una agregación con la clase <code>Departamento</code>. Los departamentos forman parte de la universidad, pero un departamento puede existir sin una universidad específica.
-    - <img alt="Pasted image 20250626100533.png" src="../assets/Pasted image 20250626100533.png.md" /></p>
+<p>Es un <strong>tipo especial</strong> de <strong>asociación</strong> que representa una relación "todo-parte" donde <strong>las partes pueden existir independientemente del todo</strong>. Es una relación más débil que la composición. </p>
+<p>Quiere decir que si el objeto "<em>todo</em>" se destruye, el objeto "<em>parte</em>" sigue existiendo.</p>
+<ul>
+<li><strong>Notación</strong>: Una línea con un diamante hueco en el lado del "<em>todo</em>". <code>Universidad ◇---- Departamento</code></li>
+<li>
+<p><strong>Ejemplo</strong>: Una clase <code>Universidad</code> tiene una agregación con la clase <code>Departamento</code>. Los departamentos forman parte de la universidad, pero un departamento puede existir sin una universidad específica.</p>
+</li>
+<li>
+<p><img alt="Pasted image 20250626100533.png" src="/assets/Pasted image 20250626100533.png" /></p>
+</li>
+</ul>
 <hr />
 <h4 id="composicion"><strong>Composición</strong></h4>
-<p>Es una forma más fuerte de <strong>agregación</strong>, donde <strong>las partes no pueden existir sin el todo</strong>. Si el todo se destruye, las partes también. 
-El compuesto es el responsable único de gestionar sus partes.
-- <strong>Notación</strong>: Una línea con un diamante lleno en el lado del "todo".
-- <strong>Ejemplo</strong>: Una clase <code>Casa</code> tiene una composición con la clase <code>Habitación</code>. Si la casa se destruye, las habitaciones también dejan de existir.
-- <code>Casa ◆---- Habitación</code>
-    - <img alt="Pasted image 20250626100451.png" src="../assets/Pasted image 20250626100451.png.md" /></p>
+<p>Es una forma más fuerte de <strong>agregación</strong>, donde <strong>las partes no pueden existir sin el todo</strong>. Si el todo se destruye, las partes también. </p>
+<p>El compuesto es el responsable único de gestionar sus partes.</p>
+<ul>
+<li><strong>Notación</strong>: Una línea con un diamante lleno en el lado del "todo".</li>
+<li><strong>Ejemplo</strong>: Una clase <code>Casa</code> tiene una composición con la clase <code>Habitación</code>. Si la casa se destruye, las habitaciones también dejan de existir.</li>
+<li>
+<p><code>Casa ◆---- Habitación</code></p>
+</li>
+<li>
+<p><img alt="Pasted image 20250626100451.png" src="/assets/Pasted image 20250626100451.png" /></p>
+</li>
+</ul>
 <hr />
 <h4 id="dependencia"><strong>Dependencia</strong></h4>
-<p>Indica que una <strong>clase</strong> <strong>depende</strong> de otra para realizar alguna función, pero <strong>la relación es más débil y no implica una conexión estructural</strong> permanente.
-Un cambio en la clase de la que depende puede afectar a la otra clase.
-- Según esta definición, las relaciones de <strong>asociación</strong>, de <strong>generalización</strong> y <strong>realización</strong> son dependencias, pero éstas tienen semánticas específicas con consecuencias importantes. Por lo tanto, ellas tienen sus propios nombres y su semántica detallada.
-- Generalmente, <strong>las dependencias se utilizan para indicar que una clase utiliza a otra como argumento en la signatura de una operación</strong>.
-    - <img alt="Pasted image 20250626100231.png" src="../assets/Pasted image 20250626100231.png.md" />
-- <strong>Notación</strong>: Una línea discontinua con una flecha apuntando a la clase de la que se depende.
-- <strong>Ejemplo</strong>: Una clase Informe depende de una clase Impresora para imprimir un documento.
-- <code>Informe ----&gt; Impresora</code></p>
+<p>Indica que una <strong>clase</strong> <strong>depende</strong> de otra para realizar alguna función, pero <strong>la relación es más débil y no implica una conexión estructural</strong> permanente.</p>
+<p>Un cambio en la clase de la que depende puede afectar a la otra clase.</p>
+<ul>
+<li>Según esta definición, las relaciones de <strong>asociación</strong>, de <strong>generalización</strong> y <strong>realización</strong> son dependencias, pero éstas tienen semánticas específicas con consecuencias importantes. Por lo tanto, ellas tienen sus propios nombres y su semántica detallada.</li>
+<li>
+<p>Generalmente, <strong>las dependencias se utilizan para indicar que una clase utiliza a otra como argumento en la signatura de una operación</strong>.</p>
+<ul>
+<li><img alt="Pasted image 20250626100231.png" src="/assets/Pasted image 20250626100231.png" /></li>
+<li><strong>Notación</strong>: Una línea discontinua con una flecha apuntando a la clase de la que se depende.</li>
+<li><strong>Ejemplo</strong>: Una clase Informe depende de una clase Impresora para imprimir un documento.</li>
+<li><code>Informe ----&gt; Impresora</code></li>
+</ul>
 <hr />
 <h4 id="generalizacion-herencia"><strong>Generalización (Herencia)</strong></h4>
-<p>La descripción más específica es completamente consistente con la más general. Representa una relación "<em>es-un</em>" entre una <strong>clase padre (superclase)</strong> y una <strong>clase hija (subclase)</strong>. La subclase hereda atributos y métodos de la superclase.
-- <strong>Notación</strong>: Una línea con una flecha triangular hueca apuntando a la superclase.
-- <strong>Ejemplo</strong>: Una clase <code>Vehículo</code> es la superclase de <code>Coche</code> y <code>Bicicleta</code>. Ambos heredan propiedades de <strong>vehículo</strong>.
-- <code>Coche ----|&gt; Vehículo</code>
-- La generalización permite <strong>operaciones polimórficas</strong>, es decir, cuya <strong>implementación (método)</strong> se determina por la clase de objeto a la que se aplican, en lugar de ser explícitamente indicadas en la subclase.
-- Además permite lo que se denomina <strong>herencia</strong>, que permite que las partes compartidas de la descripción se declaren una vez y sean compartidas por muchas clases, en lugar de repetirlas en cada clase que las utiliza.
-    - <img alt="Pasted image 20250626100414.png" src="../assets/Pasted image 20250626100414.png.md" />
-- Se puede dar el caso de <strong>herencia múltiple</strong>, donde una clase hereda los atributos y operaciones de sus dos padres.
-    - <img alt="Pasted image 20250626095910.png" src="../assets/Pasted image 20250626095910.png.md" /></p>
+<p>La descripción más específica es completamente consistente con la más general. Representa una relación "<em>es-un</em>" entre una <strong>clase padre (superclase)</strong> y una <strong>clase hija (subclase)</strong>. La subclase hereda atributos y métodos de la superclase.</p>
+</li>
+<li>
+<p><strong>Notación</strong>: Una línea con una flecha triangular hueca apuntando a la superclase.</p>
+</li>
+<li><strong>Ejemplo</strong>: Una clase <code>Vehículo</code> es la superclase de <code>Coche</code> y <code>Bicicleta</code>. Ambos heredan propiedades de <strong>vehículo</strong>.</li>
+<li><code>Coche ----|&gt; Vehículo</code></li>
+<li>La generalización permite <strong>operaciones polimórficas</strong>, es decir, cuya <strong>implementación (método)</strong> se determina por la clase de objeto a la que se aplican, en lugar de ser explícitamente indicadas en la subclase.</li>
+<li>
+<p>Además permite lo que se denomina <strong>herencia</strong>, que permite que las partes compartidas de la descripción se declaren una vez y sean compartidas por muchas clases, en lugar de repetirlas en cada clase que las utiliza.</p>
+<ul>
+<li><img alt="Pasted image 20250626100414.png" src="/assets/Pasted image 20250626100414.png" /></li>
+<li>
+<p>Se puede dar el caso de <strong>herencia múltiple</strong>, donde una clase hereda los atributos y operaciones de sus dos padres.</p>
+</li>
+<li>
+<p><img alt="Pasted image 20250626095910.png" src="/assets/Pasted image 20250626095910.png" /></p>
+</li>
+</ul>
 <hr />
 <h4 id="realizacion"><strong>Realización</strong></h4>
 <p>Es una relación entre una <strong>interfaz</strong> y una <strong>clase</strong> concreta que la implementa.
-La <strong>clase</strong> se compromete a implementar <strong>todos los métodos definidos en la interfaz</strong>, pero no la estructura.
-El cliente debe tener (por <strong>herencia</strong> o por <strong>declaración directa</strong>) al menos todas las operaciones que tiene el proveedor.
-- <strong>Notación</strong>: Similar a la herencia, pero <strong>con una línea discontinua</strong> y una flecha triangular hueca.
-- <strong>Ejemplo</strong>: Una clase <code>Coche</code> implementa una interfaz <code>VehículoConducible</code>.
-- <code>Coche ----|&gt; VehículoConducible</code>
-- Notar que para <strong>interfaz</strong>, así como para otros elementos UML, hay más de una notación común, pero que son más convenientes unas u otras notaciones dependiendo el diagrama o vista UML. Se adjunta otro ejemplo, este tipo de notación es más común en un <strong><a href="../assets/Diagrama de Componentes.md">Diagrama de Componentes</a></strong> (apartado donde además se aprovecha para explicar la <strong>interfaz obligatoria</strong> y <strong>proporcionada</strong>)
-    - <img alt="Pasted image 20250625150253.png" src="../assets/Pasted image 20250625150253.png.md" /></p>
+La <strong>clase</strong> se compromete a implementar <strong>todos los métodos definidos en la interfaz</strong>, pero no la estructura.</p>
+</li>
+</ul>
+<p>El cliente debe tener (por <strong>herencia</strong> o por <strong>declaración directa</strong>) al menos todas las operaciones que tiene el proveedor.</p>
+<ul>
+<li><strong>Notación</strong>: Similar a la herencia, pero <strong>con una línea discontinua</strong> y una flecha triangular hueca.</li>
+<li><strong>Ejemplo</strong>: Una clase <code>Coche</code> implementa una interfaz <code>VehículoConducible</code>.</li>
+<li><code>Coche ----|&gt; VehículoConducible</code></li>
+<li>
+<p>Notar que para <strong>interfaz</strong>, así como para otros elementos UML, hay más de una notación común, pero que son más convenientes unas u otras notaciones dependiendo el diagrama o vista UML. Se adjunta otro ejemplo, este tipo de notación es más común en un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes">Diagrama de Componentes</a></strong> (apartado donde además se aprovecha para explicar la <strong>interfaz obligatoria</strong> y <strong>proporcionada</strong>)</p>
+<ul>
+<li><img alt="Pasted image 20250625150253.png" src="/assets/Pasted image 20250625150253.png" /></li>
+</ul>
+</li>
+</ul>
 
 
 

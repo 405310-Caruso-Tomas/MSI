@@ -4463,58 +4463,66 @@
 <blockquote>
 <p>Son categorías definidas en la especificación de UML para clasificar diagramas según el tipo de información que modelan (estructura, comportamiento, interacción). Son parte del estándar UML y <strong>se centran en la semántica de los diagramas.</strong></p>
 </blockquote>
-<p>La <strong>semántica</strong>, la consideramos inherente a un <strong><a href="../assets/Modelo.md">Modelo</a></strong>, y es en ese inciso donde es mencionada.
-Son una guía para los modeladores sobre qué diagramas usar según el aspecto del sistema, y con qué elementos.
-Los conceptos, modelos, y <strong>elementos</strong> de <a href="../assets/UML.md">UML</a> pueden agruparse en las siguientes áreas conceptuales:</p>
+<p>La <strong>semántica</strong>, la consideramos inherente a un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Modelo">Modelo</a></strong>, y es en ese inciso donde es mencionada.</p>
+<p>Son una guía para los modeladores sobre qué diagramas usar según el aspecto del sistema, y con qué elementos.</p>
+<p>Los conceptos, modelos, y <strong>elementos</strong> de <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/UML">UML</a> pueden agruparse en las siguientes áreas conceptuales:</p>
 <hr />
 <h5 id="estructura-estatica"><strong>Estructura estática</strong></h5>
-<p><strong><a href="../assets/Clases.md">Clases</a>, Atributos y Operaciones.</strong> Esta área se centra en cómo están organizados los componentes, relaciones y propiedades de un modelo en un momento dado. 
-- Los conceptos son modelados como <a href="../assets/Clases.md">Clases</a>.
-- Varias clases pueden compartir su estructura común utilizando la generalización, herencias.
-- Los objetos también tienen conexiones en tiempo de ejecución con otros objetos individuales. Estas relaciones objeto a objeto se modelan mediante <strong>asociaciones</strong> entre clases.
-- Las clases pueden tener <strong>interfaces</strong>, los cuales <strong>describen su comportamiento visible desde el exterior</strong>. 
-- Los diagramas asociados más comunes a estas áreas son el <strong><a href="../assets/Diagrama de Clases.md">Diagrama de Clases</a>, diagrama de objetos</strong> (muestra instancias específicas de clases), <strong><a href="../assets/Diagrama de Componentes.md">Diagrama de Componentes</a></strong>.</p>
+<p><strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases">Clases</a>, Atributos y Operaciones.</strong> Esta área se centra en cómo están organizados los componentes, relaciones y propiedades de un modelo en un momento dado.</p>
+<ul>
+<li>Los conceptos son modelados como <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases">Clases</a>.</li>
+<li>Varias clases pueden compartir su estructura común utilizando la generalización, herencias.</li>
+<li>Los objetos también tienen conexiones en tiempo de ejecución con otros objetos individuales. Estas relaciones objeto a objeto se modelan mediante <strong>asociaciones</strong> entre clases.</li>
+<li>Las clases pueden tener <strong>interfaces</strong>, los cuales <strong>describen su comportamiento visible desde el exterior</strong>. </li>
+<li>Los diagramas asociados más comunes a estas áreas son el <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases">Diagrama de Clases</a>, diagrama de objetos</strong> (muestra instancias específicas de clases), <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes">Diagrama de Componentes</a></strong>.</li>
+</ul>
 <hr />
 <h5 id="construcciones-de-diseno"><strong>Construcciones de Diseño</strong></h5>
-<p><strong>Clasificadores, Puertos, <a href="../assets/Colaboración.md">Colaboración</a>es y <a href="../assets/Componente.md">Componente</a>s.</strong> Describe los elementos que se utilizan en la fase de diseño para modelar la arquitectura y los detalles técnicos de un sistema, orientados a la implementación.
-- Un <strong><a href="../assets/Clasificador.md">Clasificador</a> estructurado</strong> es una extensión de una clase en UML que permite modelar su estructura interna como una colección de partes conectadas mediante conectores.
-- Se suele representar en un <strong><a href="../assets/Diagrama de Estructura Interna.md">Diagrama de Estructura Interna</a></strong>, donde la clase se muestra como un rectángulo que contiene partes internas (rectángulos más pequeños) unidas por líneas (conectores).</p>
+<p><strong>Clasificadores, Puertos, <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración">Colaboración</a>es y <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente">Componente</a>s.</strong> Describe los elementos que se utilizan en la fase de diseño para modelar la arquitectura y los detalles técnicos de un sistema, orientados a la implementación.</p>
 <ul>
+<li>Un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador">Clasificador</a> estructurado</strong> es una extensión de una clase en UML que permite modelar su estructura interna como una colección de partes conectadas mediante conectores.</li>
 <li>
-<p>Una clase puede encapsular su estructura interna y exponer solo ciertas interfaces al exterior mediante un <strong><a href="../assets/Puerto.md">Puerto</a></strong> o más de uno.</p>
+<p>Se suele representar en un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna">Diagrama de Estructura Interna</a></strong>, donde la clase se muestra como un rectángulo que contiene partes internas (rectángulos más pequeños) unidas por líneas (conectores).</p>
 </li>
 <li>
-<p><strong><a href="../assets/Colaboración.md">Colaboración</a></strong>, <strong><a href="../assets/Diagrama de Colaboración.md">Diagrama de Colaboración</a></strong>.</p>
+<p>Una clase puede encapsular su estructura interna y exponer solo ciertas interfaces al exterior mediante un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Puerto">Puerto</a></strong> o más de uno.</p>
+</li>
+<li>
+<p><strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración">Colaboración</a></strong>, <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Colaboración">Diagrama de Colaboración</a></strong>.</p>
 </li>
 </ul>
 <hr />
 <h5 id="construcciones-de-despliegue"><strong>Construcciones de Despliegue</strong></h5>
-<p><strong><a href="../assets/Nodo.md">Nodo</a>, <a href="../assets/Artefacto.md">Artefacto</a>, <a href="../assets/Manifestación.md">Manifestación</a> y <a href="../assets/Vista de Despliegue.md">Vista de Despliegue</a>.</strong> Son los elementos utilizados para modelar la distribución física de un sistema en ejecución, es decir, cómo los elementos de software se implementan en el hardware o infraestructura física.
-- El <strong><a href="../assets/Diagrama de Despliegue.md">Diagrama de Despliegue</a></strong> es el principal vehículo para la vista de despliegue, mostrando <strong>nodos</strong> como cubos 3D, <strong>artefactos</strong> como rectángulos, y <strong>relaciones</strong> como flechas. Además de contener la representación de todos los elementos mencionados.</p>
+<p><strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Nodo">Nodo</a>, <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Artefacto">Artefacto</a>, <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Manifestación">Manifestación</a> y <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Vista de Despliegue">Vista de Despliegue</a>.</strong> Son los elementos utilizados para modelar la distribución física de un sistema en ejecución, es decir, cómo los elementos de software se implementan en el hardware o infraestructura física.</p>
+<ul>
+<li>El <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Despliegue">Diagrama de Despliegue</a></strong> es el principal vehículo para la vista de despliegue, mostrando <strong>nodos</strong> como cubos 3D, <strong>artefactos</strong> como rectángulos, y <strong>relaciones</strong> como flechas. Además de contener la representación de todos los elementos mencionados.</li>
+</ul>
 <hr />
 <h5 id="comportamiento-dinamico"><strong>Comportamiento Dinámico</strong></h5>
-<p><strong><a href="../assets/Interacción.md">Interacción</a>,</strong> <strong>Vida de un Objeto</strong>, <strong><a href="../assets/Actividad.md">Actividad</a></strong>. Elementos y diagramas utilizados para modelar el comportamiento de un sistema, es decir, cómo sus componentes interactúan o cambian de estado.
- Un <strong><a href="../assets/Diagrama de Casos de Uso.md">Diagrama de Casos de Uso</a></strong> <strong>muestra cómo fluye la interacción entre usuarios y el sistema a lo largo del tiempo</strong>, lo cual es una forma de <strong>comportamiento observable</strong> y no una estructura estática, por lo que se dice que pertenece a esta área conceptual.
-Intentan capturar la vida de un objeto, las interacciones entre objetos y los flujos de ejecución.
-- La <strong>historia de vida de un objeto</strong> muestra cómo este interactúa con el resto del mundo a lo largo de su existencia, enfocándose en sus estados, eventos que lo afectan, acciones que realiza y transiciones entre estados.
-- Se representa mediante una <strong><a href="../assets/Máquina de Estados.md">Máquina de Estados</a></strong>.
-- Por ejemplo, en un sistema de biblioteca, un objeto <code>Libro</code> podría tener estados como <code>Disponible</code>, <code>Prestado</code> y <code>Reservado</code>, con transiciones desencadenadas por eventos como "prestar" o "devolver".</p>
+<p><strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción">Interacción</a>,</strong> <strong>Vida de un Objeto</strong>, <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Actividad">Actividad</a></strong>. Elementos y diagramas utilizados para modelar el comportamiento de un sistema, es decir, cómo sus componentes interactúan o cambian de estado.</p>
+<p>Un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso">Diagrama de Casos de Uso</a></strong> <strong>muestra cómo fluye la interacción entre usuarios y el sistema a lo largo del tiempo</strong>, lo cual es una forma de <strong>comportamiento observable</strong> y no una estructura estática, por lo que se dice que pertenece a esta área conceptual.
+Intentan capturar la vida de un objeto, las interacciones entre objetos y los flujos de ejecución.</p>
 <ul>
+<li>La <strong>historia de vida de un objeto</strong> muestra cómo este interactúa con el resto del mundo a lo largo de su existencia, enfocándose en sus estados, eventos que lo afectan, acciones que realiza y transiciones entre estados.</li>
+<li>Se representa mediante una <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Máquina de Estados">Máquina de Estados</a></strong>.</li>
 <li>
-<p>Las <strong>interacciones</strong> se representan en un <strong><a href="../assets/Diagrama de Secuencia.md">Diagrama de Secuencia</a></strong> y <strong><a href="../assets/Diagrama de Comunicación.md">Diagrama de Comunicación</a></strong> (<em>notar diferencia entre ambos</em>).</p>
+<p>Por ejemplo, en un sistema de biblioteca, un objeto <code>Libro</code> podría tener estados como <code>Disponible</code>, <code>Prestado</code> y <code>Reservado</code>, con transiciones desencadenadas por eventos como "prestar" o "devolver".</p>
 </li>
 <li>
-<p>Una <strong>actividad</strong> representa <a href="../assets/Flujos de Proceso.md">Flujos de Proceso</a>, en un <a href="../assets/Diagrama de Actividad.md">Diagrama de Actividad</a>, que puede ser secuencial o concurrente, e incluye construcciones como <strong>decisiones</strong>, <strong>bucles</strong> y <strong>bifurcaciones</strong>. </p>
+<p>Las <strong>interacciones</strong> se representan en un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Secuencia">Diagrama de Secuencia</a></strong> y <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación">Diagrama de Comunicación</a></strong> (<em>notar diferencia entre ambos</em>).</p>
+</li>
+<li>
+<p>Una <strong>actividad</strong> representa <a href="/R. Pressman/Flujos de Proceso">Flujos de Proceso</a>, en un <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad">Diagrama de Actividad</a>, que puede ser secuencial o concurrente, e incluye construcciones como <strong>decisiones</strong>, <strong>bucles</strong> y <strong>bifurcaciones</strong>. </p>
 </li>
 </ul>
 <hr />
 <h5 id="organizacion-del-modeloelementos-de-agrupacion"><strong>Organización del Modelo/Elementos de Agrupación</strong></h5>
 <p>Refiere a cómo se estructura la información de modelado para que sea <strong>comprensible</strong>, <strong>manejable</strong> y <strong>escalable</strong>, especialmente en sistemas grandes.
-- Los <strong><a href="../assets/Paquete.md">Paquete</a>s</strong> dividen un modelo grande en unidades más pequeñas y comprensibles.
-- Se representan en un <strong><a href="../assets/Diagrama de Paquetes.md">Diagrama de Paquetes</a></strong>. </p>
+- Los <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Paquete">Paquete</a>s</strong> dividen un modelo grande en unidades más pequeñas y comprensibles.
+- Se representan en un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Paquetes">Diagrama de Paquetes</a></strong>. </p>
 <hr />
 <h5 id="perfileselementos-de-anotacion"><strong>Perfiles/Elementos de Anotación</strong></h5>
-<p><strong><a href="../assets/Perfil.md">Perfil</a>es, <a href="../assets/Estereotipo.md">Estereotipo</a>s, <a href="../assets/Valores Etiquetados.md">Valores Etiquetados</a> y <a href="../assets/Restricción.md">Restricción</a>es</strong>. Mecanismos de extensibilidad diseñados para personalizar y adaptar el lenguaje a necesidades específicas. Estas construcciones permiten a los usuarios <strong>definir nuevos tipos de elementos</strong>, <strong>agregar atributos</strong> personalizados y <strong>establecer restricciones</strong> adicionales, manteniendo la compatibilidad con el estándar UML.</p>
+<p><strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Perfil">Perfil</a>es, <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Estereotipo">Estereotipo</a>s, <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Valores Etiquetados">Valores Etiquetados</a> y <a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Restricción">Restricción</a>es</strong>. Mecanismos de extensibilidad diseñados para personalizar y adaptar el lenguaje a necesidades específicas. Estas construcciones permiten a los usuarios <strong>definir nuevos tipos de elementos</strong>, <strong>agregar atributos</strong> personalizados y <strong>establecer restricciones</strong> adicionales, manteniendo la compatibilidad con el estándar UML.</p>
 
 
 
