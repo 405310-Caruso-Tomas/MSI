@@ -1,20 +1,17 @@
 import os
 import re
 
-root_dir = 'docs'  # Carpeta raíz de tu documentación MkDocs
+root_dir = 'docs' 
 
-# Mapeo: nombre del archivo ➜ carpeta donde está
 file_to_dir = {}
 
-# Primera pasada: construir el mapa de archivos
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:
         if filename.endswith('.md'):
-            file_basename = os.path.splitext(filename)[0]  # Sin extensión
-            rel_dir = os.path.relpath(dirpath, root_dir)  # Ruta relativa
+            file_basename = os.path.splitext(filename)[0]  
+            rel_dir = os.path.relpath(dirpath, root_dir)  
             file_to_dir[file_basename] = rel_dir.replace(os.sep, '/')
 
-# Segunda pasada: reemplazar en los archivos
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:
         if filename.endswith('.md'):
@@ -24,9 +21,9 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
 
             def replace_link(match):
                 target = match.group(1)
-                folder = file_to_dir.get(target, '')  # Carpeta donde está el archivo
+                folder = file_to_dir.get(target, '')
                 if folder == '.':
-                    folder = ''  # Si está en docs/ raíz, ruta vacía
+                    folder = '' 
                 return f"[{target}](/{folder}/{target})"
 
             new_content = re.sub(r'\[\[([^\]]+)\]\]', replace_link, content)
@@ -38,7 +35,7 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
 def agregar_assets_a_enlaces(contenido):
     return re.sub(r'\[([^\]]+)\]\(//([^\)]+)\)', r'[\1](/assets/\2)', contenido)
 
-root_dir = 'docs'  # Carpeta raíz donde están los archivos
+root_dir = 'docs' 
 
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:
