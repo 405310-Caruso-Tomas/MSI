@@ -1,34 +1,48 @@
 ##### **Factibilidad Técnica**
 Evalúa: 
+
 1. Si los recursos tecnológicos (hardware, software, infraestructura y personal) son suficientes para desarrollar el sistema propuesto.
 2. Si el equipo tiene la capacidad de implementar las tecnologías necesarias.
+
 Permite **evitar sorpresas, optimizar recursos y reducir la probabilidad de fracasos técnicos.**
 
 **Elementos Clave.**
+
 - **Hardware.** 
+	
 	- **Evaluación de equipos.** Verificar si los servidores, computadoras, dispositivos móviles, y otros equipos necesarios para el proyecto están disponibles en cantidad suficiente, y cumplen con los requerimientos técnicos del proyecto.
 	- **Estabilidad y Compatibilidad.** El hardware debe ser confiable y compatible con la nueva tecnología a implementar.
 	- **Capacidad.** Asegurarse que la capacidad de almacenamiento y procesamiento del hardware sea suficiente para las demandas del proyecto.
 	- **Procesamiento.** Garantizar que el hardware tenga la potencia de procesamiento suficiente para ejecutar las tareas del sistema, como la velocidad de las CPU y la cantidad de memoria RAM disponible.
+
 - **Software.** 
+	
 	- **Desarrollo propio.** Crear el software internamente, utilizando las herramientas y recursos que ya posee la organización.
 	- **Tercerización.** Contratar a un proveedor externo especializado para que desarrolle el software.
 	- **Compra de software existente.** La organización compra un software existente en el mercado y lo ajusta (parametriza) para que cumpla con los requerimientos del proyecto.
 	- **Compatibilidad.** Característica más importante. Se trata de verificar que el nuevo software sea compatible con los sistemas actuales de la organización.
+
 - **Rendimiento.** 
+	
 	- **Estabilidad.** Que el sistema pueda manejar la carga de trabajo prevista sin perder rendimiento. 
 	- **Capacidad ante mayores cargas.** Verificar que la velocidad de los procesadores y la capacidad del software para manejar múltiples usuarios simultáneamente.
 	- **Simulaciones**. Consiste en realizar pruebas para simular cómo funcionará el sistema bajo diferentes condiciones de uso y carga.
+
 - **Seguridad y Escalabilidad.** 
+	
 	- **Seguridad.** Evaluar si el sistema será seguro frente a posibles amenazas cibernéticas.
 	- **Escalabilidad.** El sistema debe ser capaz de crecer y adaptarse a futuras necesidades de demanda, sin que esto afecte su rendimiento.
+
 Algunas herramientas para cumplir con lo listado son la **Matriz de Homogeneización** (permite estandarizar las tecnologías), **Benchmarking de Tecnología** (comparar diferentes herramientas o productos de la organización que cumplen funciones similares), o **Pruebas de Concepto** (pruebas a pequeña escala de una nueva tecnología para ver si realmente funcionará antes de hacer una inversión mayor).
 ****
 ##### **Factibilidad Económica**
 Evalúa:
+
 1. Si un proyecto es financieramente viable.
+
 Esto implica comparar los costos involucrados con los beneficios financieros esperados para determinar si el proyecto generará un retorno positivo sobre la inversión (ROI) y será sostenible a largo plazo.
 Permite **evitar pérdidas, optimizar la inversión y asegurar la rentabilidad del proyecto**.
+
 Las herramientas y técnicas que hacen posible estos cometidos son:
 
 - **Análisis de Retorno sobre la Inversión (ROI - Return on Investment).** Métrica financiera que mide el porcentaje de retorno generado por un proyecto en comparación con la inversión inicial. Cuanto más alto sea el ROI, más rentable será el proyecto. Compara los beneficios (ya sea ahorros en costos o ingresos adicionales) con el costo total del proyecto.
@@ -55,8 +69,10 @@ Si bien la factibilidad económica evalúa los costos y beneficios financieros d
 ****
 ##### **Factibilidad Operativa**
 Evalúa:
+
 1. Si la organización tiene la capacidad para implementar y utilizar un nuevo sistema o proceso de manera efectiva.
 2. Si los usuarios finales aceptan y utilizan eficientemente el nuevo sistema o proceso.
+
 Permite **garantizar la adopción del sistema**, **evitar impactos negativos en la productividad diaria** con el nuevo sistema, **identificar problemas relacionados con la** **capacitación de los usuarios** y la **adecuación de los recursos**, **optimizar el uso de recursos humanos y materiales** (distribución eficiente de las tareas y que el personal esté alineado con los requerimientos del sistema).
 
 **Preguntas clave para la evaluación de la factibilidad operativa:**
@@ -67,12 +83,15 @@ Permite **garantizar la adopción del sistema**, **evitar impactos negativos en 
 5. *¿Cómo afectará la implementación del sistema a las operaciones diarias?*
 
 **Elementos Clave.**
+
 - **Evaluación de recursos humanos.** Responde a la pregunta 1.
 - **Evaluación tecnológica.** Se analiza si la tecnología actual de la organización es compatible con el nuevo sistema. Esto incluye la infraestructura tecnológica (servidores, redes) y las herramientas digitales utilizadas.
 - **Aceptación por parte de los usuarios.** Evaluar la adopción del sistema. Responde a la pregunta 2.
 - **Momento de implementación.** La implementación debe ser planificada cuidadosamente para evitar interrupciones operativas. Por ejemplo, en una organización de venta por menor, se podría elegir implementar un nuevo sistema de inventario fuera de la temporada alta de ventas para minimizar el impacto.
 - **Simulaciones y Pruebas.** La creación de escenarios hipotéticos y simulaciones es útil para prever problemas potenciales y evaluar el impacto organizacional.
-Las herramientas y técnicas que hacen posible estos cometidos refieren fundamentalmente a la **Capacitación de Usuarios**. Para esto es necesaria la planificación de la 
+
+Las herramientas y técnicas que hacen posible estos cometidos refieren fundamentalmente a la **Capacitación de Usuarios**. Para esto es necesaria la planificación de la:
+
 - **Identificación de necesidades de capacitación** (determinar conocimientos previos y qué áreas necesitan más atención), 
 - **Definición de objetivos claros**, 
 - **Métodos de capacitación** (presencial, virtual, ambos),

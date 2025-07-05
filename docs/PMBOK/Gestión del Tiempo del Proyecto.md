@@ -1,10 +1,13 @@
 La Gestión del Tiempo del Proyecto incluye los procesos requeridos para gestionar la terminación en plazo del proyecto.
+
 Estos procesos aseguran que el proyecto se complete dentro del tiempo estimado, por lo que esta gestión se trata de definir actividades, su secuenciación, estimar su duración, desarrollar el cronograma y hace un control continuo.
+
 Los procesos de Gestión del Tiempo del Proyecto, así como sus herramientas y técnicas asociadas, **se documentan en el plan de gestión del cronograma.**
 ****
 El **plan de gestión del cronograma** es un plan secundario integrado con, el plan para la dirección del proyecto a través del proceso Desarrollar el [Plan para la Dirección del Proyecto](/PMBOK/Plan para la Dirección del Proyecto).
 Este plan resultado de la gestión tratada, puede ser formal o informal, más o menos detallado, pero lo importante es que al fin y al cabo este sirva como guía para garantizar que el proyecto se complete dentro del tiempo establecido.
-	![Pasted image 20250612100007.png](/assets/Pasted image 20250612100007.png)
+
+![Pasted image 20250612100007.png](/assets/Pasted image 20250612100007.png)
 Con el fin de esclarecer la imagen adjunta, los **métodos de programación** son enfoques o técnicas generales que se aplican para gestionar el tiempo del proyecto (gestión iterativa utilizada en [Modelos Ágiles](/R. Pressman/Modelos Ágiles), predictiva, entre otros). 
 Las **herramientas** son instrumentos específicos que apoyan la aplicación de los métodos (diagramas de red, tableros Kanban).
 

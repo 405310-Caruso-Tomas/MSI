@@ -7,6 +7,7 @@ La unidad *“Story Point”* de *eXtreme Programming* (metodología ágil) se d
 - Muy utilizados en técnicas como la **[Estimación de Póquer](/assets/Estimación de Póquer)**.
 
 Cada organización, según sus circunstancias y su criterio institucionaliza su métrica de trabajo definiendo el nombre y las unidades, de forma que puede definir su unidad, su “punto”:  
+
 - Como tamaño relativo de **tareas** **conocidas** que normalmente emplea. **Ejemplo**: El equipo de un sistema de venta por internet, podría determinar que un “punto” representara el tamaño que tiene la realización de un “listado de las facturas de un usuario”.  
 - En base al **[Tiempo](/Scrum Master - Scrum Manager/Tiempo) ideal** necesario para realizar el **trabajo**. 
 - **Ejemplo**: Un equipo puede determinar que un “punto” es el trabajo realizado en 4 horas ideales.

@@ -19,13 +19,20 @@
 ****
 ###### ***¿Qué se entregará al terminar el Sprint?***
 El propietario del producto:
+
 - Presenta las [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario) de la **Pila del Producto** que tienen mayor prioridad y que estima que se pueden realizar en el sprint.
+
 El equipo:
+
 - Propone sugerencias, modificaciones y soluciones alternativas.
+
 **Los aportes del equipo pueden suponer modificaciones en la pila.**
 Tras reordenar y replantear las historias de la pila del producto, el equipo define el **objetivo del sprint**, en una frase que sintetiza cuál es el valor que se entregará al cliente como **incremento**.
 ###### **¿Cómo se llevará a cabo el [Trabajo](/Scrum Master - Scrum Manager/Trabajo) necesario para realizar el incremento previsto?**
 El equipo desglosa cada funcionalidad en tareas, y estima el esfuerzo para cada una de ellas, componiendo así la **Pila del Sprint**. 
+
 Los miembros del equipo establecen cuáles van a ser las tareas para los primeros días del sprint, y se las autoasignan.
+
 El papel del propietario del producto es atender a dudas y comprobar que el equipo comprende y comparte su objetivo. 
+
 El Scrum Master actúa de moderador de la reunión, asegurando que esta se realice antes de cada sprint, que se cumplan sus precondiciones, se obtengan los resultados y que se sigan los **[Valores y Principios de Scrum](/Scrum Master - Scrum Manager/Valores y Principios de Scrum)** durante la misma. 

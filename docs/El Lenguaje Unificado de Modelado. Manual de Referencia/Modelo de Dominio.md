@@ -2,6 +2,7 @@ Representa las “cosas” **que existen** o los “eventos” **que suceden** e
 > **Representación conceptual de los elementos** clave, conceptos y relaciones **dentro de un dominio de problema específico en el desarrollo de software.**
 
 Describe entidades del negocio que representan cosas que se manipulan en el negocio. 
+
 Es especialmente representado en un **[Diagrama de Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)**, que muestra las entidades del dominio como clases, con sus **atributos**, operaciones y **[Relaciones](/El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones)** (asociación, agregación, composición, generalización).
 ****
 ###### **Qué no es**

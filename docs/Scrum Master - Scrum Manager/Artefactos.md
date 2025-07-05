@@ -3,6 +3,7 @@
 #### **Pila del Producto (Product Backlog)**
 Lista de **[Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** de **usuario**, desde el punto de vista de que a partir de la **visión** inicial del **producto** crece y evoluciona durante el desarrollo. 
 Está formada por la lista de funcionalidades o "**[Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario)**" que desea obtener el cliente, ordenadas por la **prioridad** que el mismo da a cada una. **El orden de prioridad de las tareas la mantiene el *product owner*.**
+
 - Es el **inventario** de **funcionalidades**, **mejoras**, **tecnología** y **corrección** **de** **errores** que deben incorporarse al producto a través de los sucesivos **sprints.**
 - La pila del producto nunca se da por completada; está en continuo crecimiento y evolución.
 - Los elementos de la pila del **producto** que pueden ser incorporados a un sprint se denominan “*preparados*” o “*accionables*”.
@@ -11,6 +12,7 @@ Está formada por la lista de funcionalidades o "**[Historias de Usuario](/Users
 #### **Pila del Sprint (Sprint Backlog)**
 Lista de los trabajos, historias que debe realizar el equipo durante el **sprint** para generar el incremento previsto.
 Refleja los **requisitos** vistos desde el punto de vista del equipo de desarrollo, a realizar durante el *time-boxing* definido.
+
 - La confecciona el **equipo** en la reunión de **planificación del sprint**, indicando para cada **tarea** el esfuerzo previsto para realizarla.
 - Cubre todas las **tareas** **identificadas** por el equipo para conseguir el objetivo del sprint.
 - Es también una herramienta para la comunicación visual directa del equipo.

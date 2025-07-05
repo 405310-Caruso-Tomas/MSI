@@ -1,4 +1,5 @@
 Los **[Flujos de Proceso](/R. Pressman/Flujos de Proceso)** deben ser capaces de adaptarse a cambios, ya que los requisitos del software a menudo evolucionan. Sommerville sugiere dos estrategias:
+
 - **Evitar el cambio**: Usar técnicas como el prototipado para anticipar y validar requisitos antes de que se produzcan cambios costosos.
 - **Tolerar el cambio**: Diseñar procesos para cambios de bajo costo, como el desarrollo incremental, que permite ajustes en cada iteración.
 
@@ -11,6 +12,7 @@ Karl Wiegers, un ingeniero de software con un enfoque tradicional pero pragmáti
 ****
 #### **Enfoques adicionales**
 Si bien estos no son modelos de proceso, son **paradigmas de desarrollo** que pueden integrarse en diferentes modelos de proceso:
+
 - **Ingeniería de componentes**: Pressman describe este enfoque como un flujo de proceso centrado en integrar componentes *loosely-coupled* (débilmente acoplados, que tienen mínimas dependencias entre si) y reutilizables, reduciendo tiempo y mejorando calidad.
 - **Métodos formales**: Sommerville menciona que los métodos formales usan notación matemática para especificar y verificar software, comunes en sistemas críticos. Son técnicas matemáticamente rigurosas utilizadas para especificar, desarrollar y verificar sistemas de software y hardware. Su objetivo es garantizar la corrección y confiabilidad. Incluyen lenguajes como Z, VDM o TLA+, y herramientas como SPIN o Coq, que facilitan la verificación formal. Requieren un alto nivel de expertise en matemáticas y lógica, lo que puede ser una barrera de entrada.
 - **Programación orientada a aspectos**: Ambos autores coinciden en que es un paradigma que ayuda a manejar preocupaciones transversales, como seguridad o logging, y separarlas del código principal para que no se entrelazen con la lógica de negocio. 

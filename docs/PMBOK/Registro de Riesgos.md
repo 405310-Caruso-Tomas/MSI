@@ -1,7 +1,9 @@
 Documento clave en la Gestión de los [Riesgos](/PMBOK/Riesgos) del Proyecto que sirve como repositorio central para identificar, documentar, analizar, planificar respuestas y monitorear todos los riesgos asociados con un proyecto.
+
 Se utiliza a lo largo de todo el ciclo de vida del proyecto y se crea durante el proceso **Identificar los riesgos**, siendo actualizado y refinado en los procesos posteriores de la gestión de riesgos.
 ****
 El registro de riesgos es un documento dinámico que recopila toda la información relevante sobre los riesgos del proyecto, desde su identificación hasta su cierre o materialización.
+
 El registro de riesgos suele presentarse como una tabla o matriz, aunque puede adaptarse según las necesidades del proyecto.
 ###### **Registro de Riesgos - Proyecto de Desarrollo de Aplicación Bancaria Móvil**
 
@@ -21,5 +23,7 @@ El registro de riesgos suele presentarse como una tabla o matriz, aunque puede a
 ****
 ##### **Categorías de Riesgo según el PMBOK**
 Proporcionan un medio para agrupar las causas potenciales de riesgo. Se pueden utilizar diversos enfoques, por ejemplo, una estructura jerárquica de riesgos potenciales ordenados por categorías (se lo suele conocer como **Risk Breakdown Structure RBS** y es muy similar en formato a una [EDT o WBS](/PMBOK/EDT o WBS)) .
+
 Diferentes estructuras RBS resultarán adecuadas para diferentes tipos de proyectos. La imagen adjunta es un ejemplo, y no la categorización estándar.
+
 ![Pasted image 20250616173644.png](/assets/Pasted image 20250616173644.png)

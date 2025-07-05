@@ -17,5 +17,6 @@
 El **[Scrum Master](/Scrum Master - Scrum Manager/Scrum Master)** crea un ambiente seguro, establece reglas básicas (como respeto mutuo) y define el objetivo de la reunión. Luego el equipo comienza a reflexionar sobre el **Sprint**, se pueden usar técnicas como:
 	- _Start, Stop, Continue_ (Qué empezar, parar o continuar).
 	- _Estrella de Mar_.
+
 Identificadas las fortalezas, debilidades, aspectos, se discuten posibles mejoras y se acuerdan acciones concretas. Se asignan responsables a las acciones y plazos para implementarlas.
 Por último, se agradece la participación, se resumen los puntos clave y se evalúa cómo mejorar la próxima retrospectiva.

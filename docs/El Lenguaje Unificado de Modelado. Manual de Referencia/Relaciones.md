@@ -1,6 +1,7 @@
 Las **relaciones** entre **[Clasificador](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador)es** son **asociación**, **generalización** y varios tipos de **dependencia**, entre los que se incluyen la **realización** y el **uso**.
 Describen cómo se conectan y colaboran los diferentes **[Componente](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** de un sistema, como **[Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)**, **objetos**, **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**, entre otros.
 También suelen mostrar información adicional como **multiplicidad** (número de instancias de una clase que pueden estar relacionadas con la clase asociada) y **nombres de roles** (identificación del extremo de una asociación).
+
 ![Pasted image 20250625150939.png](/assets/Pasted image 20250625150939.png)
 ****
 #### **Asociación**
@@ -22,7 +23,8 @@ Quiere decir que si el objeto "*todo*" se destruye, el objeto "*parte*" sigue ex
 
 - **Notación**: Una línea con un diamante hueco en el lado del "*todo*". `Universidad ◇---- Departamento`
 - **Ejemplo**: Una clase `Universidad` tiene una agregación con la clase `Departamento`. Los departamentos forman parte de la universidad, pero un departamento puede existir sin una universidad específica.
-	- ![Pasted image 20250626100533.png](/assets/Pasted image 20250626100533.png)
+
+- ![Pasted image 20250626100533.png](/assets/Pasted image 20250626100533.png)
 ****
 #### **Composición**
 Es una forma más fuerte de **agregación**, donde **las partes no pueden existir sin el todo**. Si el todo se destruye, las partes también. 
@@ -33,7 +35,7 @@ El compuesto es el responsable único de gestionar sus partes.
 - **Ejemplo**: Una clase `Casa` tiene una composición con la clase `Habitación`. Si la casa se destruye, las habitaciones también dejan de existir.
 - `Casa ◆---- Habitación`
 	
-	- ![Pasted image 20250626100451.png](/assets/Pasted image 20250626100451.png)
+- ![Pasted image 20250626100451.png](/assets/Pasted image 20250626100451.png)
 ****
 #### **Dependencia**
 Indica que una **clase** **depende** de otra para realizar alguna función, pero **la relación es más débil y no implica una conexión estructural** permanente.
@@ -56,8 +58,10 @@ La descripción más específica es completamente consistente con la más genera
 - `Coche ----|> Vehículo`
 - La generalización permite **operaciones polimórficas**, es decir, cuya **implementación (método)** se determina por la clase de objeto a la que se aplican, en lugar de ser explícitamente indicadas en la subclase.
 - Además permite lo que se denomina **herencia**, que permite que las partes compartidas de la descripción se declaren una vez y sean compartidas por muchas clases, en lugar de repetirlas en cada clase que las utiliza.
+	
 	- ![Pasted image 20250626100414.png](/assets/Pasted image 20250626100414.png)
 - Se puede dar el caso de **herencia múltiple**, donde una clase hereda los atributos y operaciones de sus dos padres.
+	
 	- ![Pasted image 20250626095910.png](/assets/Pasted image 20250626095910.png)
 ****
 #### **Realización**

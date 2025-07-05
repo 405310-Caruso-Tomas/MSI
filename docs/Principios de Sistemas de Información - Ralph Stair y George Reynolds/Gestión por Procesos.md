@@ -6,6 +6,7 @@ Dentro de las organizaciones, existen numerosos **[PROCESO](/R. Pressman/PROCESO
 %%ver "Desempeño de un Sistema" ([Sistema](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema))%%
 ###### **¿Cómo hacer la gestión Eficiente?**
 Para lograr una gestión de procesos eficiente es fundamental que todos los procesos de la organización sean identificados sabiendo que los procesos deben cumplir con determinadas características:
+
 - **Ser Horizontal.** Que atraviese **varias áreas, departamentos o funciones** dentro de una organización, en lugar de estar limitado a una sola unidad funcional.
 - **Que pueda ser definido.**
 - **Que tenga límites que acoten adecuadamente su comienzo y su término**.

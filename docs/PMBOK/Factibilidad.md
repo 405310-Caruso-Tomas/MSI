@@ -1,6 +1,7 @@
 La **factibilidad** se refiere a la capacidad de llevar a cabo un [Proyecto](/PMBOK/Proyecto), evaluando si este puede realizarse con los recursos, tecnología, personal y tiempo disponibles.
 ****
 ###### **Estudio de la Factibilidad en un Proyecto**
+
 - La **evaluación de factibilidad** no solo se centra en la disponibilidad de los recursos, sino también en la identificación de posibles obstáculos y limitaciones que podrían surgir durante la implementación. Tiene en cuenta **aspectos técnicos, económicos, operativos y de mercado**.
 - Un **estudio de factibilidad** es una evaluación exhaustiva que se realiza antes de iniciar un proyecto para determinar si este es **viable** y **factible**. Busca responder a la pregunta *¿Podemos hacer este proyecto?*.
 
@@ -8,6 +9,7 @@ La **factibilidad** se refiere a la capacidad de llevar a cabo un [Proyecto](/PM
 ****
 ###### **Viabilidad $\neq$ Factibilidad**
 La **viabilidad** evalúa si **es rentable o sostenible a largo plazo realizar un proyecto.** Este análisis considera principalmente los factores económicos y los beneficios que el proyecto generará en el futuro, en comparación con los costos que implicará su desarrollo.
+
 - El **estudio de la viabilidad** en un proyecto va más allá de la simple comparación de costos y beneficios; también implica un estudio detallado del mercado, la demanda esperada, y las tendencias económicas.
 
 - **Ejemplo:** un proyecto podría ser técnicamente posible, pero si los costos de desarrollo superan los beneficios que generará, no sería viable.

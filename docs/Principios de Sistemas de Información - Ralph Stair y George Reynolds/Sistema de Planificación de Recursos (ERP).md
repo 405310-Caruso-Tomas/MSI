@@ -8,5 +8,7 @@
 
 - **Interfaz de usuario.** Dashboards y reportes personalizables para usuarios de distintos niveles.
 - **Infraestructura**: Puede ser local, en la nube o híbrida.
+
 ![Pasted image 20250701193142.png](/assets/Pasted image 20250701193142.png)
+
 En la actualidad, la nube domina el mercado, con soluciones como *SAP S/4HANA, Microsoft Dynamics 365* y *Oracle Fusion Cloud*.

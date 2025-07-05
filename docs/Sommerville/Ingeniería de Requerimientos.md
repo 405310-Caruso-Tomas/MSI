@@ -3,9 +3,10 @@
 - Es el **[PROCESO](/R. Pressman/PROCESO)** por el cual se transforman los **[Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** declarados por los clientes, ya sean hablados o escritos, a especificaciones precisas. 
 - Estas especificaciones en lo ideal son **no ambiguas, consistentes y completas** del comportamiento del **[Sistema](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema)**. 
 - Comienza durante la actividad de comunicación y continúa en la de **[Modelado](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Modelado)**. 
+
 En general, es el proceso de **descubrir**, **analizar**, **documentar** y **verificar** servicios y **restricciones** del **sistema**.
 
-> [!Pressman 1993]
+>  !!! note "Pressman 1993"
 > 
 > "Enfoque sistémico para recolectar, organizar y documentar los requerimientos del sistema; es también el proceso que establece y mantiene acuerdos sobre los cambios de requerimientos, entre los clientes y el equipo del proyecto"
 
@@ -25,8 +26,11 @@ Los requisitos de un sistema son definidos en las primeras etapas de desarrollo 
 
 La ingeniería de requerimientos está formada por una serie de procesos bien diferenciados. Aquellos son los [Procesos de la Ingeniería de Requerimientos de Software](/Sommerville/Procesos de la Ingeniería de Requerimientos de Software), y pueden ser vistos en la siguiente imagen:
 
-![Pasted image 20250315162840.png](/assets/Pasted image 20250315162840.png)Este modelo en espiral acomoda enfoques al desarrollo, los **requerimientos** se elaboraran con diferentes niveles de detalle. 
+![Pasted image 20250315162840.png](/assets/Pasted image 20250315162840.png)
+
+Este modelo en espiral acomoda enfoques al desarrollo, los **requerimientos** se elaboraran con diferentes niveles de detalle. 
 En la práctica, esta ingeniería es un proceso **iterativo** donde las actividades están entrelazadas. La imagen muestra este entrelazado.
+
 La cantidad de tiempo y esfuerzo dedicados a cada actividad en cada iteración depende de la etapa del proceso global y el tipo de sistema que está siendo desarrollado.
 ****
 #### **Otras Perspectivas**

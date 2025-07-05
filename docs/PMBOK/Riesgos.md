@@ -15,6 +15,7 @@ Los riesgos del proyecto tienen su origen en la incertidumbre que está presente
 Un riesgo negativo del proyecto que se ha materializado se considera un problema, en cambio un riesgo positivo suele ser visto como una oportunidad.
 ****
 ###### **¿Cómo una organización o interesados abordan la incertidumbre en un proyecto?**
+
 1. **Apetito al riesgo**: Es el nivel general de riesgo que una organización está dispuesta a aceptar en busca de sus objetivos estratégicos o del proyecto. **Refleja la disposición de la organización a asumir riesgos para lograr beneficios**, equilibrando oportunidades y amenazas.
 - Ejemplo: Una empresa de desarrollo de software puede aceptar riesgos relacionados con la adopción de tecnologías nuevas para ganar ventaja competitiva (alto apetito), pero no tolerar riesgos que comprometan la seguridad de datos.
 
@@ -26,8 +27,11 @@ Un riesgo negativo del proyecto que se ha materializado se considera un problema
 ****
 ##### **Otra definición desde una perspectiva del [Testing](/A Software Testing Primer - Nick Jenkins/Testing)**
 El **riesgo** mide la probabilidad de que algo salga mal y el impacto que tendría ese fallo en el sistema. En base al riesgo, podemos priorizar qué partes del software necesitan más pruebas y cuáles pueden ser probadas con menos intensidad.
+
 El riesgo se basa en dos factores: la probabilidad de que el problema ocurra y su impacto cuando ocurre:
+
 - Un módulo de código **complejo** tiene una mayor probabilidad de contener errores debido a su dificultad intrínseca.
 - Un módulo de código **crítico** para el funcionamiento del producto tiene un alto impacto, ya que su fallo podría impedir que el producto cumpla con su propósito.
+
 Ambas áreas (alta probabilidad o alto impacto) deben recibir más atención y pruebas que las áreas de menor riesgo. Esto se alinea con el enfoque de pruebas basadas en riesgos del **PMBOK**, donde los recursos de **testing** se priorizan según la probabilidad e impacto de los riesgos.
 

@@ -2,6 +2,7 @@
 Una herramienta de Kanban es el **Tablero Kanban**.
 
 > **Herramienta** **visual** (física o digital) que representa el **flujo de trabajo** mediante columnas que reflejan las etapas del **proceso** (por ejemplo, "*Por* *hacer*", "*En* *progreso*", "*Hecho*"). Cada **tarea** se representa con una **tarjeta** que se mueve a través de las columnas.
+
 ![Pasted image 20250627120801.png](/assets/Pasted image 20250627120801.png)
 
 - **Columnas:** Cada columna representa una etapa del flujo de trabajo. Se personalizan según el proceso del equipo.

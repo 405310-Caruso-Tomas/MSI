@@ -3,11 +3,13 @@
 Se utiliza para añadir información adicional, semántica o restricciones a elementos UML existentes (como **clases**, **asociaciones**, **componentes**, etc.) sin modificar la estructura básica del lenguaje.
 
 Un elemento estereotipado puede tener restricciones más allá de aquéllos del elemento base, así como una imagen visual distinta y propiedades adicionales definidos a través de **[Valores Etiquetados](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Valores Etiquetados)**.
+
 Los estereotipos suelen definirse en un **[Perfil](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Perfil)** UML, que es un conjunto de extensiones para un dominio o propósito específico.
 
  **Ejemplo**: En un sistema de biblioteca, una clase Libro podría estereotiparse como `<<Persistent>>` para indicar que sus instancias se almacenan en una base de datos. Se aplican a cualquier diagrama UML.
 ****
 #### **Notación**
 Se representa entre **guillemets** (`<< >>`), como `<<entity>>`, `<<controller>>` o `<<interface>>`, y se coloca generalmente encima o junto al nombre del elemento al que aplica.
+
 ![Pasted image 20250623130158.png](/assets/Pasted image 20250623130158.png)
 

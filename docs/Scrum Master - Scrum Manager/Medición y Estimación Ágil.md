@@ -1,4 +1,5 @@
 La medición en **Scrum** se refiere al uso de métricas para evaluar el progreso, la **[Calidad](/R. Pressman/Calidad)** y el desempeño del equipo Scrum, así como la efectividad del proceso y el producto. 
+
 La **estimación** en **Scrum**, por otro lado, se centra en determinar cuánto esfuerzo requiere una tarea o historia de usuario.
 ****
 ### **Métricas y Herramientas comunes en [Scrum](/Scrum Master - Scrum Manager/Scrum)**
@@ -10,6 +11,7 @@ Se define como la cantidad de **trabajo** realizada por unidad de **[Tiempo](/Sc
 ###### **[Gráfico de Producto (Burn Up Chart)](/Scrum Master - Scrum Manager/Gráfico de Producto (Burn Up Chart))**
 ****
 ###### **[Gráfico de Quemado (Burn Down Chart)](/Scrum Master - Scrum Manager/Gráfico de Quemado (Burn Down Chart))**
+
 ![Pasted image 20250628192738.png](/assets/Pasted image 20250628192738.png)
 ****
 ###### **[Estimación de Póquer (Póker Planning)](/Scrum Master - Scrum Manager/Estimación de Póquer (Póker Planning))**

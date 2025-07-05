@@ -9,7 +9,10 @@ El también llamado *product owner*, es quien toma las decisiones del cliente.
 ****
 - **Su responsabilidad es el valor del producto** y la pila del producto.
 - **Representa** al **cliente**, y debe tener el conocimiento suficiente del producto.
+
 Para simplificar la comunicación y toma de decisiones es necesario que este **rol** recaiga en una única persona.
+
 - Se responsabiliza sobre fechas y funcionalidades de las diferentes versiones del **producto**.
 - Recibe y analiza de forma continua **retroinformación** del entorno de negocio (evolución del mercado, competencia, alternativas) y del **proyecto** (sugerencias del equipo, alternativas técnicas, pruebas y evaluación de cada incremento).
+
 Según las circunstancias del proyecto es posible incluso que delegue en el equipo de desarrollo, o en alguien de su confianza, pero la responsabilidad siempre es suya. 

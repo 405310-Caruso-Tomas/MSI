@@ -1,8 +1,10 @@
 Incluye los procesos relacionados con planificar, estimar, presupuestar, financiar, obtener financiamiento, gestionar y controlar los costos de modo que se complete el proyecto dentro del presupuesto aprobado.
-	![Pasted image 20250613140722.png](/assets/Pasted image 20250613140722.png)
+
+![Pasted image 20250613140722.png](/assets/Pasted image 20250613140722.png)
 ****
 La **Gestión de los Costos del Proyecto** se ocupa principalmente del costo de los recursos necesarios para completar las actividades del proyecto. 
 La Gestión de los Costos del Proyecto también debería tener en cuenta el efecto de las decisiones tomadas en el proyecto sobre los costos recurrentes posteriores de utilizar, mantener y dar soporte al producto, servicio o resultado del proyecto.
+
 Las fuentes de información de entrada se derivan de las salidas de los procesos del proyecto en otras Áreas de Conocimiento. Una vez recibida, toda esta información permanecerá disponible como entradas para todos los procesos de gestión de los costos del proyecto.
 
 Los procesos de gestión de costos, así como sus herramientas y técnicas asociadas, se documentan en el **Plan de gestión de los costos**. El plan de gestión de los costos es un componente del [Plan para la Dirección del Proyecto](/PMBOK/Plan para la Dirección del Proyecto).

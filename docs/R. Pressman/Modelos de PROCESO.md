@@ -1,5 +1,6 @@
 ##### **Modelos de Proceso Prescriptivos**
 Propuestos originalmente para poner orden en el caos del desarrollo de software. Definen un conjunto prescrito de elementos del proceso y un flujo **predecible** para el trabajo del proceso.
+
 - **Modelo en Cascada**:
     - Fases secuenciales (**Requisitos** → **Diseño** → **Implementación** → **Pruebas** → **Mantenimiento**). Toma las [Actividades Fundamentales para la Ingeniería de Software](/Sommerville/Actividades Fundamentales para la Ingeniería de Software) y, luego, las representa como fases separadas del proceso.
     - No permite volver atrás fácilmente. No permite flexibilidad en los cambios. Presupone que el producto está perfectamente definido antes de iniciar el desarrollo.
@@ -9,6 +10,7 @@ Propuestos originalmente para poner orden en el caos del desarrollo de software.
     - **Útil en situaciones en las que los requerimientos son fijos y el trabajo avanza en forma lineal hacia el final.**
     ![Pasted image 20250315185115.png](/assets/Pasted image 20250315185115.png)
 - **Modelo V**:
+
     - Variante del modelo en cascada donde cada fase de desarrollo tiene su fase de prueba correspondiente.
     - Refuerza la validación y verificación en cada etapa. 
     - ![Pasted image 20250526093104.png](/assets/Pasted image 20250526093104.png)
@@ -33,6 +35,7 @@ Es frecuente que los requerimientos del negocio y del producto cambien conforme 
 		-![Pasted image 20250315191624.png](/assets/Pasted image 20250315191624.png)
 	 -***Aunque algunos prototipos se construyen para ser “desechables”, otros son evolutivos; es decir, poco a poco se transforman en el sistema real. 
 	 -Aunque puede haber problemas, hacer prototipos es un paradigma eficaz para la ingeniería de software. La clave es definir desde el principio las reglas del juego; es decir, todos los participantes deben estar de acuerdo en que el prototipo sirva como el mecanismo para definir los requerimientos. 
+
 - **Modelo en Espiral**:
     - Basado en **iteraciones** haciendo énfasis en la **reducción** **del** **riesgo** con cada una.
     - Se acopla el hacer **prototipos** con aspectos controlados del modelo de cascada. Se repiten las actividades predefinidas.
@@ -56,14 +59,16 @@ Priorizan la flexibilidad, la colaboración y entregas frecuentes, adaptándose 
 ****
 ##### **Métodos Tradicionales Vs. Ágiles**
 Los modelos prescriptivos y evolutivos podrían ser agrupados en lo que se llamarían **[Metodología](/assets/Metodología)s** **Tradicionales**, mientras que los **[Modelos Ágiles](/R. Pressman/Modelos Ágiles)** se autoreferencian por sí solos. Se enuncian algunas diferencias:
+
 ![Pasted image 20250702194739.png](/assets/Pasted image 20250702194739.png)
 ********************************************
 ##### ***Al Borde del Caos***
 La historia indica que estos modelos tradicionales han dado cierta estructura útil al trabajo de ingeniería de software. Sin embargo, el trabajo de ingeniería de software y el producto que genera siguen *“al borde del caos”*.
 
-> [!Nogueira y sus colegas!]
+>  !!! note "Nogueira y sus colegas!"
 > **Borde del Caos** “el estado natural, inestable y parcialmente estructurado entre el orden y el caos.” Es inestable debido a que se ve atraído constantemente hacia el caos o hacia el orden absoluto.
 
 Si los modelos de proceso prescriptivo buscan generar estructura y orden, **¿Son inapropiados para el mundo del software, que se basa en el cambio?**. Pero si rechazamos los modelos de proceso tradicional (y el orden que implican) y los reemplazamos con algo menos estructurado, **¿Hacemos imposible la coordinación y coherencia en el trabajo de software?.**
+
 Es difícil responder, pero existen alternativas disponibles...
  [Modelo Concurrente](/R. Pressman/Modelo Concurrente), podría ser un ejemplo simple.

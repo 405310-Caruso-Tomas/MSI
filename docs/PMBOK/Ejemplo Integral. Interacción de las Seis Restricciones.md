@@ -1,4 +1,5 @@
 Consideremos un proyecto de desarrollo de una aplicación de e-commerce, con las siguientes condiciones iniciales:
+
 - **Alcance inicial**: Funcionalidades básicas como búsqueda de productos, carrito de compras, y procesamiento de pagos.
 - **Tiempo estimado:** 12 semanas.  
 - **Costo estimado:** $65,000.  
@@ -20,5 +21,7 @@ A mitad del proyecto, el cliente solicita la inclusión de una función de "reco
 ****
 ##### **El turno del Gestor del Proyecto**
 El gestor de proyectos debe equilibrar estas seis restricciones para tomar una decisión informada. 
+
 Este puede **extender el cronograma** a 15 semanas y aumentar el presupuesto a $75,000, mientras se asegura que la calidad no se vea comprometida. Esto también implica gestionar los nuevos riesgos (implementar estrategias de mitigación) y ajustar la asignación de recursos para evitar la sobrecarga del equipo. 
+
 La otra opción es **revisar el alcance**, es decir, negociar con el cliente para eliminar o posponer otras funcionalidades menos críticas para mantener el proyecto dentro del presupuesto y tiempo originales, sin comprometer la calidad.

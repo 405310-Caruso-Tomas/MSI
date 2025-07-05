@@ -7,6 +7,7 @@
 ****
 ##### **Constituye uno de los recursos más valiosos de una organización**
 Un gerente de ventas podría querer el resumen de las ventas individuales para conocer las ventas totales del mes.
+
 **¿Por qué lo del subtítulo?**. La **[Calidad](/R. Pressman/Calidad)** de una decisión depende de la **calidad** de la información utilizada para llegar a ella, y en una organización las **decisiones a tomar abundan.** El siguiente cuadro enlista las características que hacen a una información de calidad. 
 
 | Características | Definiciones                                                                                                                                                               |

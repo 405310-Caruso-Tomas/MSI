@@ -8,7 +8,10 @@ Una **interacción** es un concepto que describe el **comportamiento** **dinámi
 - Un **rol** es una ranura que debe ser rellenada con objetos en un uso concreto de una interacción.
 ****
 Las interacciones se modelan principalmente en los siguientes diagramas, conocidos como **diagramas de interacción**:
+
 1. **[Diagrama de Secuencia](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Secuencia)**: Muestra el orden temporal de los **mensajes** entre líneas de vida, enfatizando la secuencia de eventos.
-    - Ejemplo: Un cliente envía un mensaje `realizarPedido()` a un sistema, que responde tras verificar el inventario.
+    
+	- Ejemplo: Un cliente envía un mensaje `realizarPedido()` a un sistema, que responde tras verificar el inventario.
 2. **[Diagrama de Comunicación](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación)** (o colaboración): Enfoca la estructura de las interacciones, mostrando los roles y los mensajes con un número que indica el orden.
-    - Ejemplo: `:Cliente` conectado a `:SistemaPedidos` con un mensaje etiquetado `1: realizarPedido()`.
+    
+	- Ejemplo: `:Cliente` conectado a `:SistemaPedidos` con un mensaje etiquetado `1: realizarPedido()`.

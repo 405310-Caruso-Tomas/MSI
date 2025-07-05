@@ -1,10 +1,11 @@
 
-> [!Sommerville 1999]
+>  !!! note "Sommerville 1999"
 > "Los requerimientos pueden tomar la forma de restricciones sobre los procesos de desarrollo del sistema"
 
 ****
 ##### **A quién *pertenecen***
 La primera clasificación para los **requerimientos** la podemos hacer en base a *qué* o *quién* pertenecen: 
+
 - Los **requerimientos** del **usuario** son enunciados, en un lenguaje natural junto con diagramas, acerca de qué servicios esperan los usuarios del sistema. 
 - Deben describir los **requerimientos** **funcionales** y **no** **funcionales** de forma comprensible. 
 
@@ -12,19 +13,23 @@ La primera clasificación para los **requerimientos** la podemos hacer en base a
 - Son versiones extendidas de los requerimientos del usuario que los desarrolladores usan como punto de partida. 
 - Idealmente, no deben ocuparse de cómo se diseña o implementa el sistema. 
 - Especificaciones completas y detalladas de todo el sistema, que pueden ser incluídas como parte del contrato para la implementación del sistema.
-	![Pasted image 20250325101833.png](/assets/Pasted image 20250325101833.png)
+
+![Pasted image 20250325101833.png](/assets/Pasted image 20250325101833.png)
 
 ****
 ##### **Comportamiento**
 La segunda clasificación refiere más específicamente al comportamiento y performance del sistema, entre **[Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** **Funcionales** y **No** **Funcionales**:
+
 - ***Requerimientos Funcionales***. Definen las funciones que el sistema será capaz de realizar. 
 - Describen las transformaciones que el sistema deberá realizar sobre las entradas para producir las salidas. 
 - Pueden referirse también a lo que el sistema no debe hacer. Cómo debe comportarse el sistema en situaciones específicas.
 - ***Requerimientos No Funcionales***. Refieren a características que de una u otra forma pueden limitar al sistema como, por ejemplo: el rendimiento, interfaces de usuario, fiabilidad, mantenimiento, seguridad, portabilidad, estándares, etc. 
 - Se refieren a propiedades emergentes del sistema. **Una falla de un requerimiento de este tipo podría inutilizar un sistema**. Limitaciones impuestas por los estándares.
+
 ![Pasted image 20250325105644.png](/assets/Pasted image 20250325105644.png)
 	 
 Gracias al diagrama, podemos ver que **los requerimientos no funcionales provienen de características requeridas del software** (requerimientos del producto), la organización que desarrolla el software (requerimientos de la organización) o de fuentes externas:
+
 - **Requerimientos del *producto*:** especifican o restringen el comportamiento del software. 
 - Los ejemplos incluyen requerimientos de rendimiento sobre qué tan rápido se debe ejecutar el sistema y cuánta memoria requiere.
 - **Requerimientos de la *organización*:** derivados de políticas y procedimientos en la organización del cliente y del desarrollador. 

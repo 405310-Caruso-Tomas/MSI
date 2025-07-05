@@ -1,4 +1,5 @@
 El método **INVEST** descrito por *Bill Wake* nos ayuda a escribir **[Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario)**** y consiste en cumplir las siguientes características:
+
 ![Pasted image 20250703094424.png](/assets/Pasted image 20250703094424.png)
 ****
 ##### **Independiente**

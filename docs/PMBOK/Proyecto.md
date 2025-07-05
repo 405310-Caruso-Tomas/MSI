@@ -1,12 +1,16 @@
 %%En los incisos de Gestión de {Característica importante para un proyecto} se van nombrando documentos de entrada y salida referido a los procesos de dicha gestión, debido a que el PMBOK así lo representa. Para el entendimiento de estas gestiones es importante la lectura de este apartado, específicamente sobre la Dirección de Proyectos, donde menciona a estos documentos o por lo menos a los más importantes.%%
 ****
 Existen diversas definiciones de lo que es un proyecto. En su forma más clásica, un proyecto se define como: 
+
 - Un **conjunto único de actividades interrelacionadas** de forma lógica y a su vez, **necesarias** para alcanzar un resultado específico **dentro de un marco de tiempo determinado** y con una asignación concreta de recursos limitados. 
+
 - Es un **trabajo singular** con fechas de inicio y finalización, una especificación clara del objetivo o alcance de la tarea, un presupuesto preestablecido y, habitualmente, una organización temporal. 
+
 Cada proyecto genera un producto, servicio o resultado único.
 ****
 ##### **Dirección de Proyectos**
 La dirección de proyectos es la aplicación de conocimientos, habilidades, herramientas y técnicas a las actividades del proyecto para cumplir con los requisitos del mismo. Esto se logra mediante la aplicación e integración de, *lo que el PMBOK llama*, 47 procesos de la dirección de proyectos agrupados en los grupos:
+
 - **Inicio**. Esta etapa establece la base del proyecto, definiendo su propósito, objetivos y viabilidad. 
 - Se identifica por qué el proyecto es necesario y se obtiene la autorización para comenzarlo.
 - Se identifican las partes interesadas, sus necesidades. 
@@ -56,4 +60,5 @@ La dirección de proyectos es la aplicación de conocimientos, habilidades, herr
 		2. **Informe final del proyecto y lecciones aprendidas.**
 ****
 Todas estas etapas pueden pensarse como una mirada más general (en lo que refiere a software) de los [Modelos de PROCESO](/R. Pressman/Modelos de PROCESO). Recordemos que el PMBOK trata la gestión de proyectos y no necesariamente la gestión de proyectos de software en específico.
+
 Dirigir un proyecto en general incluye, entre otros aspectos, equilibrar las restricciones contrapuestas del proyecto, las cuáles detallaremos en el apartado de [Triple Restricción](/PMBOK/Triple Restricción).

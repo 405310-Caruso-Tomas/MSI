@@ -18,6 +18,7 @@ Significa que un caso de uso base **incorpora** **explícitamente** el **comport
 - La relación se usa para abstraer el comportamiento común entre casos de uso, evitando describir el mismo flujo de eventos repetidas veces. 
 - La secuencia de comportamiento y los atributos del caso de uso incluido se encapsulan y no pueden modificarse o accederse, solamente puede utilizarse el resultado (o función) del caso de uso incluido.
 - Se representa como una **dependencia** **estereotipada** ([Estereotipo](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Estereotipo)) con la palabra `<<include>>`. 
+
 ![Pasted image 20250626110558.png](/assets/Pasted image 20250626110558.png)
 ****
 #### **Extensión**

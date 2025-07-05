@@ -6,10 +6,12 @@ Desafortunadamente, en ocasiones hay otra característica presente en el softwar
 ****
 ##### **¿Por qué por lo general VIEJO $=$ MALO?**
 Conforme pase el tiempo será frecuente que los sistemas de **[Software](/R. Pressman/Software)** evolucionen por una o varias de las siguientes razones:
+
 - El software debe adaptarse para que cumpla las necesidades de los nuevos ambientes del cómputo y de la tecnología.
 - El software debe ser mejorado para implementar nuevos requerimientos del negocio.
 - El software debe ampliarse para que sea operable con otros sistemas o bases de datos modernos. 
 - La arquitectura del software debe rediseñarse para hacerla viable dentro de un ambiente de redes.
+
 Es decir, por cuestiones de ***actualización***.
 	Cuando ocurren estos modos de evolución, debe hacerse la **==reingeniería del sistema==** heredado para que sea viable en el futuro. 
 

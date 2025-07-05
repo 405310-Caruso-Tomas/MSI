@@ -19,12 +19,14 @@ El **ciclo de vida del proyecto** bajo un enfoque predictivo es dividido en fase
 ****
 ### **Gestión Ágil**
 Caracterizada por los principios del **Manifiesto Ágil**, detallado en el apartado de [Agilidad](/R. Pressman/Agilidad).
+
 La novedad, el valor de innovación necesario y la velocidad de cambio del entorno, no puede definir con precisión cómo será el producto final. Esto se debe a que ya no existen “productos finales”, sino productos en evolución continua desde su primera versión.
 > *El enfoque de la gestión ágil de proyectos no se basa en la anticipación (requisitos, diseño, planificación y seguimiento detallados), sino en la adaptación continua (visión compartida, exploración iterativa y ajustes frecuentes), permitiendo responder rápidamente a cambios y necesidades emergentes.*
 
 La ***exploración iterativa*** y ***ajustes frecuentes*** subrayan la naturaleza cíclica e incremental de los proyectos ágiles.
 **Entrega de Valor.** El agilismo se centra en aportar valor de manera constante durante todo el ciclo de vida del proyecto.
 ###### **Objetivos Clave**
+
 **1. Maximización del Valor**
 **2. Reducción del Tiempo de Salida al Mercado** (el tiempo es un factor competitivo crítico, el objetivo es entregar lo antes posible un [Mínimo Producto Viable (MVP)](/Scrum Master - Scrum Manager/Mínimo Producto Viable (MVP)))
 **3. [Agilidad](/R. Pressman/Agilidad)**
