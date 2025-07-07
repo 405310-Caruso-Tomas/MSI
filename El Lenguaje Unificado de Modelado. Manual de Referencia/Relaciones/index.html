@@ -8,8 +8,6 @@
       
       
       
-        <link rel="canonical" href="https://405310-caruso-tomas.github.io/MSI/El%20Lenguaje%20Unificado%20de%20Modelado.%20Manual%20de%20Referencia/Relaciones/">
-      
       
         <link rel="prev" href="../Relaciones%20entre%20Casos%20de%20Uso/">
       
@@ -4464,7 +4462,7 @@
 <p>Las <strong>relaciones</strong> entre <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador">Clasificador</a>es</strong> son <strong>asociación</strong>, <strong>generalización</strong> y varios tipos de <strong>dependencia</strong>, entre los que se incluyen la <strong>realización</strong> y el <strong>uso</strong>.
 Describen cómo se conectan y colaboran los diferentes <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente">Componente</a>s</strong> de un sistema, como <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases">Clases</a></strong>, <strong>objetos</strong>, <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso">Caso de Uso</a></strong>, entre otros.
 También suelen mostrar información adicional como <strong>multiplicidad</strong> (número de instancias de una clase que pueden estar relacionadas con la clase asociada) y <strong>nombres de roles</strong> (identificación del extremo de una asociación).</p>
-<p><img alt="Pasted image 20250625150939.png" src="/assets/Pasted image 20250625150939.png" /></p>
+<p><img alt="Pasted image 20250625150939.png" src="/MSI/assets/Pasted image 20250625150939.png" /></p>
 <hr />
 <h4 id="asociacion"><strong>Asociación</strong></h4>
 <p>La relación de asociación describe conexiones semánticas entre objetos individuales (instancias) de clases dadas. Indicando que los <strong>objetos</strong> de <strong>una clase</strong> pueden estar relacionados con <strong>los objetos de otra.</strong>
@@ -4487,7 +4485,7 @@ Las relaciones restantes relacionan las descripciones de los propios <strong>cla
 <p><strong>Ejemplo</strong>: Una clase <code>Universidad</code> tiene una agregación con la clase <code>Departamento</code>. Los departamentos forman parte de la universidad, pero un departamento puede existir sin una universidad específica.</p>
 </li>
 <li>
-<p><img alt="Pasted image 20250626100533.png" src="/assets/Pasted image 20250626100533.png" /></p>
+<p><img alt="Pasted image 20250626100533.png" src="/MSI/assets/Pasted image 20250626100533.png" /></p>
 </li>
 </ul>
 <hr />
@@ -4501,7 +4499,7 @@ Las relaciones restantes relacionan las descripciones de los propios <strong>cla
 <p><code>Casa ◆---- Habitación</code></p>
 </li>
 <li>
-<p><img alt="Pasted image 20250626100451.png" src="/assets/Pasted image 20250626100451.png" /></p>
+<p><img alt="Pasted image 20250626100451.png" src="/MSI/assets/Pasted image 20250626100451.png" /></p>
 </li>
 </ul>
 <hr />
@@ -4513,7 +4511,7 @@ Las relaciones restantes relacionan las descripciones de los propios <strong>cla
 <li>
 <p>Generalmente, <strong>las dependencias se utilizan para indicar que una clase utiliza a otra como argumento en la signatura de una operación</strong>.</p>
 <ul>
-<li><img alt="Pasted image 20250626100231.png" src="/assets/Pasted image 20250626100231.png" /></li>
+<li><img alt="Pasted image 20250626100231.png" src="/MSI/assets/Pasted image 20250626100231.png" /></li>
 <li><strong>Notación</strong>: Una línea discontinua con una flecha apuntando a la clase de la que se depende.</li>
 <li><strong>Ejemplo</strong>: Una clase Informe depende de una clase Impresora para imprimir un documento.</li>
 <li><code>Informe ----&gt; Impresora</code></li>
@@ -4531,12 +4529,12 @@ Las relaciones restantes relacionan las descripciones de los propios <strong>cla
 <li>
 <p>Además permite lo que se denomina <strong>herencia</strong>, que permite que las partes compartidas de la descripción se declaren una vez y sean compartidas por muchas clases, en lugar de repetirlas en cada clase que las utiliza.</p>
 <ul>
-<li><img alt="Pasted image 20250626100414.png" src="/assets/Pasted image 20250626100414.png" /></li>
+<li><img alt="Pasted image 20250626100414.png" src="/MSI/assets/Pasted image 20250626100414.png" /></li>
 <li>
 <p>Se puede dar el caso de <strong>herencia múltiple</strong>, donde una clase hereda los atributos y operaciones de sus dos padres.</p>
 </li>
 <li>
-<p><img alt="Pasted image 20250626095910.png" src="/assets/Pasted image 20250626095910.png" /></p>
+<p><img alt="Pasted image 20250626095910.png" src="/MSI/assets/Pasted image 20250626095910.png" /></p>
 </li>
 </ul>
 <hr />
@@ -4551,9 +4549,9 @@ La <strong>clase</strong> se compromete a implementar <strong>todos los métodos
 <li><strong>Ejemplo</strong>: Una clase <code>Coche</code> implementa una interfaz <code>VehículoConducible</code>.</li>
 <li><code>Coche ----|&gt; VehículoConducible</code></li>
 <li>
-<p>Notar que para <strong>interfaz</strong>, así como para otros elementos UML, hay más de una notación común, pero que son más convenientes unas u otras notaciones dependiendo el diagrama o vista UML. Se adjunta otro ejemplo, este tipo de notación es más común en un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes">Diagrama de Componentes</a></strong> (apartado donde además se aprovecha para explicar la <strong>interfaz obligatoria</strong> y <strong>proporcionada</strong>)</p>
+<p>Notar que para <strong>interfaz</strong>, así como para otros elementos UML, hay más de una notación común, pero que son más convenientes unas u otras notaciones dependiendo el diagrama o vista UML. Se adjunta otro ejemplo, este tipo de notación es más común en un <strong><a href="/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes">Diagrama de Componentes</a></strong> (apartado donde además se aprovecha para explicar la <strong>interfaz obligatoria</strong> y <strong>proporcionada</strong>)</p>
 <ul>
-<li><img alt="Pasted image 20250625150253.png" src="/assets/Pasted image 20250625150253.png" /></li>
+<li><img alt="Pasted image 20250625150253.png" src="/MSI/assets/Pasted image 20250625150253.png" /></li>
 </ul>
 </li>
 </ul>

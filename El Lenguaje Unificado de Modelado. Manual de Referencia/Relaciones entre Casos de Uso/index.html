@@ -8,8 +8,6 @@
       
       
       
-        <link rel="canonical" href="https://405310-caruso-tomas.github.io/MSI/El%20Lenguaje%20Unificado%20de%20Modelado.%20Manual%20de%20Referencia/Relaciones%20entre%20Casos%20de%20Uso/">
-      
       
         <link rel="prev" href="../Proceso%20de%20Desarrollo%20Unificado%20%28PUD%29/">
       
@@ -4407,17 +4405,17 @@
 
   <h1>Relaciones entre Casos de Uso</h1>
 
-<p>Este tipo de <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones">Relaciones</a></strong> en particular, se utilizan para <strong>factorizar</strong> el comportamiento común entre los <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso">Caso de Uso</a></strong> y para factorizar variantes (poniendo ese comportamiento en otros casos de uso que lo extienden).</p>
-<p><img alt="Pasted image 20250626105214.png" src="/assets/Pasted image 20250626105214.png" /></p>
+<p>Este tipo de <strong><a href="/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones">Relaciones</a></strong> en particular, se utilizan para <strong>factorizar</strong> el comportamiento común entre los <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso">Caso de Uso</a></strong> y para factorizar variantes (poniendo ese comportamiento en otros casos de uso que lo extienden).</p>
+<p><img alt="Pasted image 20250626105214.png" src="/MSI/assets/Pasted image 20250626105214.png" /></p>
 <hr />
 <h4 id="generalizacion"><strong>Generalización</strong></h4>
 <p>La <strong>generalización</strong> entre <strong>casos de uso</strong> es <strong>como la generalización entre clases.</strong> </p>
 <ul>
 <li>El caso de uso hijo <strong>hereda</strong> el <strong>comportamiento</strong> del caso de uso <strong>padre</strong>. El hijo puede modificar y/o agregar <strong>comportamiento</strong> al heredado.</li>
-<li>Es utilizada más que nada para simplificar la comprensión del <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso">Diagrama de Casos de Uso</a></strong>.
+<li>Es utilizada más que nada para simplificar la comprensión del <strong><a href="/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso">Diagrama de Casos de Uso</a></strong>.
 Gráficamente se indica, al igual que la herencia entre clases, con una línea continua con punta de flecha vacía dirigida del caso de uso hijo hacia el padre.</li>
 </ul>
-<p><img alt="Pasted image 20250626105648.png" src="/assets/Pasted image 20250626105648.png" /></p>
+<p><img alt="Pasted image 20250626105648.png" src="/MSI/assets/Pasted image 20250626105648.png" /></p>
 <hr />
 <h4 id="inclusion"><strong>Inclusión</strong></h4>
 <p>Significa que un caso de uso base <strong>incorpora</strong> <strong>explícitamente</strong> el <strong>comportamiento</strong> de <strong>otro</strong> caso de uso.</p>
@@ -4427,7 +4425,7 @@ Gráficamente se indica, al igual que la herencia entre clases, con una línea c
 <li>La secuencia de comportamiento y los atributos del caso de uso incluido se encapsulan y no pueden modificarse o accederse, solamente puede utilizarse el resultado (o función) del caso de uso incluido.</li>
 <li>Se representa como una <strong>dependencia</strong> <strong>estereotipada</strong> (<a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Estereotipo">Estereotipo</a>) con la palabra <code>&lt;&lt;include&gt;&gt;</code>. </li>
 </ul>
-<p><img alt="Pasted image 20250626110558.png" src="/assets/Pasted image 20250626110558.png" /></p>
+<p><img alt="Pasted image 20250626110558.png" src="/MSI/assets/Pasted image 20250626110558.png" /></p>
 <hr />
 <h4 id="extension"><strong>Extensión</strong></h4>
 <p>Significa que un caso de uso base <strong>incorpora</strong> <strong>implícitamente</strong> el <strong>comportamiento</strong> de <strong>otro</strong> caso de uso. </p>
@@ -4437,7 +4435,7 @@ Gráficamente se indica, al igual que la herencia entre clases, con una línea c
 <li>Si el caso de uso de extensión nunca es instanciado directamente por un <strong>actor</strong>, entonces es un caso de uso <strong>abstracto</strong>.</li>
 <li>Se representa como una dependencia <strong>estereotipada</strong> (<a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Estereotipo">Estereotipo</a>) con la palabra <em>extend</em>, dirigida desde el caso de uso de <strong>extensión</strong> hacia el caso de uso <strong>base</strong>.</li>
 </ul>
-<p><img alt="Pasted image 20250626111626.png" src="/assets/Pasted image 20250626111626.png" /></p>
+<p><img alt="Pasted image 20250626111626.png" src="/MSI/assets/Pasted image 20250626111626.png" /></p>
 
 
 
