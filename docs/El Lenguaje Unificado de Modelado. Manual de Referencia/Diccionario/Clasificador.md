@@ -8,7 +8,7 @@ Es un concepto fundamental que sirve como plantilla para definir estas caracter�
 En **UML**, una **clase** es un tipo de **clasificador**. El clasificador incluye un número de elementos parecidos a las **clases**, pero **encuentra su expresión plena en la clase.**
 ****
 ##### **Flexibilidad**
-Al ser un concepto amplio, los clasificadores abarcan muchos elementos de UML, desde clases en **[Diagrama de Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)** hasta **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** en [Diagrama de Casos de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso), lo que los hace omnipresentes.
+Al ser un concepto amplio, los clasificadores abarcan muchos elementos de UML, desde clases en **[Diagrama de Clases](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)** hasta **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** en [Diagrama de Casos de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso), lo que los hace omnipresentes.
 
 Además, los **clasificadores** pueden relacionarse entre sí (herencia, asociación, etc.), lo que permite modelar sistemas complejos de manera coherente.
 ****
@@ -17,6 +17,6 @@ En UML, la notación de un clasificador y de una clase está estrechamente relac
 
 La notación específica de un clasificador depende del tipo de elemento que represente, pero en general, se muestra cono un rectángulo de línea continua con tres compartimentos separados por líneas horizontales.
 
-![Pasted image 20250623093942.png](/assets/Pasted image 20250623093942.png)
+![Pasted image 20250623093942.png](/MSI/assets/Pasted image 20250623093942.png)
 
 El compartimento intermedio alberga una lista de atributos. El compartimento inferior contiene una lista de operaciones.

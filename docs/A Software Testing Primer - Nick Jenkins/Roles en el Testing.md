@@ -1,4 +1,4 @@
-Según la ISQTB, dos roles principales se encuentran para el proceso de **[Testing](/A Software Testing Primer - Nick Jenkins/Testing):** 
+Según la ISQTB, dos roles principales se encuentran para el proceso de **[Testing](/MSI/A Software Testing Primer - Nick Jenkins/Testing):** 
 **Un rol de gestión de pruebas** y un **rol de pruebas**. 
 Las actividades y tareas asignadas a estos dos roles dependen de factores como el contexto del proyecto y del producto, las habilidades de las personas que los desempeñan y la organización.
 

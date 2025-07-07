@@ -1,4 +1,4 @@
-![Pasted image 20250622174638.png](/assets/Pasted image 20250622174638.png)
+![Pasted image 20250622174638.png](/MSI/assets/Pasted image 20250622174638.png)
 
 Muestra la **descomposición de una clase**.
 

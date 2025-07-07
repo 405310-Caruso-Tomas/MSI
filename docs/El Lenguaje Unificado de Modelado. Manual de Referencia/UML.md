@@ -1,4 +1,4 @@
-> El **Lenguaje Unificado de Modelado (UML)** es un lenguaje de [Modelado](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Modelado) visual de propósito general que se utiliza para especificar, visualizar, construir y documentar los artefactos de un sistema de software, sus modelos de arquitectura, en particular.
+> El **Lenguaje Unificado de Modelado (UML)** es un lenguaje de [Modelado](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Modelado) visual de propósito general que se utiliza para especificar, visualizar, construir y documentar los artefactos de un sistema de software, sus modelos de arquitectura, en particular.
 
 *Cuando decimos **artefactos**, nos referimos a **bloques de información**.*
 
@@ -7,11 +7,11 @@
 - Tiene partes estáticas, dinámicas, de entorno y organizativas.
 - **UML** es sólo un lenguaje, no una metodología. Es parte de un método de desarrollo.
 ****
-En esencia, como se cuenta en la [Historia de UML](/El Lenguaje Unificado de Modelado. Manual de Referencia/Historia de UML), UML agrupa notaciones y conceptos provenientes de distintos tipos de métodos orientado a objetos
+En esencia, como se cuenta en la [Historia de UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Historia de UML), UML agrupa notaciones y conceptos provenientes de distintos tipos de métodos orientado a objetos
 
-![Pasted image 20250621121757.png](/assets/Pasted image 20250621121757.png)
+![Pasted image 20250621121757.png](/MSI/assets/Pasted image 20250621121757.png)
 
-Es aconsejable acompañar este lenguaje con una metodología, como por ejemplo el **PUD**, o **[Proceso de Desarrollo Unificado (PUD)](/El Lenguaje Unificado de Modelado. Manual de Referencia/Proceso de Desarrollo Unificado (PUD))**, también desarrollado por Jacobson, Rumbaugh y Booch.
+Es aconsejable acompañar este lenguaje con una metodología, como por ejemplo el **PUD**, o **[Proceso de Desarrollo Unificado (PUD)](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Proceso de Desarrollo Unificado (PUD))**, también desarrollado por Jacobson, Rumbaugh y Booch.
 ****
 ###### **Propósito del UML**
 El modelado proporciona una comprensión de un sistema. Nunca es suficiente con un único modelo, a menudo se necesitan múltiples modelos conectados entre sí. Por lo que el vocabulario y las reglas de UML indican cómo crear y leer modelos bien formados. El UML nos permite entonces:
@@ -23,7 +23,7 @@ El modelado proporciona una comprensión de un sistema. Nunca es suficiente con 
 ****
 ###### **Objetivos**
 - UML es un lenguaje de modelado de propósito general que pueden utilizar todos los modeladores. Está basado en el común acuerdo de gran parte de la comunidad informática, por lo que está pensado para ser tan familiar como sea posible.
-- Dar soporte a la mayoría de [Modelos de PROCESO](/R. Pressman/Modelos de PROCESO).
+- Dar soporte a la mayoría de [Modelos de PROCESO](/MSI/R. Pressman/Modelos de PROCESO).
 - Ser tan simple como fuera posible.
 ****
-No hay una línea clara entre los diversos conceptos y construcciones en **UML,** pero el Manual de Referencia UML lo divide en lo que denominan **[Vistas de UML](/El Lenguaje Unificado de Modelado. Manual de Referencia/Vistas de UML)**, que nos ayudarán a tener una impresión para utilizar UML.
+No hay una línea clara entre los diversos conceptos y construcciones en **UML,** pero el Manual de Referencia UML lo divide en lo que denominan **[Vistas de UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Vistas de UML)**, que nos ayudarán a tener una impresión para utilizar UML.

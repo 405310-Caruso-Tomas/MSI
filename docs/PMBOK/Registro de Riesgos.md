@@ -22,8 +22,8 @@ El registro de riesgos suele presentarse como una tabla o matriz, aunque puede a
 - **Categoría:** Esta característica es utilizada como agrupación general de las causas potenciales del riesgo. Abajo se las detalla.
 ****
 ##### **Categorías de Riesgo según el PMBOK**
-Proporcionan un medio para agrupar las causas potenciales de riesgo. Se pueden utilizar diversos enfoques, por ejemplo, una estructura jerárquica de riesgos potenciales ordenados por categorías (se lo suele conocer como **Risk Breakdown Structure RBS** y es muy similar en formato a una [EDT o WBS](/PMBOK/EDT o WBS)) .
+Proporcionan un medio para agrupar las causas potenciales de riesgo. Se pueden utilizar diversos enfoques, por ejemplo, una estructura jerárquica de riesgos potenciales ordenados por categorías (se lo suele conocer como **Risk Breakdown Structure RBS** y es muy similar en formato a una [EDT o WBS](/MSI/PMBOK/EDT o WBS)) .
 
 Diferentes estructuras RBS resultarán adecuadas para diferentes tipos de proyectos. La imagen adjunta es un ejemplo, y no la categorización estándar.
 
-![Pasted image 20250616173644.png](/assets/Pasted image 20250616173644.png)
+![Pasted image 20250616173644.png](/MSI/assets/Pasted image 20250616173644.png)

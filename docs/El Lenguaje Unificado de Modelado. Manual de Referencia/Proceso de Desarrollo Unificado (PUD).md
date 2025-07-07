@@ -1,10 +1,10 @@
-En cierto modo, el proceso unificado es un intento por obtener los mejores rasgos y características de los modelos tradicionales del [PROCESO](/R. Pressman/PROCESO) del software, pero en forma que implemente muchos de los mejores principios de [Agilidad](/R. Pressman/Agilidad) en el software. 
+En cierto modo, el proceso unificado es un intento por obtener los mejores rasgos y características de los modelos tradicionales del [PROCESO](/MSI/R. Pressman/PROCESO) del software, pero en forma que implemente muchos de los mejores principios de [Agilidad](/MSI/R. Pressman/Agilidad) en el software. 
 Desarrollado por *Ivar Jacobson*, *Grady Booch* y *James Rumbaugh* en Rational Software.
 
-![Pasted image 20250625202522.png](/assets/Pasted image 20250625202522.png)
+![Pasted image 20250625202522.png](/MSI/assets/Pasted image 20250625202522.png)
 
-- Es un **proceso iterativo** e **incremental** que utiliza el **Lenguaje Unificado de Modelado ([UML](/El Lenguaje Unificado de Modelado. Manual de Referencia/UML))** como herramienta principal para modelar sistemas.
-- **Dirigido por casos de uso.** Utiliza los **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** como base para capturar y validar **[Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** (pruebas).
+- Es un **proceso iterativo** e **incremental** que utiliza el **Lenguaje Unificado de Modelado ([UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/UML))** como herramienta principal para modelar sistemas.
+- **Dirigido por casos de uso.** Utiliza los **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** como base para capturar y validar **[Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** (pruebas).
 - **Iterativo e incremental.** El desarrollo se divide en iteraciones cortas, cada una produciendo un incremento funcional del sistema.
 - **Centrado en la arquitectura.** Se prioriza la creación de una arquitectura robusta desde el inicio.
 
@@ -24,11 +24,11 @@ El Proceso Unificado se **organiza** en **dos dimensiones principales**:
 	 - Refinar el plan del **proyecto** y el **cronograma**.
 3. Fase de **construcción**: 
 	- Se crea al producto. Implementar y probar los casos de uso en iteraciones.
-	- Realizar **[Pruebas Unitarias](/A Software Testing Primer - Nick Jenkins/Pruebas Unitarias)**, **[Pruebas de Integración](/A Software Testing Primer - Nick Jenkins/Pruebas de Integración)** y **[Pruebas de Sistema](/A Software Testing Primer - Nick Jenkins/Pruebas de Sistema)**.
+	- Realizar **[Pruebas Unitarias](/MSI/A Software Testing Primer - Nick Jenkins/Pruebas Unitarias)**, **[Pruebas de Integración](/MSI/A Software Testing Primer - Nick Jenkins/Pruebas de Integración)** y **[Pruebas de Sistema](/MSI/A Software Testing Primer - Nick Jenkins/Pruebas de Sistema)**.
 4. Fase de **transición**: 
 	- Se prueba el producto y se informan defectos e deficiencias.
 	- Corregir defectos y ajustar el sistema según retroalimentación.
-	- Pruebas **beta** o **[Pruebas de Aceptación](/A Software Testing Primer - Nick Jenkins/Pruebas de Aceptación)**.
+	- Pruebas **beta** o **[Pruebas de Aceptación](/MSI/A Software Testing Primer - Nick Jenkins/Pruebas de Aceptación)**.
 	- Desplegar el sistema en el entorno de producción.
 ****
 #### **Flujos de Trabajo**

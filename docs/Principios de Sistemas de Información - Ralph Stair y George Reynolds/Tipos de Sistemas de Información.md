@@ -1,7 +1,7 @@
-Vamos a hacer un recorrido por la historia de los primeros sistemas de información que surgieron. Para ello, debemos reconocer primeramente los **[Sistemas de Información Empresariales](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistemas de Información Empresariales)**, con los que clasificaremos a todos los sistemas de información de este apartado.
+Vamos a hacer un recorrido por la historia de los primeros sistemas de información que surgieron. Para ello, debemos reconocer primeramente los **[Sistemas de Información Empresariales](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistemas de Información Empresariales)**, con los que clasificaremos a todos los sistemas de información de este apartado.
 ****
 
-![Pasted image 20250701183918.png](/assets/Pasted image 20250701183918.png)
+![Pasted image 20250701183918.png](/MSI/assets/Pasted image 20250701183918.png)
 ****
 ##### **Sistema de Procesamiento de Transacciones (TPS)**
 - Una **transacción** es cualquier intercambio relacionado con la empresa, como pagos a los empleados, ventas a los clientes o pagos a los proveedores.
@@ -15,19 +15,19 @@ Así, surgen los **sistemas de información** del subtítulo.
 - Procesar pagos, cobros, pólizas, entradas, salidas, entre otras.
 - **Ejemplo.** Registro de una venta en caja.
 ****
-##### **Sistema de [Información](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Información) Administrativa (MIS)**
+##### **Sistema de [Información](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Información) Administrativa (MIS)**
 Los MIS se desarrollaron en la década de **1960** y por lo general se alimentan de datos provenientes de un **TPS** para generar reportes gerenciales. Estos reportes generados sirven de soporte para los departamentos de marketing, producción, finanzas, otras áreas funcionales y están enlazados a través de una base de datos común:
 
-![Pasted image 20250701120145.png](/assets/Pasted image 20250701120145.png)
+![Pasted image 20250701120145.png](/MSI/assets/Pasted image 20250701120145.png)
 
 En resumen, el sistema:
 
 - Es un **conjunto** **organizado** de personas, procedimientos, software, bases de datos y dispositivos que **proporcionan** **información** **rutinaria** a los administradores y a las personas que toman decisiones.
-- Se enfoca en la **eficiencia operativa** ([Sistema](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema)).
+- Se enfoca en la **eficiencia operativa** ([Sistema](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema)).
 - Orientados a solucionar problemas empresariales en general (*apunte teórico*).
 - **Ejemplo.** Reporte mensual de ventas.
 ****
-##### **[Sistema de Soporte a la Toma de Decisiones (DSS)](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema de Soporte a la Toma de Decisiones (DSS))**
+##### **[Sistema de Soporte a la Toma de Decisiones (DSS)](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema de Soporte a la Toma de Decisiones (DSS))**
 ****
 ##### **Sistema de Información Ejecutiva (EIS)**
 Además de los **DSS** para uso de los gerentes, existen otros sistemas que **utilizan el mismo enfoque** para brindar soporte a grupos y a ejecutivos. Entre ellos está el del subtítulo, el cual
@@ -50,7 +50,7 @@ Tipo de sistema de información empresarial diseñado para **automatizar** y **o
 ##### **Sistemas Expertos (SE)**
 Mejor conocidos como **sistemas de inteligencia artificial**, se basan en utilizar la experiencia y el conocimiento para analizar variables y hallar una solución a un problema dado.
 
-- Emulan el **[Conocimiento](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Conocimiento)** y la capacidad de razonamiento de un experto humano en un dominio específico.
+- Emulan el **[Conocimiento](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Conocimiento)** y la capacidad de razonamiento de un experto humano en un dominio específico.
 - Está diseñado para resolver problemas complejos o tomar decisiones en áreas especializadas, utilizando reglas, lógica y bases de conocimiento para proporcionar soluciones o recomendaciones precisas.
 - La **base de conocimiento** de un SE es el conjunto de datos, reglas, procedimientos y relaciones que deban seguirse para obtener el valor o la respuesta esperada.
 
@@ -58,4 +58,4 @@ El valor exclusivo de estos sistemas radica en que permiten que las organizacion
 
 - **Ejemplos.** Se utilizan para supervisar reactores nucleares, elaborar diagnósticos médicos, ubicar posibles problemas de reparación, desarrollar planes de marketing para un nuevo producto o estrategia de inversión, entre otros usos.
 ****
-##### **[Sistema de Planificación de Recursos (ERP)](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema de Planificación de Recursos (ERP))**
+##### **[Sistema de Planificación de Recursos (ERP)](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema de Planificación de Recursos (ERP))**

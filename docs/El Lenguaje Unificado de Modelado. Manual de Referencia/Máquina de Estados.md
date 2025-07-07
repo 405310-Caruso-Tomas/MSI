@@ -5,12 +5,12 @@ Si bien parece ser que una **máquina de estados** (modelo conceptual/lógica su
 Modela las posibles historias de vida de un objeto de una **clase**, todos el conjunto de **estados** por los cuales pasa el objeto en respuesta a **eventos**. 
 Una máquina de estados contiene estados conectados por transiciones. (**[Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)**)
 
-![Pasted image 20250626120519.png](/assets/Pasted image 20250626120519.png)
+![Pasted image 20250626120519.png](/MSI/assets/Pasted image 20250626120519.png)
 
 Normalmente, una **máquina de estados** está vinculada a una clase, y describe la respuesta de una instancia de la clase a los eventos que recibe. 
 Las máquinas de estados también se pueden vincular a comportamientos, **casos de uso** y **[Colaboración](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración)es** para describir su ejecución.
 
-![Pasted image 20250622110301.png](/assets/Pasted image 20250622110301.png)
+![Pasted image 20250622110301.png](/MSI/assets/Pasted image 20250622110301.png)
 
 - Los **estados** se representan como rectángulos con esquinas redondeadas. Cada estado modela un periodo de tiempo durante la vida de un objeto en el que satisface ciertas condiciones.
 - Las **transiciones** son flechas etiquetadas con eventos y, opcionalmente, acciones o guardas. Llevan al objeto a un nuevo **estado**.
@@ -22,4 +22,4 @@ El estado inicial de una entrada (representado por un punto negro) es el estado 
 ###### **Más**
 Este diagrama puede ser implementado mediante **estados anidados** y **estados compuestos.**
 
-![Pasted image 20250626120617.png](/assets/Pasted image 20250626120617.png)
+![Pasted image 20250626120617.png](/MSI/assets/Pasted image 20250626120617.png)

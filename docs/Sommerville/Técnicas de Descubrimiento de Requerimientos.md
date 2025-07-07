@@ -1,4 +1,4 @@
-Las técnicas de descubrimiento de **[Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** son esenciales para identificar las necesidades de los usuarios en proyectos de software.
+Las técnicas de descubrimiento de **[Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** son esenciales para identificar las necesidades de los usuarios en proyectos de software.
 
 Todas las diferentes fuentes de requerimientos (participantes, dominio, sistemas) durante el proceso de Adquisición y Análisis de requerimientos se representan como **puntos de vista** del sistema, y cada visión muestra un subconjunto de requerimientos. Es recomendable usar estos puntos de vista para estructurar tanto el descubrimiento como la documentación de los requerimientos del sistema.
 
@@ -15,7 +15,7 @@ Las entrevistas formales o informales con participantes del sistema son una part
 
 La efectividad de esta técnica está "librada a la suerte" por la calidad de la conversación, decisiones sobre mencionar o no una cuestión, jerga específica, dificultad para expresarse, malinterpretaciones, qué quiere revelar el entrevistado sobre la estructura y toma de decisiones de la organización, etc...
 ****
-(El siguiente es quizás otro ejemplo de autores que se contradicen, *Sommerville* trata a las [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario) como un tipo de escenario, mientras que en *Users Stories Applied*, el autor dedica un capítulo entero a diferenciar las **H.U** de otras técnicas de descubrimiento de requerimientos. Aunque ambos ejemplifican los escenarios de forma sutilmente diferente).
+(El siguiente es quizás otro ejemplo de autores que se contradicen, *Sommerville* trata a las [Historias de Usuario](/MSI/Users Stories Applied - Mike Cohn/Historias de Usuario) como un tipo de escenario, mientras que en *Users Stories Applied*, el autor dedica un capítulo entero a diferenciar las **H.U** de otras técnicas de descubrimiento de requerimientos. Aunque ambos ejemplifican los escenarios de forma sutilmente diferente).
 #### **Escenarios**
 Por lo general, las personas encuentran más sencillo vincularse con ejemplos reales que con descripciones abstractas.
 Útiles para detallar un bosquejo de descripción de requerimientos. 
@@ -29,11 +29,11 @@ Un escenario puede incluir:
 5. Una descripción del estado del sistema cuando termina el escenario.
 Estos últimos pueden escribirse como texto, complementarse con diagramas, tomas de pantallas, etcétera.
 
-![Pasted image 20250518085242.png](/assets/Pasted image 20250518085242.png)
+![Pasted image 20250518085242.png](/MSI/assets/Pasted image 20250518085242.png)
 #### **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**
-Los casos de uso son una técnica de descubrimiento de requerimientos que se introdujo por primera vez en el método *Objectory* (mejor referenciado en el apartado de [Historia de UML](/El Lenguaje Unificado de Modelado. Manual de Referencia/Historia de UML)). Ahora se ha convertido en una característica fundamental del modelado de lenguaje unificado ([UML](/El Lenguaje Unificado de Modelado. Manual de Referencia/UML)).
+Los casos de uso son una técnica de descubrimiento de requerimientos que se introdujo por primera vez en el método *Objectory* (mejor referenciado en el apartado de [Historia de UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Historia de UML)). Ahora se ha convertido en una característica fundamental del modelado de lenguaje unificado ([UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/UML)).
 
-**[Diagrama de Casos de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso)**
+**[Diagrama de Casos de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso)**
 ****
 #### **Etnografía**
 Los **sistemas** de software no existen aislados. Se usan en un contexto social y organizacional, y dicho escenario podría derivar o restringir los requerimientos del sistema de software.

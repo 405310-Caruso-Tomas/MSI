@@ -1,8 +1,8 @@
-![Pasted image 20250622104322.png](/assets/Pasted image 20250622104322.png)
+![Pasted image 20250622104322.png](/MSI/assets/Pasted image 20250622104322.png)
 ****
 Las **[Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)** se dibujan como **rectángulos**. La lista de atributos y operaciones se muestran en compartimentos separados.
 
-Las [Relaciones](/El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones) entre **clases** se muestran como las líneas que conectan los rectángulos de las clases. Los diferentes tipos de relaciones se distinguen por la textura de la línea y por los ador nos en las líneas o en sus extremos.
+Las [Relaciones](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones) entre **clases** se muestran como las líneas que conectan los rectángulos de las clases. Los diferentes tipos de relaciones se distinguen por la textura de la línea y por los ador nos en las líneas o en sus extremos.
 
 El **calificador** es un atributo (clave) que se coloca cerca de una clase asociada para indicar que **la selección de la instancia relacionada depende de un valor específico**.
 

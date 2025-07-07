@@ -15,4 +15,4 @@
 | Datos de audio      | Sonidos, ruidos y tonos              |
 | Datos de imágenes   | Imágenes gráficas y fotos            |
 | Datos de vídeo      | Imágenes en movimiento o fotografías |
-Los datos por lo general son utilizados para comprimir **[Información](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Información)** con la finalidad de facilitar el almacenamiento y su transmisión a otros dispositivos.
+Los datos por lo general son utilizados para comprimir **[Información](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Información)** con la finalidad de facilitar el almacenamiento y su transmisión a otros dispositivos.

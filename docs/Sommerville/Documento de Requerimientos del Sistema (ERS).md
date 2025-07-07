@@ -9,16 +9,16 @@ Si se utiliza un proceso de desarrollo iterativo interno, entonces el documento 
 
 El documento de requerimientos ***no debe incluir detalles de la arquitectura o el diseño del sistema***. Este documento suele tener un conjunto variado de usuarios, por lo que es interpretado desde diferentes perspectivas:
 
-![Pasted image 20250401094747.png](/assets/Pasted image 20250401094747.png)
+![Pasted image 20250401094747.png](/MSI/assets/Pasted image 20250401094747.png)
 
 El nivel de detalle incluido depende del tipo de sistema a diseñar y el proceso de desarrollo utilizado.
 ****
 #### **Notaciones**
 Debe escribir los requerimientos del usuario en lenguaje natural, con formas sencillas, diagramas intuitivos. A su vez, los requerimientos del sistema se escriben también en lenguaje natural, pero de igual modo se utilizan otras notaciones:
 
-![Captura de pantalla de 2025-04-01 09-26-44.png](/assets/Captura de pantalla de 2025-04-01 09-26-44.png)
+![Captura de pantalla de 2025-04-01 09-26-44.png](/MSI/assets/Captura de pantalla de 2025-04-01 09-26-44.png)
 
-Los modelos gráficos, como [UML](/El Lenguaje Unificado de Modelado. Manual de Referencia/UML) son más útiles cuando es necesario mostrar cómo cambia un estado o al describir una secuencia de acciones.
+Los modelos gráficos, como [UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/UML) son más útiles cuando es necesario mostrar cómo cambia un estado o al describir una secuencia de acciones.
 ****
 ##### **Especificación en Lenguaje Natural**
 Desde los albores de la ingeniería de software, el lenguaje natural se usa para escribir los requerimientos de software. Para minimizar la ambigüedad, se recomienda: 
@@ -35,7 +35,7 @@ Desde los albores de la ingeniería de software, el lenguaje natural se usa para
 ##### **Especificaciones Estructuradas**
 El lenguaje natural estructurado es una manera de escribir requerimientos del sistema, donde está **limitada la libertad del escritor**
 
-![Pasted image 20250401094047.png](/assets/Pasted image 20250401094047.png)
+![Pasted image 20250401094047.png](/MSI/assets/Pasted image 20250401094047.png)
 
 Cuando use una forma estándar para especificar requerimientos funcionales, debe
 incluir la siguiente información:
@@ -58,12 +58,12 @@ Capítulos:
 - **Definición** **de** **requerimientos** **del** **usuario**: Aquí se representan los servicios que ofrecen al usuario. Requerimientos no funcionales del sistema. Esta descripción puede usar lenguaje natural, diagramas u otras observaciones que sean comprensibles para los clientes.
 - **Arquitectura** **del** **sistema**: Panorama de alto nivel de la arquitectura anticipada del sistema, destacando los componentes arquitectónicos que sean de reutilización.
 - **Especificación** **de** **requerimientos** del sistema: Debe representar los requerimientos funcionales y no funcionales con más detalle.
-- **Modelos** **del** **sistema**: modelos gráficos del sistema que muestren las relaciones entre componentes del sistema, el sistema y su entorno. Algunos especificados en [Metodologías de Modelado](/El Lenguaje Unificado de Modelado. Manual de Referencia/Metodologías de Modelado)
+- **Modelos** **del** **sistema**: modelos gráficos del sistema que muestren las relaciones entre componentes del sistema, el sistema y su entorno. Algunos especificados en [Metodologías de Modelado](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Metodologías de Modelado)
 - **Evolución del sistema**: Describe los supuestos fundamentales sobre los que se basa el sistema, y cualquier cambio anticipado debido a hardware, necesidades del usuario, etc. Esta sección es útil para los diseñadores del sistema, pues los ayuda a evitar decisiones de diseño que restringirían probablemente futuros cambios al sistema.
 - **Apéndices**: Brindan información específica y detallada que se relaciona con la aplicación a desarrollar. Requisitos de hardware (configuración mínima y óptima) y bases de datos (organización lógica y relaciones entre datos).
 - **Índice**: Puede ser un índice alfabético normal, uno de diagramas, un índice de funciones, etcétera.
 
 Hay distintas versiones respecto a lo que debe incluir la ERS según el estándar IEEE, es por ello que se adjunta otro modelo propuesto (*apunte teórico*):
 
-![Pasted image 20250702205842.png](/assets/Pasted image 20250702205842.png)
+![Pasted image 20250702205842.png](/MSI/assets/Pasted image 20250702205842.png)
 

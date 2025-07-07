@@ -1,4 +1,4 @@
-> **Elemento** que representa un **comportamiento** o **[PROCESO](/R. Pressman/PROCESO)** **dinámico** dentro de un **sistema**, modelado típicamente en un **[Diagrama de Actividad](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad).**
+> **Elemento** que representa un **comportamiento** o **[PROCESO](/MSI/R. Pressman/PROCESO)** **dinámico** dentro de un **sistema**, modelado típicamente en un **[Diagrama de Actividad](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad).**
 
 Es una **unidad de trabajo** que describe una secuencia de **acciones** ejecutadas para alcanzar un objetivo específico, como parte de un **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**, un proceso de negocio o una **[Interacción](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)** en el sistema.
 
@@ -22,4 +22,4 @@ Supongamos una actividad para "Procesar un inicio de sesión":
 	- Si sí → Acción: "Conceder acceso" → **Nodo de fin**.
     - Si no → Acción: "Mostrar error" → **Nodo de fin**.
 
-En un **[Diagrama de Actividad](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad)**, esto se representa con nodos conectados por flechas, mostrando el flujo lógico.
+En un **[Diagrama de Actividad](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad)**, esto se representa con nodos conectados por flechas, mostrando el flujo lógico.

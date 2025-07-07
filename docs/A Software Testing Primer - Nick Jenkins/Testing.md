@@ -6,9 +6,9 @@ Se suelen utilizar diferentes enfoques y [Enfoques de Testing](/MSI/A Software T
 
 **Otra definición.** IEEE (1990): *“El proceso de operar un sistema o componente bajo condiciones específicas, observando o registrando los resultados, y evaluando algún aspecto del sistema o componente.”*
 ****
-- Podemos usar procesos de [QA (Quality Assurance o Aseguramiento de la Calidad)](/A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad)) para intentar prevenir defectos en el software, pero lo único que podemos hacer para reducir la cantidad de errores ya presente es testear.
+- Podemos usar procesos de [QA (Quality Assurance o Aseguramiento de la Calidad)](/MSI/A Software Testing Primer - Nick Jenkins/QA (Quality Assurance o Aseguramiento de la Calidad)) para intentar prevenir defectos en el software, pero lo único que podemos hacer para reducir la cantidad de errores ya presente es testear.
 - El testing también nos ayuda a cuantificar los [Riesgos](/MSI/PMBOK/Riesgos) en un software no probado. Sobre todo cuando usamos un ciclo de testing.
-- **Mindset.** Un tester profesional encara esta actividad suponiendo que el producto está roto, y ya tiene defectos por descubrir. Siempre se hace la pregunta **¿por qué?**, y buscan la certeza donde no la hay. Desarrolladores y diseñadores pueden adoptar esta mentalidad también, lo cual beneficia enormemente al proyecto. Más sobre esto, en el inciso de [Roles en el Testing](/A Software Testing Primer - Nick Jenkins/Roles en el Testing).
+- **Mindset.** Un tester profesional encara esta actividad suponiendo que el producto está roto, y ya tiene defectos por descubrir. Siempre se hace la pregunta **¿por qué?**, y buscan la certeza donde no la hay. Desarrolladores y diseñadores pueden adoptar esta mentalidad también, lo cual beneficia enormemente al proyecto. Más sobre esto, en el inciso de [Roles en el Testing](/MSI/A Software Testing Primer - Nick Jenkins/Roles en el Testing).
 ****
 Idealmente las pruebas deberían llevarse a cabo a lo largo del ciclo de vida del desarrollo, ya que a medida que retrasamos la evaluación del producto durante el desarrollo, también aumenta la complejidad de resolver los problemas.
 ##### **Trazabilidad**

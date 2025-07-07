@@ -9,16 +9,16 @@ La primera clasificación para los **requerimientos** la podemos hacer en base a
 - Los **requerimientos** del **usuario** son enunciados, en un lenguaje natural junto con diagramas, acerca de qué servicios esperan los usuarios del sistema. 
 - Deben describir los **requerimientos** **funcionales** y **no** **funcionales** de forma comprensible. 
 
-- Los **requerimientos** del **[Sistema](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema)** son descripciones de las funciones, los servicios y las restricciones operacionales del sistema. 
+- Los **requerimientos** del **[Sistema](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema)** son descripciones de las funciones, los servicios y las restricciones operacionales del sistema. 
 - Son versiones extendidas de los requerimientos del usuario que los desarrolladores usan como punto de partida. 
 - Idealmente, no deben ocuparse de cómo se diseña o implementa el sistema. 
 - Especificaciones completas y detalladas de todo el sistema, que pueden ser incluídas como parte del contrato para la implementación del sistema.
 
-![Pasted image 20250325101833.png](/assets/Pasted image 20250325101833.png)
+![Pasted image 20250325101833.png](/MSI/assets/Pasted image 20250325101833.png)
 
 ****
 ##### **Comportamiento**
-La segunda clasificación refiere más específicamente al comportamiento y performance del sistema, entre **[Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** **Funcionales** y **No** **Funcionales**:
+La segunda clasificación refiere más específicamente al comportamiento y performance del sistema, entre **[Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** **Funcionales** y **No** **Funcionales**:
 
 - ***Requerimientos Funcionales***. Definen las funciones que el sistema será capaz de realizar. 
 - Describen las transformaciones que el sistema deberá realizar sobre las entradas para producir las salidas. 
@@ -26,7 +26,7 @@ La segunda clasificación refiere más específicamente al comportamiento y perf
 - ***Requerimientos No Funcionales***. Refieren a características que de una u otra forma pueden limitar al sistema como, por ejemplo: el rendimiento, interfaces de usuario, fiabilidad, mantenimiento, seguridad, portabilidad, estándares, etc. 
 - Se refieren a propiedades emergentes del sistema. **Una falla de un requerimiento de este tipo podría inutilizar un sistema**. Limitaciones impuestas por los estándares.
 
-![Pasted image 20250325105644.png](/assets/Pasted image 20250325105644.png)
+![Pasted image 20250325105644.png](/MSI/assets/Pasted image 20250325105644.png)
 	 
 Gracias al diagrama, podemos ver que **los requerimientos no funcionales provienen de características requeridas del software** (requerimientos del producto), la organización que desarrolla el software (requerimientos de la organización) o de fuentes externas:
 
@@ -38,10 +38,10 @@ Gracias al diagrama, podemos ver que **los requerimientos no funcionales provien
 - En ellos se incluyen requerimientos regulatorios que establecen lo que debe hacer el sistema para ser aprobado en su uso por un regulador, o agente externo a la organización o proyecto.
 
 *MHC-PMS como sistema a desarrollar*
-![Pasted image 20250325111222.png](/assets/Pasted image 20250325111222.png)
+![Pasted image 20250325111222.png](/MSI/assets/Pasted image 20250325111222.png)
 
 Siempre que sea posible, **se deberán escribir de manera cuantitativa los requerimientos no funcionales**, de manera que puedan ponerse objetivamente a prueba. La siguiente figura muestra las métricas que se utilizan para especificar propiedades no funcionales del sistema.
-	![Pasted image 20250325111528.png](/assets/Pasted image 20250325111528.png)
+	![Pasted image 20250325111528.png](/MSI/assets/Pasted image 20250325111528.png)
 Aunque en la práctica, los usuarios de un sistema suelen encontrar difícil traducir sus metas en requerimientos mensurables. Para algunas metas, como la mantenibilidad, no hay métricas para usarse.
 ****
 ###### **Conflictos entre requerimientos**

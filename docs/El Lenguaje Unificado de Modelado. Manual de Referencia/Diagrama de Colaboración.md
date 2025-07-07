@@ -1,6 +1,6 @@
 Una **[Colaboración](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración)** es una relación contextual entre un conjunto de objetos que trabajan juntos para lograr un propósito. 
 
-![Pasted image 20250622105312.png](/assets/Pasted image 20250622105312.png)
+![Pasted image 20250622105312.png](/MSI/assets/Pasted image 20250622105312.png)
 
 Contiene una colección de **roles** dentro de un patrón genérico, que pueden ser representadas por objetos individuales, o vinculadas a ellos. 
 ****
@@ -16,9 +16,9 @@ Este diagrama muestra como los **objetos** y los **[Actor](/El Lenguaje Unificad
 
 Se utilizan tres tipos de clases: de entidad, de interfaz y de control.
 
-![Pasted image 20250626115452.png](/assets/Pasted image 20250626115452.png)
+![Pasted image 20250626115452.png](/MSI/assets/Pasted image 20250626115452.png)
 
 Este diagrama es el modelo lógico para representar el concepto del **Modelo vista controlador. (MVC)**, veamos el ejemplo:
 
-![Pasted image 20250626115701.png](/assets/Pasted image 20250626115701.png)
+![Pasted image 20250626115701.png](/MSI/assets/Pasted image 20250626115701.png)
 

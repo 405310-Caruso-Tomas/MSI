@@ -12,7 +12,7 @@ En todos estos métodos y notaciones, dividimos el sistema en dos partes: una se
 ****
 ##### **Esfuerzo de Unificación**
 
-![Pasted image 20250621104357.png](/assets/Pasted image 20250621104357.png)
+![Pasted image 20250621104357.png](/MSI/assets/Pasted image 20250621104357.png)
 
 Es claro que con el pasar del tiempo los sistemas requerían cada vez más complejidad en su desarrollo, y por esta razón el mantenimiento y el desarrollo exigía otro tipo de visión. Esto dio lugar a la conocida *crisis del software*.
 

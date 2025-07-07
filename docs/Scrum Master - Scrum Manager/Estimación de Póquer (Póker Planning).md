@@ -1,8 +1,8 @@
-> **Práctica** **ágil**, para conducir las **reuniones** ([Eventos](/Scrum Master - Scrum Manager/Eventos)) en las que se estima el esfuerzo, duración o complejidad de las tareas o [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario) en un **proyecto.**
+> **Práctica** **ágil**, para conducir las **reuniones** ([Eventos](/MSI/Scrum Master - Scrum Manager/Eventos)) en las que se estima el esfuerzo, duración o complejidad de las tareas o [Historias de Usuario](/MSI/Users Stories Applied - Mike Cohn/Historias de Usuario) en un **proyecto.**
 
 *James Grenning* ideó este juego de **planificación** para evitar discusiones dilatadas que no terminan de dar **conclusiones** **concretas**. 
 
-![Pasted image 20250628122049.png](/assets/Pasted image 20250628122049.png)
+![Pasted image 20250628122049.png](/MSI/assets/Pasted image 20250628122049.png)
 ****
 ### **¿Cómo funciona?**
 1. **Preparación**:

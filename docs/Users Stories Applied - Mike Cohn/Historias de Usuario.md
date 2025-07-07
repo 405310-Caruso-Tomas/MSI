@@ -3,9 +3,9 @@
 
 Los **requerimientos** del software son un problema de comunicación: aquellos que quieren el software deben comunicarse con aquellos que lo desarrollan.
 
-- Una ***Historia de Usuario*** describe funcionalidad valiosa para un usuario o comprador del **[Sistema](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema)**. Representa específicamente [Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos) del usuario, **más** que la **documentación** de los mismos. 
+- Una ***Historia de Usuario*** describe funcionalidad valiosa para un usuario o comprador del **[Sistema](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema)**. Representa específicamente [Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos) del usuario, **más** que la **documentación** de los mismos. 
 - Son **descripciones** breves y simples de una **funcionalidad** que un usuario desea. 
-- Son utilizadas principalmente en [Modelos Ágiles](/R. Pressman/Modelos Ágiles).
+- Son utilizadas principalmente en [Modelos Ágiles](/MSI/R. Pressman/Modelos Ágiles).
 - Deben ser escritas ***sin*** el uso de lenguaje técnico.
 ****
 #### **Ejemplo**
@@ -23,9 +23,9 @@ Los malos ejemplos para una historia de usuario se deben a que en principio al u
 #### ***Notas*** 
 Las **notas en las historias de usuario** son información adicional que proporciona contexto o detalles específicos para ayudar a los desarrolladores y otros miembros del equipo a entender mejor los requisitos. Aunque no son siempre necesarias, pueden ser muy útiles para aclarar aspectos técnicos, restricciones o reglas de negocio.
 ****
-###### **[Criterios de Aceptación](/Users Stories Applied - Mike Cohn/Criterios de Aceptación)**
+###### **[Criterios de Aceptación](/MSI/Users Stories Applied - Mike Cohn/Criterios de Aceptación)**
 ****
 ##### ****El Proceso con Historias de Usuario****
 Un proyecto que hace uso de **H.U** no se parecerá en nada a un modelo de proceso estilo cascada, en el que la participación del usuario se verá limitada a la etapa de recabación de requerimientos y retroalimentación del producto terminado. 
-Un proyecto que hace uso de **H.U** ([Modelos Ágiles](/R. Pressman/Modelos Ágiles)) necesita la participación frecuente del equipo cliente, ya que las **H.U** pueden ser escritas en cualquier etapa del proyecto, y ***la parte más importante de una historia de usuario es la conversación previa a escribirla***. 
-El formato de las **H.U** permite una flexibilidad y adaptación clave para este tipo de metodologías. Más razones para el uso de historias de usuario son detalladas en el apartado de [Por qué usar Historias de Usuario](/Users Stories Applied - Mike Cohn/Por qué usar Historias de Usuario)
+Un proyecto que hace uso de **H.U** ([Modelos Ágiles](/MSI/R. Pressman/Modelos Ágiles)) necesita la participación frecuente del equipo cliente, ya que las **H.U** pueden ser escritas en cualquier etapa del proyecto, y ***la parte más importante de una historia de usuario es la conversación previa a escribirla***. 
+El formato de las **H.U** permite una flexibilidad y adaptación clave para este tipo de metodologías. Más razones para el uso de historias de usuario son detalladas en el apartado de [Por qué usar Historias de Usuario](/MSI/Users Stories Applied - Mike Cohn/Por qué usar Historias de Usuario)

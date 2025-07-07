@@ -1,11 +1,11 @@
-¿Por qué no simplemente especificamos un [Documento de Requerimientos del Sistema (ERS)](/Sommerville/Documento de Requerimientos del Sistema (ERS)), o escribimos ciertos **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**?
+¿Por qué no simplemente especificamos un [Documento de Requerimientos del Sistema (ERS)](/MSI/Sommerville/Documento de Requerimientos del Sistema (ERS)), o escribimos ciertos **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**?
 ****
 ##### ***Enfatizan la comunicación verbal***
 Dado que las **H.U** **enfatizan la comunicación verbal antes que escrita**, aspectos importantes del sistema no son del todo capturados en un documento formal de requerimientos (poco probable a ser leído), y pueden ser malinterpretados, supongamos: 
 
 $$\text{El sistema debe registrar dirección y número telefónico comercial o móvil.}$$
 
-Este requerimiento que puede ser encontrado en un [Documento de Requerimientos del Sistema (ERS)](/Sommerville/Documento de Requerimientos del Sistema (ERS)) tiene cierta ambigüedad que podría interpretarse como que el sistema debe registrar:
+Este requerimiento que puede ser encontrado en un [Documento de Requerimientos del Sistema (ERS)](/MSI/Sommerville/Documento de Requerimientos del Sistema (ERS)) tiene cierta ambigüedad que podría interpretarse como que el sistema debe registrar:
 $$\text{(Dirección y número telefónico comercial) o número móvil.}$$
 
 o más bien, 
@@ -25,4 +25,4 @@ Ideales para dividir el trabajo en incrementos pequeños que puedan desarrollars
 ##### ***Mejoran la estimación y priorización.***
 Las historias permiten al equipo estimar el esfuerzo necesario utilizando técnicas como los puntos de historia o el tamaño relativo. Además, al estar vinculadas profundamente al valor del usuario, el equipo cliente puede priorizarlas según su importancia estratégica o comercial. Esto asegura que todo el equipo trabaje en lo que más importa primero.
 
-En general, como vemos, son un recurso muy **complementable** con [Modelos Ágiles](/R. Pressman/Modelos Ágiles).
+En general, como vemos, son un recurso muy **complementable** con [Modelos Ágiles](/MSI/R. Pressman/Modelos Ágiles).

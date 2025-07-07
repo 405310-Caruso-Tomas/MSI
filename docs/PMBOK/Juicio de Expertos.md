@@ -1,6 +1,6 @@
-Técnica usual durante la [Gestión del Alcance del Proyecto](/PMBOK/Gestión del Alcance del Proyecto), así como para la [Gestión del Tiempo del Proyecto](/PMBOK/Gestión del Tiempo del Proyecto), y demás.
+Técnica usual durante la [Gestión del Alcance del Proyecto](/MSI/PMBOK/Gestión del Alcance del Proyecto), así como para la [Gestión del Tiempo del Proyecto](/MSI/PMBOK/Gestión del Tiempo del Proyecto), y demás.
 ****
-Un grupo o individuo con conocimientos especializados proporciona su experiencia para analizar la información necesaria para la elaboración del [Enunciado del Alcance del Proyecto](/assets/Enunciado del Alcance del Proyecto), por ejemplo.
+Un grupo o individuo con conocimientos especializados proporciona su experiencia para analizar la información necesaria para la elaboración del [Enunciado del Alcance del Proyecto](/MSI/assets/Enunciado del Alcance del Proyecto), por ejemplo.
 
 Se trata de obtener opiniones, consejos o evaluaciones de personas o grupos con experiencia, conocimientos especializados o capacitación relevante en un área específica.
 

@@ -1,6 +1,6 @@
 > Cuando una historia es muy larga, o de este estilo, suelen ser denominadas ***Épicas***. 
 
-Las épicas pueden ser divididas en dos o más **[Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario)** más chicas y específicas. 
+Las épicas pueden ser divididas en dos o más **[Historias de Usuario](/MSI/Users Stories Applied - Mike Cohn/Historias de Usuario)** más chicas y específicas. 
 ****
 $$\text{"Un usuario puede buscar trabajo según localización, salario, puesto, compañía."}$$
 es una **historia** que **surge** de la siguiente **épica**: 

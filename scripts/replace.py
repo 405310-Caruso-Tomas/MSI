@@ -1,51 +1,25 @@
 import os
 import re
 
-root_dir = 'docs' 
+def actualizar_markdown(directorio_base):
+    enlace_regex = re.compile(r'\[([^\]]+)\]\(/([^/\)]+)/\1\)')
+    asset_regex = re.compile(r'!\[([^\]]+)\]\(/assets/\1\)')
 
-file_to_dir = {}
+    for carpeta, _, archivos in os.walk(directorio_base):
+        for archivo in archivos:
+            if archivo.endswith(".md"):
+                ruta_completa = os.path.join(carpeta, archivo)
+                print(f"Procesando: {ruta_completa}")
+                with open(ruta_completa, 'r', encoding='utf-8') as f:
+                    contenido = f.read()
 
-for dirpath, dirnames, filenames in os.walk(root_dir):
-    for filename in filenames:
-        if filename.endswith('.md'):
-            file_basename = os.path.splitext(filename)[0]  
-            rel_dir = os.path.relpath(dirpath, root_dir)  
-            file_to_dir[file_basename] = rel_dir.replace(os.sep, '/')
+                contenido_nuevo = enlace_regex.sub(r'[\1](/MSI/\2/\1)', contenido)
+                contenido_nuevo = asset_regex.sub(r'[\1](/MSI/assets/\1)', contenido_nuevo)
 
-for dirpath, dirnames, filenames in os.walk(root_dir):
-    for filename in filenames:
-        if filename.endswith('.md'):
-            file_path = os.path.join(dirpath, filename)
-            with open(file_path, 'r', encoding='utf-8') as file:
-                content = file.read()
+                with open(ruta_completa, 'w', encoding='utf-8') as f:
+                    f.write(contenido_nuevo)
 
-            def replace_link(match):
-                target = match.group(1)
-                folder = file_to_dir.get(target, '')
-                if folder == '.':
-                    folder = '' 
-                return f"[{target}](/MSI/{folder}/{target})"
+                print(f"✔ Actualizado: {ruta_completa}")
 
-            new_content = re.sub(r'\[(.*?)\]\(/\s*([^)\s]+)\)', replace_link, content)
-
-            with open(file_path, 'w', encoding='utf-8') as file:
-                file.write(new_content)
-
-
-def agregar_assets_a_enlaces(contenido):
-    return re.sub(r'\[([^\]]+)\]\(//([^\)]+)\)', r'[\1](/MSI/assets/\2)', contenido)
-
-root_dir = 'docs' 
-
-for dirpath, dirnames, filenames in os.walk(root_dir):
-    for filename in filenames:
-        if filename.endswith('.md'):
-            file_path = os.path.join(dirpath, filename)
-            with open(file_path, 'r', encoding='utf-8') as f:
-                contenido = f.read()
-            nuevo_contenido = agregar_assets_a_enlaces(contenido)
-            with open(file_path, 'w', encoding='utf-8') as f:
-                f.write(nuevo_contenido)
-
-print("✅ Enlaces actualizados con 'assets' en la ruta.")
-print("✅ ¡Todos los enlaces han sido reemplazados correctamente!")
+directorio = './docs'
+actualizar_markdown(directorio)

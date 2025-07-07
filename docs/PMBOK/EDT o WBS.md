@@ -1,12 +1,12 @@
 La EDT/WBS es una descomposición jerárquica del alcance total del trabajo a realizar por el equipo del proyecto para cumplir con los objetivos del proyecto y crear los entregables requeridos. 
 Está fuertemente orientada a entregables del trabajo total que debe realizar el equipo del proyecto para cumplir con los objetivos del proyecto.
 
-- Herramienta fundamental para la [Gestión del Alcance del Proyecto](/PMBOK/Gestión del Alcance del Proyecto) a realizar.
+- Herramienta fundamental para la [Gestión del Alcance del Proyecto](/MSI/PMBOK/Gestión del Alcance del Proyecto) a realizar.
 - Por lo general es creada durante la definición del alcance de un proyecto.
 ****
 Cada nivel descendente de la EDT/WBS representa una definición cada vez más detallada del trabajo del proyecto.
 
-![Pasted image 20250609125306.png](/assets/Pasted image 20250609125306.png)
+![Pasted image 20250609125306.png](/MSI/assets/Pasted image 20250609125306.png)
 
 - Permite asignar responsabilidades, estimar recursos y controlar el progreso del proyecto más fácilmente.
 - Proporciona una visión estructurada de lo que se debe entregar.

@@ -21,7 +21,7 @@ El grado es una **categoría** que se asigna a entregables que tienen el mismo u
 #### **Factores de la calidad**
 Una clasificación útil de los factores que afectan la calidad del software se ilustran en la figura:
 
-![Pasted image 20250402141717.png](/assets/Pasted image 20250402141717.png)
+![Pasted image 20250402141717.png](/MSI/assets/Pasted image 20250402141717.png)
 
 Se centran en tres aspectos importantes del producto de software: sus características operativas, su capacidad de ser modificado (Revisión del producto) y su adaptabilidad a nuevos ambientes (Transición del producto).
 
@@ -30,7 +30,7 @@ Las dimensiones de la calidad presentadas se centran en el software como un todo
 ##### **Costo de la calidad**
 El costo de la calidad incluye todos los costos en los que se ha incurrido durante la vida del producto a través de inversiones para prevenir el incumplimiento de los requisitos, para la evaluación del producto con los requisitos, y para el retrabajo por incumplimiento de requisitos. 
 
-![Pasted image 20250403111007.png](/assets/Pasted image 20250403111007.png)
+![Pasted image 20250403111007.png](/MSI/assets/Pasted image 20250403111007.png)
 
 Los costos por calidad deficiente se clasifican a menudo en **internos** (constatados por el equipo del proyecto) y **externos** (constatados por el cliente).
 La imagen detalla los costos, para evitar fallas por un lado, y costos provocados por las fallas por el otro.

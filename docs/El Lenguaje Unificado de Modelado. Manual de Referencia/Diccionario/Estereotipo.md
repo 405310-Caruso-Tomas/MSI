@@ -11,5 +11,5 @@ Los estereotipos suelen definirse en un **[Perfil](/El Lenguaje Unificado de Mod
 #### **Notación**
 Se representa entre **guillemets** (`<< >>`), como `<<entity>>`, `<<controller>>` o `<<interface>>`, y se coloca generalmente encima o junto al nombre del elemento al que aplica.
 
-![Pasted image 20250623130158.png](/assets/Pasted image 20250623130158.png)
+![Pasted image 20250623130158.png](/MSI/assets/Pasted image 20250623130158.png)
 

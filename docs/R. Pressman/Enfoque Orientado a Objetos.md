@@ -1,4 +1,4 @@
-> Un enfoque orientado a **objetos** en el desarrollo de **[Software](/R. Pressman/Software)** es un **paradigma** de programación que organiza el código en torno a "**objetos**" en lugar de funciones o procedimientos.
+> Un enfoque orientado a **objetos** en el desarrollo de **[Software](/MSI/R. Pressman/Software)** es un **paradigma** de programación que organiza el código en torno a "**objetos**" en lugar de funciones o procedimientos.
 
 Para entender el punto de vista orientado a **objeto**, considere un ejemplo de un objeto del mundo real: el objeto sobre el cual se sienta en este momento, una silla. `Silla` es una subclase de una clase mucho más grande que puede llamar `PiezaDeMobiliario`. Las sillas individuales son miembros (por lo general llamadas instancias) de la clase `Silla`. Un conjunto de atributos genéricos pueden asociarse con cada objeto en la clase `PiezaDeMobiliario`.
 

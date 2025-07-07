@@ -13,9 +13,9 @@ El PMBOK organiza el plan en **líneas base** y **planes de gestión subsidiario
 	3. **De costos.**
 
 - **Planes de Gestión Subsidiarios.**
-	1. **Plan de [Gestión del Alcance del Proyecto](/PMBOK/Gestión del Alcance del Proyecto)** **y Requisitos.**
-	2. **Plan de [Gestión del Tiempo del Proyecto](/PMBOK/Gestión del Tiempo del Proyecto)**
-	3. **Plan de [Gestión de Costos del Proyecto](/PMBOK/Gestión de Costos del Proyecto)**
+	1. **Plan de [Gestión del Alcance del Proyecto](/MSI/PMBOK/Gestión del Alcance del Proyecto)** **y Requisitos.**
+	2. **Plan de [Gestión del Tiempo del Proyecto](/MSI/PMBOK/Gestión del Tiempo del Proyecto)**
+	3. **Plan de [Gestión de Costos del Proyecto](/MSI/PMBOK/Gestión de Costos del Proyecto)**
 	4. **Plan de Gestión de la Calidad**
 	5. **Plan de Gestión de Riesgos**
 	6. **Plan de Gestión de Recursos**

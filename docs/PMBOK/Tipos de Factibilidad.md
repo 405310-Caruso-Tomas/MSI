@@ -65,7 +65,7 @@ Las herramientas y técnicas que hacen posible estos cometidos son:
 - $Periodo\ de\ Recuperacion = Inversion\ Inicial / Ahorros\ Anuales$
 - $Periodo\ de\ Recuperacion = 20,000 / 5,000 = 4\ años$
 
-Si bien la factibilidad económica evalúa los costos y beneficios financieros del proyecto, la viabilidad económica también considera aspectos estratégicos, como el posicionamiento en el mercado, la ventaja competitiva y el potencial de crecimiento a largo plazo. Para asegurar la viabilidad económica se suelen realizar **Estudios de Mercado** (determinar si existe una demanda real para el sistema) o **Evaluaciones de Riesgos** ([Análisis FODA](/PMBOK/Análisis FODA), entre otros)
+Si bien la factibilidad económica evalúa los costos y beneficios financieros del proyecto, la viabilidad económica también considera aspectos estratégicos, como el posicionamiento en el mercado, la ventaja competitiva y el potencial de crecimiento a largo plazo. Para asegurar la viabilidad económica se suelen realizar **Estudios de Mercado** (determinar si existe una demanda real para el sistema) o **Evaluaciones de Riesgos** ([Análisis FODA](/MSI/PMBOK/Análisis FODA), entre otros)
 ****
 ##### **Factibilidad Operativa**
 Evalúa:

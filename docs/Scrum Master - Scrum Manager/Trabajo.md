@@ -1,6 +1,6 @@
 En Scrum, el trabajo se refiere a **las actividades realizadas por el equipo** para entregar un producto, siguiendo los principios de la **metodología** ágil.
 
-> Scrum organiza el trabajo en torno a la creación de un incremento de producto funcional al final de cada **Sprint** (un período fijo de **[Tiempo](/Scrum Master - Scrum Manager/Tiempo)**)
+> Scrum organiza el trabajo en torno a la creación de un incremento de producto funcional al final de cada **Sprint** (un período fijo de **[Tiempo](/MSI/Scrum Master - Scrum Manager/Tiempo)**)
 ****
 Medir el trabajo en ***Scrum*** puede ser necesario por dos razones: 
 
@@ -15,7 +15,7 @@ Es posible que otros procesos de la organización necesiten registrar el esfuerz
 ##### **Trabajo Pendiente a Realizar**
 **Trabajo pendiente a realizar.** Scrum mide el trabajo pendiente para:
 
-- Estimar **esfuerzo** y **tiempo** **previsto** para realizar un **trabajo** (tareas, [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario) o epics).  
+- Estimar **esfuerzo** y **tiempo** **previsto** para realizar un **trabajo** (tareas, [Historias de Usuario](/MSI/Users Stories Applied - Mike Cohn/Historias de Usuario) o epics).  
 - **Determinar el grado de avance** del **[Proyecto](/MSI/PMBOK/Proyecto)**, y en especial en cada **sprint**.
 
 **¿Por qué decimos estimar tiempo y esfuerzo previsto?**. Porque el trabajo necesario para realizar un requisito o una historia de usuario no se puede prever de forma absoluta, ya que las funcionalidades no son realidades de solución única. Y por consecuencia de no poder medir con precisión el trabajo, no podremos saber cuánto tiempo necesitará. Además de que una misma tarea, realizada por una misma persona requerirá diferentes tiempos en situaciones distintas. En resumen, **no es posible estimar con precisión**.
@@ -23,4 +23,4 @@ Es posible que otros procesos de la organización necesiten registrar el esfuerz
 ##### **Unidades de Trabajo**
 Un trabajo puede dimensionarse midiendo el producto que se construye, como los tradicionales **puntos de función** de ***COCOMO*** (modelo matemático de base empírica utilizado para estimación de costos); o el **tiempo** que cuesta realizarlo.
 
-En la gestión ágil se suelen utilizar **[Puntos de Historia](/Scrum Master - Scrum Manager/Puntos de Historia)** para este cometido.
+En la gestión ágil se suelen utilizar **[Puntos de Historia](/MSI/Scrum Master - Scrum Manager/Puntos de Historia)** para este cometido.

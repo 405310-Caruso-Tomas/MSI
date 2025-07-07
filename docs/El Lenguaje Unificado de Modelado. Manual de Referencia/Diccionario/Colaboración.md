@@ -6,4 +6,4 @@ Una **colaboración** es una descripción de una estructura. La colaboración es
 - **Interacciones**: Describe cómo los roles intercambian mensajes o realizan acciones coordinadas para cumplir un objetivo.
 ****
 ##### **Notación**
-En un **[Diagrama de Colaboración](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Colaboración)**, una colaboración se representa como un óvalo con bordes discontinuos que contiene el nombre de la colaboración.
+En un **[Diagrama de Colaboración](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Colaboración)**, una colaboración se representa como un óvalo con bordes discontinuos que contiene el nombre de la colaboración.

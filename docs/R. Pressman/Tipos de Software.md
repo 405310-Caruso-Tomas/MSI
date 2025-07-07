@@ -1,6 +1,6 @@
 Actualmente, hay siete grandes categorías de software de computadora.
 ****
-###### **[Software](/R. Pressman/Software) de Sistemas** 
+###### **[Software](/MSI/R. Pressman/Software) de Sistemas** 
 - Conjunto de programas escritos para dar servicio a otros programas. 
 - Se caracteriza por: gran interacción con el hardware de la computadora, uso intensivo por parte de usuarios múltiples, operación concurrente
 - Estructuras complejas de datos e interfaces externas múltiples.
@@ -31,4 +31,4 @@ Actualmente, hay siete grandes categorías de software de computadora.
 -  Hace uso de algoritmos no numéricos para resolver problemas complejos que no son fáciles de tratar computacionalmente o con el análisis directo. 
 - Robótica, sistemas expertos, reconocimiento de patrones (imagen y voz), redes neurales artificiales, demostración de teoremas y juegos.
 ****
-###### **[Software Heredado](/R. Pressman/Software Heredado)**
+###### **[Software Heredado](/MSI/R. Pressman/Software Heredado)**

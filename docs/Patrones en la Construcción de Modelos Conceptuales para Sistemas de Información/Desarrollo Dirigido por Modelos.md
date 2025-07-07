@@ -1,4 +1,4 @@
-El **Desarrollo de Software Dirigido por Modelos (Model-Driven Development, MDD)** es un enfoque metodológico propone el uso de [Metodologías de Modelado](/El Lenguaje Unificado de Modelado. Manual de Referencia/Metodologías de Modelado) de alto nivel como artefactos principales en el proceso de desarrollo de software, en lugar de centrarse directamente en el código fuente.
+El **Desarrollo de Software Dirigido por Modelos (Model-Driven Development, MDD)** es un enfoque metodológico propone el uso de [Metodologías de Modelado](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Metodologías de Modelado) de alto nivel como artefactos principales en el proceso de desarrollo de software, en lugar de centrarse directamente en el código fuente.
 ****
 ##### **Principales propuestas del MDD**
 1. **Abstracción y automatización**
@@ -13,5 +13,5 @@ El **Desarrollo de Software Dirigido por Modelos (Model-Driven Development, MDD)
 	1. Se pueden crear modelos independientes para distintas capas del software (negocio, datos, interfaz de usuario, etc.), facilitando su evolución y mantenimiento.
 4. **Estandarización con OMG y UML**
 
-	El Object Management Group (OMG) propone estándares como **Model-Driven Architecture (MDA)**, que utiliza [UML](/El Lenguaje Unificado de Modelado. Manual de Referencia/UML), BPMN y otros lenguajes para definir modelos que pueden transformarse en implementaciones concretas.
+	El Object Management Group (OMG) propone estándares como **Model-Driven Architecture (MDA)**, que utiliza [UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/UML), BPMN y otros lenguajes para definir modelos que pueden transformarse en implementaciones concretas.
 

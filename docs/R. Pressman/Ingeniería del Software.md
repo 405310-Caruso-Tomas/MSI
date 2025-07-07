@@ -1,4 +1,4 @@
-> La **ingeniería de [Software](/R. Pressman/Software)** es el establecimiento y uso de principios fundamentales de la ingeniería con objeto de desarrollar en forma económica software que sea **confiable** y que trabaje con eficiencia en máquinas reales.
+> La **ingeniería de [Software](/MSI/R. Pressman/Software)** es el establecimiento y uso de principios fundamentales de la ingeniería con objeto de desarrollar en forma económica software que sea **confiable** y que trabaje con eficiencia en máquinas reales.
 
 Es: 
 
@@ -7,19 +7,19 @@ Es:
 ****
 ## **Capas**
 
-![Pasted image 20250311121355.png](/assets/Pasted image 20250311121355.png)
+![Pasted image 20250311121355.png](/MSI/assets/Pasted image 20250311121355.png)
 
 La **ingeniería** de **software** es una tecnología con varias capas. 
 
-La ingeniería de software incluye un **[PROCESO](/R. Pressman/PROCESO)**, **métodos** y **herramientas** para administrar y hacer ingeniería con el software.
+La ingeniería de software incluye un **[PROCESO](/MSI/R. Pressman/PROCESO)**, **métodos** y **herramientas** para administrar y hacer ingeniería con el software.
 ****
-###### **Compromiso con la [Calidad](/R. Pressman/Calidad)**
-El fundamento en el que se apoya la ingeniería de software es el ***compromiso con la [Calidad](/R. Pressman/Calidad).*** Aunque las herramientas parecen lo más visible, Pressman enfatiza que la **calidad** es la raíz de todo, guiando las otras capas.
+###### **Compromiso con la [Calidad](/MSI/R. Pressman/Calidad)**
+El fundamento en el que se apoya la ingeniería de software es el ***compromiso con la [Calidad](/MSI/R. Pressman/Calidad).*** Aunque las herramientas parecen lo más visible, Pressman enfatiza que la **calidad** es la raíz de todo, guiando las otras capas.
 
 Incluye atributos de calidad como confiabilidad, eficiencia, mantenibilidad, usabilidad y seguridad. Podemos definir la calidad como el cumplimiento de los requisitos especificados y las expectativas de los usuarios.
 ****
 ##### **Métodos**
-Son las técnicas específicas dentro del modelo de proceso seleccionado, como usar diagramas **[UML](/El Lenguaje Unificado de Modelado. Manual de Referencia/UML)** para diseñar, pruebas unitarias para verificar el código, TDD (Desarrollo Guiado por Pruebas), entre otros. 
+Son las técnicas específicas dentro del modelo de proceso seleccionado, como usar diagramas **[UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/UML)** para diseñar, pruebas unitarias para verificar el código, TDD (Desarrollo Guiado por Pruebas), entre otros. 
 
 Proporcionan la experiencia técnica para elaborar software, e incluyen tareas como:
 	***Comunicación, Análisis de requerimientos, Modelación del Diseño, Construcción del programa, Pruebas y Apoyo.***

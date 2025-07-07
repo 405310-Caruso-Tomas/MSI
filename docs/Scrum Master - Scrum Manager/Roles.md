@@ -1,16 +1,16 @@
-![Pasted image 20250626205029.png](/assets/Pasted image 20250626205029.png)
+![Pasted image 20250626205029.png](/MSI/assets/Pasted image 20250626205029.png)
 ****
-#### **[Propietario del Producto](/Scrum Master - Scrum Manager/Propietario del Producto)**
+#### **[Propietario del Producto](/MSI/Scrum Master - Scrum Manager/Propietario del Producto)**
 ****
-#### **[Equipo de Desarrollo](/Scrum Master - Scrum Manager/Equipo de Desarrollo)**
+#### **[Equipo de Desarrollo](/MSI/Scrum Master - Scrum Manager/Equipo de Desarrollo)**
 ****
-#### **[Scrum Master](/Scrum Master - Scrum Manager/Scrum Master)**
+#### **[Scrum Master](/MSI/Scrum Master - Scrum Manager/Scrum Master)**
 ****
 #### **Interesados**
 **Los interesados o stakeholders no se consideran un rol formal dentro del marco Scrum**, ya que los tres roles formales ya mencionados están diseñados para cubrir todas las responsabilidades necesarias para desarrollar y entregar un incremento de manera iterativa. 
 
 - **No participan directamente en el proceso de desarrollo.**
-- **Su interacción se canaliza a través del *product owner*.** Fuera de **[Eventos](/Scrum Master - Scrum Manager/Eventos)** o ceremonias formales, los interesados se comunican regularmente con el *Product Owner* para compartir sus preocupaciones.
+- **Su interacción se canaliza a través del *product owner*.** Fuera de **[Eventos](/MSI/Scrum Master - Scrum Manager/Eventos)** o ceremonias formales, los interesados se comunican regularmente con el *Product Owner* para compartir sus preocupaciones.
 - **Evitan interferencias en la autoorganización**. Incluir a los stakeholders como un rol formal podría introducir interferencias externas, lo que contradice el principio de autoorganización del equipo Scrum.
 
 **Principales Responsabilidades**. 

@@ -16,34 +16,34 @@ El nombre "*4+1*" se refiere a cuatro vistas principales más una vista adiciona
 - Representa la descomposición funcional del sistema, enfocándose en los elementos que proveen la funcionalidad requerida por los usuarios finales.
 - Representa la estructura del sistema en términos de sus **componentes** funcionales, como **[Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)**, objetos, **interfaces** o **módulos**. **[Colaboración](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración)** entre clases.
 - **Audiencia**: Diseñadores, usuarios finales y analistas de sistemas.
-- **Diagramas UML asociados:** **[Diagrama de Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)**, diagramas de objetos, **[Diagrama de Secuencia](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Secuencia)**,
+- **Diagramas UML asociados:** **[Diagrama de Clases](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)**, diagramas de objetos, **[Diagrama de Secuencia](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Secuencia)**,
 
 **Vista de Implementación (Implementation View)**
 
 - Describe cómo se organiza el sistema en términos de **[Artefacto](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Artefacto)s** físicos, como archivos de código, bibliotecas, ejecutables o componentes desplegables. 
 - Se centra en la estructura del software implementado, la organización del software desde la perspectiva del desarrollo. 
 - **Audiencia:** Desarrolladores, gestores de configuración, arquitectos.
-- **Diagramas UML asociados**: **[Diagrama de Componentes](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes)**, **[Diagrama de Paquetes](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Paquetes)**.
+- **Diagramas UML asociados**: **[Diagrama de Componentes](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes)**, **[Diagrama de Paquetes](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Paquetes)**.
 
 **Vista de Proceso (Process View)**
 
-- Representa el comportamiento dinámico del sistema, incluyendo **[PROCESO](/R. Pressman/PROCESO)S**, hilos, **[Interacción](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)es** entre **[Componente](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** y concurrencia. 
+- Representa el comportamiento dinámico del sistema, incluyendo **[PROCESO](/MSI/R. Pressman/PROCESO)S**, hilos, **[Interacción](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)es** entre **[Componente](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** y concurrencia. 
 - Refiere a la **sincronización de procesos.**
 - **Audiencia:** Integradores, desarrolladores 
 - Se centra en aspectos como rendimiento, escalabilidad y tolerancia a fallos.
--  **[Diagrama de Actividad](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad)**, **[Diagrama de Comunicación](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación)**.
+-  **[Diagrama de Actividad](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad)**, **[Diagrama de Comunicación](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación)**.
 
 **Vista Física (Physical View)**
 
 - Describe cómo los **componentes** del software se mapean/distribuyen a la **infraestructura** física, como servidores, nodos, redes y dispositivos. Se centra en la topología del sistema y su despliegue.
 - **Audiencia**: Administradores de sistemas, ingenieros de infraestructura, integradores.
-- **[Diagrama de Despliegue](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Despliegue)**.
+- **[Diagrama de Despliegue](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Despliegue)**.
 ****
 ##### **La Vista Adicional: Vista de Escenarios (Scenarios View o +1)**
 Esta vista **unifica** las otras cuatro vistas al describir **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** o escenarios clave que ilustran cómo los elementos de las vistas lógica, de implementación, de proceso y de despliegue **interactúan** para cumplir con los requisitos del sistema. **Es la "vista integradora".**
 Por lo tanto, la audiencia de esta vista serían todas las partes interesadas.
 
-- **Diagramas UML asociados**: **[Diagrama de Casos de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso)**.
+- **Diagramas UML asociados**: **[Diagrama de Casos de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso)**.
 - **Ejemplo**: Un escenario como "*Usuario realiza un préstamo de libro*" mostraría cómo el usuario interactúa con la interfaz (vista lógica), cómo se ejecuta el proceso (vista de proceso), qué componentes se usan (vista de implementación) y en qué nodos se ejecuta (vista de despliegue).
 ****
 **Resumen adicional.**

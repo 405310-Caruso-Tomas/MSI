@@ -1,17 +1,17 @@
-El origen de la palabra **[Scrum](/Scrum Master - Scrum Manager/Scrum)** se encuentra en un ámbito muy alejado del de la gestión de **[Proyecto](/MSI//Scrum](/Scrum Master - Scrum Manager/Scrum)** se encuentra en un ámbito muy alejado del de la gestión de **[Proyecto)s**. 
+El origen de la palabra **[Scrum](/MSI/Scrum Master - Scrum Manager/Scrum)** se encuentra en un ámbito muy alejado del de la gestión de **[Proyecto](/MSI//Scrum](/Scrum Master - Scrum Manager/Scrum)** se encuentra en un ámbito muy alejado del de la gestión de **[Proyecto)s**. 
 
 En rugby, **«*scrum*»** es el término que define a la formación en la que ambos equipos, agazapados y atenazados entre sí, empujan para obtener el balón sin tocarlo con la mano.
 ****
 ##### **Japón, década de los 80**
 Donde indica el subtítulo, los investigadores *Ikujiro* *Nonaka* y *Hirotaka* *Takeuchi* identificaron una novedosa forma de desarrollo en las empresas de manufactura industrial que estaban obteniendo los mejores resultados de innovación y tiempo de salida al mercado, *Honda*, *Canon*, *Hewlett-Packard*, entre otros. Compararon su forma de trabajo en **equipos autogestionados** con el avance en formación de los jugadores de rugby, de ahí el término.
 
-![Pasted image 20250626174946.png](/assets/Pasted image 20250626174946.png)
+![Pasted image 20250626174946.png](/MSI/assets/Pasted image 20250626174946.png)
 
 Emplearon el término para bautizar los **principios** de **desarrollo** que descubrieron en estas empresas tecnológicas innovadoras.
 
 Aunque esta forma de trabajo surgió en empresas de productos tecnológicos, en la manufactura industrial, a partir de **1995** se empezaron a **aplicar** también a **la industria del software**, año en el que *Ken Schwaber* presentó en *OOPSLA* (conferencia anual *Object-Oriented Programming, Systems, Languages & Applications*) una **[Metodología](/MSI//Metodología)** de desarrollo de software basada en un ambiente **scrum**, usando ese mismo término.
 
-![Pasted image 20250626175227.png](/assets/Pasted image 20250626175227.png)
+![Pasted image 20250626175227.png](/MSI/assets/Pasted image 20250626175227.png)
 
 Este primer marco presentaba una serie de fases y **«artefactos»**: *pregame*, *game*, *postgame*, *planning*, *sprints*, *wrap*… Algunos se han mantenido y los veremos, pero en general las reglas del juego han cambiado mucho desde entonces.
 

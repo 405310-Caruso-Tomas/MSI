@@ -2,7 +2,7 @@ Las **relaciones** entre **[Clasificador](/El Lenguaje Unificado de Modelado. Ma
 Describen cómo se conectan y colaboran los diferentes **[Componente](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** de un sistema, como **[Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)**, **objetos**, **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**, entre otros.
 También suelen mostrar información adicional como **multiplicidad** (número de instancias de una clase que pueden estar relacionadas con la clase asociada) y **nombres de roles** (identificación del extremo de una asociación).
 
-![Pasted image 20250625150939.png](/assets/Pasted image 20250625150939.png)
+![Pasted image 20250625150939.png](/MSI/assets/Pasted image 20250625150939.png)
 ****
 #### **Asociación**
 La relación de asociación describe conexiones semánticas entre objetos individuales (instancias) de clases dadas. Indicando que los **objetos** de **una clase** pueden estar relacionados con **los objetos de otra.**
@@ -24,7 +24,7 @@ Quiere decir que si el objeto "*todo*" se destruye, el objeto "*parte*" sigue ex
 - **Notación**: Una línea con un diamante hueco en el lado del "*todo*". `Universidad ◇---- Departamento`
 - **Ejemplo**: Una clase `Universidad` tiene una agregación con la clase `Departamento`. Los departamentos forman parte de la universidad, pero un departamento puede existir sin una universidad específica.
 
-- ![Pasted image 20250626100533.png](/assets/Pasted image 20250626100533.png)
+- ![Pasted image 20250626100533.png](/MSI/assets/Pasted image 20250626100533.png)
 ****
 #### **Composición**
 Es una forma más fuerte de **agregación**, donde **las partes no pueden existir sin el todo**. Si el todo se destruye, las partes también. 
@@ -35,7 +35,7 @@ El compuesto es el responsable único de gestionar sus partes.
 - **Ejemplo**: Una clase `Casa` tiene una composición con la clase `Habitación`. Si la casa se destruye, las habitaciones también dejan de existir.
 - `Casa ◆---- Habitación`
 	
-- ![Pasted image 20250626100451.png](/assets/Pasted image 20250626100451.png)
+- ![Pasted image 20250626100451.png](/MSI/assets/Pasted image 20250626100451.png)
 ****
 #### **Dependencia**
 Indica que una **clase** **depende** de otra para realizar alguna función, pero **la relación es más débil y no implica una conexión estructural** permanente.
@@ -45,7 +45,7 @@ Un cambio en la clase de la que depende puede afectar a la otra clase.
 - Según esta definición, las relaciones de **asociación**, de **generalización** y **realización** son dependencias, pero éstas tienen semánticas específicas con consecuencias importantes. Por lo tanto, ellas tienen sus propios nombres y su semántica detallada.
 - Generalmente, **las dependencias se utilizan para indicar que una clase utiliza a otra como argumento en la signatura de una operación**.
 	
-	- ![Pasted image 20250626100231.png](/assets/Pasted image 20250626100231.png)
+	- ![Pasted image 20250626100231.png](/MSI/assets/Pasted image 20250626100231.png)
 - **Notación**: Una línea discontinua con una flecha apuntando a la clase de la que se depende.
 - **Ejemplo**: Una clase Informe depende de una clase Impresora para imprimir un documento.
 - `Informe ----> Impresora`
@@ -59,10 +59,10 @@ La descripción más específica es completamente consistente con la más genera
 - La generalización permite **operaciones polimórficas**, es decir, cuya **implementación (método)** se determina por la clase de objeto a la que se aplican, en lugar de ser explícitamente indicadas en la subclase.
 - Además permite lo que se denomina **herencia**, que permite que las partes compartidas de la descripción se declaren una vez y sean compartidas por muchas clases, en lugar de repetirlas en cada clase que las utiliza.
 	
-	- ![Pasted image 20250626100414.png](/assets/Pasted image 20250626100414.png)
+	- ![Pasted image 20250626100414.png](/MSI/assets/Pasted image 20250626100414.png)
 - Se puede dar el caso de **herencia múltiple**, donde una clase hereda los atributos y operaciones de sus dos padres.
 	
-	- ![Pasted image 20250626095910.png](/assets/Pasted image 20250626095910.png)
+	- ![Pasted image 20250626095910.png](/MSI/assets/Pasted image 20250626095910.png)
 ****
 #### **Realización**
 Es una relación entre una **interfaz** y una **clase** concreta que la implementa.
@@ -73,7 +73,7 @@ El cliente debe tener (por **herencia** o por **declaración directa**) al menos
 - **Notación**: Similar a la herencia, pero **con una línea discontinua** y una flecha triangular hueca.
 - **Ejemplo**: Una clase `Coche` implementa una interfaz `VehículoConducible`.
 - `Coche ----|> VehículoConducible`
-- Notar que para **interfaz**, así como para otros elementos UML, hay más de una notación común, pero que son más convenientes unas u otras notaciones dependiendo el diagrama o vista UML. Se adjunta otro ejemplo, este tipo de notación es más común en un **[Diagrama de Componentes](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes)** (apartado donde además se aprovecha para explicar la **interfaz obligatoria** y **proporcionada**)
+- Notar que para **interfaz**, así como para otros elementos UML, hay más de una notación común, pero que son más convenientes unas u otras notaciones dependiendo el diagrama o vista UML. Se adjunta otro ejemplo, este tipo de notación es más común en un **[Diagrama de Componentes](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes)** (apartado donde además se aprovecha para explicar la **interfaz obligatoria** y **proporcionada**)
 	
-	- ![Pasted image 20250625150253.png](/assets/Pasted image 20250625150253.png)
+	- ![Pasted image 20250625150253.png](/MSI/assets/Pasted image 20250625150253.png)
 

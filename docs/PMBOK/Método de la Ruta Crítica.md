@@ -1,11 +1,11 @@
 Se utiliza para estimar la duración mínima del proyecto y determinar el nivel de flexibilidad en la programación de los caminos de red lógicos dentro del cronograma.
 
-Relevante para la [Gestión del Tiempo del Proyecto](/PMBOK/Gestión del Tiempo del Proyecto).
+Relevante para la [Gestión del Tiempo del Proyecto](/MSI/PMBOK/Gestión del Tiempo del Proyecto).
 ****
 Esta técnica de análisis de la red del cronograma calcula las fechas de inicio y finalización, tempranas y tardías, para todas las actividades, sin tener en cuenta las limitaciones de recursos, y realiza un análisis que recorre hacia adelante y hacia atrás toda la red del cronograma como muestra la imagen.
 Cada letra corresponde a una actividad, se comienza en A, y B y C dependen de A.
 
-![Pasted image 20250613115547.png](/assets/Pasted image 20250613115547.png)
+![Pasted image 20250613115547.png](/MSI/assets/Pasted image 20250613115547.png)
 
 Lo que se hace principalmente es definir la **Ruta Crítica**, es decir, la secuencia más larga de actividades en el proyecto que no puede retrasarse sin afectar la fecha de finalización del proyecto. Las actividades en esta ruta tienen holgura (float) igual a cero, lo que significa que no hay margen para retrasos.
 En este ejemplo el camino más largo incluye las actividades A, C y D, y por lo tanto la secuencia A-C-D constituye la ruta crítica.

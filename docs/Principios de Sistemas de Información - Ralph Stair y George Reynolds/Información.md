@@ -1,14 +1,14 @@
-> **Conjunto** de **[Dato](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Dato)s** organizados de tal manera que poseen un valor adicional más allá del **valor** que se les puede atribuir como hechos **individuales**.
+> **Conjunto** de **[Dato](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Dato)s** organizados de tal manera que poseen un valor adicional más allá del **valor** que se les puede atribuir como hechos **individuales**.
 
 - Es el **resultado** de **procesar**, **organizar** o **interpretar** **datos** para darles un significado o utilidad dentro de un contexto específico.
 - Una imagen etiquetada como "_foto de un atardecer_" es información.
-- El **conjunto** de **datos** adecuadamente **procesados**, contribuyen a la toma de decisiones a la hora de resolver un problema, **además** **de** **incrementar** el **[Conocimiento](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Conocimiento)**, en los usuarios que tienen acceso a dicha **información**.
+- El **conjunto** de **datos** adecuadamente **procesados**, contribuyen a la toma de decisiones a la hora de resolver un problema, **además** **de** **incrementar** el **[Conocimiento](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Conocimiento)**, en los usuarios que tienen acceso a dicha **información**.
 - También, reducen la incertidumbre de lo que no se conoce.
 ****
 ##### **Constituye uno de los recursos más valiosos de una organización**
 Un gerente de ventas podría querer el resumen de las ventas individuales para conocer las ventas totales del mes.
 
-**¿Por qué lo del subtítulo?**. La **[Calidad](/R. Pressman/Calidad)** de una decisión depende de la **calidad** de la información utilizada para llegar a ella, y en una organización las **decisiones a tomar abundan.** El siguiente cuadro enlista las características que hacen a una información de calidad. 
+**¿Por qué lo del subtítulo?**. La **[Calidad](/MSI/R. Pressman/Calidad)** de una decisión depende de la **calidad** de la información utilizada para llegar a ella, y en una organización las **decisiones a tomar abundan.** El siguiente cuadro enlista las características que hacen a una información de calidad. 
 
 | Características | Definiciones                                                                                                                                                               |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,4 +25,4 @@ Un gerente de ventas podría querer el resumen de las ventas individuales para c
 | Verificable     | Esto significa que usted podría comprobarla con el fin de asegurarse de que es correcta, quizás mediante la consulta de la misma información en un gran número de fuentes. |
 ****
 ##### **Clasificación**
-Es importante destacar que, tanto la información que se genera, como también la que se necesita en los distintos niveles de la organización, posee ciertas características, como se sabe, la información se clasifica como técnica, táctica o estratégica según los mismos niveles definidos para las organizaciones, como podemos notar en el apartado de **[Clasificación de la Información](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Clasificación de la Información)**.
+Es importante destacar que, tanto la información que se genera, como también la que se necesita en los distintos niveles de la organización, posee ciertas características, como se sabe, la información se clasifica como técnica, táctica o estratégica según los mismos niveles definidos para las organizaciones, como podemos notar en el apartado de **[Clasificación de la Información](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Clasificación de la Información)**.

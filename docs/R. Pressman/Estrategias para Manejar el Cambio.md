@@ -1,9 +1,9 @@
-Los **[Flujos de Proceso](/R. Pressman/Flujos de Proceso)** deben ser capaces de adaptarse a cambios, ya que los requisitos del software a menudo evolucionan. Sommerville sugiere dos estrategias:
+Los **[Flujos de Proceso](/MSI/R. Pressman/Flujos de Proceso)** deben ser capaces de adaptarse a cambios, ya que los requisitos del software a menudo evolucionan. Sommerville sugiere dos estrategias:
 
 - **Evitar el cambio**: Usar técnicas como el prototipado para anticipar y validar requisitos antes de que se produzcan cambios costosos.
 - **Tolerar el cambio**: Diseñar procesos para cambios de bajo costo, como el desarrollo incremental, que permite ajustes en cada iteración.
 
-![Pasted image 20250319202808.png](/assets/Pasted image 20250319202808.png)
+![Pasted image 20250319202808.png](/MSI/assets/Pasted image 20250319202808.png)
 ****
 ###### **Controversias**
 Son muchas las controversias que surgen de la utilización de un enfoque u otro, esto se refleja en discusiones en foros académicos y profesionales. De esto ha surgido el concepto de **"code hacked"**, que no es un término técnico oficial, pero se puede interpretar como una referencia a una práctica o situación en la que el código se desarrolla de manera rápida, desordenada o sin seguir las mejores prácticas, a menudo como resultado de una mala aplicación de los principios ágiles. 

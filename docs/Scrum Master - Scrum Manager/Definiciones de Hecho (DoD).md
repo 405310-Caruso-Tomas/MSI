@@ -1,6 +1,6 @@
-> Conjunto de **criterios** compartidos y acordados por el equipo Scrum que determina cuándo un elemento de trabajo (como una [Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario), **tarea** o **incremento del producto**) se considera completamente terminado.
+> Conjunto de **criterios** compartidos y acordados por el equipo Scrum que determina cuándo un elemento de trabajo (como una [Historias de Usuario](/MSI/Users Stories Applied - Mike Cohn/Historias de Usuario), **tarea** o **incremento del producto**) se considera completamente terminado.
 
-Es una herramienta clave para garantizar **transparencia**, **calidad** y **consistencia** en las entregas, alineándose con los pilares de **[Scrum](/Scrum Master - Scrum Manager/Scrum)**. 
+Es una herramienta clave para garantizar **transparencia**, **calidad** y **consistencia** en las entregas, alineándose con los pilares de **[Scrum](/MSI/Scrum Master - Scrum Manager/Scrum)**. 
 
 - **Acuerdo colectivo.** Es definida por el equipo Scrum (y a veces con los interesados) para reflejar estándares de **calidad** y **expectativas** del producto.
 ****

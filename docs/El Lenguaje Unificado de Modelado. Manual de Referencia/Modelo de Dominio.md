@@ -3,7 +3,7 @@ Representa las “cosas” **que existen** o los “eventos” **que suceden** e
 
 Describe entidades del negocio que representan cosas que se manipulan en el negocio. 
 
-Es especialmente representado en un **[Diagrama de Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)**, que muestra las entidades del dominio como clases, con sus **atributos**, operaciones y **[Relaciones](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones)** (asociación, agregación, composición, generalización).
+Es especialmente representado en un **[Diagrama de Clases](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)**, que muestra las entidades del dominio como clases, con sus **atributos**, operaciones y **[Relaciones](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones)** (asociación, agregación, composición, generalización).
 ****
 ###### **Qué no es**
 Este **modelo del dominio del problema**, y por ende el **diagrama de clases**, **NO** son una representación de la base de datos donde el objetivo que se persigue es diferente y se construye en base a reglas diferentes como la normalización.

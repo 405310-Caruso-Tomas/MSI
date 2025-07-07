@@ -11,7 +11,7 @@ En el desarrollo de software se aplican distintos tipos de **Patrones** (solucio
 
 Pero también existe un grupo de Patrones menos conocidos los cuales pueden ser utilizados en etapas tempranas, previas a la fase de Desarrollo, y se conocen como **Patrones*** **de** **Negocio**.
 
-La tendencia actual es lo que se denomina Desarrollo de Software Dirigido por Modelos (DSDM), o también MDD (Model Driven software Development). [Desarrollo Dirigido por Modelos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Desarrollo Dirigido por Modelos)
+La tendencia actual es lo que se denomina Desarrollo de Software Dirigido por Modelos (DSDM), o también MDD (Model Driven software Development). [Desarrollo Dirigido por Modelos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Desarrollo Dirigido por Modelos)
 ****
 ###### **Necesidad y costo del nivel de detalle**
 Un modelo es una abstracción. **Cuanto más detallado el modelo, mejor se asemejará a la realidad.** Se conoce más sobre el comportamiento del sistema de esta forma.
@@ -31,5 +31,5 @@ En las disciplinas ingenieriles el uso del modelado tiene una larga y rica exper
 • **Un único Modelo no es suficiente**. Resulta más ventajoso disponer de un conjunto de diferentes perspectivas.
 ****
 ###### **Uso de Metodologías en el modelado**
-En el modelado, especialmente en el contexto de los sistemas de información, se emplean diversas metodologías que buscan estructurar, representar y analizar la información de manera sistemática. [Metodologías de Modelado](/El Lenguaje Unificado de Modelado. Manual de Referencia/Metodologías de Modelado).
+En el modelado, especialmente en el contexto de los sistemas de información, se emplean diversas metodologías que buscan estructurar, representar y analizar la información de manera sistemática. [Metodologías de Modelado](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Metodologías de Modelado).
 

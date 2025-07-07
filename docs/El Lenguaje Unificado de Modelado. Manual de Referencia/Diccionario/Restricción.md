@@ -26,10 +26,10 @@ Una restricción es una **aserción**, **no** un mecanismo ejecutable.
 4. **Restricciones de estados o transiciones** (en diagramas de estados):
     
 	- Definen condiciones para cambiar de un estado a otro.
-    - Ejemplo: `{transición solo si pago confirmado}` en una **[Máquina de Estados](/El Lenguaje Unificado de Modelado. Manual de Referencia/Máquina de Estados)**.
+    - Ejemplo: `{transición solo si pago confirmado}` en una **[Máquina de Estados](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Máquina de Estados)**.
 5. **Restricciones globales**:
     
 	- Aplican a todo un modelo o diagrama.
     - Ejemplo: `{todas las transacciones deben completarse en menos de 5 segundos}`.
 
-![Pasted image 20250624231215.png](/assets/Pasted image 20250624231215.png)
+![Pasted image 20250624231215.png](/MSI/assets/Pasted image 20250624231215.png)

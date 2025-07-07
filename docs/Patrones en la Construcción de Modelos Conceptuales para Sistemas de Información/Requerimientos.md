@@ -6,10 +6,10 @@ De las muchas definiciones que existen para requerimiento, se presenta a continu
 - **Una condición o capacidad que debe estar presente en un sistema para satisfacer un contrato, estándar, especificación u otro documento formal.**
 
 Los requerimientos de un sistema son definidos en las primeras etapas de desarrollo del mismo. En ocasiones pueden tomar la forma de restricciones sobre los procesos de desarrollo del sistema.
-(**[Subclasificación de Requerimientos](/Sommerville/Subclasificación de Requerimientos)**)
+(**[Subclasificación de Requerimientos](/MSI/Sommerville/Subclasificación de Requerimientos)**)
 
-- Un **requerimiento de software** puede ser definido como una funcionalidad o capacidad del **[Software](/R. Pressman/Software)** **necesaria** por el usuario para poder resolver un problema o alcanzar un objetivo.
-- Una característica que debe incluirse en un nuevo **[Sistema](/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema)**.
+- Un **requerimiento de software** puede ser definido como una funcionalidad o capacidad del **[Software](/MSI/R. Pressman/Software)** **necesaria** por el usuario para poder resolver un problema o alcanzar un objetivo.
+- Una característica que debe incluirse en un nuevo **[Sistema](/MSI/Principios de Sistemas de Información - Ralph Stair y George Reynolds/Sistema)**.
 ****
 ##### **Características Deseables**
 A continuación, se presentan las características relevadas de diferentes autores que resultan más importantes, tomando como referencia lo publicado por *Leue* y *Wiegers*.

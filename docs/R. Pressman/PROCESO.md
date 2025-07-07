@@ -2,7 +2,7 @@
 
 Es la **estructura** que debe establecerse o seguirse para la obtención eficaz de la **tecnología**.
 
-Establece el **contexto** y **pasos** en el que se aplican **métodos** técnicos y se generan **productos** del **[Trabajo](/Scrum Master - Scrum Manager/Trabajo)**.
+Establece el **contexto** y **pasos** en el que se aplican **métodos** técnicos y se generan **productos** del **[Trabajo](/MSI/Scrum Master - Scrum Manager/Trabajo)**.
 
 Es un conjunto de actividades, acciones y tareas que se ejecutan cuando va a crearse algún producto del trabajo.
 	***Actividad:*** busca lograr un objetivo amplio (por ejemplo, comunicación con los participantes)

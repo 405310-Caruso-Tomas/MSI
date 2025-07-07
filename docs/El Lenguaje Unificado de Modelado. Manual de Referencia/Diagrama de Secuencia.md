@@ -12,7 +12,7 @@ Un [Mensaje](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionari
 
 Cada **rol** se representa mediante una columna vertical que contiene un símbolo de cabecera y una línea de vida vertical. Durante el tiempo que existe un objeto, la línea de vida se representa con una línea discontinua. Durante el tiempo que la ejecución de una acción sobre el objeto está activa, la línea de vida se representa con una línea doble.
 
-![Pasted image 20250623205659.png](/assets/Pasted image 20250623205659.png)
+![Pasted image 20250623205659.png](/MSI/assets/Pasted image 20250623205659.png)
 
 La imagen adjunta muestra un diagrama de secuencia típico con mensajes asíncronos, pero tener en cuenta que los **[Mensaje](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Mensaje)s** pueden ser de cualquier tipo.
 ****
@@ -24,4 +24,4 @@ La imagen adjunta muestra un diagrama de secuencia típico con mensajes asíncro
     - **loop**: Bucle (repetición de mensajes).
     - **par**: Paralelo (mensajes que ocurren simultáneamente).
 
-![Pasted image 20250623210422.png](/assets/Pasted image 20250623210422.png)
+![Pasted image 20250623210422.png](/MSI/assets/Pasted image 20250623210422.png)

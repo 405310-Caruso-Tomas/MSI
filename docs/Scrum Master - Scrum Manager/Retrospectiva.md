@@ -10,11 +10,11 @@
 - Reunión para la **mejora del marco de trabajo**.
 
 ****
-###### **Diferencias frente a la [Revisión del Sprint](/Scrum Master - Scrum Manager/Revisión del Sprint)**
-- El hecho de que se realice normalmente al final de cada sprint lleva a veces a considerarlas erróneamente como reuniones de *“[Revisión del Sprint](/Scrum Master - Scrum Manager/Revisión del Sprint)”*, cuando es aconsejable tratarlas por separado, porque sus objetivos son diferentes.
+###### **Diferencias frente a la [Revisión del Sprint](/MSI/Scrum Master - Scrum Manager/Revisión del Sprint)**
+- El hecho de que se realice normalmente al final de cada sprint lleva a veces a considerarlas erróneamente como reuniones de *“[Revisión del Sprint](/MSI/Scrum Master - Scrum Manager/Revisión del Sprint)”*, cuando es aconsejable tratarlas por separado, porque sus objetivos son diferentes.
 - El objetivo de la **revisión del sprint** es analizar “**QUÉ**” se está construyendo, mientras que una reunión **retrospectiva** se centra en “**CÓMO**” lo estamos construyendo.
 ****
-El **[Scrum Master](/Scrum Master - Scrum Manager/Scrum Master)** crea un ambiente seguro, establece reglas básicas (como respeto mutuo) y define el objetivo de la reunión. Luego el equipo comienza a reflexionar sobre el **Sprint**, se pueden usar técnicas como:
+El **[Scrum Master](/MSI/Scrum Master - Scrum Manager/Scrum Master)** crea un ambiente seguro, establece reglas básicas (como respeto mutuo) y define el objetivo de la reunión. Luego el equipo comienza a reflexionar sobre el **Sprint**, se pueden usar técnicas como:
 	- _Start, Stop, Continue_ (Qué empezar, parar o continuar).
 	- _Estrella de Mar_.
 

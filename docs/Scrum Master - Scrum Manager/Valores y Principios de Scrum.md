@@ -1,4 +1,4 @@
-La **[Agilidad](/R. Pressman/Agilidad)** no la proporciona el cumplimiento de prácticas, sino de valores.
+La **[Agilidad](/MSI/R. Pressman/Agilidad)** no la proporciona el cumplimiento de prácticas, sino de valores.
 Reflejan la **mentalidad** y la **cultura** necesarias para que el equipo trabaje de manera efectiva y alineada con los objetivos del **proyecto**.
 ###### **Valores**
 Estos **valores** son...
@@ -16,7 +16,7 @@ Los **principios**, por otra parte, son el soporte de las prácticas. Estos son
 ##### **Entrega de Valor**
 Entendiendo como tal a la entrega **temprana** y **continua** de valor al **cliente**, para lo que es necesario que éste colabore con el equipo y se comparta y comprenda su visión.
 ##### **Mejora Continua**
-En **[Agilidad](/R. Pressman/Agilidad)** se reflexiona con frecuencia sobre los **métodos** de trabajo, cuestionando su efectividad y adaptándolos. El mismo esfuerzo autocrítico se aplica también a la mejora de los productos y servicios que se ofrecen.
+En **[Agilidad](/MSI/R. Pressman/Agilidad)** se reflexiona con frecuencia sobre los **métodos** de trabajo, cuestionando su efectividad y adaptándolos. El mismo esfuerzo autocrítico se aplica también a la mejora de los productos y servicios que se ofrecen.
 ##### **Desarrollo Iterativo e Incremental**
 El producto final no se construye conforme a un plan inicial detallado y completo, sino que se arranca desde un **«mínimo viable»** sobre el que se van añadiendo incrementos.
 ##### **Ritmo de Trabajo Sostenible**

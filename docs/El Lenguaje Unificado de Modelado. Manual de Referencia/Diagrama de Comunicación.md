@@ -13,4 +13,4 @@ Los **objetos** son representados como rectángulos con nombres en el formato `n
 
 Los **enlaces** son líneas que conectan los objetos. Los **[Mensaje](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Mensaje)s** son flechas o etiquetas sobre los enlaces, numeradas para indicar el orden de las [Interacción](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)es (`1:autenticar(usuario, contraseña)`).
 
-![Pasted image 20250623212322.png](/assets/Pasted image 20250623212322.png)
+![Pasted image 20250623212322.png](/MSI/assets/Pasted image 20250623212322.png)

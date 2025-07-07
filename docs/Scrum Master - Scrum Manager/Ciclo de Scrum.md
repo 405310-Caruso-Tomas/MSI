@@ -1,25 +1,25 @@
-![Pasted image 20250626204252.png](/assets/Pasted image 20250626204252.png)
+![Pasted image 20250626204252.png](/MSI/assets/Pasted image 20250626204252.png)
 ****
 ##### **Componentes**
 Los componentes del ciclo estándar de scrum son
 
-- **Equipo [Scrum](/Scrum Master - Scrum Manager/Scrum)**. Compuesto de los siguientes **[Roles](/Scrum Master - Scrum Manager/Roles)**:
+- **Equipo [Scrum](/MSI/Scrum Master - Scrum Manager/Scrum)**. Compuesto de los siguientes **[Roles](/MSI/Scrum Master - Scrum Manager/Roles)**:
 	- Equipo de Desarrollo.
 	- Propietario del producto.
 	- Scrum master.
 - Interesados.
-- **[Artefactos](/Scrum Master - Scrum Manager/Artefactos)**:
+- **[Artefactos](/MSI/Scrum Master - Scrum Manager/Artefactos)**:
 	- Pila del producto.
 	- Pila del sprint. 
 	- Incremento.
-		- ![Pasted image 20250626205101.png](/assets/Pasted image 20250626205101.png)
-- **[Eventos](/Scrum Master - Scrum Manager/Eventos)**:
+		- ![Pasted image 20250626205101.png](/MSI/assets/Pasted image 20250626205101.png)
+- **[Eventos](/MSI/Scrum Master - Scrum Manager/Eventos)**:
 	- Sprint.  
 	- Reunión de planificación del sprint.  
 	- Scrum diario. 
 	- Revisión del sprint.  
 	- Retrospectiva del sprint.
-		- ![Pasted image 20250626205127.png](/assets/Pasted image 20250626205127.png)
+		- ![Pasted image 20250626205127.png](/MSI/assets/Pasted image 20250626205127.png)
 ****
 Se comienza con la visión general del resultado que se desea, y a partir de ella se especifica y da detalle a las funcionalidades que se desean obtener en primer lugar. 
 

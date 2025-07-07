@@ -1,15 +1,15 @@
-![Pasted image 20250701214618.png](/assets/Pasted image 20250701214618.png)
+![Pasted image 20250701214618.png](/MSI/assets/Pasted image 20250701214618.png)
 
-#### **[Programacion Extrema (XP)](/R. Pressman/Programacion Extrema (XP))**
+#### **[Programacion Extrema (XP)](/MSI/R. Pressman/Programacion Extrema (XP))**
 ****
 #### **Lean Startup**
 > La premisa básica de **Lean** **Startup** es la de que una **startup** no es una empresa sino una organización temporal cuyo objetivo es encontrar un modelo de negocio viable y escalable mediante una serie de experimentos que sirven para aprender, y todo esto rodeado de una gran incertidumbre.
 
-- El núcleo de **Lean** es eliminar todo lo que no agrega valor al cliente final, optimizando procesos y enfocándose en la **eficiencia** y la **[Calidad](/R. Pressman/Calidad)**. 
+- El núcleo de **Lean** es eliminar todo lo que no agrega valor al cliente final, optimizando procesos y enfocándose en la **eficiencia** y la **[Calidad](/MSI/R. Pressman/Calidad)**. 
 
-- De esta forma, el modelo describe el **[Mínimo Producto Viable (MVP)](/Scrum Master - Scrum Manager/Mínimo Producto Viable (MVP))** como una versión del producto que permite al equipo recolectar la máxima cantidad de aprendizaje validado sobre los clientes con el menor esfuerzo.
+- De esta forma, el modelo describe el **[Mínimo Producto Viable (MVP)](/MSI/Scrum Master - Scrum Manager/Mínimo Producto Viable (MVP))** como una versión del producto que permite al equipo recolectar la máxima cantidad de aprendizaje validado sobre los clientes con el menor esfuerzo.
 
-![Pasted image 20250702163254.png](/assets/Pasted image 20250702163254.png)
+![Pasted image 20250702163254.png](/MSI/assets/Pasted image 20250702163254.png)
 
 **Ciclo de Aprendizaje**
 
@@ -27,7 +27,7 @@ Después de obtener la retroalimentación del **MVP**, una startup debe decidir 
 #### **Kanban**
 > El término **"Kanban"** es japonés y literalmente significa "cartel" o "tarjeta visual". Originalmente, en la industria manufacturera japonesa (principalmente en Toyota), **Kanban** era un sistema para gestionar el flujo de materiales en la producción. A través de tarjetas físicas que se usaban para indicar cuándo un material debía ser reabastecido o cuándo debían fabricarse más productos.
 
-**Kanban** es una **metodología** ágil que se basa en el **control visual del trabajo** a través de **[Tableros Kanban](/Scrum Master - Scrum Manager/Tableros Kanban)** y en la **gestión** del **flujo** **de** **tareas**. 
+**Kanban** es una **metodología** ágil que se basa en el **control visual del trabajo** a través de **[Tableros Kanban](/MSI/Scrum Master - Scrum Manager/Tableros Kanban)** y en la **gestión** del **flujo** **de** **tareas**. 
 
 - En lugar de utilizar sprints fijos (como en **Scrum**), Kanban se enfoca en **el flujo continuo de trabajo**, es decir, las tareas se van completando a medida que van avanzando en el proceso de trabajo, sin necesidad de iteraciones definidas.
 
@@ -35,4 +35,4 @@ El ciclo comienza con la **visualización del trabajo** en un **tablero Kanban**
 A medida que las tareas se mueven de una columna a otra, el equipo observa y ajusta cómo fluye el trabajo. Este proceso permite identificar **cuellos de botella** en el sistema.
 	Si una columna está demasiado llena mientras que otras están vacías, esto indica que hay un **cuello de botella** en la fase del proceso correspondiente a la columna. El equipo puede intervenir para resolver el problema, ya sea reasignando recursos, optimizando procesos o eliminando bloqueos.
 ****
-#### **[Scrum](/Scrum Master - Scrum Manager/Scrum)**
+#### **[Scrum](/MSI/Scrum Master - Scrum Manager/Scrum)**

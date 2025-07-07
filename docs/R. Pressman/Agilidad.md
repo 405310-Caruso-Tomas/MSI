@@ -1,5 +1,5 @@
 La **agilidad** se refiere a la **capacidad de producir partes completas de un producto en cortos periodos de tiempo.** 
-Lo que permite respuestas rápidas a cambios en los **[Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** del cliente o del mercado.
+Lo que permite respuestas rápidas a cambios en los **[Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** del cliente o del mercado.
 ****
 ##### **Manifiesto Ágil. Valores**
 En 2001, Kent Beck y otros 16 notables desarrolladores de software, escritores y consultores (grupo conocido como la **“Alianza Ágil”**) se reunieron y firmaron el **“Manifiesto por el desarrollo ágil de software”**. En él se establecía lo siguiente:
@@ -10,7 +10,7 @@ En 2001, Kent Beck y otros 16 notables desarrolladores de software, escritores y
 > 3. ***La colaboración con el cliente,*** y no tanto la negociación del contrato 
 > 4. ***Responder al cambio,*** mejor que apegarse a un plan"
 
-Los [Modelos Ágiles](/R. Pressman/Modelos Ágiles) se desarrollaron como un esfuerzo por superar las debilidades reales y percibidas de la **[Ingeniería del Software](/R. Pressman/Ingeniería del Software)** convencional, es decir, de la gestión predictiva (fruto de la *Revolución Industrial*) y como alternativa a las metodologías formales, a las que consideraban excesivamente "pesadas" y rígidas por su **fuerte dependencia de planificaciones**. Estos nuevos métodos no son aplicables a todos los [Proyecto](/MSI//Modelos Ágiles](/R. Pressman/Modelos Ágiles) se desarrollaron como un esfuerzo por superar las debilidades reales y percibidas de la **[Ingeniería del Software](/R. Pressman/Ingeniería del Software)** convencional, es decir, de la gestión predictiva (fruto de la *Revolución Industrial*) y como alternativa a las metodologías formales, a las que consideraban excesivamente "pesadas" y rígidas por su **fuerte dependencia de planificaciones**. Estos nuevos métodos no son aplicables a todos los [Proyecto)s, personas y situaciones. No es la contraparte de la práctica de la ingeniería de software sólida y **puede aplicarse como filosofía general para todo el trabajo de software.**
+Los [Modelos Ágiles](/MSI/R. Pressman/Modelos Ágiles) se desarrollaron como un esfuerzo por superar las debilidades reales y percibidas de la **[Ingeniería del Software](/MSI/R. Pressman/Ingeniería del Software)** convencional, es decir, de la gestión predictiva (fruto de la *Revolución Industrial*) y como alternativa a las metodologías formales, a las que consideraban excesivamente "pesadas" y rígidas por su **fuerte dependencia de planificaciones**. Estos nuevos métodos no son aplicables a todos los [Proyecto](/MSI//Modelos Ágiles](/R. Pressman/Modelos Ágiles) se desarrollaron como un esfuerzo por superar las debilidades reales y percibidas de la **[Ingeniería del Software](/MSI/R. Pressman/Ingeniería del Software)** convencional, es decir, de la gestión predictiva (fruto de la *Revolución Industrial*) y como alternativa a las metodologías formales, a las que consideraban excesivamente "pesadas" y rígidas por su **fuerte dependencia de planificaciones**. Estos nuevos métodos no son aplicables a todos los [Proyecto)s, personas y situaciones. No es la contraparte de la práctica de la ingeniería de software sólida y **puede aplicarse como filosofía general para todo el trabajo de software.**
 ******************
 ##### **El Cambio**
 Es frecuente que en la economía moderna sea difícil o imposible predecir la forma en la que evolucionará un sistema basado en computadora. 
@@ -29,7 +29,7 @@ Este desarrollo de software es fundamentado por la filosofía de la agilidad, la
 - **Promueve la maximización del valor** (un producto es valioso no solo por su impacto inicial, sino también por su capacidad de adaptación y evolución mediante actualizaciones y mejoras continuas).
 - Hace **que el proceso se adapte a las necesidades de las personas** y del equipo, no al revés.
 ***************************************
-###### **El [PROCESO](/R. Pressman/PROCESO) Ágil**
+###### **El [PROCESO](/MSI/R. Pressman/PROCESO) Ágil**
 
 - **Suposiciones del desarrollo:**
 	Cualquier proceso del software ágil se caracteriza por la forma en la que aborda cierto número de suposiciones clave:
@@ -37,11 +37,11 @@ Este desarrollo de software es fundamentado por la filosofía de la agilidad, la
 	2. Para muchos tipos de software, los diseños se prueban a medida que se crean.
 	3. El análisis, el diseño, la construcción y las pruebas no son tan predecibles como nos gustaría.
 
-Dadas estas tres suposiciones, surge una pregunta importante: **¿Cómo crear un [PROCESO](/R. Pressman/PROCESO) que pueda manejar lo impredecible?**, la respuesta esta en la adaptabilidad del proceso: un proceso ágil debe ser adaptarse incrementalmente. Para esto, un equipo ágil requiere retroalimentación con el cliente.
+Dadas estas tres suposiciones, surge una pregunta importante: **¿Cómo crear un [PROCESO](/MSI/R. Pressman/PROCESO) que pueda manejar lo impredecible?**, la respuesta esta en la adaptabilidad del proceso: un proceso ágil debe ser adaptarse incrementalmente. Para esto, un equipo ágil requiere retroalimentación con el cliente.
 *********************************
 #### **PRINCIPIOS de la Agilidad**
 La Alianza Ágil define, además de los cuatro postulados que vimos, **12 principios de agilidad** para aquellos que la quieran alcanzar:
 
-![Pasted image 20250322180503.png](/assets/Pasted image 20250322180503.png)
+![Pasted image 20250322180503.png](/MSI/assets/Pasted image 20250322180503.png)
 
 

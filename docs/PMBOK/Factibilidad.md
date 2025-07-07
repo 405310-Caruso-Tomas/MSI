@@ -15,4 +15,4 @@ La **viabilidad** evalúa si **es rentable o sostenible a largo plazo realizar u
 - **Ejemplo:** un proyecto podría ser técnicamente posible, pero si los costos de desarrollo superan los beneficios que generará, no sería viable.
 Asimismo, un análisis de viabilidad debería incluir escenarios de sensibilidad que evalúen cómo cambios en los costos, la demanda o las condiciones del mercado podrían afectar la rentabilidad del proyecto
 ****
-**[Tipos de Factibilidad](/PMBOK/Tipos de Factibilidad)**, en un proyecto.
+**[Tipos de Factibilidad](/MSI/PMBOK/Tipos de Factibilidad)**, en un proyecto.

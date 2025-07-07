@@ -1,8 +1,8 @@
-![Pasted image 20250628131426.png](/assets/Pasted image 20250628131426.png)
+![Pasted image 20250628131426.png](/MSI/assets/Pasted image 20250628131426.png)
 ****
 #### **Pila del Producto (Product Backlog)**
-Lista de **[Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** de **usuario**, desde el punto de vista de que a partir de la **visión** inicial del **producto** crece y evoluciona durante el desarrollo. 
-Está formada por la lista de funcionalidades o "**[Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario)**" que desea obtener el cliente, ordenadas por la **prioridad** que el mismo da a cada una. **El orden de prioridad de las tareas la mantiene el *product owner*.**
+Lista de **[Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** de **usuario**, desde el punto de vista de que a partir de la **visión** inicial del **producto** crece y evoluciona durante el desarrollo. 
+Está formada por la lista de funcionalidades o "**[Historias de Usuario](/MSI/Users Stories Applied - Mike Cohn/Historias de Usuario)**" que desea obtener el cliente, ordenadas por la **prioridad** que el mismo da a cada una. **El orden de prioridad de las tareas la mantiene el *product owner*.**
 
 - Es el **inventario** de **funcionalidades**, **mejoras**, **tecnología** y **corrección** **de** **errores** que deben incorporarse al producto a través de los sucesivos **sprints.**
 - La pila del producto nunca se da por completada; está en continuo crecimiento y evolución.
@@ -24,6 +24,6 @@ Refleja los **requisitos** vistos desde el punto de vista del equipo de desarrol
 **Resultado** **funcional** de cada **sprint**, **entregable**, **terminado** y **probado**.
 No se deben considerar como Incremento a prototipos, módulos o submódulos, ni partes pendientes de pruebas o integración. Son **incrementos** directos al producto.
 ****
-![Pasted image 20250628132440.png](/assets/Pasted image 20250628132440.png)
+![Pasted image 20250628132440.png](/MSI/assets/Pasted image 20250628132440.png)
 ****
-Otro **artefacto** propio del modelo estándar de **scrum** es el **[Gráfico de Quemado (Burn Down Chart)](/Scrum Master - Scrum Manager/Gráfico de Quemado (Burn Down Chart))** que el equipo actualiza a diario para comprobar el **avance**. Este elemento, junto con la práctica de **[Estimación de Póquer (Póker Planning)](/Scrum Master - Scrum Manager/Estimación de Póquer (Póker Planning))** y el **[Gráfico de Producto (Burn Up Chart)](/Scrum Master - Scrum Manager/Gráfico de Producto (Burn Up Chart))** se encuentra incluido en el capítulo de **[Medición y Estimación Ágil](/Scrum Master - Scrum Manager/Medición y Estimación Ágil)**.
+Otro **artefacto** propio del modelo estándar de **scrum** es el **[Gráfico de Quemado (Burn Down Chart)](/MSI/Scrum Master - Scrum Manager/Gráfico de Quemado (Burn Down Chart))** que el equipo actualiza a diario para comprobar el **avance**. Este elemento, junto con la práctica de **[Estimación de Póquer (Póker Planning)](/MSI/Scrum Master - Scrum Manager/Estimación de Póquer (Póker Planning))** y el **[Gráfico de Producto (Burn Up Chart)](/MSI/Scrum Master - Scrum Manager/Gráfico de Producto (Burn Up Chart))** se encuentra incluido en el capítulo de **[Medición y Estimación Ágil](/MSI/Scrum Master - Scrum Manager/Medición y Estimación Ágil)**.

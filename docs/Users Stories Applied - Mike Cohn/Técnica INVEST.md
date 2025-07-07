@@ -1,6 +1,6 @@
-El método **INVEST** descrito por *Bill Wake* nos ayuda a escribir **[Historias de Usuario](/Users Stories Applied - Mike Cohn/Historias de Usuario)**** y consiste en cumplir las siguientes características:
+El método **INVEST** descrito por *Bill Wake* nos ayuda a escribir **[Historias de Usuario](/MSI/Users Stories Applied - Mike Cohn/Historias de Usuario)**** y consiste en cumplir las siguientes características:
 
-![Pasted image 20250703094424.png](/assets/Pasted image 20250703094424.png)
+![Pasted image 20250703094424.png](/MSI/assets/Pasted image 20250703094424.png)
 ****
 ##### **Independiente**
 Una **historia** debe ser independiente de otras.
@@ -17,7 +17,7 @@ Debe tener valor para el cliente. Una buena forma de lograr esto es hacer que el
 Los desarrolladores necesitan poder estimar una historia de usuario para permitir que se pueda priorizar y planificar la historia.
 ****
 ##### **Pequeña**
-Una buena **historia** debe ser **pequeña** en **esfuerzo**, generalmente representando no más de 2-3 personas/semana de **[Trabajo](/Scrum Master - Scrum Manager/Trabajo)**. Una historia que es más grande va a tener más **errores** **asociados** a la **estimación** y **alcance**.
+Una buena **historia** debe ser **pequeña** en **esfuerzo**, generalmente representando no más de 2-3 personas/semana de **[Trabajo](/MSI/Scrum Master - Scrum Manager/Trabajo)**. Una historia que es más grande va a tener más **errores** **asociados** a la **estimación** y **alcance**.
 ****
 ##### **Testeable**
 Una historia necesita poder probarse para que ocurra la etapa de **"Confirmación".**

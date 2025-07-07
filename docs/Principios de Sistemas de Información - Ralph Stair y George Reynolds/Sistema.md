@@ -14,12 +14,12 @@
 ##### **Estructura**
 Los sistemas tienen **entradas**, mecanismos de **procesamiento**, **salidas** y **retroalimentación**.
 
-![Pasted image 20250630151651.png](/assets/Pasted image 20250630151651.png)
+![Pasted image 20250630151651.png](/MSI/assets/Pasted image 20250630151651.png)
 
-![Pasted image 20250630151651.png](/assets/Pasted image 20250630151651.png)
+![Pasted image 20250630151651.png](/MSI/assets/Pasted image 20250630151651.png)
 
 **Entradas (Input)**: Son los recursos o datos que el sistema recibe del entorno o de otros sistemas para procesarlos y transformarlos.
-**[PROCESO](/R. Pressman/PROCESO)S**: Son las **actividades**, **transformaciones** o **acciones** que el sistema lleva a cabo con las entradas para generar un resultado.
+**[PROCESO](/MSI/R. Pressman/PROCESO)S**: Son las **actividades**, **transformaciones** o **acciones** que el sistema lleva a cabo con las entradas para generar un resultado.
 
 **Salidas (Output)**: Son los resultados generados por el sistema después de procesar las entradas.
 

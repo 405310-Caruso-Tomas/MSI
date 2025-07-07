@@ -1,4 +1,4 @@
-El término **[Metodología](/MSI/Metodología)**, sugiere la existencia y descripción de métodos estructurados, los cuales tienen por objetivo ayudar a desarrollar modelos de sistemas en forma sistemática.
+El término **[Metodología](/MSI/MSI/Metodología)**, sugiere la existencia y descripción de métodos estructurados, los cuales tienen por objetivo ayudar a desarrollar modelos de sistemas en forma sistemática.
 
 Las vistas en este inciso tienen como objetivo ayudar a desarrollar modelos de sistemas en forma sistemática. Reduciendo la ambigüedad de los requerimientos por parte del cliente.
 ****
@@ -8,13 +8,13 @@ Las vistas en este inciso tienen como objetivo ayudar a desarrollar modelos de s
 - **Elementos clave**: Entidades, atributos, relaciones y cardinalidades.
 - **Ejemplo de patrón**: "Cliente" o "Pedido" y sus relaciones como "realiza".
 ****
-#### 2. **[Proceso de Desarrollo Unificado (PUD)](/El Lenguaje Unificado de Modelado. Manual de Referencia/Proceso de Desarrollo Unificado (PUD))**
+#### 2. **[Proceso de Desarrollo Unificado (PUD)](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Proceso de Desarrollo Unificado (PUD))**
 ****   
 #### 3. **Metodología de Análisis Estructurado**
 **Descripción**: Se basa en descomponer el sistema en procesos y flujos de datos, utilizando herramientas como el Diagrama de Flujo de Datos (DFD).
     
 - **Elementos clave**: Procesos, almacenes de datos, flujos de datos y entidades externas.
-- ![Pasted image 20250331105252.png](/assets/Pasted image 20250331105252.png)
+- ![Pasted image 20250331105252.png](/MSI/assets/Pasted image 20250331105252.png)
 - **Patrón**: Representación jerárquica de niveles (contexto, nivel 0, nivel 1, etc.).
 ****
 #### 4. **Patrones de Modelado Conceptual Específicos**
@@ -29,7 +29,7 @@ La elección de la metodología depende del propósito del modelado:
 - Para sistemas centrados en procesos, el análisis estructurado con DFD es común.
 ****
 ###### **Características deseables de las metodologías y herramientas**
-- **Modelado iterativo y evolutivo**: Las actividades de elicitación, especificación y validación deberían ser repetidas varias veces en un proceso iterativo, de forma que los requerimientos sean refinados y evolucionen, como es detallado en el apartado de [Ingeniería de Requerimientos](/Sommerville/Ingeniería de Requerimientos). 
+- **Modelado iterativo y evolutivo**: Las actividades de elicitación, especificación y validación deberían ser repetidas varias veces en un proceso iterativo, de forma que los requerimientos sean refinados y evolucionen, como es detallado en el apartado de [Ingeniería de Requerimientos](/MSI/Sommerville/Ingeniería de Requerimientos). 
 
 - En cada iteración el Modelo debe permitir identificar el origen del requerimiento, y el versionado actual de los mismos. De forma que figure como un seguimiento durante todo el proceso de modelado, hasta su efectivo cumplimiento plasmado en la funcionalidad del Modelo.
 

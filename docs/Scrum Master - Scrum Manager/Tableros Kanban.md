@@ -1,9 +1,9 @@
-**Kanban** es un marco de trabajo ágil (**[Modelos Ágiles](/R. Pressman/Modelos Ágiles)**) que aunque no es parte de **Scrum**, se complementa con este en algunos aspectos. 
+**Kanban** es un marco de trabajo ágil (**[Modelos Ágiles](/MSI/R. Pressman/Modelos Ágiles)**) que aunque no es parte de **Scrum**, se complementa con este en algunos aspectos. 
 Una herramienta de Kanban es el **Tablero Kanban**.
 
 > **Herramienta** **visual** (física o digital) que representa el **flujo de trabajo** mediante columnas que reflejan las etapas del **proceso** (por ejemplo, "*Por* *hacer*", "*En* *progreso*", "*Hecho*"). Cada **tarea** se representa con una **tarjeta** que se mueve a través de las columnas.
 
-![Pasted image 20250627120801.png](/assets/Pasted image 20250627120801.png)
+![Pasted image 20250627120801.png](/MSI/assets/Pasted image 20250627120801.png)
 
 - **Columnas:** Cada columna representa una etapa del flujo de trabajo. Se personalizan según el proceso del equipo.
 - **Tarjetas:** Cada tarea o elemento de trabajo se representa con una tarjeta (física o digital) que se mueve a través de las columnas a medida que avanza en el proceso.

@@ -1,7 +1,7 @@
 ##### **Procesos en ingeniería de software.** Perspectiva general
 > En la ingeniería de software, los flujos de proceso se definen como **la serie coordinada de actividades, acciones y tareas para desarrollar un sistema de software.**
 
-Los flujos de proceso se representan a través de [Modelos de PROCESO](/R. Pressman/Modelos de PROCESO), cada uno con características específicas. 
+Los flujos de proceso se representan a través de [Modelos de PROCESO](/MSI/R. Pressman/Modelos de PROCESO), cada uno con características específicas. 
 
 Es una **serie de pasos que se atraviesan junto a un equipo para lograr un objetivo**.
 

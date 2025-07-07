@@ -1,16 +1,16 @@
-- El **Ciclo de Vida del Desarrollo de Software (SDLC, por sus siglas en inglés: Software Development Life Cycle)** es un marco estructurado que define las fases o etapas necesarias para planificar, diseñar, desarrollar, probar, implementar y mantener un **[Software](/R. Pressman/Software)**. 
+- El **Ciclo de Vida del Desarrollo de Software (SDLC, por sus siglas en inglés: Software Development Life Cycle)** es un marco estructurado que define las fases o etapas necesarias para planificar, diseñar, desarrollar, probar, implementar y mantener un **[Software](/MSI/R. Pressman/Software)**. 
 
 En este apartado clasificaremos estas etapas en actividades.
 ****
-Existen muchos diferentes **[PROCESO](/R. Pressman/PROCESO)S** de software, pero todos deben incluir **cuatro** **actividades** que son fundamentales para la **[Ingeniería del Software](/R. Pressman/Ingeniería del Software)**:
+Existen muchos diferentes **[PROCESO](/MSI/R. Pressman/PROCESO)S** de software, pero todos deben incluir **cuatro** **actividades** que son fundamentales para la **[Ingeniería del Software](/MSI/R. Pressman/Ingeniería del Software)**:
 
 - **Especificación del Software**: Tienen que definirse tanto la funcionalidad del software como las restricciones de su operación.
 - **Diseño e implementación del Software**: Debe desarrollarse el software para cumplir con las especificaciones.
 - **Validación** **del** **software**: Hay que validar el software para asegurarse de que cumple lo que el cliente quiere. 
 - **Evolución del software** El software tiene que evolucionar para satisfacer las necesidades cambiantes del cliente.
 ****
-##### **Actividades Comunes en la Estructura del [PROCESO](/R. Pressman/PROCESO)*** 
-La **estructura** del [PROCESO](/R. Pressman/PROCESO) identifica ***ACTIVIDADES ESTRUCTURALES*** que por lo general son aplicables a todos los **[Proyecto](/MSI//PROCESO](/R. Pressman/PROCESO) identifica ***ACTIVIDADES ESTRUCTURALES*** que por lo general son aplicables a todos los **[Proyecto)s** de **[Software](/R. Pressman/Software)**. Estas actividades obviamente pueden variar (y lo hacen) dependiendo la fuente, pero generalmente son las siguientes:
+##### **Actividades Comunes en la Estructura del [PROCESO](/MSI/R. Pressman/PROCESO)*** 
+La **estructura** del [PROCESO](/MSI/R. Pressman/PROCESO) identifica ***ACTIVIDADES ESTRUCTURALES*** que por lo general son aplicables a todos los **[Proyecto](/MSI//PROCESO](/R. Pressman/PROCESO) identifica ***ACTIVIDADES ESTRUCTURALES*** que por lo general son aplicables a todos los **[Proyecto)s** de **[Software](/MSI/R. Pressman/Software)**. Estas actividades obviamente pueden variar (y lo hacen) dependiendo la fuente, pero generalmente son las siguientes:
 	
 ***Comunicación***. Antes de que comience cualquier trabajo técnico, se busca entender los objetivos de los participantes respecto del proyecto, y reunir los requerimientos que ayuden a definir las características y funciones del software.
 
@@ -25,22 +25,22 @@ La **estructura** del [PROCESO](/R. Pressman/PROCESO) identifica ***ACTIVIDADES 
 > 	Para muchos proyectos de software, las actividades estructurales se aplican en forma iterativa a medida que avanza el proyecto.
 
 
-![Pasted image 20250313204107.png](/assets/Pasted image 20250313204107.png)
+![Pasted image 20250313204107.png](/MSI/assets/Pasted image 20250313204107.png)
 ****
 ##### **Actividades Sombrilla**
-Además, la estructura del **proceso** incluye un conjunto de ***ACTIVIDADES SOMBRILLA*** que **son APLICABLES A TRAVÉS DE TODO EL PROCESO del software.** Estas actividades aseguran la **[Calidad](/R. Pressman/Calidad)** del **software**. Es común que las actividades sombrilla sean las siguientes:
+Además, la estructura del **proceso** incluye un conjunto de ***ACTIVIDADES SOMBRILLA*** que **son APLICABLES A TRAVÉS DE TODO EL PROCESO del software.** Estas actividades aseguran la **[Calidad](/MSI/R. Pressman/Calidad)** del **software**. Es común que las actividades sombrilla sean las siguientes:
 
 - ***Seguimiento y control del proyecto***: permite que el equipo de software evalúe el PROGRESO comparándolo con el plan del proyecto.
 	
 - ***Administración del riesgo***: evalúa los RIESGOS que puedan afectar al resultado del proyecto o calidad del software.
-- ***[Revisión Técnica](/R. Pressman/Revisión Técnica)***/ **Evaluación**: evalúa los PRODUCTOS del proyecto, o iteraciones a fin de descubrir y eliminar errores antes de que se propaguen a lo largo del proceso.
+- ***[Revisión Técnica](/MSI/R. Pressman/Revisión Técnica)***/ **Evaluación**: evalúa los PRODUCTOS del proyecto, o iteraciones a fin de descubrir y eliminar errores antes de que se propaguen a lo largo del proceso.
 - ***Medición***: define y reúne mediciones del proceso, proyecto y producto. Métricas
 - ***Administración de la configuración del software***: administra los efectos del cambio a lo largo del proceso del software.
 - ***Administración de la reutilización***: define criterios para volver a usar el producto del trabajo (incluso los componentes del software) y establece mecanismos para obtener componentes reutilizables.
 - ***Preparación y producción del producto del trabajo***: agrupa las actividades requeridas para crear productos del trabajo, tales como modelos, documentos, registros, formatos y listas.
 ****
 ##### Pero, **¿Cómo están organizadas todas estas actividades y tareas que ocurren dentro de cada una?**
-Para ello, todo proceso tiene un orden para su ejecución, más detallado en el apartado de [Flujos de Proceso](/R. Pressman/Flujos de Proceso), clasificable en:
+Para ello, todo proceso tiene un orden para su ejecución, más detallado en el apartado de [Flujos de Proceso](/MSI/R. Pressman/Flujos de Proceso), clasificable en:
 
 ***Flujo de Proceso Lineal.*** Ejecuta cada una de las cinco actividades estructurales en secuencia, comenzando por la comunicación y terminando con el despliegue.
 
@@ -58,6 +58,6 @@ Para un **[Proyecto](/MSI/PMBOK/Proyecto)** de **software** pequeño solicitado 
 3. Organizar las notas por escrito en una formulación breve de los requerimientos. 
 4. Enviar correo electrónico al participante para que revise y apruebe
 
-Si el proyecto fuera considerablemente más complejo, con muchos participantes y cada uno con un distinto conjunto de **[Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)**, la actividad de comunicación puede tener seis acciones distintas: concepción, indagación, elaboración, negociación, especificación y validación. Cada una de estas acciones de la ingeniería del software tendrá muchas tareas de trabajo y un número grande de diferentes productos finales.
+Si el proyecto fuera considerablemente más complejo, con muchos participantes y cada uno con un distinto conjunto de **[Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)**, la actividad de comunicación puede tener seis acciones distintas: concepción, indagación, elaboración, negociación, especificación y validación. Cada una de estas acciones de la ingeniería del software tendrá muchas tareas de trabajo y un número grande de diferentes productos finales.
 ************************
-Así como el **[Modelado](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Modelado)** es una actividad estructural en un proceso de desarrollo de software, los [Modelos de PROCESO](/R. Pressman/Modelos de PROCESO) cumplen su función de describir cómo se planifica, ejecuta y gestiona el desarrollo de software.
+Así como el **[Modelado](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Modelado)** es una actividad estructural en un proceso de desarrollo de software, los [Modelos de PROCESO](/MSI/R. Pressman/Modelos de PROCESO) cumplen su función de describir cómo se planifica, ejecuta y gestiona el desarrollo de software.

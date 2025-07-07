@@ -6,11 +6,11 @@ El propósito de un caso de uso es definir una pieza de comportamiento de un **c
 
 La utilización de los casos de uso hace que los analistas deben pensar en términos de quiénes son los usuarios y qué necesidad de funcionalidades requieren cada actor.
 
-![Pasted image 20250626102826.png](/assets/Pasted image 20250626102826.png)
+![Pasted image 20250626102826.png](/MSI/assets/Pasted image 20250626102826.png)
 
-El comportamiento de un caso de uso se puede especificar de varias maneras: mediante una [Máquina de Estados](/El Lenguaje Unificado de Modelado. Manual de Referencia/Máquina de Estados) adjunta, una especificación de **actividad**.
+El comportamiento de un caso de uso se puede especificar de varias maneras: mediante una [Máquina de Estados](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Máquina de Estados) adjunta, una especificación de **actividad**.
 
-- Son muy comunes por supuesto en **[Diagrama de Casos de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso)**.
+- Son muy comunes por supuesto en **[Diagrama de Casos de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso)**.
 
 
 

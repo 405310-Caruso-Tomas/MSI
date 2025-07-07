@@ -1,10 +1,10 @@
-Documento importante del proceso de [Gestión del Alcance del Proyecto](/PMBOK/Gestión del Alcance del Proyecto).
+Documento importante del proceso de [Gestión del Alcance del Proyecto](/MSI/PMBOK/Gestión del Alcance del Proyecto).
 ****
 
-![Pasted image 20250611094242.png](/assets/Pasted image 20250611094242.png)
+![Pasted image 20250611094242.png](/MSI/assets/Pasted image 20250611094242.png)
 
 La matriz de trazabilidad de requisitos es un cuadro que vincula los requisitos del producto desde su origen hasta los entregables que los satisfacen. 
-Ayuda a asegurar que los [Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos) agreguen valor al negocio, individualmente, al vincularlo con los objetivos del negocio y del [Proyecto](/MSI//Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos) agreguen valor al negocio, individualmente, al vincularlo con los objetivos del negocio y del [Proyecto).
+Ayuda a asegurar que los [Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos) agreguen valor al negocio, individualmente, al vincularlo con los objetivos del negocio y del [Proyecto](/MSI//Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos) agreguen valor al negocio, individualmente, al vincularlo con los objetivos del negocio y del [Proyecto).
 
 En la matriz de trazabilidad de requisitos se pueden registrar los atributos asociados con cada requisito. 
 Los atributos típicos utilizados en la matriz de trazabilidad de requisitos pueden incluir: 

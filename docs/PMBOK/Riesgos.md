@@ -1,4 +1,4 @@
-El **riesgo** de un proyecto es un evento o condición incierta que, de producirse, tiene un efecto positivo o negativo en uno o más de los objetivos del [Proyecto](/MSI/PMBOK/Proyecto), tales como el **alcance**, el **cronograma**, el **costo** y la [Calidad](/R. Pressman/Calidad). (**[Triple Restricción](/PMBOK/Triple Restricción)**)
+El **riesgo** de un proyecto es un evento o condición incierta que, de producirse, tiene un efecto positivo o negativo en uno o más de los objetivos del [Proyecto](/MSI/PMBOK/Proyecto), tales como el **alcance**, el **cronograma**, el **costo** y la [Calidad](/MSI/R. Pressman/Calidad). (**[Triple Restricción](/MSI/PMBOK/Triple Restricción)**)
 ****
 Los riesgos del proyecto tienen su origen en la incertidumbre que está presente en todos los proyectos.
 ##### **Tipos de riesgos según el PMBOK**
@@ -25,7 +25,7 @@ Un riesgo negativo del proyecto que se ha materializado se considera un problema
 1. **Tolerancia al riesgo**: Es el grado de variación o desviación que la organización o los interesados están dispuestos a soportar si un riesgo en relación con un objetivo específico del proyecto (costo, cronograma o calidad) ocurre.
 - Ejemplo: En un proyecto de desarrollo de software, la tolerancia al riesgo podría ser "aceptar un aumento de costos del 5% del presupuesto original" o "tolerar defectos menores en la interfaz de usuario, pero no en la funcionalidad crítica".
 ****
-##### **Otra definición desde una perspectiva del [Testing](/A Software Testing Primer - Nick Jenkins/Testing)**
+##### **Otra definición desde una perspectiva del [Testing](/MSI/A Software Testing Primer - Nick Jenkins/Testing)**
 El **riesgo** mide la probabilidad de que algo salga mal y el impacto que tendría ese fallo en el sistema. En base al riesgo, podemos priorizar qué partes del software necesitan más pruebas y cuáles pueden ser probadas con menos intensidad.
 
 El riesgo se basa en dos factores: la probabilidad de que el problema ocurra y su impacto cuando ocurre:

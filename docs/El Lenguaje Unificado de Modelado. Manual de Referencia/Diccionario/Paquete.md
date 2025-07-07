@@ -5,7 +5,7 @@ Un **paquete** puede poseer cualquier clase de elemento del modelo (clases, caso
 
 - Un **paquete** puede contener además, **paquetes anidados**. Normalmente hay un **paquete** raíz que posee al modelo completo de un sistema.
 - Su propósito principal es estructurar el modelo de manera **modular**.
-- Se usa en diversos **diagramas UML**, como **[Diagrama de Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)**, **[Diagrama de Casos de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso)**, **[Diagrama de Componentes](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes)** o [Diagrama de Despliegue](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Despliegue), **[Diagrama de Paquetes](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Paquetes)** y también a nivel de modelo general.
+- Se usa en diversos **diagramas UML**, como **[Diagrama de Clases](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)**, **[Diagrama de Casos de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso)**, **[Diagrama de Componentes](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes)** o [Diagrama de Despliegue](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Despliegue), **[Diagrama de Paquetes](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Paquetes)** y también a nivel de modelo general.
 - Un paquete define la **visibilidad** de sus elementos contenidos como **privado** o **público**.
 - También son unidades para cualquier mecanismo de control de versiones.
 ****
@@ -18,7 +18,7 @@ Las dependencias pueden incluir estereotipos como `<<import>>` (importar element
 Un paquete se muestra como un rectángulo grande con un rectángulo pequeño (una “*etiqueta*”) unido en una esquina (normalmente, la cima izquierda del rectángulo grande).
 Pueden dibujarse flechas discontinuas entre los símbolos del paquete para mostrar las **relaciones**, indica que un paquete depende de otro porque sus elementos usan elementos del paquete destino.
 
-![Pasted image 20250624212933.png](/assets/Pasted image 20250624212933.png)
+![Pasted image 20250624212933.png](/MSI/assets/Pasted image 20250624212933.png)
 
 **Más sobre relaciones entre paquetes.** **Importación**:
 

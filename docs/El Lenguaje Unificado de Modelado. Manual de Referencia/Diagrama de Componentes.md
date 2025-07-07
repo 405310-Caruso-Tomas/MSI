@@ -2,9 +2,9 @@ Un **diagrama de componentes** muestra los **[Componente](/El Lenguaje Unificado
 
 - Muestra la **organización** de los **componentes** software, sus **interfaces** y las **dependencias** entre ellos.
 
-Un componente es un tipo de [Clasificador](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador) estructurado, por lo que es recomendable definir su estructura interna en un [Diagrama de Estructura Interna](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna), el cual adjuntaremos más abajo.
+Un componente es un tipo de [Clasificador](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador) estructurado, por lo que es recomendable definir su estructura interna en un [Diagrama de Estructura Interna](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna), el cual adjuntaremos más abajo.
 
-![Pasted image 20250622184840.png](/assets/Pasted image 20250622184840.png)
+![Pasted image 20250622184840.png](/MSI/assets/Pasted image 20250622184840.png)
 
 ##### **Interfaces y Dependencias**
 Un pequeño círculo vinculado a un componente o a una clase es una **interfaz proporcionada** (el componente **implementa** una funcionalidad para otros).
@@ -17,6 +17,6 @@ Las líneas discontinuas de **dependencia** muestran interfaces proporcionadas y
 
 Un componente puede proporcionar más de una interfaz.
 ****
-###### **[Diagrama de Estructura Interna](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna) de uno de los Componentes**
+###### **[Diagrama de Estructura Interna](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna) de uno de los Componentes**
 
-![Pasted image 20250622185427.png](/assets/Pasted image 20250622185427.png)
+![Pasted image 20250622185427.png](/MSI/assets/Pasted image 20250622185427.png)

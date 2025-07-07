@@ -4,7 +4,7 @@
 - A su vez, documenta las decisiones que se han adoptado, por lo que aporta **trazabilidad** entre diferentes modelos 
 - El modelo capta los aspectos importantes de lo que se está modelando, desde un cierto punto de vista, y simplifica u omite el resto.
 ****
-Viendo el concepto desde lo que nos compete como desarrolladores, un modelo deberá representar fiel y completamente los [Requerimientos](/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos) de los usuarios. Además de describir al sistema con suficiente detalle como para hacer predicciones válidas sobre el comportamiento de este.
+Viendo el concepto desde lo que nos compete como desarrolladores, un modelo deberá representar fiel y completamente los [Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos) de los usuarios. Además de describir al sistema con suficiente detalle como para hacer predicciones válidas sobre el comportamiento de este.
 
 - Sirve de guía en la construcción de un sistema.
 - Una abstracción de la estructura y comportamiento de un sistema.
@@ -13,9 +13,9 @@ Viendo el concepto desde lo que nos compete como desarrolladores, un modelo debe
 ##### **¿Qué hay en un modelo?**
 **Semántica y presentación.** Los modelos tienen dos aspectos principales: la información semántica (semántica) y la presentación visual (notación).
 	
-La **semántica** en un modelo se refiere al significado preciso y consistente de los elementos (clases, objetos, estados), relaciones y diagramas que componen el modelo. Las [Áreas Conceptuales de UML](/El Lenguaje Unificado de Modelado. Manual de Referencia/Áreas Conceptuales de UML) organizan los diagramas según la semántica que representan, por ejemplo.
+La **semántica** en un modelo se refiere al significado preciso y consistente de los elementos (clases, objetos, estados), relaciones y diagramas que componen el modelo. Las [Áreas Conceptuales de UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Áreas Conceptuales de UML) organizan los diagramas según la semántica que representan, por ejemplo.
 
-La **presentación visual** se refiere a la notación gráfica o sintaxis visual utilizada para representar los elementos, relaciones y estructuras de un modelo en los diagramas [UML](/El Lenguaje Unificado de Modelado. Manual de Referencia/UML), por ejemplo.
+La **presentación visual** se refiere a la notación gráfica o sintaxis visual utilizada para representar los elementos, relaciones y estructuras de un modelo en los diagramas [UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/UML), por ejemplo.
 
 Mientras que la **semántica** define el **significado** de los elementos (qué representa una clase, una asociación, etc.), la **presentación visual** define **cómo se dibujan** esos elementos en un diagrama. Por ejemplo:
 
