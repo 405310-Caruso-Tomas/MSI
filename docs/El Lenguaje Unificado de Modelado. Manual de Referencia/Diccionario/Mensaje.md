@@ -1,7 +1,7 @@
-Transporte de información desde un rol a otro como parte de una **[Interacción](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)** dentro de un contexto; 
+Transporte de información desde un rol a otro como parte de una **[Interacción](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)** dentro de un contexto; 
 A nivel de instancia, **comunicación** desde un **objeto** a otro.
 
-> Un **mensaje** es una representación de la comunicación entre objetos, roles o **[Clasificador](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador)es** en un sistema, modelando cómo interactúan para realizar una funcionalidad específica.
+> Un **mensaje** es una representación de la comunicación entre objetos, roles o **[Clasificador](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador)es** en un sistema, modelando cómo interactúan para realizar una funcionalidad específica.
 
 Un mensaje puede ser una señal o la llamada a una operación.
 Se utiliza principalmente en **[Diagrama de Secuencia](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Secuencia)** y **[Diagrama de Comunicación](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Comunicación)** (o colaboración) para mostrar el intercambio de información, solicitudes de acciones o invocaciones de comportamientos.

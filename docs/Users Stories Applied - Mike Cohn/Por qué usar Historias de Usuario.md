@@ -1,4 +1,4 @@
-¿Por qué no simplemente especificamos un [Documento de Requerimientos del Sistema (ERS)](/MSI/Sommerville/Documento de Requerimientos del Sistema (ERS)), o escribimos ciertos **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**?
+¿Por qué no simplemente especificamos un [Documento de Requerimientos del Sistema (ERS)](/MSI/Sommerville/Documento de Requerimientos del Sistema (ERS)), o escribimos ciertos **[Caso de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**?
 ****
 ##### ***Enfatizan la comunicación verbal***
 Dado que las **H.U** **enfatizan la comunicación verbal antes que escrita**, aspectos importantes del sistema no son del todo capturados en un documento formal de requerimientos (poco probable a ser leído), y pueden ser malinterpretados, supongamos: 

@@ -1,8 +1,8 @@
-> Tipo de diagrama de interacción que muestra cómo los objetos intercambian **[Mensaje](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Mensaje)s** en un sistema durante un **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** específico, enfatizando el orden temporal de estas interacciones.
+> Tipo de diagrama de interacción que muestra cómo los objetos intercambian **[Mensaje](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Mensaje)s** en un sistema durante un **[Caso de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** específico, enfatizando el orden temporal de estas interacciones.
 
-Muestra una **[Interacción](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)** como un gráfico de dos dimensiones. La dimensión vertical es el eje de tiempo, de arriba hacia abajo. Los mensajes más altos ocurren antes que los más bajos.
+Muestra una **[Interacción](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)** como un gráfico de dos dimensiones. La dimensión vertical es el eje de tiempo, de arriba hacia abajo. Los mensajes más altos ocurren antes que los más bajos.
 
-Un [Mensaje](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Mensaje) se muestra como una flecha desde la línea de vida de un objeto a la línea de vida del otro.
+Un [Mensaje](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Mensaje) se muestra como una flecha desde la línea de vida de un objeto a la línea de vida del otro.
 ****
 ##### **Estructura general**
 
@@ -14,7 +14,7 @@ Cada **rol** se representa mediante una columna vertical que contiene un símbol
 
 ![Pasted image 20250623205659.png](/MSI/assets/Pasted image 20250623205659.png)
 
-La imagen adjunta muestra un diagrama de secuencia típico con mensajes asíncronos, pero tener en cuenta que los **[Mensaje](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Mensaje)s** pueden ser de cualquier tipo.
+La imagen adjunta muestra un diagrama de secuencia típico con mensajes asíncronos, pero tener en cuenta que los **[Mensaje](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Mensaje)s** pueden ser de cualquier tipo.
 ****
 **Fragmentos combinados**:
 

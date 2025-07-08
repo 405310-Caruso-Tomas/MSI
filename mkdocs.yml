@@ -1,6 +1,19 @@
 site_name: Metodología De Sistemas
 theme:
-  name: material
+    name: material
+    palette:
+      - scheme: default
+        primary: indigo
+        accent: indigo
+        toggle:
+          icon: material/weather-night
+          name: Cambiar a modo oscuro
+      - scheme: slate
+        primary: indigo
+        accent: indigo
+        toggle:
+          icon: material/white-balance-sunny
+          name: Cambiar a modo claro
 markdown_extensions:
   - admonition
   - pymdownx.details

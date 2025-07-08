@@ -1,4 +1,4 @@
-> El **diagrama de [Actividad](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Actividad)** es un diagrama **UML** de **comportamiento** que muestra el flujo de control o el flujo de objetos, con especial énfasis en la secuencia y las condiciones de este flujo.
+> El **diagrama de [Actividad](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Actividad)** es un diagrama **UML** de **comportamiento** que muestra el flujo de control o el flujo de objetos, con especial énfasis en la secuencia y las condiciones de este flujo.
 
 Estos diagramas son utilizados para describir cualquier tipo de [Flujos de Proceso](/MSI/R. Pressman/Flujos de Proceso), es especialmente común para modelar de forma gráfica los diferentes casos de uso, transacciones o procedimientos que haya en un sistema de información. 
 ****

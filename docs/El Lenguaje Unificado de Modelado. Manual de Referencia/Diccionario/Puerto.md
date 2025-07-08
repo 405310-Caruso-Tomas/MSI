@@ -1,4 +1,4 @@
-**Punto de interacción.** Especifica un lugar donde el **[Clasificador](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador)** intercambia mensajes, datos o servicios con el exterior.
+**Punto de interacción.** Especifica un lugar donde el **[Clasificador](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador)** intercambia mensajes, datos o servicios con el exterior.
 
 > Punto de conexión entre un clasificador y su entorno. Las conexiones del mundo externo se hacen a los puertos según sean requeridos por las **interfaces** declaradas en un puerto.
 

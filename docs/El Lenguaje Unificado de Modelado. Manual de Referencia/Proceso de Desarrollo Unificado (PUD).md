@@ -4,7 +4,7 @@ Desarrollado por *Ivar Jacobson*, *Grady Booch* y *James Rumbaugh* en Rational S
 ![Pasted image 20250625202522.png](/MSI/assets/Pasted image 20250625202522.png)
 
 - Es un **proceso iterativo** e **incremental** que utiliza el **Lenguaje Unificado de Modelado ([UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/UML))** como herramienta principal para modelar sistemas.
-- **Dirigido por casos de uso.** Utiliza los **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** como base para capturar y validar **[Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** (pruebas).
+- **Dirigido por casos de uso.** Utiliza los **[Caso de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** como base para capturar y validar **[Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** (pruebas).
 - **Iterativo e incremental.** El desarrollo se divide en iteraciones cortas, cada una produciendo un incremento funcional del sistema.
 - **Centrado en la arquitectura.** Se prioriza la creación de una arquitectura robusta desde el inicio.
 
@@ -34,12 +34,12 @@ El Proceso Unificado se **organiza** en **dos dimensiones principales**:
 #### **Flujos de Trabajo**
 $$\text{FT}=\text{actividades}\space+\space \text{trabajadores} \space+\space \text{artefactos}$$
 
-Cada **flujo de trabajo** está compuesto por: **Actividades**, que son las tareas que se llevan a cabo en el **flujo de trabajo**; **Trabajadores** que son quiénes ejecutan las actividades y **[Artefacto](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Artefacto)s** que es toda la información generada a partir del trabajo realizado en el **FT**.
+Cada **flujo de trabajo** está compuesto por: **Actividades**, que son las tareas que se llevan a cabo en el **flujo de trabajo**; **Trabajadores** que son quiénes ejecutan las actividades y **[Artefacto](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Artefacto)s** que es toda la información generada a partir del trabajo realizado en el **FT**.
 Estas actividades se realizan a lo largo de las fases, pero con diferente intensidad en cada una.
 ###### **Requisitos**
 - Capturar y documentar los requisitos funcionales (a través de casos de uso) y no funcionales (rendimiento, seguridad, etc.).
 ###### **Análisis y Diseño**
-- Diseñar la **arquitectura** y los **[Componente](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** del sistema, transformando requisitos en modelos técnicos.
+- Diseñar la **arquitectura** y los **[Componente](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** del sistema, transformando requisitos en modelos técnicos.
 ###### **Implementación**
 - Escribir el código fuente y construir el sistema basado en los modelos de diseño.
 ###### **Pruebas**

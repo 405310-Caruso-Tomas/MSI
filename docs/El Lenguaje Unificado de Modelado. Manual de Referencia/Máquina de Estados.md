@@ -3,12 +3,12 @@ Si bien parece ser que una **máquina de estados** (modelo conceptual/lógica su
 > Una **máquina de estados** es un grafo de estados y transiciones.
 
 Modela las posibles historias de vida de un objeto de una **clase**, todos el conjunto de **estados** por los cuales pasa el objeto en respuesta a **eventos**. 
-Una máquina de estados contiene estados conectados por transiciones. (**[Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)**)
+Una máquina de estados contiene estados conectados por transiciones. (**[Clases](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)**)
 
 ![Pasted image 20250626120519.png](/MSI/assets/Pasted image 20250626120519.png)
 
 Normalmente, una **máquina de estados** está vinculada a una clase, y describe la respuesta de una instancia de la clase a los eventos que recibe. 
-Las máquinas de estados también se pueden vincular a comportamientos, **casos de uso** y **[Colaboración](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración)es** para describir su ejecución.
+Las máquinas de estados también se pueden vincular a comportamientos, **casos de uso** y **[Colaboración](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración)es** para describir su ejecución.
 
 ![Pasted image 20250622110301.png](/MSI/assets/Pasted image 20250622110301.png)
 

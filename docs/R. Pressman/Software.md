@@ -14,7 +14,7 @@ El **software** no se “*desgasta*”:
 
 ![Pasted image 20250311110055.png](/MSI/assets/Pasted image 20250311110055.png)
 
-Aunque la **industria** se mueve hacia la construcción basada en **[Componente](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s**, la mayor parte del **software** se construye para un uso individualizado: Un componente de software debe diseñarse e implementarse de modo que pueda volverse a usar en muchos programas diferentes. Los modernos **componentes** **reutilizables** incorporan tanto los datos como el procesamiento que se les aplica, lo que permite que el ingeniero de software cree nuevas aplicaciones a partir de partes susceptibles de volverse a usar.
+Aunque la **industria** se mueve hacia la construcción basada en **[Componente](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s**, la mayor parte del **software** se construye para un uso individualizado: Un componente de software debe diseñarse e implementarse de modo que pueda volverse a usar en muchos programas diferentes. Los modernos **componentes** **reutilizables** incorporan tanto los datos como el procesamiento que se les aplica, lo que permite que el ingeniero de software cree nuevas aplicaciones a partir de partes susceptibles de volverse a usar.
 ****
 #### **Naturaleza del Software**
 En la actualidad, el software tiene un papel dual. Es un **producto** y al mismo **tiempo** es el **vehículo** para entregar un producto.

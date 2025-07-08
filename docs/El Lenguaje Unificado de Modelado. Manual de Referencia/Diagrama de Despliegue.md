@@ -1,9 +1,9 @@
-Un diagrama de **despliegue** representa el despliegue de **[Artefacto](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Artefacto)s** de tiempo de ejecución sobre **[Nodo](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Nodo)s**. 
+Un diagrama de **despliegue** representa el despliegue de **[Artefacto](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Artefacto)s** de tiempo de ejecución sobre **[Nodo](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Nodo)s**. 
 Esta vista permite valorar las **consecuencias** de la **distribución** y de la **asignación de recursos**.
 
 ![Pasted image 20250622103842.png](/MSI/assets/Pasted image 20250622103842.png)
 
-Representa la **arquitectura física** de un sistema, mostrando cómo los **[Componente](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** de software (**artefactos**) se distribuyen en recursos físicos (**nodos**, como servidores o dispositivos) y las **conexiones** entre ellos.
+Representa la **arquitectura física** de un sistema, mostrando cómo los **[Componente](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** de software (**artefactos**) se distribuyen en recursos físicos (**nodos**, como servidores o dispositivos) y las **conexiones** entre ellos.
 
 - Su propósito es modelar el entorno de ejecución del sistema.
 ****

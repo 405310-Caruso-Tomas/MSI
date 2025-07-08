@@ -3,12 +3,12 @@ Elemento del modelo que describe características de comportamiento y estructura
 > Elemento que describe un conjunto de objetos con características comunes, como propiedades, comportamientos y relaciones.
 
 Es un concepto fundamental que sirve como plantilla para definir estas características.
-**Ejemplos de clasificadores** incluyen **[Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)**, **interfaces**, tipos de datos, actores, casos de uso, **[Componente](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** y **[Nodo](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Nodo)s**, entre otros.
+**Ejemplos de clasificadores** incluyen **[Clases](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)**, **interfaces**, tipos de datos, actores, casos de uso, **[Componente](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** y **[Nodo](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Nodo)s**, entre otros.
 
 En **UML**, una **clase** es un tipo de **clasificador**. El clasificador incluye un número de elementos parecidos a las **clases**, pero **encuentra su expresión plena en la clase.**
 ****
 ##### **Flexibilidad**
-Al ser un concepto amplio, los clasificadores abarcan muchos elementos de UML, desde clases en **[Diagrama de Clases](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)** hasta **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** en [Diagrama de Casos de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso), lo que los hace omnipresentes.
+Al ser un concepto amplio, los clasificadores abarcan muchos elementos de UML, desde clases en **[Diagrama de Clases](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)** hasta **[Caso de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** en [Diagrama de Casos de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso), lo que los hace omnipresentes.
 
 Además, los **clasificadores** pueden relacionarse entre sí (herencia, asociación, etc.), lo que permite modelar sistemas complejos de manera coherente.
 ****

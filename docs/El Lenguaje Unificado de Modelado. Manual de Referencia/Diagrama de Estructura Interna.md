@@ -2,7 +2,7 @@
 
 Muestra la **descomposición de una clase**.
 
-- Representa **la estructura interna de un [Clasificador](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador)** (clase o componente).
+- Representa **la estructura interna de un [Clasificador](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador)** (clase o componente).
 
 Un clasificador estructurado modela las partes de una clase y sus conectores contextuales. 
 Una clase estructurada puede ser encapsulada forzando a que las comunicaciones desde el exterior pasen a través de los **puertos** cumpliendo con las interfaces declaradas.

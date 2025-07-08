@@ -14,20 +14,20 @@ El nombre "*4+1*" se refiere a cuatro vistas principales más una vista adiciona
 **Vista Lógica/Diseño (Logical View)**
 
 - Representa la descomposición funcional del sistema, enfocándose en los elementos que proveen la funcionalidad requerida por los usuarios finales.
-- Representa la estructura del sistema en términos de sus **componentes** funcionales, como **[Clases](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)**, objetos, **interfaces** o **módulos**. **[Colaboración](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración)** entre clases.
+- Representa la estructura del sistema en términos de sus **componentes** funcionales, como **[Clases](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clases)**, objetos, **interfaces** o **módulos**. **[Colaboración](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Colaboración)** entre clases.
 - **Audiencia**: Diseñadores, usuarios finales y analistas de sistemas.
 - **Diagramas UML asociados:** **[Diagrama de Clases](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Clases)**, diagramas de objetos, **[Diagrama de Secuencia](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Secuencia)**,
 
 **Vista de Implementación (Implementation View)**
 
-- Describe cómo se organiza el sistema en términos de **[Artefacto](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Artefacto)s** físicos, como archivos de código, bibliotecas, ejecutables o componentes desplegables. 
+- Describe cómo se organiza el sistema en términos de **[Artefacto](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Artefacto)s** físicos, como archivos de código, bibliotecas, ejecutables o componentes desplegables. 
 - Se centra en la estructura del software implementado, la organización del software desde la perspectiva del desarrollo. 
 - **Audiencia:** Desarrolladores, gestores de configuración, arquitectos.
 - **Diagramas UML asociados**: **[Diagrama de Componentes](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Componentes)**, **[Diagrama de Paquetes](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Paquetes)**.
 
 **Vista de Proceso (Process View)**
 
-- Representa el comportamiento dinámico del sistema, incluyendo **[PROCESO](/MSI/R. Pressman/PROCESO)S**, hilos, **[Interacción](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)es** entre **[Componente](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** y concurrencia. 
+- Representa el comportamiento dinámico del sistema, incluyendo **[PROCESO](/MSI/R. Pressman/PROCESO)S**, hilos, **[Interacción](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)es** entre **[Componente](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** y concurrencia. 
 - Refiere a la **sincronización de procesos.**
 - **Audiencia:** Integradores, desarrolladores 
 - Se centra en aspectos como rendimiento, escalabilidad y tolerancia a fallos.
@@ -40,7 +40,7 @@ El nombre "*4+1*" se refiere a cuatro vistas principales más una vista adiciona
 - **[Diagrama de Despliegue](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Despliegue)**.
 ****
 ##### **La Vista Adicional: Vista de Escenarios (Scenarios View o +1)**
-Esta vista **unifica** las otras cuatro vistas al describir **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** o escenarios clave que ilustran cómo los elementos de las vistas lógica, de implementación, de proceso y de despliegue **interactúan** para cumplir con los requisitos del sistema. **Es la "vista integradora".**
+Esta vista **unifica** las otras cuatro vistas al describir **[Caso de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)** o escenarios clave que ilustran cómo los elementos de las vistas lógica, de implementación, de proceso y de despliegue **interactúan** para cumplir con los requisitos del sistema. **Es la "vista integradora".**
 Por lo tanto, la audiencia de esta vista serían todas las partes interesadas.
 
 - **Diagramas UML asociados**: **[Diagrama de Casos de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso)**.

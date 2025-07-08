@@ -30,7 +30,7 @@ Un escenario puede incluir:
 Estos últimos pueden escribirse como texto, complementarse con diagramas, tomas de pantallas, etcétera.
 
 ![Pasted image 20250518085242.png](/MSI/assets/Pasted image 20250518085242.png)
-#### **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**
+#### **[Caso de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**
 Los casos de uso son una técnica de descubrimiento de requerimientos que se introdujo por primera vez en el método *Objectory* (mejor referenciado en el apartado de [Historia de UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Historia de UML)). Ahora se ha convertido en una característica fundamental del modelado de lenguaje unificado ([UML](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/UML)).
 
 **[Diagrama de Casos de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Casos de Uso)**

@@ -1,8 +1,8 @@
-Un **diagrama de componentes** muestra los **[Componente](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** de un sistema, es decir, las unidades software con las que se construye la aplicación, así como las dependencias entre **componentes**,
+Un **diagrama de componentes** muestra los **[Componente](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Componente)s** de un sistema, es decir, las unidades software con las que se construye la aplicación, así como las dependencias entre **componentes**,
 
 - Muestra la **organización** de los **componentes** software, sus **interfaces** y las **dependencias** entre ellos.
 
-Un componente es un tipo de [Clasificador](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador) estructurado, por lo que es recomendable definir su estructura interna en un [Diagrama de Estructura Interna](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna), el cual adjuntaremos más abajo.
+Un componente es un tipo de [Clasificador](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador) estructurado, por lo que es recomendable definir su estructura interna en un [Diagrama de Estructura Interna](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Estructura Interna), el cual adjuntaremos más abajo.
 
 ![Pasted image 20250622184840.png](/MSI/assets/Pasted image 20250622184840.png)
 

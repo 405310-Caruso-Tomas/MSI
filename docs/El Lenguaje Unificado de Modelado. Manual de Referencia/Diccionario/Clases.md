@@ -3,7 +3,7 @@ La información que almacenan es modelada como **atributos**; el comportamiento 
 
 > Una **clase** es el descriptor de un conjunto de objetos que comparten los mismos atributos, operaciones, métodos, relaciones y comportamiento.
 
-En UML, una clase es un tipo de **[Clasificador](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador)**. Los clasificadores incluyen a elementos parecidos a las clases, pero encuentran su expresión más completa en las **clases**, por lo que podemos decir que comparten notación.
+En UML, una clase es un tipo de **[Clasificador](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Clasificador)**. Los clasificadores incluyen a elementos parecidos a las clases, pero encuentran su expresión más completa en las **clases**, por lo que podemos decir que comparten notación.
 ****
 ##### **Instancias**
 Un **objeto** instanciado de una clase es una instancia directa de la clase y una instancia indirecta de los antepasados de la clase. El objeto contiene una ranura para albergar un valor para cada atributo; acepta todas las operaciones y señales de su clase, y puede aparecer en enlaces de asociaciones involucrando a la clase.

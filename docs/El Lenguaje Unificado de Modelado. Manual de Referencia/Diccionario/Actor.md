@@ -1,4 +1,4 @@
-> Un **actor** es el **rol** que juega un usuario en un **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**. 
+> Un **actor** es el **rol** que juega un usuario en un **[Caso de Uso](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**. 
 
 Normalmente, un **actor** **representa** un **rol** que es jugado por una persona, un dispositivo de hardware o incluso otro sistema al interactuar con nuestro sistema.
 

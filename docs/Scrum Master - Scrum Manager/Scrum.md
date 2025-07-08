@@ -1,7 +1,7 @@
 > Es un **enfoque iterativo e incremental** que permite a los equipos entregar **valor** de manera **rápida** y **adaptarse** a **cambios** en los **[Requerimientos](/MSI/Patrones en la Construcción de Modelos Conceptuales para Sistemas de Información/Requerimientos)** o el entorno.
 
 **Scrum** es un marco de trabajo **ágil** utilizado principalmente para gestionar **[Proyecto](/MSI/PMBOK/Proyecto)s** complejos, como el desarrollo de software, aunque también se aplica en otros contextos como marketing, educación o gestión de proyectos en general.
-La organización de esta [Metodología](/MSI/Metodología) es conocida como el **[Ciclo de Scrum](/MSI/Scrum Master - Scrum Manager/Ciclo de Scrum)**. 
+La organización de esta [Metodología](/MSI/MSI/Metodología) es conocida como el **[Ciclo de Scrum](/MSI/Scrum Master - Scrum Manager/Ciclo de Scrum)**. 
 
 Scrum se basa en los **Principios Ágiles**, mencionados en el apartado de **[Agilidad](/MSI/R. Pressman/Agilidad)**, promoviendo el **empirismo**, lo que significa que las decisiones se toman en función de lo que se observa y experimenta, en lugar de suposiciones o planes rígidos. 
 ****

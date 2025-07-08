@@ -1,6 +1,6 @@
 > **Elemento** que representa un **comportamiento** o **[PROCESO](/MSI/R. Pressman/PROCESO)** **dinámico** dentro de un **sistema**, modelado típicamente en un **[Diagrama de Actividad](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diagrama de Actividad).**
 
-Es una **unidad de trabajo** que describe una secuencia de **acciones** ejecutadas para alcanzar un objetivo específico, como parte de un **[Caso de Uso](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**, un proceso de negocio o una **[Interacción](/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)** en el sistema.
+Es una **unidad de trabajo** que describe una secuencia de **acciones** ejecutadas para alcanzar un objetivo específico, como parte de un **[Caso de Uso](MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso)**, un proceso de negocio o una **[Interacción](/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Interacción)** en el sistema.
 
 - Representa un **proceso** que puede incluir decisiones, bucles, entradas, salidas, transiciones.
 - Representa la ejecución de un cálculo. Se modela como un conjunto de nodos de actividad conectados mediante **flujos de control** (secuencia lógica de acciones con flechas) y **flujos de datos** (transferencia de datos u objetos entre acciones con flechas).
