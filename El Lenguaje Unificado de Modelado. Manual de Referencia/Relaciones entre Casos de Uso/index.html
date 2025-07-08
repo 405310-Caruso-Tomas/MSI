@@ -4441,7 +4441,7 @@
 
   <h1>Relaciones entre Casos de Uso</h1>
 
-<p>Este tipo de <strong><a href="/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones">Relaciones</a></strong> en particular, se utilizan para <strong>factorizar</strong> el comportamiento común entre los <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso">Caso de Uso</a></strong> y para factorizar variantes (poniendo ese comportamiento en otros casos de uso que lo extienden).</p>
+<p>Este tipo de <strong><a href="/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Relaciones">Relaciones</a></strong> en particular, se utilizan para <strong>factorizar</strong> el comportamiento común entre los <strong><a href="/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Caso de Uso">Caso de Uso</a></strong> y para factorizar variantes (poniendo ese comportamiento en otros casos de uso que lo extienden).</p>
 <p><img alt="Pasted image 20250626105214.png" src="/MSI/assets/Pasted image 20250626105214.png" /></p>
 <hr />
 <h4 id="generalizacion"><strong>Generalización</strong></h4>
@@ -4456,10 +4456,10 @@ Gráficamente se indica, al igual que la herencia entre clases, con una línea c
 <h4 id="inclusion"><strong>Inclusión</strong></h4>
 <p>Significa que un caso de uso base <strong>incorpora</strong> <strong>explícitamente</strong> el <strong>comportamiento</strong> de <strong>otro</strong> caso de uso.</p>
 <ul>
-<li>El caso de uso incluido <strong>nunca</strong> es instanciado por un <strong><a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Actor">Actor</a></strong>, sino que <strong>es instanciado por el/los casos de uso que lo incluyen</strong>. Por ello, <strong>un caso de uso de inclusión es siempre un caso de uso abstracto.</strong></li>
+<li>El caso de uso incluido <strong>nunca</strong> es instanciado por un <strong><a href="/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Actor">Actor</a></strong>, sino que <strong>es instanciado por el/los casos de uso que lo incluyen</strong>. Por ello, <strong>un caso de uso de inclusión es siempre un caso de uso abstracto.</strong></li>
 <li>La relación se usa para abstraer el comportamiento común entre casos de uso, evitando describir el mismo flujo de eventos repetidas veces. </li>
 <li>La secuencia de comportamiento y los atributos del caso de uso incluido se encapsulan y no pueden modificarse o accederse, solamente puede utilizarse el resultado (o función) del caso de uso incluido.</li>
-<li>Se representa como una <strong>dependencia</strong> <strong>estereotipada</strong> (<a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Estereotipo">Estereotipo</a>) con la palabra <code>&lt;&lt;include&gt;&gt;</code>. </li>
+<li>Se representa como una <strong>dependencia</strong> <strong>estereotipada</strong> (<a href="/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Estereotipo">Estereotipo</a>) con la palabra <code>&lt;&lt;include&gt;&gt;</code>. </li>
 </ul>
 <p><img alt="Pasted image 20250626110558.png" src="/MSI/assets/Pasted image 20250626110558.png" /></p>
 <hr />
@@ -4469,7 +4469,7 @@ Gráficamente se indica, al igual que la herencia entre clases, con una línea c
 <li>El caso de uso base <strong>puede</strong> <strong>ejecutarse</strong> <strong>aisladamente</strong>, pero bajo ciertas <strong>condiciones</strong> su funcionalidad será extendida por la del caso de uso de <strong>extensión</strong>. De esta forma se separa el comportamiento opcional del obligatorio.</li>
 <li>El caso de uso de extensión puede en algunos casos ser instanciado directamente por un <strong>actor</strong> (en este caso se considera un caso de uso <strong>concreto</strong>).</li>
 <li>Si el caso de uso de extensión nunca es instanciado directamente por un <strong>actor</strong>, entonces es un caso de uso <strong>abstracto</strong>.</li>
-<li>Se representa como una dependencia <strong>estereotipada</strong> (<a href="/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Estereotipo">Estereotipo</a>) con la palabra <em>extend</em>, dirigida desde el caso de uso de <strong>extensión</strong> hacia el caso de uso <strong>base</strong>.</li>
+<li>Se representa como una dependencia <strong>estereotipada</strong> (<a href="/MSI/El Lenguaje Unificado de Modelado. Manual de Referencia/Diccionario/Estereotipo">Estereotipo</a>) con la palabra <em>extend</em>, dirigida desde el caso de uso de <strong>extensión</strong> hacia el caso de uso <strong>base</strong>.</li>
 </ul>
 <p><img alt="Pasted image 20250626111626.png" src="/MSI/assets/Pasted image 20250626111626.png" /></p>
 
